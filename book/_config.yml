@@ -10,7 +10,7 @@ only_build_toc_files: true
 
 
 html:
-  baseurl :  "https://teachbooks.github.io/bridging_mechanics/"
+  baseurl :  https://oit.tudelft.nl/CT1000/2024"
 
 sphinx:
   config:
@@ -23,9 +23,9 @@ sphinx:
       logo: {
         text: CT1000S Structural Mechanics 2024/2025
       }
-      repository_url: "https://github.com/TeachBooks/bridging_mechanics"
+      repository_url: "https://github.com/TUDelft-books/CT1000"
       path_to_docs: "book"
-      repository_branch: "buckling"
+      repository_branch: "2024"
       use_repository_button: true
       use_edit_page_button: true
       use_issues_button : true
