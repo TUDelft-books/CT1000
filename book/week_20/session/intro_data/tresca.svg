@@ -78,11 +78,11 @@
 		</g>
 		<g id="shape1793-33" v:mID="1793" v:groupContext="shape" transform="translate(0.12,-83.1467)">
 			<title>A.1793</title>
-			<desc>25 kN</desc>
+			<desc>139 kN</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="30.4724" cy="199.026" width="60.95" height="14.1732"/>
 			<rect x="0" y="191.939" width="60.9449" height="14.1732" class="st8"/>
-			<text x="15.64" y="202.63" class="st4" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>25 kN</text>		</g>
+			<text x="12.64" y="202.63" class="st4" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>139 kN</text>		</g>
 		<g id="shape1794-36" v:mID="1794" v:groupContext="shape" transform="translate(-115.718,252.268) rotate(-135)">
 			<title>Blad.1794</title>
 			<path d="M0 206.11 L2.83 206.11" class="st6"/>
