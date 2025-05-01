@@ -25,7 +25,7 @@ sphinx:
       }
       repository_url: "https://github.com/TUDelft-books/CT1000"
       path_to_docs: "book"
-      repository_branch: "2024"
+      repository_branch: "2025-draft"
       use_repository_button: true
       use_edit_page_button: true
       use_issues_button : true
