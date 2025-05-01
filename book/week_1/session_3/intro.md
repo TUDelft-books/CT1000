@@ -1,5 +1,5 @@
 (lesson1.3)=
-# Lesson Friday September 6th
+# Lesson Friday September 5th
 
 As a preparation [you graded your own prerequisite test](homework1.3). Furthermore, I graded your work as well. Today we'll discuss the results. If there's time left, you can start working on next week homework deadline.
 
@@ -10,7 +10,7 @@ Following, you'll be asked to make a knowledge graph of the topics which you enc
 
 <iframe allow="fullscreen" style="width: 100%!important; height: 500px;" src="https://prime-applets.ewi.tudelft.nl/graph/CTB1110-17/show2?lecture=1&view=all" allowfullscreen></iframe>
 
-Then, we'll discuss the structure of the prerequisite material as demonstrated in this book ordered by class-activities and the full overview of all the content on [https://teachbooks.github.io/mechanics-BSc](https://teachbooks.github.io/mechanics-BSc).
+Then, we'll discuss the structure of the prerequisite material as demonstrated in this book ordered by class-activities and the full overview of all the content on [https://oit.tudelft.nl/CEG-mechanics-BSc](https://oit.tudelft.nl/CEG-mechanics-BSc).
 
 ## Start homework deadline for next week
 If we've time left, you can start preparing for the first homework deadline on [Statics externally](homework2.2) which you'll need to apply in class on next Wednesday

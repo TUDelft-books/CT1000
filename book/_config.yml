@@ -21,7 +21,7 @@ sphinx:
       exclude_patterns: ["**/**"]
     html_theme_options:
       logo: {
-        text: CT1000S Structural Mechanics 2024/2025
+        text: CTS1000 Structural Mechanics 2025/2026
       }
       repository_url: "https://github.com/TUDelft-books/CT1000"
       path_to_docs: "book"

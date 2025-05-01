@@ -2,7 +2,7 @@
 ```
 
 (lesson1.1)=
-# Lesson Monday September 2nd
+# Lesson Monday September 1st
 
 ## Course introduction
 During this lesson an overview will be given of the course as described in:

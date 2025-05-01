@@ -1,9 +1,9 @@
 # How to use this TeachBook 📘
 
-This TeachBook combines the course schedule and content. The content is shown independently as well in the [Mechanics-BSc TeachBook](https://teachbooks.github.io/mechanics-BSc). Specific version of this book are available on:
-- Version only containing content for exam assignment 1: https://teachbooks.io/mechanics-BSc/2024-assignment1
-- Version only containing content for exam assignment 2: https://teachbooks.io/mechanics-BSc/2024-assignment2
-- Version only containing content for exam assignment 3: https://teachbooks.io/mechanics-BSc/2024-assignment3
+This TeachBook combines the course schedule and content. The content is shown independently as well in the [Mechanics-BSc TeachBook](https://oit.tudelft.nl/CEG-mechanics-BSc). Specific version of this book are available on:
+- Version only containing content for exam assignment 1: https://teachbooks.io/mechanics-BSc/2025-assignment1
+- Version only containing content for exam assignment 2: https://teachbooks.io/mechanics-BSc/2025-assignment2
+- Version only containing content for exam assignment 3: https://teachbooks.io/mechanics-BSc/2025-assignment3
 
 ## Linked literature and tools
 This TeachBook links to relevant part of the other literature and only provides additional content when the other literature is insufficient.
@@ -50,4 +50,4 @@ If you spot any mistakes, you can click on <svg class="svg-inline--fa fa-github"
 If you'd like to make this TeachBook more personal by adding (private or public) annotations I can recommend the [Hypothesis extension](https://web.hypothes.is/start/). This is only for your own use, I won't monitor public post on this platform.
 
 ## Version
-This is the `2024-2025`-version of the TeachBook. Go to [/bridging_mechanics](https://teachbooks.github.io/bridging_mechanics) to view the most recent version of this TeachBook, or adapt the year in [/bridging_mechanics/2024](https://teachbooks.github.io/bridging_mechanics/2024) to the year when you took the course.
+This is the `2025-2026`-version of the TeachBook. Go to [https://oit.tudelft.nl/CT1000](https://oit.tudelft.nl/CT1000) to view the most recent version complete of this TeachBook, or adapt the year in [/CT1000/2025](hhttps://oit.tudelft.nl/CT1000/2025) to the year when you took the course.

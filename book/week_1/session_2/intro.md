@@ -4,7 +4,7 @@
 ```
 
 (lesson1.2)=
-# Lesson Wednesday September 4th
+# Lesson Wednesday September 3th
 
 ## Prerequisite test 2
 Today we'll continue with the second prerequisite test. Again, this will offer both an overview of the expected prerequisite knowledge and allows you to check whether you master those topics. This test won't count for your final grade of this course but is meant to give you insight in your learning.
