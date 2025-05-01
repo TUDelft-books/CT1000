@@ -2,6 +2,9 @@
 
 Starting September 2nd, all changes to the book are announced here.
 
+## 2025-05-01
+- Released [v2024.0.0](https://github.com/TUDelft-books/CT1000/releases/tag/v2024.0.0)
+
 ## 2024-11-08
 - Added exam to [Week 10 exam](week_10/session/intro.md)
 - Added exam evaluation to [Week 11 session 1](week_11/session_1/intro.ipynb)
