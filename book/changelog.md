@@ -3,6 +3,9 @@
 Starting September 2nd, all changes to the book are announced here.
 
 ## 2025-05-01
+- Released [v2024.0.1](https://github.com/TUDelft-books/CT1000/releases/tag/v2024.0.1)
+
+## 2025-05-01
 - Released [v2024.0.0](https://github.com/TUDelft-books/CT1000/releases/tag/v2024.0.0)
 
 ## 2024-11-08

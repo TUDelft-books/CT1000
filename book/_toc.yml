@@ -369,4 +369,5 @@ parts:
   chapters:
   - file: genindex
   - file: references
+  - file: changelog.md
   - file: credits
