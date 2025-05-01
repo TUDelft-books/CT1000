@@ -14,6 +14,7 @@ parts:
   - file: week_1/intro
     sections:
     - file: week_1/session_1/intro
+# START REMOVE-FROM-PUBLISH
     - file: week_1/session_2/intro
     - file: week_1/homework_3/intro
     - file: week_1/session_3/intro
@@ -364,6 +365,8 @@ parts:
     sections:
     - file: week_30/homework/intro
     - file: week_30/session/intro
+
+# END REMOVE-FROM-PUBLISH
 
 - caption: Miscellaneous
   chapters:
