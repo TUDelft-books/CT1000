@@ -31,12 +31,11 @@ This book is [CC BY 4.0 licensed](https://creativecommons.org/licenses/by/4.0/) 
 
 Parts of this book are taken from other external resources and reused in various ways. If an author is not listed on a particular page, it is by the Authors, except as follows:
 
-The following pages are included directly from an external resource:
+The following pages are included from an external resource:
 - The following pages includes text from {cite:t}`CEG_mechanics_BSc`. Original content licensed under CC BY 4.0 License:
   - all pages which have 'external' in the URL.
-
-The following pages contain content written by others, part of has been reused and/or modified by `<Editor>`
-- Page [](_git/github.com_TUDelft-books_CTB2210/CT1000/book/statisch_onbepaald/graad_bepalen.md) includes text from {cite:t}`CTB2210` and is edited to be made specific for this course. Original content licensed under CC BY 4.0 License. 
+- page [](_git/github.com_TUDelft-books_CEG-mechanics-BSc/EN/book/support_internal_forces/model/intro.md) includes text from {cite:t}`CEG_mechanics_BSc`. Original content licensed under CC BY 4.0 License. 
+- Page [](_git/github.com_TUDelft-books_CTB2210/CT1000/book/statisch_onbepaald/graad_bepalen.md) includes text from {cite:t}`CTB2210`. Original content licensed under CC BY 4.0 License. 
 
 
 (editor)=
