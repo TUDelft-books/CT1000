@@ -58,6 +58,7 @@ sphinx:
 
 teachbooks:
   attribution_color: attributiongrey
+  attribution_location: margin
 
 bibtex_bibfiles: 
   - external/CEG-mechanics-BSc/book/references.bib
