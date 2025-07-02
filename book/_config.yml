@@ -52,6 +52,9 @@ sphinx:
     - sphinx_image_inverter
     - sphinx_proof
     - sphinx_named_colors
+    - teachbooks_sphinx_tippy
+    - sphinx_iframes
+    - sphinx_exercise
 
 teachbooks:
   attribution_color: attributiongrey

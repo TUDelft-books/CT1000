@@ -5,9 +5,9 @@ download_link_replacer == 1.0.4
 sphinx-tudelft-theme == 1.1.5
 sphinx-proof
 sphinx-named-colors == 1.0.1
-teachbooks_sphinx_tippy == 1.0.11
-sphinx_iframes == 1.0.5
-sphinx_exercise == 1.0.1
+teachbooks-sphinx-tippy == 1.0.11
+sphinx-iframes == 1.0.5
+sphinx-exercise == 1.0.1
 
 # now list the packages (and the respective url) you wish to download from the GitLab package registry
 git+https://github.com/TeachBooks/Sphinx-Thebe
