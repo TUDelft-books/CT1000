@@ -39,6 +39,7 @@ sphinx:
       chtml: {
         mtextInheritFont: true # To typeset text within math prettier
       }
+    named_colors_custom_colors: {'attributiongrey':[150,150,150]}
   local_extensions:
     apastyle: _ext/
     bracket_citation_style: _ext/
@@ -49,6 +50,11 @@ sphinx:
     - sphinx.ext.extlinks
     - sphinx_tudelft_theme
     - sphinx_image_inverter
+    - sphinx_proof
+    - sphinx_named_colors
+
+teachbooks:
+  attribution_color: attributiongrey
 
 bibtex_bibfiles: 
   - external/mechanics-BSc/book/references.bib
@@ -80,8 +86,8 @@ parse:
     week4: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |[Read theory and make homework exercises Extension](homework4.1) <br>{bdg-secondary}`Prerequisites` ||[Read theory and make homework exercises Williot](homework4.2) <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises Force method extension](homework4.3)  <br>{bdg-primary}`New content`|Wednesday: [Read theory and make homework exercises Section force diagrams bending](homework5.2) <br>{bdg-secondary}`Prerequisites`|
-      |Class activities| [Guided practice on extension](lesson4.1) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on Williot](lesson4.2) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on Force method extension](lesson4.3) <br>{bdg-primary-line}`New content`|
+      |Homework deadlines |[Read theory and make homework exercises statical determinacy](homework4.1) <br>{bdg-secondary}`Prerequisites` ||[Read theory and make homework exercises extension and Williot](homework4.2) <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises Force method extension](homework4.3)  <br>{bdg-primary}`New content`|Wednesday: [Read theory and make homework exercises Section force diagrams bending](homework5.2) <br>{bdg-secondary}`Prerequisites`|
+      |Class activities| [Guided practice on statical determinacy](lesson4.1) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on extension and Williot](lesson4.2) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on Force method extension](lesson4.3) <br>{bdg-primary-line}`New content`|
     week5: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|

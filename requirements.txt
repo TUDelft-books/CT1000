@@ -3,6 +3,8 @@ jupyterbook-patches==1.6.2
 sphinx-image-inverter == 1.1.2
 download_link_replacer == 1.0.4
 sphinx-tudelft-theme == 1.1.5
+sphinx-proof
+sphinx-named-colors
 
 # now list the packages (and the respective url) you wish to download from the GitLab package registry
 --extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
