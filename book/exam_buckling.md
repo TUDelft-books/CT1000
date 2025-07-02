@@ -14,8 +14,8 @@ As a preparation for the exam assignment on Buckling you can repeat all the topi
     - Homework deadline lesson Monday September 23th
   - Week 5 (September 30th)
     - Homework deadline lesson Friday October 4th
-- The stripped version of the [Mechanics-BSc book](https://teachbooks.github.io/mechanics-BSc/2024-assignment3) book (url includes `/2024-assignment3`).
-- The following chapters of the full [Mechanics-BSc book](https://teachbooks.github.io/mechanics-BSc):
+- The stripped version of the [Mechanics-BSc book](http://oit.tudelft.nl/CEG-mechanics-BSc/2024-assignment3) book (url includes `/2024-assignment3`).
+- The following chapters of the full [Mechanics-BSc book](http://oit.tudelft.nl/CEG-mechanics-BSc/):
     - Statics:  all topics as a prerequisite, except for:
       - `Virtual work`
       - `Solve equilibrium; of a 3D-particle; 3D-body; body in torsion`

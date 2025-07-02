@@ -9,8 +9,8 @@ As a preparation for the exam assignment on Continuum mechanics you can repeat a
   - Week 6 (October 7th)
     - Homework deadline lesson Wednesday October 9th
     - Lesson October 9th
-- The stripped version of the [Mechanics-BSc book](https://teachbooks.github.io/mechanics-BSc/2024-assignment2) book (url includes `/2024-assignment2`).
-- The following chapters of the full [Mechanics-BSc book](https://teachbooks.github.io/mechanics-BSc):
+- The stripped version of the [Mechanics-BSc book](http://oit.tudelft.nl/CEG-mechanics-BSc/2024-assignment2) book (url includes `/2024-assignment2`).
+- The following chapters of the full [Mechanics-BSc book](http://oit.tudelft.nl/CEG-mechanics-BSc/):
     - Statics: all topics as a prerequisite
     - Stresses and displacements: all topics as a prerequisite, except for `Solve displacements ...` and `kinematic relations`.
     - Continuum mechanics: all topics 
