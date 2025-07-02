@@ -109,7 +109,7 @@ parts:
     - external: https://github.com/TUDelft-books/CTB2210/blob/CT1000/book/statisch_onbepaald/graad_bepalen.md
     - file: week_4/homework_2/intro
       sections:
-      - file: week_4/homework_1/copy_2
+      - file: week_4/homework_2/copy_2
         sections:
         - file: external/mechanics-BSc/book/stresses_displacements/model/small_rotations
       - file: week_4/homework_2/copy_1
