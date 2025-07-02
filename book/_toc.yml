@@ -9,17 +9,15 @@ parts:
   - file: contact_information
   - url: https://brightspace.tudelft.nl/d2l/home/703722
     title: Brightspace announcements 📢
+# START REMOVE-FROM-PUBLISH
 - caption: Activities
   chapters:
   - file: week_1/intro
     sections:
     - file: week_1/session_1/intro
     - file: week_1/session_2/intro
-# START REMOVE-FROM-PUBLISH
     - file: week_1/homework_3/intro
-# END REMOVE-FROM-PUBLISH
     - file: week_1/session_3/intro
-# START REMOVE-FROM-PUBLISH
       sections:
       - file: week_1/session_3/FMM
   - file: week_2/intro
