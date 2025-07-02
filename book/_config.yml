@@ -61,7 +61,7 @@ teachbooks:
   attribution_location: margin
 
 bibtex_bibfiles: 
-  - external/CEG-mechanics-BSc/book/references.bib
+  - references.bib
 
 parse:
   myst_enable_extensions:
