@@ -2,6 +2,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const toggleButtonId = "toggle-dropdown-button";
     const rootDropdownState = "dropdowns-opened";
 
+    // Check for dropdowns
+    const hasDropdowns = document.querySelector('details.dropdown, div.dropdown');
+    if (!hasDropdowns) return; // Exit if no dropdowns found
+
     const headerEnd = document.querySelector(".article-header-buttons");
     if (headerEnd) {
         const button = document.createElement("button");
@@ -44,7 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         console.log("Dropdowns opened");
-        
     }
 
     function closeDropdowns() {
