@@ -60,7 +60,7 @@ teachbooks:
   attribution_color: attributiongrey
 
 bibtex_bibfiles: 
-  - external/mechanics-BSc/book/references.bib
+  - external/CEG-mechanics-BSc/book/references.bib
 
 parse:
   myst_enable_extensions:
