@@ -25,7 +25,7 @@ parts:
     - file: week_2/session_1/intro
     - file: week_2/homework_2/intro
       sections:
-      - file: external/CEG-CEG-mechanics-BSc/book/support_internal_forces/model/intro
+      - file: external/CEG-mechanics-BSc/book/support_internal_forces/model/intro
         sections:
         - file: external/CEG-mechanics-BSc/book/support_internal_forces/model/elements
         - file: external/CEG-mechanics-BSc/book/support_internal_forces/model/coordinate
