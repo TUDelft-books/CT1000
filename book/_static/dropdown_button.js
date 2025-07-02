@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const rootDropdownState = "dropdowns-opened";
 
     // Check for dropdowns
-    const hasDropdowns = document.querySelector('details.dropdown, div.dropdown');
-    if (!hasDropdowns) return; // Exit if no dropdowns found
+    const dropdowns = document.querySelectorAll('details.dropdown, div.dropdown');
+    if (dropdowns.length === 0) return; // Exit if no dropdowns found
 
     const headerEnd = document.querySelector(".article-header-buttons");
     if (headerEnd) {
