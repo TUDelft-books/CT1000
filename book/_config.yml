@@ -55,6 +55,7 @@ sphinx:
     - sphinx_iframes
     - sphinx_exercise
     - sphinx_tudelft_theme
+    - sphinx_dropdown_toggle
 
 teachbooks:
   attribution_color: attributiongrey
