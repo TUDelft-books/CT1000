@@ -44,10 +44,8 @@ sphinx:
     apastyle: _ext/
     bracket_citation_style: _ext/
   extra_extensions:
-    - sphinx.ext.imgconverter
     - jupyterbook_patches
     - download_link_replacer
-    - sphinx.ext.extlinks
     - sphinx_image_inverter
     - sphinx_proof
     - sphinx_named_colors
