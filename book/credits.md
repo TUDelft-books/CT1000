@@ -29,13 +29,13 @@ This book is [CC BY 4.0 licensed](https://creativecommons.org/licenses/by/4.0/) 
 (external_resources)=
 ### External resources
 
-Parts of this book are taken from other external resources and reused in various ways. In particular, material is shared with the book [CTB2210 - Constructiemechanica 3 2025/2026](https://oit.tudelft.nl/CTB2210/2025/intro.html) and [Structural Mechanics @ BSc Civil Engineering](http://oit.tudelft.nl/CEG-mechanics-BSc/). If an author is not listed on a particular page, it is by the Authors, except as follows:
+Parts of this book are taken from other external resources and reused in various ways. In particular, material is shared with the book [CTB2210 - Constructiemechanica 3 2025/2026](https://oit.tudelft.nl/CTB2210/) and [Structural Mechanics @ BSc Civil Engineering](http://oit.tudelft.nl/CEG-mechanics-BSc/). If an author is not listed on a particular page, it is by the Authors, except as follows:
 
 - The following pages include content from {cite:t}`CEG_mechanics_BSc`. Original content licensed under CC BY 4.0 License. 
   - all pages which have 'external' in the URL.
   - page [](_git/github.com_TUDelft-books_CEG-mechanics-BSc/EN/book/support_internal_forces/model/intro.md)
 The following pages include content from {cite:t}`CTB2210`. Original content licensed under CC BY 4.0 License.
-  - Page [](_git/github.com_TUDelft-books_CTB2210/CT1000/book/statisch_onbepaald/graad_bepalen.md)
+  - Page [](_git/github.com_TUDelft-books_CTB2210/CT1000-2025/book/statisch_onbepaald/graad_bepalen.md)
 
 
 (editor)=
