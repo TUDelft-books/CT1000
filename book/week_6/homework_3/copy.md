@@ -1,2 +1,0 @@
-```{include} ../../external/CEG-mechanics-BSc/book/statically_inderminate/force_method/force_method.md
-```
