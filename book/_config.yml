@@ -10,7 +10,7 @@ only_build_toc_files: true
 
 
 html:
-  baseurl :  https://oit.tudelft.nl/CT1000/2024"
+  baseurl :  https://oit.tudelft.nl/CT1000/2025"
 
 sphinx:
   config:
@@ -31,6 +31,9 @@ sphinx:
       use_issues_button : true
       launch_buttons:
         thebe: true
+# START REMOVE-FROM-RELEASE
+      announcement: "<p>This book is not the version shared with students. That one is available here <a href='https://oit.tudelft.nl/CT1000/2025' style='color: cyan;'>oit.tudelft.nl/CT1000/2025</a></p>"
+# END REMOVE-FROM-RELEASE
     html_show_copyright: false
     html_last_updated_fmt: '%B %-d, %Y'
     bibtex_default_style: myapastyle
@@ -44,23 +47,23 @@ sphinx:
     apastyle: _ext/
     bracket_citation_style: _ext/
   extra_extensions:
-    - sphinx.ext.imgconverter
     - jupyterbook_patches
     - download_link_replacer
-    - sphinx.ext.extlinks
-    - sphinx_tudelft_theme
     - sphinx_image_inverter
     - sphinx_proof
     - sphinx_named_colors
     - teachbooks_sphinx_tippy
     - sphinx_iframes
     - sphinx_exercise
+    - sphinx_tudelft_theme
+    - sphinx_dropdown_toggle
 
 teachbooks:
   attribution_color: attributiongrey
+  attribution_location: margin
 
 bibtex_bibfiles: 
-  - external/CEG-mechanics-BSc/book/references.bib
+  - references.bib
 
 parse:
   myst_enable_extensions:

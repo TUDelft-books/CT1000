@@ -25,7 +25,7 @@ parts:
     - file: week_2/session_1/intro
     - file: week_2/homework_2/intro
       sections:
-      - file: external/CEG-mechanics-BSc/book/support_internal_forces/model/intro
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/model/intro.md
         sections:
         - file: external/CEG-mechanics-BSc/book/support_internal_forces/model/elements
         - file: external/CEG-mechanics-BSc/book/support_internal_forces/model/coordinate
@@ -106,7 +106,7 @@ parts:
     - file: week_4/homework_1/intro
       sections:
       - file: external/CEG-mechanics-BSc/book/statically_inderminate/determinancy
-    - external: https://github.com/TUDelft-books/CTB2210/blob/CT1000/book/statisch_onbepaald/graad_bepalen.md
+    - external: https://github.com/TUDelft-books/CTB2210/blob/CT1000-2025/book/statisch_onbepaald/graad_bepalen.md
     - file: week_4/homework_2/intro
       sections:
       - file: week_4/homework_2/copy_2
@@ -155,10 +155,6 @@ parts:
       - file: external/CEG-mechanics-BSc/book/support_internal_forces/solve_virtual_work/solve_virtual_work
     - file: week_6/session_2/intro
     - file: week_6/homework_3/intro
-      sections:
-      - file: week_6/homework_3/copy
-        sections:
-        - file: external/CEG-mechanics-BSc/book/statically_inderminate/force_method/moveable_nodes
     - file: week_6/session_3/intro
   - file: week_7/intro
     sections:

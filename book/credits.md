@@ -15,8 +15,6 @@ We anticipate that the content of this book will change significantly. Therefore
 
 > `<Title of Chapter or Page>`. In Van Woudenberg, Tom, _TeachBook Bridging course Structural Mechanics_. [https://github.com/TeachBooks/bridging_mechanics](https://github.com/TeachBooks/bridging_mechanics) (`./book/<path to Chapter or Page>` chapter, accessed `date`).
 
-This book is [CC BY licensed](https://creativecommons.org/licenses/by/4.0/), meaning you are free to share and adapt the material, as long as you give appropriate credit, provide a link to the license and indicate if changes were made.
-
 ## How the book is made
 
 This website is written in markdown and jupyter notebooks files, which are converted to html using tools from [TeachBooks](https://teachbooks.io/). The files are stored on a [public GitHub repository](https://github.com/TUDelft-books/CT1000). The website can be viewed at [http://oit.tudelft.nl/CT1000/](http://oit.tudelft.nl/CT1000/).
@@ -24,6 +22,20 @@ This website is written in markdown and jupyter notebooks files, which are conve
 To recreate the website you have two options (more information in the [TeachBooks manual](https://teachbooks.io/manual/):
 - In the GitHub interface: fork this repository, enable Github Pages from the source GitHub actions (Settings - Code and automation - Pages - Build and deployment - Source - GitHub Actions), enable workflows (Actions - I understand my workflows, go ahead and enable them) and run the call-deploy-book workflow (Actions - call-deploy-book - Run workflow - Run workflow). The website is released on the URL as shown on the workflow summary when the workflow has finished (Actions - call-deploy-book - call-deploy-book - Summary).
 - On your own computer: clone this repository, install the required packages (`pip install -r requirements.txt`) and build the book (`teachbooks build book`). The website is stored locally in `book/_build/index.html`.
+
+## License
+This book is [CC BY 4.0 licensed](https://creativecommons.org/licenses/by/4.0/) allowing you to share and adapt the material, as long as the source is named. External resources that are reused in this book are listed below.
+
+(external_resources)=
+### External resources
+
+Parts of this book are taken from other external resources and reused in various ways. In particular, material is shared with the book [CTB2210 - Constructiemechanica 3 2025/2026](https://oit.tudelft.nl/CTB2210/) and [Structural Mechanics @ BSc Civil Engineering](http://oit.tudelft.nl/CEG-mechanics-BSc/). If an author is not listed on a particular page, it is by the Authors, except as follows:
+
+- The following pages include content from {cite:t}`CEG_mechanics_BSc`. Original content licensed under CC BY 4.0 License. 
+  - all pages which have 'external' in the URL.
+  - page [](_git/github.com_TUDelft-books_CEG-mechanics-BSc/EN/book/support_internal_forces/model/intro.md)
+The following pages include content from {cite:t}`CTB2210`. Original content licensed under CC BY 4.0 License.
+  - Page [](_git/github.com_TUDelft-books_CTB2210/CT1000-2025/book/statisch_onbepaald/graad_bepalen.md)
 
 
 (editor)=
@@ -52,7 +64,6 @@ Next to courses on structural mechanics, Tom (co)teaches courses on optimisation
 - {fa}`building-columns` [Delft University of Technology profile](https://www.tudelft.nl/en/staff/t.r.vanwoudenberg/)
 
 ### Bart Slingerland
-
 Bart Slingerland is a teaching assistant, who has partly written the content in this book.
 
 ### Acknowledgements

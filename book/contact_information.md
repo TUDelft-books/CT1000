@@ -38,11 +38,11 @@ If you're stuck on a certain topic, you can also visit the teaching assistants d
 :class: dark-light
 ```
 
+- Alexander Dzhanibekyan
 - Gweneira van Koot
 - Iris Oskam
 - Jelke Jansen
 - Laurens van Bavel
-- Lisette de Langen
 - Martijn Westerhof
 
 ## TeachBook editing
