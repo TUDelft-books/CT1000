@@ -155,6 +155,8 @@ parts:
       - file: external/CEG-mechanics-BSc/book/support_internal_forces/solve_virtual_work/solve_virtual_work
     - file: week_6/session_2/intro
     - file: week_6/homework_3/intro
+      sections:
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/bending2.md
     - file: week_6/session_3/intro
   - file: week_7/intro
     sections:

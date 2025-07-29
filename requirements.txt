@@ -9,7 +9,7 @@ teachbooks-sphinx-tippy
 sphinx-iframes
 sphinx-exercise
 sphinx-dropdown-toggle
-sphinx-code-examples
+sphinx-code-examples #BUMP to ...
 
 # now list the packages (and the respective url) you wish to download from the GitLab package registry
 git+https://github.com/TeachBooks/Sphinx-Thebe
