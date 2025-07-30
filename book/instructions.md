@@ -50,4 +50,4 @@ If you spot any mistakes, you can click on <svg class="svg-inline--fa fa-github"
 If you'd like to make this TeachBook more personal by adding (private or public) annotations I can recommend the [Hypothesis extension](https://web.hypothes.is/start/). This is only for your own use, I won't monitor public post on this platform.
 
 ## Version
-This is the `2025-2026`-version of the TeachBook. Go to [https://oit.tudelft.nl/CT1000](https://oit.tudelft.nl/CT1000) to view the most recent version complete of this TeachBook, or adapt the year in [/CT1000/2025](https://oit.tudelft.nl/CT1000/2025) to the year when you took the course.
+This is the `2025-2026`-version of the TeachBook. Go to [https://oit.tudelft.nl/CT1000](https://oit.tudelft.nl/CT1000) to view the most recent version complete of this TeachBook, or adapt the year in [/CT1000/2025](https://oit.tudelft.nl/CT1000/2025) to the year when you took the course. The [2024 version](https://oit.tudelft.nl/CT1000/2024) is the latest complete (but outdated) version.
