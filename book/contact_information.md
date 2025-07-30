@@ -41,7 +41,7 @@ If you're stuck on a certain topic, you can also visit the teaching assistants d
 - Alexander Dzhanibekyan
 - Gweneira van Koot
 - Iris Oskam
-- Jelke Jansen
+- Jelke Janssen
 - Laurens van Bavel
 - Martijn Westerhof
 
