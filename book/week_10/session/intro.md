@@ -15,7 +15,7 @@ Given is the structure as shown in the figure below.
 :align: center
 ```
 
-Calculate the displacement of $\text{D}$ and the normal forces in all the members using a force-, displacement- or hybrid- ('hoekveranderingsvergelijkingen' with moveable nodes) method.
+Calculate the displacement of $\rm{D}$ and the normal forces in all the members using a force-, displacement- or hybrid- ('hoekveranderingsvergelijkingen' with moveable nodes) method.
 
 ````{admonition} Solution assignment 1
 :class: tip, dropdown
@@ -29,30 +29,30 @@ For example when using the force method:
 ```
 
 This gives:
-- ${N_{{\text{AD}}}} = - \cfrac{4}{5}{B_{\text{v}}}$
-- ${N_{{\text{BD}}}} = + {B_{\text{v}}}$
-- ${N_{{\text{CD}}}} = - \cfrac{3}{4}{B_{\text{v}}}$
+- ${N_{{\rm{AD}}}} = - \cfrac{4}{5}{B_{\rm{v}}}$
+- ${N_{{\rm{BD}}}} = + {B_{\rm{v}}}$
+- ${N_{{\rm{CD}}}} = - \cfrac{3}{4}{B_{\rm{v}}}$
 
 This gives elongations:
 
-- $\Delta {L_{{\text{BD}}}} = \cfrac{{{B_{\text{v}}}}}{{7500}}$
-- $\Delta {L_{{\text{AD}}}} = - \cfrac{{{B_{\text{v}}}}}{{4800}}$
-- $\Delta {L_{{\text{CD}}}} = - \cfrac{{{B_{\text{v}}}}}{{10000}}$
+- $\Delta {L_{{\rm{BD}}}} = \cfrac{{{B_{\rm{v}}}}}{{7500}}$
+- $\Delta {L_{{\rm{AD}}}} = - \cfrac{{{B_{\rm{v}}}}}{{4800}}$
+- $\Delta {L_{{\rm{CD}}}} = - \cfrac{{{B_{\rm{v}}}}}{{10000}}$
 
-Resulting in a williot like this (keeping the unknown value of $$B_\text{v}$$ constant for all elongations):
+Resulting in a williot like this (keeping the unknown value of $$B_\rm{v}$$ constant for all elongations):
 
 ```{figure} intro_data/williot.svg
 :align: center
 ```
 
-This gives a vertical displacement of $\text{B}$ of $\cfrac{{3{B_{\text{v}}}}}{{6400}}$.
+This gives a vertical displacement of $\rm{B}$ of $\cfrac{{3{B_{\rm{v}}}}}{{6400}}$.
 
-With the requirements of $30 \text{ mm}$ this leads to $B_\text{v} = 64 \text{ kN}$, resulting in:
+With the requirements of $30 \rm{ mm}$ this leads to $B_\rm{v} = 64 \ \rm{ kN}$, resulting in:
 
-- $N_\text{BD} = +64 \text{ kN}$
-- $N_\text{AD} = -80 \text{ kN}$
-- $N_\text{CD} = -48 \text{ kN}$
-- $u_{\text{D,h}} = 6.4 \text { mm} \left( \to \right)$
-- $u_{\text{D,v}} = 21.4667 \text{ mm} \left( \downarrow \right)$
+- $N_\rm{BD} = +64 \ \rm{ kN}$
+- $N_\rm{AD} = -80 \ \rm{ kN}$
+- $N_\rm{CD} = -48 \ \rm{ kN}$
+- $u_{\rm{D,h}} = 6.4 \ \rm { mm} \left( \to \right)$
+- $u_{\rm{D,v}} = 21.4667 \ \rm{ mm} \left( \downarrow \right)$
 
 ````
