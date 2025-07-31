@@ -39,7 +39,7 @@ This gives elongations:
 - $\Delta {L_{{\rm{AD}}}} = - \cfrac{{{B_{\rm{v}}}}}{{4800}}$
 - $\Delta {L_{{\rm{CD}}}} = - \cfrac{{{B_{\rm{v}}}}}{{10000}}$
 
-Resulting in a williot like this (keeping the unknown value of $$B_\rm{v}$$ constant for all elongations):
+Resulting in a williot like this (keeping the unknown value of $B_\rm{v}$ constant for all elongations):
 
 ```{figure} intro_data/williot.svg
 :align: center
