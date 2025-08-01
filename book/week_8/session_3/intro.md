@@ -14,33 +14,81 @@ Given the following structure.
 :align: center
 ```
 
-1. Find the moment line due to the temperature influence on $\text{AC}$
-2. Find the moment line due to the temperature influence on $\text{CD}$
-3. Find the total moment line.
+:::::{exercise}
+:label: temp_1_1
+:nonumber: true
 
-````{admonition} Solution assignment 1
-:class: tip, dropdown
+Find the curvature and strain due to the temperature influence
 
-```{figure} intro_data/M-line_1.svg
-:align: center
+```{h5p} ...
 ```
 
-````
+:::::
 
-````{admonition} Solution assignment 2
-:class: tip, dropdown
+:::::{exercise}
+:label: temp_1_2
+:nonumber: true
 
-```{figure} intro_data/M-line_2.svg
-:align: center
+What are the force distributions and displacements due to temperature influences and as a function of $N_{\rm{CD}}$ (caused by temperature influences)?
+
+```{h5p} ...
 ```
 
-````
+:::::
 
-````{admonition} Solution assignment 3
-:class: tip, dropdown
+:::::{exercise}
+:label: temp_1_3
+:nonumber: true
 
-```{figure} intro_data/M-line_3.svg
-:align: center
+Create a statically determinate system which uses the following displacement constraint: $w_{\rm{C}}^{\rm{BC}} = w_{\rm{C}}^{\rm{CD}}$ with $N_{\rm{CD}}$ as the statical indeterminate force.
+
+What are the force distributions and displacements due to the distributed load as a function of $N_{\rm{CD}}$?
+
+```{h5p} ...
 ```
 
-````
+:::::
+
+:::::{exercise}
+:label: temp_1_4
+:nonumber: true
+
+Use the displacement constraint to solve for $N_{\rm{CD}}$
+
+```{h5p} ...
+```
+
+:::::
+
+:::::{exercise}
+:label: temp_1_5
+:nonumber: true
+
+%Final moments
+
+```{h5p} ...
+```
+
+:::::
+
+:::::{exercise}
+:label: temp_1_6
+:nonumber: true
+
+%Final curvature
+
+```{h5p} ...
+```
+
+:::::
+
+:::::{exercise}
+:label: temp_1_7
+:nonumber: true
+
+%Final displacement
+
+```{h5p} ...
+```
+
+:::::
