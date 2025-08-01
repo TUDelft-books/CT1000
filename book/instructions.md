@@ -1,9 +1,6 @@
 # How to use this TeachBook 📘
 
-This TeachBook combines the course schedule and content. The content is shown independently as well in the [Mechanics-BSc TeachBook](https://oit.tudelft.nl/CEG-mechanics-BSc). Specific version of this book are available on:
-- Version only containing content for exam assignment 1: https://oit.tudelft.nl/CEG-mechanics-BSc/2025-assignment1
-- Version only containing content for exam assignment 2: https://oit.tudelft.nl/CEG-mechanics-BSc/2025-assignment2
-- Version only containing content for exam assignment 3: https://oit.tudelft.nl/CEG-mechanics-BSc/2025-assignment3
+This TeachBook combines the course schedule and content. The content is shown independently as well in the [Mechanics-BSc TeachBook](https://oit.tudelft.nl/CEG-mechanics-BSc). 
 
 ## Linked literature and tools
 This TeachBook links to relevant part of the other literature and only provides additional content when the other literature is insufficient.
