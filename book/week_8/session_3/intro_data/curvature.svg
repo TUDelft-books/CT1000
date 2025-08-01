@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export curvature.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.96317in" height="1.78207in"
+		viewBox="0 0 213.348 128.309" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st4 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape193-1" v:mID="193" v:groupContext="shape" transform="translate(35.0581,113.761) rotate(-90)">
+			<title>Ligger, 2 pt.193</title>
+			<path d="M0 128.31 L56.69 128.31" class="st1"/>
+		</g>
+		<g id="shape194-4" v:mID="194" v:groupContext="shape" transform="translate(21.6348,-71.2411)">
+			<title>Ligger, 2 pt.194</title>
+			<path d="M0 128.31 L56.69 128.31" class="st1"/>
+		</g>
+		<g id="shape195-7" v:mID="195" v:groupContext="shape" transform="translate(78.3278,-71.2411)">
+			<title>Ligger, 2 pt.195</title>
+			<path d="M0 128.31 L85.04 128.31" class="st1"/>
+		</g>
+		<g id="shape197-10" v:mID="197" v:groupContext="shape" transform="translate(21.6348,-71.2411)">
+			<title>Blad.197</title>
+			<path d="M0 128.31 L0 99.96 L141.73 99.96 L141.73 128.31" class="st2"/>
+		</g>
+		<g id="shape198-13" v:mID="198" v:groupContext="shape" transform="translate(163.367,-14.5482)">
+			<title>Blad.198</title>
+			<path d="M0 71.62 L28.35 71.62 L28.35 128.31 L0 128.31" class="st2"/>
+		</g>
+		<g id="shape199-16" v:mID="199" v:groupContext="shape" transform="translate(85.4144,-81.8711)">
+			<title>Momentvervormingsteken.199</title>
+			<path d="M0 128.31 A7.08661 7.08661 0 0 1 7.09 121.22 A7.08661 7.08661 0 0 1 14.17 128.31" class="st3"/>
+		</g>
+		<g id="shape200-19" v:mID="200" v:groupContext="shape" transform="translate(302.306,78.3278) rotate(90)">
+			<title>Momentvervormingsteken.200</title>
+			<path d="M0 128.31 A7.08661 7.08661 0 0 1 7.09 121.22 A7.08661 7.08661 0 0 1 14.17 128.31" class="st3"/>
+		</g>
+		<g id="shape394-22" v:mID="394" v:groupContext="shape" transform="translate(0.375,-99.5876)">
+			<title>Blad.394</title>
+			<desc>0.002</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="121.222" width="42.52" height="14.1732"/>
+			<rect x="0" y="114.136" width="42.5197" height="14.1732" class="st4"/>
+			<text x="7.76" y="124.82" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>0.002</text>		</g>
+		<g id="shape395-25" v:mID="395" v:groupContext="shape" transform="translate(142.107,-99.5876)">
+			<title>Blad.395</title>
+			<desc>0.002</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="121.222" width="42.52" height="14.1732"/>
+			<rect x="0" y="114.136" width="42.5197" height="14.1732" class="st4"/>
+			<text x="7.76" y="124.82" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>0.002</text>		</g>
+		<g id="shape396-28" v:mID="396" v:groupContext="shape" transform="translate(170.454,-71.2411)">
+			<title>Blad.396</title>
+			<desc>0.002</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="121.222" width="42.52" height="14.1732"/>
+			<rect x="0" y="114.136" width="42.5197" height="14.1732" class="st4"/>
+			<text x="7.76" y="124.82" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>0.002</text>		</g>
+		<g id="shape397-31" v:mID="397" v:groupContext="shape" transform="translate(170.454,-0.375)">
+			<title>Blad.397</title>
+			<desc>0.002</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="121.222" width="42.52" height="14.1732"/>
+			<rect x="0" y="114.136" width="42.5197" height="14.1732" class="st4"/>
+			<text x="7.76" y="124.82" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>0.002</text>		</g>
+		<g id="shape404-34" v:mID="404" v:groupContext="shape" transform="translate(42.8947,-113.761)">
+			<title>Blad.404</title>
+			<desc>Curvature (1/m)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.6063" cy="121.222" width="99.22" height="14.1732"/>
+			<rect x="0" y="114.136" width="99.2126" height="14.1732" class="st4"/>
+			<text x="10.78" y="124.82" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Curvature (1/m)</text>		</g>
+	</g>
+</svg>
