@@ -60,6 +60,7 @@ sphinx:
     - sphinx_tudelft_theme
     - sphinx_dropdown_toggle
     - sphinx_code_examples
+    - sphinx_accessibility
 
 teachbooks:
   attribution_color: attributiongrey
