@@ -4,10 +4,9 @@
 (lesson2.2)=
 # Lesson Wednesday September 11th
 
-During today's lesson you'll work on a complex exercise on the topic of 'Statics externally'. Please ask your questions regarding the [homework](homework2.2) as well!
+During today's lesson you'll work on a complex exercise on the topic of Statics. Please ask your questions regarding the [homework](homework2.2) as well!
 
-## Exercise Statics externally
-
+## Exercise Statics
 Given the following structure:
 
 ```{figure} intro_data/structure.svg
