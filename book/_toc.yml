@@ -9,49 +9,53 @@ parts:
   - file: contact_information
   - url: https://brightspace.tudelft.nl/d2l/home/774737
     title: Brightspace announcements 📢
-# START REMOVE-FROM-PUBLISH
 - caption: Activities
   chapters:
   - file: week_1/intro
     sections:
     - file: week_1/session_1/intro
     - file: week_1/session_2/intro
-    - file: week_1/homework_3/intro
     - file: week_1/session_3/intro
+# START REMOVE-FROM-PUBLISH
       sections:
       - file: week_1/session_3/FMM
+# END REMOVE-FROM-PUBLISH
   - file: week_2/intro
     sections:
+# START REMOVE-FROM-PUBLISH
     - file: week_2/session_1/intro
+# END REMOVE-FROM-PUBLISH
     - file: week_2/homework_2/intro
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/model/intro.md
+      - file: week_2/homework_2/model.md
         sections:
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/model/elements
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/model/coordinate
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/model/loads
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/model/internal_forces
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/model/supports
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/model/hinges
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/model/FBD
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/model/structures
-      - file: external/CEG-mechanics-BSc/book/support_internal_forces/transforming_forces/Resolution_of_forces
-      - file: external/CEG-mechanics-BSc/book/support_internal_forces/equilibrium/intro
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/model/elements.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/model/coordinate.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/model/loads.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/model/internal_forces.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/model/supports.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/model/hinges.model
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/model/FBD.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/model/structures.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/transforming_forces/Resolution_of_forces.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/transforming_forces/Resolution_of_forces.md
+      - file: week_2/homework_2/equilibrium.md
         sections:
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/equilibrium/particle
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/equilibrium/particle3d
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/equilibrium/rigid_body
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/equilibrium/rigid_body3d
-      - file: external/CEG-mechanics-BSc/book/support_internal_forces/support_reactions/intro
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/equilibrium/particle.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/equilibrium/particle3d.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/equilibrium/rigid_body.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/equilibrium/rigid_body3d.md
+      - file: week_2/homework_2/support.md
         sections:
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/support_reactions/equilibrium
-      - file: external/CEG-mechanics-BSc/book/support_internal_forces/internal_forces_truss/intro
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/support_reactions/equilibrium.md
+      - file: week_2/homework_2/truss.md
         sections:
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/internal_forces_truss/zero-force
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/internal_forces_truss/cross_section
-      - file: external/CEG-mechanics-BSc/book/support_internal_forces/internal_forces_beam/intro
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/internal_forces_truss/zero-force.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/internal_forces_truss/cross_section.md
+      - file: week_2/homework_2/frame.md
         sections:
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/internal_forces_beam/cross_section
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/internal_forces_beam/cross_section.md
+# START REMOVE-FROM-PUBLISH
     - file: week_2/session_2/intro
     - file: week_2/homework_3/intro
       sections:
