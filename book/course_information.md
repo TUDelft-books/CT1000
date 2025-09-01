@@ -3,7 +3,7 @@
 ## Learning objectives
 At the end of this module, you show to be able to:
 1.	Model, evaluate and reflect on validity of support reactions, section forces and displacements in skeletal structures using differential equations. 
-2.	Model, evaluate and reflect on validity of support reactions, section forces and displacements in statically indeterminate skeletal structures using the force- and hybrid method. 
+2.	Model, evaluate and reflect on validity of support reactions, section forces and displacements in statically indeterminate skeletal structures using the force- and displacement method. 
 3.	Model, evaluate and reflect on validity of the stress state on homogeneous planar elements for any coordinate system.
 4.	Model, evaluate and reflect on validity of buckling load of skeletal structures.
 This aligns with the learning objectives of Structural Mechanics 3 of the regular BSc programme of Civil Engineering.
