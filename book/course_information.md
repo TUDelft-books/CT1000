@@ -29,7 +29,7 @@ The learning-line of structural mechanics as taught in the BSc programme of Civi
 
 You start the course with an ungraded, self-assessed prerequisite test to identify shortcomings in their knowledge.
 
-All of the separate modules are collected in this TeachBook, breaking down each module into separate parts of theory and skills including exercises. Assistance is provided to small student groups and individual students.
+All of the separate modules are collected in this TeachBook, breaking down each module into separate parts of theory and skills including exercises. You’ll have to study the theory and some basic exercises yourself, in-class activities focus on more advanced exercise. Assistance is provided to small student groups and individual students.
 
 The support by lecturers in class comprises of:
 - Classical introduction on learning objective 1-4
