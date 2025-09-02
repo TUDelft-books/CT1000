@@ -2,6 +2,13 @@
 
 All changes to the book are announced here. If you want to be notified on these, watch this repository by subscribing to releases on the [GitHub repository](https://github.com/TUDelft-books/CT1000)
 
+## v2025.1.0
+Added:
+- [](./week_2/session_1/intro.ipynb)
+- [](./week_2/session_2/intro.md)
+- [](./week_2/homework_3/intro.md)
+- [](./week_2/session_3/intro.md)
+
 ## v2025.0.1
 Removed homework for week 1 session 1
 
