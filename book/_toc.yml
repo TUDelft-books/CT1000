@@ -151,9 +151,9 @@ parts:
       sections:
       - file: week_6/homework_1/copy
         sections:
-        - file: external/CEG-mechanics-BSc/book/statically_inderminate/force_method/bending
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/bending.md
     - file: week_6/session_1/intro
-    - file: week_6/homework_3/intro
+#    - file: week_6/homework_3/intro
 #      sections:
 #        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/bending2.md
     - file: week_6/session_3/intro
