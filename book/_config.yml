@@ -71,7 +71,7 @@ parse:
     week1: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines ||||| [Self-grade tests](homework1.3) <br> {bdg-secondary}`Prerequisites`|Wednesday: [Read theory and make homework exercises Statics externally](homework2.2) <br>{bdg-secondary}`Prerequisites`|
+      |Homework deadlines ||||||Wednesday: [Read theory and make homework exercises Statics externally](homework2.2) <br>{bdg-secondary}`Prerequisites`|
       |Class activities| [Introduction course and prerequisite test 1](lesson1.1) <br> {bdg-secondary-line}`Prerequisites` ||[Prerequisites test](lesson1.2) <br> {bdg-secondary-line}`Prerequisites` || [Evaluation test](lesson1.3) {bdg-secondary-line}`Prerequisites`|
     week2: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
