@@ -22,9 +22,7 @@ parts:
 # END REMOVE-FROM-PUBLISH
   - file: week_2/intro
     sections:
-# START REMOVE-FROM-PUBLISH
     - file: week_2/session_1/intro
-# END REMOVE-FROM-PUBLISH
     - file: week_2/homework_2/intro
       sections:
       - file: week_2/homework_2/model.md
@@ -54,7 +52,6 @@ parts:
       - file: week_2/homework_2/frame.md
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/internal_forces_beam/cross_section.md
-# START REMOVE-FROM-PUBLISH
     - file: week_2/session_2/intro
     - file: week_2/homework_3/intro
       sections:
@@ -64,6 +61,7 @@ parts:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/virtual_work/virtual_work.md
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/solve_virtual_work/solve_virtual_work.md
     - file: week_2/session_3/intro
+# START REMOVE-FROM-PUBLISH
   - file: week_3/intro
     sections:
     - file: week_3/homework_1/intro
