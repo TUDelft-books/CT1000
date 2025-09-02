@@ -1,8 +1,8 @@
 ```{index} Force method; demonstration statically indeterminate extension only
 ```
 
-(lesson3.3)=
-# Lesson Friday September 20th
+(lesson4.1)=
+# Lesson Monday September 22th
 
 During today's lesson it's demonstrated how you to use the force method for statically indeterminate problems which only involve extension
 

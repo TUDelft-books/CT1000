@@ -1,7 +1,7 @@
-(homework4.3)=
-# Homework deadline lesson Friday September 27th
+(homework4.2)=
+# Homework deadline lesson Friday September 26th
 
-As a preparation for Friday's lesson you'll look into the force method for truss structures:
+As a preparation for Friday's lesson you'll look into displacement of truss structures using Williot:
 
 ```{tableofcontents}
 ```

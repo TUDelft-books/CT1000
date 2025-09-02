@@ -86,18 +86,18 @@ parse:
     week2: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines ||| [Read theory and make homework exercises Statics](homework2.2) <br>{bdg-secondary}`Prerequisites` ||[Read theory and make homework exercises equilibrium relations and cables](homework2.3)  <br>{bdg-secondary}`Prerequisites`|Monday: [Read theory and make homework exercise kinematic and constitutive relations](homework3.1) <br>{bdg-secondary}`Prerequisites`|
-      |Class activities| [Demonstration Differential equations](lesson2.1) <br>{bdg-primary-line}`New content`||[Guided practice on Statics externally](lesson2.2)<br> {bdg-secondary-line}`Prerequisites`||[Guided practice on equilibrium relations and cables](lesson2.3)<br> {bdg-secondary-line}`Prerequisites`|
+      |Homework deadlines ||| [Read theory and make homework exercises Statics](homework2.2) <br>{bdg-secondary}`Prerequisites` ||[Read theory and make homework exercises virtual work](homework2.3)  <br>{bdg-secondary}`Prerequisites`|Monday: [Read theory and make homework exercise equilibrium relations and cables](homework3.1) <br>{bdg-secondary}`Prerequisites`|
+      |Class activities| [Demonstration Differential equations](lesson2.1) <br>{bdg-primary-line}`New content`||[Guided practice on Statics externally](lesson2.2)<br> {bdg-secondary-line}`Prerequisites`||[Guided practice on virtual work](lesson2.3)<br> {bdg-secondary-line}`Prerequisites`|
     week3: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |[Read theory and make homework exercises kinematic and constitutive relations](homework3.1) <br>{bdg-secondary}`Prerequisites` ||[Read theory and make homework exercises SymPy](homework3.2)  <br>{bdg-primary}`New content`|||Monday: [Read theory and make homework exercises Extension](homework4.1) <br>{bdg-secondary}`Prerequisites`|
-      |Class activities| [Guided practice on kinematic and constitutive relations](lesson3.1) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on SymPy](lesson3.2) <br>{bdg-primary-line}`New content`||[Demonstration Force method extension](lesson3.3) <br>{bdg-primary-line}`New content`|
+      |Homework deadlines |[Read theory and make homework exercises equilibrium relations and cables](homework3.1) <br>{bdg-secondary}`Prerequisites` ||[Read theory and make homework exercises constitutive and kinematic equations, and MatrixFrame](homework3.2)  <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises differential equations and SymPy](homework3.3) <br>{bdg-primary}`New content`|Monday: [Read theory and make homework exercises Extension](homework4.2) <br>{bdg-secondary}`Prerequisites`|
+      |Class activities| [Guided practice on equilibrium relations and cables](lesson3.1) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on constitutive and kinematic equations, and MatrixFrame](lesson3.2) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on differential equations and SymPy](lesson3.3) <br>{bdg-primary-line}`New content`|
     week4: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |[Read theory and make homework exercises statical determinacy](homework4.1) <br>{bdg-secondary}`Prerequisites` ||[Read theory and make homework exercises extension and Williot](homework4.2) <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises Force method extension](homework4.3)  <br>{bdg-primary}`New content`|Wednesday: [Read theory and make homework exercises Section force diagrams bending](homework5.2) <br>{bdg-secondary}`Prerequisites`|
-      |Class activities| [Guided practice on statical determinacy](lesson4.1) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on extension and Williot](lesson4.2) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on Force method extension](lesson4.3) <br>{bdg-primary-line}`New content`|
+      |Homework deadlines |||[Read theory and make homework exercises statical determinacy and extension](homework4.2) <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises extension and Williot](homework4.3) <br>{bdg-secondary}`Prerequisites`|Monday: [Read theory and make homework exercises Force method extension](homework5.1) <br>{bdg-primary}`New content`|
+      |Class activities|[Demonstration force method extension](lesson4.1) <br>{bdg-primary-line}`New content`||[Guided practice on statical determinacy and extension](lesson4.2) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on extension and Williot](lesson4.3) <br>{bdg-secondary-line}`Prerequisites`|
     week5: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
