@@ -1,7 +1,7 @@
-(homework4.1)=
-# Homework deadline lesson Monday September 23th
+(homework3.3)=
+# Homework deadline lesson Friday September 19th
 
-As a preparation for Monday's lesson you'll look into displacement of extension structures:
+As a preparation for Friday's lesson you'll look into differential equations, consisting of the following topics:
 
 ```{tableofcontents}
 ```

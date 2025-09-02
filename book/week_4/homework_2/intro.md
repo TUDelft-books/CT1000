@@ -1,7 +1,7 @@
 (homework4.2)=
-# Homework deadline lesson Wednesday September 25th
+# Homework deadline lesson Wednesday September 24th
 
-As a preparation for Wednesday's lesson you'll look into displacement of truss structures using Williot:
+As a preparation for Wednesday's lesson you'll look into statical determinacy and displacement of extension structures:
 
 ```{tableofcontents}
 ```

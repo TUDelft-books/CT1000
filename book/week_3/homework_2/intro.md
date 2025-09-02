@@ -1,7 +1,7 @@
 (homework3.2)=
-# Homework deadline lesson Wednesday September 18th
+# Homework deadline lesson Wednesday September 17th
 
-As a preparation for Wednesday's lesson you'll look into differential equations, consisting of the following topics:
+As a preparation for Monday's lesson you'll look into kinematic and constitutive relations, and Matrixframe, consisting of the following topics:
 
 ```{tableofcontents}
 ```

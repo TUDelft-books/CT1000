@@ -1,7 +1,7 @@
 (homework3.1)=
-# Homework deadline lesson Monday September 16th
+# Homework deadline lesson Monday September 15th
 
-As a preparation for Monday's lesson you'll look into kinematic and constitutive relations, consisting of the following topics:
+As a preparation for Monday's lesson you'll look into equilibrium relations and cables, consisting of the following topics:
 
 ```{tableofcontents}
 ```
