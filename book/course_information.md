@@ -3,7 +3,7 @@
 ## Learning objectives
 At the end of this module, you show to be able to:
 1.	Model, evaluate and reflect on validity of support reactions, section forces and displacements in skeletal structures using differential equations. 
-2.	Model, evaluate and reflect on validity of support reactions, section forces and displacements in statically indeterminate skeletal structures using the force- and hybrid method. 
+2.	Model, evaluate and reflect on validity of support reactions, section forces and displacements in statically indeterminate skeletal structures using the force- and displacement method. 
 3.	Model, evaluate and reflect on validity of the stress state on homogeneous planar elements for any coordinate system.
 4.	Model, evaluate and reflect on validity of buckling load of skeletal structures.
 This aligns with the learning objectives of Structural Mechanics 3 of the regular BSc programme of Civil Engineering.
@@ -29,13 +29,7 @@ The learning-line of structural mechanics as taught in the BSc programme of Civi
 
 You start the course with an ungraded, self-assessed prerequisite test to identify shortcomings in their knowledge.
 
-All of the separate modules are collected in this TeachBook, breaking down each module into separate parts of theory and skills including exercises. Assistance is provided to small student groups and individual students.
-
-The support by lecturers in class comprises of:
-- Classical introduction on learning objective 1-4
-- Assistance on making a personal learning plan
-- Additional explanation to small student groups on the literature,
-- Guidance and feedback on exercises
+All of the separate modules are collected in this TeachBook, breaking down each module into separate parts of theory and skills including exercises. You’ll have to study the theory and some basic exercises yourself, in-class activities focus on more advanced exercise with guidance and feedback. Additional explanation on the literature and other exercises can be requested for too. Assistance is provided to small student groups and individual students.
 
 (exam-general)=
 ## Assessment

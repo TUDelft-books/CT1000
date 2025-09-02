@@ -1,7 +1,7 @@
 (homework2.2)=
-# Homework deadline lesson Wednesday September 11th
+# Homework deadline lesson Wednesday September 10th
 
-As a preparation for Wednesday's lesson you'll look into basic statics externally, consisting of the following topics:
+As a preparation for Wednesday's lesson you'll look into basic statics, consisting of the following topics:
 
 ```{tableofcontents}
 ```
