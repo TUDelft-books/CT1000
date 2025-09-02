@@ -83,54 +83,54 @@ parts:
     - file: week_3/session_1/intro
     - file: week_3/homework_2/intro
       sections:
-      - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/model/intro.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/model/intro.md
         sections:
-        - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/model/stress-strain.md
-        - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/model/fibre_model.md
-      - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/strain_diagram/intro.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/model/stress-strain.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/model/fibre_model.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/strain_diagram/intro.md
         sections:
-        - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/strain_diagram/extension.md
-        - file: ehttps://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/strain_diagram/bending.md
-      - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/kinematic/intro.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/strain_diagram/extension.md
+        - external: ehttps://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/strain_diagram/bending.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/kinematic/intro.md
         sections:
-        - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/kinematic/extension.md
-        - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/kinematic/bending.md
-      - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/constitutive/intro.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/kinematic/extension.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/kinematic/bending.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/constitutive/intro.md
         sections:
-        - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/constitutive/extension.md
-        - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/constitutive/bending.md
-      - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/intro.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/constitutive/extension.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/constitutive/bending.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/intro.md
         sections:
-        - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/ode.md
-      - file: https://github.com/TUDelft-books/CEG-mechaniecs-BSc/blob/EN/book/stresses_displacements/displacements_frame/intro.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/ode.md
+      - external: https://github.com/TUDelft-books/CEG-mechaniecs-BSc/blob/EN/book/stresses_displacements/displacements_frame/intro.md
         sections:
-        - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_frame/ode.md
-      - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/matrixframe.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_frame/ode.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/matrixframe.md
     - file: week_3/session_2/intro
     - file: week_3/homework_3/intro
       sections:
-      - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/sympy.ipynb
-      - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/sympy_mech.ipynb
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/sympy.ipynb
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/sympy_mech.ipynb
     - file: week_3/session_3/intro
   - file: week_4/intro
     sections:
     - file: week_4/session_1/intro
     - file: week_4/homework_2/intro
       sections:
-      - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/determinancy.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/determinancy.md
       - file: week_4/homework_2/model
         sections:
-        - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/model/small_rotations.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/model/small_rotations.md
       - file: week_4/homework_2/solve_displacements.md
         sections:
-        - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/equations.md
-        - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/williot.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/equations.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/williot.md
     - file: week_4/session_2/intro
     - file: week_4/homework_3/intro
       sections:
-      - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/force_method
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/force_method
         sections:
-        - file: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/extension
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/extension
     - file: week_4/session_3/intro
   - file: week_5/intro
     sections:
