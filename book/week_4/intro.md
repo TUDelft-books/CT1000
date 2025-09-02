@@ -1,3 +1,3 @@
-# Week 4 (September 23th)
+# Week 4 (September 22th)
 
 {{week4}}

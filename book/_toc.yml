@@ -74,7 +74,7 @@ parts:
       - file: week_3/homework_1/frames
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/internal_forces_beam/ode.md
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/support_internal_forces/cable/intro.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/cable/intro.md
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/cable/equilibrium.md
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN//book/support_internal_forces/cable/ode.md
@@ -155,7 +155,7 @@ parts:
     - file: week_6/session_1/intro
     - file: week_6/homework_3/intro
       sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/bending2.md
+#        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/bending2.md
     - file: week_6/session_3/intro
   - file: week_7/intro
     sections:
