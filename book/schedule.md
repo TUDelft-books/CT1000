@@ -2,6 +2,10 @@
 
 Click the dropdown blocks below to find a detailed schedule for the course activities per week. Clicking the links will take you to the relevant content pages.
 
+```{warning} 
+This schedule should be regarded as preliminary and is subject to change.
+```
+
 ```{dropdown} Week 1 (September 1th)
 {{week1}}
 ```
