@@ -1,9 +1,6 @@
 (homework30)=
 # Preparation exam assignments Monday April 14th
 
-```{include} ../../exam_indeterminate.md
-```
-
 ```{include} ../../exam_continuum.md
 ```
 
