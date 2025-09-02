@@ -156,10 +156,10 @@ parse:
     week20: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |||||[Prepare for exam assignments continuum mechanics and buckling](homework20) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`|Monday week 30: [Prepare for exam assignments statically indeterminate structure, continuum mechanics and buckling](homework30) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`
+      |Homework deadlines |||||[Prepare for exam assignments continuum mechanics and buckling](homework20) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`|Monday week 30: [Prepare for exam assignments continuum mechanics and buckling](homework30) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`
       |Class activities|||||[Exam assignment 2 continuum mechanics and 1 buckling](exam3) <br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`|
     week30: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|
       |:-:|:-:|:-:|:-:|:--:|:-:|
-      |Homework deadlines |[Prepare for exam assignments statically indeterminate structure, continuum mechanics and buckling](homework30) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`|
-      |Class activities|[Exam assignment 3 statically indeterminate structures, 3 continuum mechanics and 2 buckling](exam4) <br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`|
+      |Homework deadlines |[Prepare for exam assignment buckling](homework30) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`|
+      |Class activities|[Exam assignment 2 buckling](exam4) <br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`|
