@@ -20,4 +20,4 @@ Try to do this exercise on your own. If you cannot proceed, you're free to discu
 
 If you missed the first lesson, you can find the assignment [here](./prerequisite_test1.pdf). Please send [Tom](mailto:t.r.vanwoudenberg@tudelft.nl) a scan of your filled in prerequisite test or bring the paper assignment to the next lesson.
 
-Afterwards, you're test will be scanned so that I can have some insights in your performance as well. I'll grade your work for the lesson on Friday. During that lesson we'll discuss the results to identify which topics you should spend more time on during this quarter.
+Afterwards, your test will be scanned so that I can have some insights in your performance as well. I'll grade your work for the lesson on Friday. During that lesson we'll discuss the results to identify which topics you should spend more time on during this quarter.
