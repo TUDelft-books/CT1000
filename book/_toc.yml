@@ -18,7 +18,8 @@ parts:
     - file: week_1/session_3/intro
 # START REMOVE-FROM-PUBLISH
       sections:
-      - file: week_1/session_3/FMM
+      - file: week_1/session_3/answer
+      - file: week_1/session_3/FMM2
 # END REMOVE-FROM-PUBLISH
   - file: week_2/intro
     sections:
