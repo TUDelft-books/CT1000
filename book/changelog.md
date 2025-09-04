@@ -2,10 +2,13 @@
 
 All changes to the book are announced here. If you want to be notified on these, watch this repository by subscribing to releases on the [GitHub repository](https://github.com/TUDelft-books/CT1000)
 
-## v2025.1.1
+## v2025.1.2: 2025-09-04
+Updated link to ANS course with practice assignments to [](./instructions.md)
+
+## v2025.1.1: 2025-09-03
 Added prerequisite test to [](./week_1/session_2/intro.md)
 
-## v2025.1.0
+## v2025.1.0: 2025-09-02
 Added:
 - [](./week_2/session_1/intro.ipynb)
 - [](./week_2/session_2/intro.md)
