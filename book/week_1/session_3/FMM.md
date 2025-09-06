@@ -1,6 +1,6 @@
 # Frequently made mistakes
 
-```{figure} ./FMM_data/1.1.svg
+```{figure} ./answer_data/structure1.svg
 :align: center
 ```
 

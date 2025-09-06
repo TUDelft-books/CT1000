@@ -2,7 +2,7 @@
 
 ## 1.1 Determine the normal force in bar $\rm{CD}$ and $\rm{AC}$
 
-```{figure} ./FMM_data/1.1.svg
+```{figure} ./answer_data/structure1.svg
 :align: center
 ```
 
