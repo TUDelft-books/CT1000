@@ -38,9 +38,14 @@ $$
 :align: center
 ```
 
-$$\mathop {{{\sum {\left. T \right|} }_B}}\limits^↺ = 0$$
-$$360 \cdot 20 - 540 \cdot 10 - {3 \over 5}{N_{{\rm{AC}}}} \cdot 10 = 0$$
-$${N_{{\rm{AC}}}} = + 300 \ {\rm{ kN}}$$
+$$
+\begin{aligned}
+    \mathop {{{\sum {\left. T \right|} }_B}}\limits^↺ &= 0 \\
+    360 \cdot 20 - 540 \cdot 10 - {3 \over 5}{N_{{\rm{AC}}}} \cdot 10 &= 0 \\
+    {N_{{\rm{AC}}}} &= + 300 \ {\rm{ kN}}
+\end{aligned}
+$$
+
 
 ### 1b Determine the displacement of node $\rm{C}$. You can estimate the value from your graph.
 
@@ -58,7 +63,10 @@ $$
 $$
 
 $$
-A = \pi \left( {{{\left( {\cfrac{{\left( {\cfrac{{150}}{{\sqrt \pi }}} \right)}}{2} + \cfrac{{50}}{{\sqrt \pi }}} \right)}^2} - {{\left( {\cfrac{{\left( {\cfrac{{150}}{{\sqrt \pi }}} \right)}}{2}} \right)}^2}} \right) = 10000 \ {\rm{ m}}{{\rm{m}}^2}\\
+A = \pi \left( {{{\left( {\cfrac{{\left( {\cfrac{{150}}{{\sqrt \pi }}} \right)}}{2} + \cfrac{{50}}{{\sqrt \pi }}} \right)}^2} - {{\left( {\cfrac{{\left( {\cfrac{{150}}{{\sqrt \pi }}} \right)}}{2}} \right)}^2}} \right) = 10000 \ {\rm{ m}}{{\rm{m}}^2}
+$$
+
+$$
 \Delta {L_{{\rm{AC}}}} = \cfrac{{300 \cdot {{10}^3} \cdot 6.25}}{{25 \cdot {{10}^9} \cdot 10000 \cdot {{10}^{ - 6}}}} = + 7.5 \cdot {10^{ - 3}} \ {\rm{ m}}\\
 \Delta {L_{{\rm{BC}}}} = \cfrac{{600 \cdot {{10}^3} \cdot 6.25}}{{25 \cdot {{10}^9} \cdot 10000 \cdot {{10}^{ - 6}}}} = + 15 \cdot {10^{ - 3}} \ {\rm{ m}}
 $$
