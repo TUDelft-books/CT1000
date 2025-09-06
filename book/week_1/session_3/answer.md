@@ -14,17 +14,25 @@ Given is the truss structure as shown below:
 :align: center
 ```
 
-$$\mathop {{{\left. {\sum T } \right|}_A}}\limits^↺ = 0$$
-$$360 \cdot 10 - {4 \over 5}{N_{{\rm{CD}}}} \cdot 7.5 = 0$$
-$${N_{{\rm{CD}}}} = +600 \ {\rm{ kN}}$$
+$$
+\begin{aligned}
+    \mathop {{{\left. {\sum T } \right|}_A}}\limits^↺ &= 0 \\
+    360 \cdot 10 - \frac{4}{5} N_{\rm{CD}} \cdot 7.5 &= 0 \\
+    N_{\rm{CD}} &= +600 \ \rm{kN}
+\end{aligned}
+$$
 
 ```{figure} ./answer_data/FBD_2.svg
 :align: center
 ```
 
-$$\mathop {{{\sum {\left. T \right|} }_B}}\limits^↺ = 0$$
-$$360 \cdot 20 - 180 \cdot 10 - {A_{\rm{v}}} \cdot 10 = 0$$
-$${A_{\rm{v}}} = + 540 \ {\rm{ kN}}$$
+$$
+\begin{aligned}
+    \mathop {{{\sum {\left. T \right|} }_B}}\limits^↺ &= 0 \\
+    360 \cdot 20 - 180 \cdot 10 - {A_{\rm{v}}} \cdot 10 &= 0 \\
+    {A_{\rm{v}}} &= + 540 \ {\rm{ kN}}
+\end{aligned}
+$$
 
 ```{figure} ./answer_data/FBD_3.svg
 :align: center
@@ -40,14 +48,21 @@ $${N_{{\rm{AC}}}} = + 300 \ {\rm{ kN}}$$
 :align: center
 ```
 
-$$\mathop {\sum {{F_{\bar x}}} }\limits^↘ = 0$$
-$$- 600 + {N_{{\rm{BC}}}} = 0 $$
-$${N_{{\rm{BC}}}} = + 600 \ {\rm{ kN}}$$
+$$
+\begin{aligned}
+    \mathop {\sum {{{\left. T \right|}_A}} }\limits^↘ &= 0 \\
+    -540 + {N_{{\rm{AC}}}} + {N_{{\rm{BC}}}} &= 0 \\
+    -540 + 300 + {N_{{\rm{BC}}}} &= 0 \\
+    {N_{{\rm{BC}}}} &= + 240 \ {\rm{ kN}}
+\end{aligned}
+$$
 
+$$
+A = \pi \left( {{{\left( {\cfrac{{\left( {\cfrac{{150}}{{\sqrt \pi }}} \right)}}{2} + \cfrac{{50}}{{\sqrt \pi }}} \right)}^2} - {{\left( {\cfrac{{\left( {\cfrac{{150}}{{\sqrt \pi }}} \right)}}{2}} \right)}^2}} \right) = 10000 \ {\rm{ m}}{{\rm{m}}^2}\\
+\Delta {L_{{\rm{AC}}}} = \cfrac{{300 \cdot {{10}^3} \cdot 6.25}}{{25 \cdot {{10}^9} \cdot 10000 \cdot {{10}^{ - 6}}}} = + 7.5 \cdot {10^{ - 3}} \ {\rm{ m}}\\
+\Delta {L_{{\rm{BC}}}} = \cfrac{{600 \cdot {{10}^3} \cdot 6.25}}{{25 \cdot {{10}^9} \cdot 10000 \cdot {{10}^{ - 6}}}} = + 15 \cdot {10^{ - 3}} \ {\rm{ m}}
+$$
 
-$$A = \pi \left( {{{\left( {\cfrac{{\left( {\cfrac{{150}}{{\sqrt \pi }}} \right)}}{2} + \cfrac{{50}}{{\sqrt \pi }}} \right)}^2} - {{\left( {\cfrac{{\left( {\cfrac{{150}}{{\sqrt \pi }}} \right)}}{2}} \right)}^2}} \right) = 10000 \ {\rm{ m}}{{\rm{m}}^2}$$
-$$\Delta {L_{{\rm{AC}}}} = \cfrac{{300 \cdot {{10}^3} \cdot 6.25}}{{25 \cdot {{10}^9} \cdot 10000 \cdot {{10}^{ - 6}}}} = + 7.5 \cdot {10^{ - 3}} \ {\rm{ m}}$$
-$$\Delta {L_{{\rm{BC}}}} = \cfrac{{600 \cdot {{10}^3} \cdot 6.25}}{{25 \cdot {{10}^9} \cdot 10000 \cdot {{10}^{ - 6}}}} = + 15 \cdot {10^{ - 3}} \ {\rm{ m}}$$
 
 Williot graph gives:
 
@@ -69,24 +84,36 @@ Given is the structure as shown below:
 :align: center
 ```
 
-$$\mathop {\sum {{{\left. T \right|}_{{S_1}}}} }\limits^↺ = 0$$
-$${A_{\rm{v}}} = 0 \ {\rm{ kN}}$$
+$$
+\begin{aligned}
+\mathop {\sum {{{\left. T \right|}_{{S_1}}}} }\limits^↺ &= 0 \\
+{A_{\rm{v}}} &= 0 \ {\rm{ kN}}
+\end{aligned}
+$$
 
 ```{figure} ./answer_data/AS2.svg
 :align: center
 ```
 
-$$\mathop {\sum {{{\left. T \right|}_{{S_2}}}} }\limits^↺ = 0$$
-$$50 \cdot 8 \cdot 4 + 100 \cdot 8 - {B_{\rm{v}}} \cdot 4 = 0$$
-$${B_{\rm{v}}} =  \ {\rm{ kN}}$$
+$$
+\begin{aligned}
+\mathop {\sum {{{\left. T \right|}_{{S_2}}}} }\limits^↺ &= 0 \\
+50 \cdot 8 \cdot 4 + 100 \cdot 8 - {B_{\rm{v}}} \cdot 4 &= 0 \\
+{B_{\rm{v}}} &=  \ {\rm{ kN}}
+\end{aligned}
+$$
 
 ```{figure} ./answer_data/VLS_geheel.svg
 :align: center
 ```
 
-$$\mathop {\sum {{{\left. T \right|}_c}} }\limits^↺ = 0$$
-$$50 \cdot 8 \cdot 8 + 100 \cdot 12 - 600 \cdot 8 - 50 \cdot 4 \cdot 2 + {D_{\rm{v}}} \cdot 8 = 0$$
-$${D_{\rm{v}}} = 100 \ {\rm{ kN}}$$
+$$
+\begin{aligned}
+\mathop {\sum {{{\left. T \right|}_c}} }\limits^↺ &= 0 \\
+50 \cdot 8 \cdot 8 + 100 \cdot 12 - 600 \cdot 8 - 50 \cdot 4 \cdot 2 + {D_{\rm{v}}} \cdot 8 &= 0 \\
+{D_{\rm{v}}} &= 100 \ {\rm{ kN}}
+\end{aligned}
+$$
 
 ### 2b Determine the bending moment in $\rm{C}$ using virtual work.
 
@@ -94,9 +121,13 @@ $${D_{\rm{v}}} = 100 \ {\rm{ kN}}$$
 :align: center
 ```
 
-$$\delta A = 0$$
-$$+ 100 \cdot \delta u - {M_{\rm{D}}} \cdot \cfrac{{\delta u}}{4} = 0$$
-$${M_{\rm{D}}} = 400 \ {\rm{kNm}}$$
+$$
+\begin{aligned}
+\delta A = 0\\
++ 100 \cdot \delta u - {M_{\rm{D}}} \cdot \cfrac{{\delta u}}{4} = 0\\
+{M_{\rm{D}}} = 400 \ {\rm{kNm}}
+\end{aligned}
+$$
 
 ### 2c Draw the bending moment diagram including values.
 
@@ -104,12 +135,16 @@ $${M_{\rm{D}}} = 400 \ {\rm{kNm}}$$
 :align: center
 ```
 
-$$\mathop {\sum {{{\left. T \right|}_B}} }\limits^↺ = 0$$
-$$100\cdot 4 + 50 \cdot 4 \cdot 2 + {M_{\rm{B}}} = 0$$
-$${M_{\rm{B}}} = - 800 \ {\rm{ kNm}}$$
+$$
+\begin{aligned}
+\mathop {\sum {{{\left. T \right|}_B}} }\limits^↺ &= 0 \\
+100\cdot 4 + 50 \cdot 4 \cdot 2 + {M_{\rm{B}}} &= 0 \\
+{M_{\rm{B}}} &= - 800 \ {\rm{ kNm}}
+\end{aligned}
+$$
 
 For $\rm{S}_1\rm{B}$, $\rm{BS}_2$, $\rm{BS}_2$ and $\rm{CE}$:
-$$M_{\rm{halfway} \ \rm{below} \ \rm{chord}}={1 \over 8} \cdot 50 \cdot {4^2} = 100 \ {\rm{ kNm}}$$
+$M_{\rm{halfway} \ \rm{below} \ \rm{chord}}={1 \over 8} \cdot 50 \cdot {4^2} = 100 \ {\rm{ kNm}}$
 
 Constructing the M-line gives:
 
@@ -119,7 +154,8 @@ Constructing the M-line gives:
 
 ### 2d Draw the shear stress distribution just left of $\rm{C}$ including values.
 
-$${V_{\rm{C}}} = {\left. {\cfrac{{dM\left( x \right)}}{{dx}}} \right|_{x = 14}} = \cfrac{{400}}{4} = 100 \ {\rm{ kN}}$$
+$$
+{V_{\rm{C}}} = {\left. {\cfrac{{dM\left( x \right)}}{{dx}}} \right|_{x = 14}} = \cfrac{{400}}{4} = 100 \ {\rm{ kN}} $$
 
 $$A = 2 \cdot 5 \cdot 400 + 4 \cdot 200 = 4800 \ {\rm{ mm}}^2$$
 
