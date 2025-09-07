@@ -60,7 +60,6 @@ parts:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/virtual_work/virtual_work.md
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/solve_virtual_work/solve_virtual_work.md
     - file: week_2/session_3/intro
-# START REMOVE-FROM-PUBLISH
   - file: week_3/intro
     sections:
     - file: week_3/homework_1/intro
@@ -109,6 +108,7 @@ parts:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/sympy.ipynb
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/sympy_mech.ipynb
     - file: week_3/session_3/intro
+# START REMOVE-FROM-PUBLISH
   - file: week_4/intro
     sections:
     - file: week_4/session_1/intro
