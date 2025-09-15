@@ -1,6 +1,6 @@
 # Changelog
 
-All changes to the book are announced here. If you want to be notified on these, watch this repository by subscribing to releases on the [GitHub repository](https://github.com/TUDelft-books/CT1000)
+[TeachBooks Versioning](https://teachbooks.io/manual/features/versioning.html) is used (a special type of semantic numbering for educational purposes) with generic format `v<academic_year>.<additions>.<errata>`.
 
 ## v2025.5.0: 2025-09-06
 Added link to relevant lecture recording to [](./week_3/homework_2/intro.md)
