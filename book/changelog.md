@@ -2,6 +2,9 @@
 
 All changes to the book are announced here. If you want to be notified on these, watch this repository by subscribing to releases on the [GitHub repository](https://github.com/TUDelft-books/CT1000)
 
+## v2025.5.0: 2025-09-06
+Added link to relevant lecture recording to [](./week_3/homework_2/intro.md)
+
 ## v2025.4.0: 2025-09-06
 Added [](./week_3/intro.md) and subpages
 
