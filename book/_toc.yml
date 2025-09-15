@@ -100,7 +100,7 @@ parts:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/ode.md
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_frame/intro.md
         sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_frame/ode.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_frame/ode.md #BUMP
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/matrixframe.md #BUMPBUMP
     - file: week_3/session_2/intro
     - file: week_3/homework_3/intro
