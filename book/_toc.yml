@@ -127,7 +127,7 @@ parts:
       sections:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/force_method
         sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/extension
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/extension #BUMP
     - file: week_4/session_3/intro
   - file: week_5/intro
     sections:
