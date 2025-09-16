@@ -108,7 +108,6 @@ parts:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/sympy.ipynb
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/sympy_mech.ipynb
     - file: week_3/session_3/intro
-# START REMOVE-FROM-PUBLISH
   - file: week_4/intro
     sections:
     - file: week_4/session_1/intro
@@ -128,6 +127,7 @@ parts:
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/williot.md
     - file: week_4/session_3/intro
+# START REMOVE-FROM-PUBLISH
   - file: week_5/intro
     sections:
     - file: week_5/session_1/intro
