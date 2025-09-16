@@ -121,19 +121,21 @@ parts:
       - file: week_4/homework_2/solve_displacements.md
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/equations.md
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/williot.md
     - file: week_4/session_2/intro
     - file: week_4/homework_3/intro
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/force_method
+      - file: week_4/homework_3/solve_displacements.md
         sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/extension #BUMP
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/williot.md
     - file: week_4/session_3/intro
   - file: week_5/intro
     sections:
     - file: week_5/session_1/intro
     - file: week_5/homework_2/intro
       sections:
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/force_method
+        sections:
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/extension #BUMP
       - file: week_5/homework_2/copy
         sections:
         - file: external/CEG-mechanics-BSc/book/support_internal_forces/internal_forces_beam/diagrams
