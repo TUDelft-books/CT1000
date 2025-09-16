@@ -6,15 +6,6 @@
 
 During today's lesson you'll work on a complex exercise on the topic of Extension. Please ask your questions regarding the [homework](homework4.2) as well!
 
-````{margin}
-```{attributiongrey} Attribution
-:class: attribution
-
-This exercise is adapted from https://oit.tudelft.nl/CTB2210/2025/statisch_onbepaald/graad_bepalen.html
-
-```
-````
-
 ## Exercise Extension
 
 Given the following structure.
