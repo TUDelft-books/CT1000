@@ -36,7 +36,7 @@ All of the separate modules are collected in this TeachBook, breaking down each 
 The learning will be assessed incrementally:
 - Exam week period Q1, exam assignment on statically indeterminate structures
 - Halfway Q2, exam assignments on statically indeterminate structures and continuum mechanics
-- Exam week period Q2, eam assignments on buckling and continuum mechanics
+- Exam week period Q2, exam assignments on buckling and continuum mechanics
 - Exam week Q3, exam assignments on buckling.
 
 During the exam assignments, you're allowed to bring your books, notes, etc. and you're allowed to use your laptop including software like SymPy. You're not allowed to communicate during the exam session, which will be strictly monitored. Furthermore, you're not allowed to use structural analysis software.

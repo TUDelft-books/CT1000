@@ -14,13 +14,13 @@ L_BE = L_EF/2
 
 Eq1 = sym.Eq(w_F, F * L_EF **3 / (EI) / 3 - N_EF * L_EF **3 / EI / 3)
 N_EF_1 = sym.solve(Eq1, N_EF)[0]
-display(N_EF_1)
+print(N_EF_1)
 
 Eq2 = sym.Eq(w_F - N_EF * L_BE / EA , N_EF * L_BE**3 / EI / 3 + L_BE **3 / EI / 3 * sym.nsimplify(45))
 N_EF_2 = sym.solve(Eq2, N_EF)[0]
-display(N_EF_2)
+print(N_EF_2)
 
 Eq3 = sym.Eq(N_EF_1, N_EF_2)
 w_F_sol = sym.solve(Eq3, w_F)[0]
-display(w_F_sol)
-display(N_EF_1.subs(w_F, w_F_sol).evalf())
+print(w_F_sol)
+print(N_EF_1.subs(w_F, w_F_sol).evalf())
