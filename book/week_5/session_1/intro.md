@@ -10,7 +10,7 @@ During today's lesson you'll work on an exercise on the topic of the force metho
 ```{attributiongrey} Attribution
 :class: attribution
 
-Deze oefening is aangepast van https://oit.tudelft.nl/CTB2210/2025/krachtenmethode_vakwerk/lesoefeningen.html. Deze instructie is niet vertaald omdat er geen Engelstalige studenten zijn in de klas.
+Deze oefening is aangepast van https://oit.tudelft.nl/CTB2210/2025/krachtenmethode_vakwerk/lesoefeningen.html. Deze oefening is niet vertaald omdat er geen Engelstalige studenten zijn in de klas.
 
 ```
 ```` 
