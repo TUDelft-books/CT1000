@@ -10,7 +10,7 @@ During today's lesson you'll work on an exercise on the topic of the force metho
 ```{attributiongrey} Attribution
 :class: attribution
 
-Deze theorie is aangepast van https://oit.tudelft.nl/CTB2210/2025/krachtenmethode_vakwerk/lesoefeningen.html. Deze instructie is niet vertaald omdat er geen Engelstalige studenten zijn in de klas.
+Deze oefening is aangepast van https://oit.tudelft.nl/CTB2210/2025/krachtenmethode_vakwerk/lesoefeningen.html. Deze instructie is niet vertaald omdat er geen Engelstalige studenten zijn in de klas.
 
 ```
 ```` 
@@ -48,7 +48,7 @@ Bepaal de oplegreacties en het snedekrachtenlijnen. Je gaat dit doen voor drie v
 :::::
 
 
-## Statisch onbepaalde kracht $B_{\rm{v}}$
+### Statisch onbepaalde kracht $B_{\rm{v}}$
 
 :::::{exercise}
 :label: km_vak_1_3
@@ -86,7 +86,7 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $B_{\rm{v}}$
 :::::
 
 
-## Statisch onbepaald moment $M_{\rm{B}}$
+### Statisch onbepaald moment $M_{\rm{B}}$
 
 :::::{exercise}
 :label: km_vak_1_6
@@ -125,7 +125,7 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $M_{\rm{B}}$
 :::::
 
 
-## Statisch onbepaalde normaalkracht $N_{\rm{AD}}$
+### Statisch onbepaalde normaalkracht $N_{\rm{AD}}$
 
 :::::{exercise}
 :label: km_vak_1_9
