@@ -1,8 +1,3 @@
-% copy from
-% ```{include} ../../external/CEG-mechanics-BSc/book/statically_inderminate/force_method/force_method.md
-% ```
-
-
 ```{index} Force method
 ```
 
@@ -17,17 +12,17 @@ In the force method, the approach always consists of the followings steps:
 
 `````{tab-set}
 ````{tab-item} Releasing a support
-```{figure} ../../external/CEG-mechanics-BSc/book/statically_inderminate/force_method/force_method_data/1.svg
+```{figure} ./force_method_data/1.svg
 :align: center
 ```
 ````
 ````{tab-item} Splitting the structure at a two-force member
-```{figure} ../../external/CEG-mechanics-BSc/book/statically_inderminate/force_method/force_method_data/2.svg
+```{figure} ./force_method_data/2.svg
 :align: center
 ```
 ````
 ````{tab-item} Adding hinges
-```{figure} ../../external/CEG-mechanics-BSc/book/statically_inderminate/force_method/force_method_data/3.svg
+```{figure} ./force_method_data/3.svg
 :align: center
 ```
 ````

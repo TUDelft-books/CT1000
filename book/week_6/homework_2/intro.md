@@ -1,7 +1,7 @@
 (homework6.2)=
-# Homework deadline lesson Wednesday October 9th
+# Homework deadline lesson Wednesday October 8th
 
-As a preparation for Wednesday's lesson you'll look into Virtual work:
+As a preparation for Wednesday's lesson you'll look into Force method for bending in beams:
 
 ```{tableofcontents}
 ```
