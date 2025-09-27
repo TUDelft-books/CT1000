@@ -1,7 +1,7 @@
-(homework5.3)=
-# Homework deadline lesson Friday October 4th.
+(homework6.1)=
+# Homework deadline lesson Monday October 7th
 
-As a preparation for Friday's lesson you'll look into Displacements for bending:
+As a preparation for Monday's lesson you'll look into Force method for bending:
 
 ```{tableofcontents}
 ```
