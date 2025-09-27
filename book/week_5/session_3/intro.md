@@ -1,10 +1,10 @@
 ```{index} Section forces in frame structures; Class exercise diagrams
 ```
 
-(lesson5.2)=
-# Lesson October 2nd
+(lesson5.3)=
+# Lesson October 3th
 
-During today's lesson you'll work on a complex exercise on the topic of Section force diagrams. Please ask your questions regarding the [homework](homework5.2) as well!
+During today's lesson you'll work on a complex exercise on the topic of Section force diagrams. Please ask your questions regarding the [homework](homework5.3) as well!
 
 ## Exercise Section force diagrams
 
