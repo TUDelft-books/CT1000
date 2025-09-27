@@ -10,7 +10,7 @@ This page is adapted from https://oit.tudelft.nl/CEG-mechanics-BSc/statically_in
 ```
 ```` 
 
-(force-method)=
+(force_method)=
 # Apply force method
 
 The force method is treated in in chapter 2.1 of the book Mechanica, Statisch onbepaalde constructies en bezwijkanalyse (in Dutch) {cite:p}`Hartsuijker2016`.

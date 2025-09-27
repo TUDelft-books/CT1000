@@ -1,10 +1,10 @@
 ```{index} Displacements frame structures; Class exercise for bending
 ```
 
-(lesson5.3)=
-# Lesson Friday October 4th
+(lesson6.1)=
+# Lesson Monday October 6th
 
-During today's lesson you'll work on an exercise on the topic of the Displacement for bending. Please ask your questions regarding the [homework](homework5.3) as well!
+During today's lesson you'll work on an exercise on the topic of the Displacement for bending. Please ask your questions regarding the [homework](homework6.1) as well!
 
 
 ## Exercise Displacement for bending
