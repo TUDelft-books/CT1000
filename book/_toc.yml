@@ -136,7 +136,6 @@ parts:
         - file: week_5/homework_1/force_method_extend #BUMP
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/extension.md
     - file: week_5/session_1/intro
-# START REMOVE-FROM-PUBLISH
 #    - file: week_5/session_2/intro
     - file: week_5/homework_3/intro
       sections:
@@ -171,6 +170,7 @@ parts:
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/bending2.md
     - file: week_6/session_3/intro
+# START REMOVE-FROM-PUBLISH
   - file: week_7/intro
     sections:
     - file: week_7/session_1/intro
