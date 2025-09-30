@@ -43,12 +43,8 @@ sphinx:
     apastyle: _ext/
     bracket_citation_style: _ext/
   extra_extensions:
-    - sphinx.ext.imgconverter
-    - jupyterbook_patches
-    - download_link_replacer
-    - sphinx.ext.extlinks
+    - teachbooks_favourites
     - sphinx_tudelft_theme
-    - sphinx_image_inverter
 
 bibtex_bibfiles: 
   - external/mechanics-BSc/book/references.bib

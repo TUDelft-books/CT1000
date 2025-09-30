@@ -1,11 +1,9 @@
-teachbooks == 0.1.0 # depends on jupyter-book
-jupyterbook-patches==1.6.2
-sphinx-image-inverter == 1.1.2
-download_link_replacer == 1.0.4
-sphinx-tudelft-theme == 1.1.5
+teachbooks
+
+git+https://github.com/TeachBooks/TeachBooks-Favourites
+sphinx-tudelft-theme
 
 # now list the packages (and the respective url) you wish to download from the GitLab package registry
---extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
-sphinx-thebe ~= 0.9.9 
+git+https://github.com/TeachBooks/Sphinx-Thebe
 
 docutils==0.17.1
