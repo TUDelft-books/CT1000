@@ -29,14 +29,14 @@ For example when using the force method:
 ```
 
 This gives:
-- ${N_{{\text{AD}}}} = - \cfrac{4}{5}{B_{\text{v}}}$
+- ${N_{{\text{AD}}}} = - \cfrac{5}{4}{B_{\text{v}}}$
 - ${N_{{\text{BD}}}} = + {B_{\text{v}}}$
 - ${N_{{\text{CD}}}} = - \cfrac{3}{4}{B_{\text{v}}}$
 
 This gives elongations:
 
-- $\Delta {L_{{\text{BD}}}} = \cfrac{{{B_{\text{v}}}}}{{7500}}$
 - $\Delta {L_{{\text{AD}}}} = - \cfrac{{{B_{\text{v}}}}}{{4800}}$
+- $\Delta {L_{{\text{BD}}}} = \cfrac{{{B_{\text{v}}}}}{{7500}}$
 - $\Delta {L_{{\text{CD}}}} = - \cfrac{{{B_{\text{v}}}}}{{10000}}$
 
 Resulting in a williot like this (keeping the unknown value of $$B_\text{v}$$ constant for all elongations):
