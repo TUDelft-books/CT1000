@@ -2,7 +2,7 @@
 ```
 
 (lesson5.3)=
-# Lesson October 3th
+# Lesson Friday October 3th
 
 During today's lesson you'll work on a complex exercise on the topic of Section force diagrams. Please ask your questions regarding the [homework](homework5.3) as well!
 
