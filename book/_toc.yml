@@ -169,8 +169,12 @@ parts:
     - file: week_7/session_1/intro
     - file: week_7/homework_2/intro
       sections:
-      - file: external/CEG-mechanics-BSc/book/statically_inderminate/displacement_method
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/displacement_method.md
     - file: week_7/session_2/intro
+    - file: week_7/homework_3/intro
+      sections:
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/displacement_method2.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/matrix.md
     - file: week_7/session_3/intro
   - file: week_8/intro
     sections:
