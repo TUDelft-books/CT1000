@@ -2,9 +2,9 @@
 ```
 
 (lesson7.2)=
-# Lesson October 16th
+# Lesson October 15th
 
-During today's lesson you'll work on a complex exercise on the topic of the Displacement method. Please ask your questions regarding the [homework](homework7.2) as well!
+During today's lesson you'll work on a complex exercise on the topic of the Displacement method with statically determinate displacements. Please ask your questions regarding the [homework](homework7.2) as well!
 
 ## Exercise Displacement method
 
