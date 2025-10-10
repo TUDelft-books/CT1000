@@ -163,19 +163,24 @@ parts:
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/bending2.md
     - file: week_6/session_3/intro
-# START REMOVE-FROM-PUBLISH
   - file: week_7/intro
     sections:
+# START REMOVE-FROM-PUBLISH
     - file: week_7/session_1/intro
+# END REMOVE-FROM-PUBLISH
     - file: week_7/homework_2/intro
       sections:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/displacement_method.md
+# START REMOVE-FROM-PUBLISH
     - file: week_7/session_2/intro
+# END REMOVE-FROM-PUBLISH
     - file: week_7/homework_3/intro
       sections:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/displacement_method2.md
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/matrix.md
+# START REMOVE-FROM-PUBLISH
     - file: week_7/session_3/intro
+# END REMOVE-FROM-PUBLISH
   - file: week_8/intro
     sections:
     - file: week_8/homework_2/intro
