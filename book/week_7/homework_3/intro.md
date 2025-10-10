@@ -1,4 +1,4 @@
-(homework7.2)=
+(homework7.3)=
 # Homework deadline lesson Friday October 17th
 
 As a preparation for Friday's lesson you'll look into the Displacement method with degrees of freedom and the Matrix method:
