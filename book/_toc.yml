@@ -180,7 +180,6 @@ parts:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/matrix.md
 # START REMOVE-FROM-PUBLISH
     - file: week_7/session_3/intro
-# END REMOVE-FROM-PUBLISH
   - file: week_8/intro
     sections:
     - file: week_8/homework_2/intro
