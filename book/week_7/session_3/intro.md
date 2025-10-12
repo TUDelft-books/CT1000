@@ -19,7 +19,7 @@ Deze oefening is aangepast van https://oit.tudelft.nl/CTB2210/2025/verplaats2/le
 ```
 ````
 
-# Exercise 1
+## Exercise 1
 
 Gegeven is de volgende constructie:
 
