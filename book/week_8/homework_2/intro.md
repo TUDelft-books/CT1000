@@ -1,5 +1,5 @@
 (homework8.2)=
-# Homework deadline lesson Wednesday October 23th
+# Homework deadline lesson Thursday October 23th
 
 As a preparation for Monday's lesson you'll look into the Support settlement and Stiffness influences:
 
