@@ -194,10 +194,10 @@ parts:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/temperature.md
         title: Solve statically indeterminate structures subjected to temperature influences
     - file: week_8/session_3/intro
-# START REMOVE-FROM-PUBLISH
   - file: week_10/intro
     sections:
     - file: week_10/homework/intro
+# START REMOVE-FROM-PUBLISH
     - file: week_10/session/intro
   - file: week_11/intro
     sections:
