@@ -229,14 +229,12 @@ Aantal evenwichtsvergelijkingen voor de staven
 
 `````
 
-`````{exercise}
-:label: so_3
-:nonumber: true
+````{solution} so_3
+:class: dropdown
 
-```{h5p} https://tudelft.h5p.com/content/1292587410124264777/embed
-```
+De constructie is *4*ste/de graads inwendig statisch onbepaald
 
-`````
+````
 
 ````{margin}
 ```{attributiongrey} Attribution
