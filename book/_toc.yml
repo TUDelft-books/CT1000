@@ -180,16 +180,16 @@ parts:
     sections:
     - file: week_8/homework_2/intro
       sections:
-      - file: external/CEG-mechanics-BSc/book/statically_inderminate/support_settlement
-      - file: external/CEG-mechanics-BSc/book/statically_inderminate/stiffness_influences
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/support_settlement.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/stiffness_influences.md
     - file: week_8/session_2/intro
     - file: week_8/homework_3/intro
       sections:
-      - file: week_8/homework_3/copy
+      - file: week_8/homework_3/constitutive
         sections:
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/constitutive/temperature
-      - file: external/CEG-mechanics-BSc/book/stresses_displacements/temperature/temperature
-      - file: external/CEG-mechanics-BSc/book/statically_inderminate/temperature
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/constitutive/temperature.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/temperature/temperature.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/temperature.md
         title: Solve statically indeterminate structures subjected to temperature influences
     - file: week_8/session_3/intro
   - file: week_10/intro
