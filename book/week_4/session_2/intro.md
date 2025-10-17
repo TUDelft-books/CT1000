@@ -84,6 +84,20 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 
 `````
 
+````{solution} so_2_1
+:class: dropdown
+
+Er zijn *7* onbekende oplegreacties en *6* onbekende verbindingskrachten. Dat zijn *13* onbekende krachten in totaal.
+
+```{figure} intro_data/Oefening_8.svg
+---
+align: center
+---
+Aantal onbekende krachten
+```
+
+````
+
 `````{exercise}
 :label: so_2_2
 :nonumber: true
@@ -93,6 +107,20 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 
 `````
 
+````{solution} so_2
+:class: dropdown
+
+Er zijn *12* evenwichtsvergelijking(en).
+
+```{figure} intro_data/Oefening_9.svg
+---
+align: center
+---
+Aantal evenwichtsvergelijkingen
+```
+
+````
+
 `````{exercise}
 :label: so_2_3
 :nonumber: true
@@ -101,6 +129,13 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 ```
 
 `````
+
+````{solution} so_2_3
+:class: dropdown
+
+De constructie is *1*ste/de graads uitwendig statisch onbepaald
+
+````
 
 ````{margin}
 ```{attributiongrey} Attribution
@@ -134,6 +169,27 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 
 `````
 
+````{solution} so_1
+:class: dropdown
+
+Er zijn *6* onbekende oplegreacties en *32* onbekende staafkrachten. Dat zijn *38* onbekende krachten in totaal.
+
+```{figure} ./intro_data/Oefening_2.svg
+---
+align: center
+---
+Aantal onbekende oplegreacties en staafkrachten op knopen
+```
+
+```{figure} ./intro_data/Oefening_3.svg
+---
+align: center
+---
+Aantal onbekende staafkrachten op staven
+```
+
+````
+
 `````{exercise}
 :label: so_2
 :nonumber: true
@@ -143,6 +199,35 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 
 `````
 
+````{solution} so_2
+:class: dropdown
+
+Er zijn *0* evenwichtsvergelijkingen vanuit rolscharnieren, *6* evenwichtsvergelijking(en) vanuit scharnierende verbindingen, *9* evenwichtsvergelijking(en) vanuit algemene verbindingen, *1* evenwichtsvergelijking(en) vanuit pendelstaven en *18* evenwichtsvergelijking(en) vanuit algemene staven. Dat zijn *34* evenwichtsvergelijkingen in totaal.
+
+```{figure} ./intro_data/Oefening_4.svg
+---
+align: center
+---
+Aantal evenwichtsvergelijkingen voor de knopen
+```
+
+```{figure} ./intro_data/Oefening_5.svg
+---
+align: center
+---
+Aantal evenwichtsvergelijkingen voor de staven
+```
+
+````
+
+`````{exercise}
+:label: so_3
+:nonumber: true
+
+```{h5p} https://tudelft.h5p.com/content/1292587410124264777/embed
+```
+
+`````
 
 `````{exercise}
 :label: so_3
@@ -187,6 +272,20 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 
 `````
 
+````{solution} so_3_1
+:class: dropdown
+
+Er zijn *3* onbekende oplegreacties en *0* onbekende verbindingskrachten. Dat zijn *3* onbekende krachten in totaal.
+
+```{figure} intro_data/Oefening_11.svg
+---
+align: center
+---
+Aantal onbekende krachten
+```
+
+````
+
 `````{exercise}
 :label: so_3_2
 :nonumber: true
@@ -196,6 +295,19 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 
 `````
 
+````{solution} so_3_2
+:class: dropdown
+
+Er zijn *3* evenwichtsvergelijking(en).
+
+```{figure} intro_data/Oefening_12.svg
+---
+align: center
+---
+Aantal evenwichtsvergelijkingen
+```
+
+````
 
 `````{exercise}
 :label: so_3_3
@@ -205,6 +317,13 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 ```
 
 `````
+
+````{solution} so_3_3
+:class: dropdown
+
+De constructie is *0*ste/de graads uitwendig statisch onbepaald
+
+````
 
 `````{exercise}
 :label: so_3_4
@@ -217,6 +336,27 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 
 `````
 
+````{solution} so_3_4
+:class: dropdown
+
+Er zijn *3* onbekende oplegreacties en *19* onbekende staafkrachten. Dat zijn *22* onbekende krachten in totaal.
+
+```{figure} intro_data/Oefening_13.svg
+---
+align: center
+---
+Aantal onbekende oplegreacties en staafkrachten op knopen
+```
+
+```{figure} intro_data/Oefening_15.svg
+---
+align: center
+---
+Aantal onbekende staafkrachten op staven
+```
+
+````
+
 `````{exercise}
 :label: so_3_5
 :nonumber: true
@@ -226,6 +366,27 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 
 `````
 
+````{solution} so_3_5
+:class: dropdown
+
+Er zijn *1* evenwichtsvergelijking(en) vanuit rolscharnieren, *2* evenwichtsvergelijking(en) vanuit scharnierende verbindingen, *6* evenwichtsvergelijking(en) vanuit algemene verbindingen, *0* evenwichtsvergelijking(en) vanuit pendelstaven en *12* evenwichtsvergelijking(en) vanuit algemene staven. Dat zijn *21* evenwichtsvergelijkingen in totaal.
+
+```{figure} intro_data/Oefening_14.svg
+---
+align: center
+---
+Aantal evenwichtsvergelijkingen voor de knopen
+```
+
+```{figure} intro_data/Oefening_16.svg
+---
+align: center
+---
+Aantal evenwichtsvergelijkingen voor de staven
+```
+
+````
+
 `````{exercise}
 :label: so_3_6
 :nonumber: true
@@ -234,3 +395,10 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 ```
 
 `````
+
+````{solution} so_3_6
+:class: dropdown
+
+De constructie is *1*ste/de graads inwendig statisch onbepaald
+
+````
