@@ -4,27 +4,27 @@ As a preparation for the exam assignment on Statically indeterminate structures 
 - All content from Week 4 to Week 8 in this book with the label {bdg-primary}`New content` and {bdg-primary-line}`New content`. Chapters with the label {bdg-secondary}`Prerequisites` and {bdg-secondary-line}`Prerequisites` are essential to apply the new content:
 
     ```{dropdown} Week 4
-    :show:
+    :open: true
     {{week4}}
     ```
 
     ```{dropdown} Week 5
-    :show:
+    :open: true
     {{week5}}
     ```
 
     ```{dropdown} Week 6
-    :show:
+    :open: true
     {{week6}}
     ```
 
     ```{dropdown} Week 7
-    :show:
+    :open: true
     {{week7}}
     ```
 
     ```{dropdown} Week 8
-    :show:
+    :open: true
     {{week8}}
     ```
 
