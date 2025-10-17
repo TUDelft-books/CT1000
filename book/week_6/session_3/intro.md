@@ -42,6 +42,16 @@ Twee statisch bepaalde systemen
 
 :::::
 
+::::{solution} raam_1_1
+:class: dropdown
+
+- Met het koppel is het niet mogelijk verplaatsingen te berekenen.
+- Er zijn geen vergeet-me-nietjes voor deze situatie.
+  - Juist, de vorm van deze constructie als geheel én delen ervan zijn geen vergeet-me-nietjes. 
+- Het is überhaupt niet mogelijk verplaatsingen te berekeningen.
+
+::::
+
 :::::{exercise}
 :label: raam_1_2
 :nonumber: true
@@ -66,6 +76,13 @@ Vrijlichaamsschema van knoop $\rm{C}$ vergroot weergegeven
 ```
 
 :::::
+
+::::{solution} raam_1_2
+:class: dropdown
+
+$M _{\rm{C}} ^{\rm{BC}} \left( M _{\rm{C}} ^{\rm{AC}} \right) = M _{\rm{C}} ^{\rm{AC}} + 30$. 
+
+::::
 
 Om het gedoe met dat scharnier net links/net onder $\rm{C}$ te voorkomen kunnen we het scharnier ook direct in C plaatsen. Deze aanpak wordt aangeraden.
 
@@ -95,6 +112,13 @@ Ga uit van [het statisch bepaalde systeem met het scharnier in $\rm{C}$](statisc
 
 :::::
 
+::::{solution} raam_1_3
+:class: dropdown
+
+Er is 1 statisch onbepaald moment, omdat de twee verschillende momenten van elkaar afhankelijk zijn door het momentenevenwicht van knoop C.  
+
+::::
+
 :::::{exercise}
 :label: raam_1_4
 :nonumber: true
@@ -105,6 +129,17 @@ Los de verplaatsingen van deze constructie uit als functie van $M_{\rm{C}}^{\rm{
 ```
 
 :::::
+
+::::{solution} raam_1_4
+:class: dropdown
+
+De uitdrukkingen voor de hoekverdraaiingen kunnen worden gevonden met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel. 
+
+$$ \varphi_{\rm{C}}^{\rm{AC}} \left( M_{\rm{C}}^{\rm{AC}} \right) = \cfrac{M_{\rm{C}}^{\rm{AC}} \cdot 6}{3 \cdot 2000} = 0.001 \cdot M_{\rm{C}}^{\rm{AC}} $$
+$$ \varphi_{\rm{C}}^{\rm{BC}} \left( M_{\rm{C}}^{\rm{BC}} \right) = - \cfrac{M_{\rm{C}}^{\rm{BC}} \cdot \sqrt{13}}{3 \cdot \cfrac{2000 \cdot \sqrt{13}}{3}} = -0.0005 \cdot M_{\rm{C}}^{\rm{BC}} $$
+
+::::
+
 
 :::::{exercise}
 :label: raam_1_5
@@ -117,6 +152,17 @@ Los je vormveranderingsvoorwaarde op samen met je eerder opgestelde evenwichtsve
 ```
 
 :::::
+
+::::{solution} raam_1_5
+:class: dropdown
+
+De vormveranderingsvoorwaarde is: $\varphi_{\rm{C}}^{\rm{AC}} = \varphi_{\rm{C}}^{\rm{BC}} \rightarrow 0.001 \cdot M_{\rm{C}}^{\rm{AC}} = -0.0005 \cdot M_{\rm{C}}^{\rm{BC}}$
+
+
+Hieruit en uit de eerder opgestelde momentenevenwichtsvergelijking volgt: $M_{\rm{C}}^{\rm{AC}} = -10 \rm{kNm}$ en $M_{\rm{C}}^{\rm{BC}} = 20 \rm{kNm}$. 
+
+::::
+
 
 ````{margin}
 ```{attributiongrey} Attribution
@@ -145,8 +191,28 @@ Constructie, $EI = \cfrac{1000}{3} \ \rm{kNm^2}, EA >> EI $
 ```{h5p} https://tudelft.h5p.com/content/1292652260765673357/embed
 ```
 
-
 :::::
+
+::::{solution} raam_2_1
+:class: dropdown
+
+```{figure} lesoefeningen_data/Onbekenden.svg
+---
+align: center
+---
+Er zijn 25 onbekende krachten
+```
+
+```{figure} lesoefeningen_data/Vergelijkingen.svg
+---
+align: center
+---
+Er zijn 22 evenwichtsvergelijkingen
+```
+
+Dus de constructie is 3de graads statisch onbepaald. 
+
+::::
 
 :::::{exercise}
 :label: raam_2_2
@@ -158,6 +224,46 @@ Er zijn een aantal opties gegeven voor mogelijke statisch bepaalde systemen. De 
 ```
 
 :::::
+
+::::{solution} raam_2_2
+:class: dropdown
+
+```{figure} lesoefeningen_data/Oplosmethode_optie1.svg
+---
+align: center
+---
+Juist
+```
+
+```{figure} lesoefeningen_data/Oplosmethode_optie2.svg
+---
+align: center
+---
+Onjuist
+```
+
+```{figure} lesoefeningen_data/Oplosmethode_optie3.svg
+---
+align: center
+---
+Juist
+```
+
+```{figure} lesoefeningen_data/Oplosmethode_optie4.svg
+---
+align: center
+---
+Juist
+```
+
+```{figure} lesoefeningen_data/Oplosmethode_optie5.svg
+---
+align: center
+---
+Onjuist
+```
+
+::::
 
 :::::{exercise}
 :label: raam_2_3
@@ -178,6 +284,19 @@ Er is hier wederom een scharnier in een knoop geplaatst zoals ook in [het statis
 
 :::::
 
+::::{solution} raam_2_3
+:class: dropdown
+
+De uitdrukkingen voor de hoekverdraaiingen worden gevonden met behulp van de vergeet-mij-nietjes voor een ligger op twee steunpunten belast door een koppel en door een verdeelde belasting, de positieve richtingen worden genomen zoals in de figuur aangegeven. 
+
+$$ \varphi_{\rm{D}}^{\rm{AD}} \left( M_{\rm{D}}\right) = \cfrac{M_{\rm{D}} \cdot 6}{3 \cdot \cfrac{1000}{3}} = 0.006 \cdot M_{\rm{D}} $$
+$$ \varphi_{\rm{D}}^{\rm{BD}} \left( M_{\rm{D}}, M_{\rm{B}}^{\rm{BD}} \right) = - \cfrac{M_{\rm{D}} \cdot 8}{3 \cdot \cfrac{1000}{3}} - \cfrac{M_{\rm{B}}^{\rm{BD}} \cdot 8}{6 \cdot \cfrac{1000}{3}} = -0.008 \cdot  M_{\rm{D}} -0.004 \cdot M_{\rm{B}}^{\rm{BD}} $$
+$$ \varphi_{\rm{B}}^{\rm{BD}} \left( M_{\rm{D}}, M_{\rm{B}}^{\rm{BD}} \right) = - \cfrac{M_{\rm{D}} \cdot 8}{6 \cdot \cfrac{1000}{3}} - \cfrac{M_{\rm{B}}^{\rm{BD}} \cdot 8}{3 \cdot \cfrac{1000}{3}} = -0.004 \cdot  M_{\rm{D}} -0.008 \cdot M_{\rm{B}}^{\rm{BD}} $$
+$$ \varphi_{\rm{B}}^{\rm{AB}} \left( M_{\rm{B}}^{\rm{AB}} \right) = \cfrac{M_{\rm{B}}^{\rm{AB}} \cdot 10}{3 \cdot \cfrac{1000}{3}} = 0.01 \cdot M_{\rm{B}}^{\rm{AB}} $$
+$$ \varphi_{\rm{B}}^{\rm{BC}} \left( M_{\rm{B}}^{\rm{BC}} \right) = \cfrac{M_{\rm{B}}^{\rm{BC}} \cdot 6}{3 \cdot \cfrac{1000}{3}} + \cfrac{11 \cdot 6^3}{24 \cdot \cfrac{1000}{3}} = 0.006 \cdot M_{\rm{B}}^{\rm{BC}} + 0.297 $$
+
+::::
+
 :::::{exercise}
 :label: raam_2_4
 :nonumber: true
@@ -188,6 +307,13 @@ Er mist nog een vergelijking om de vier onbekenden (waarvan 3 statisch onbepaald
 ```
 
 :::::
+
+::::{solution} raam_2_4
+:class: dropdown
+
+$M_{\rm{B}}^{\rm{BD}} - M_{\rm{B}}^{\rm{AB}} - M_{\rm{B}}^{\rm{BC}}  = 0$
+
+::::
 
 :::::{exercise}
 :label: raam_2_5
@@ -200,6 +326,24 @@ Los met de vormveranderingsvoorwaarden en evenwichtsvergelijking de onbekenden $
 
 :::::
 
+::::{solution} raam_2_5
+:class: dropdown
+
+Er zijn 4 onbekenden en 4 vergelijkingen. De vergelijkingen bestaan uit de momentenevenwichtsvergelijking uit de vorige deelvraag en de onderstaande vormveranderingsvoorwaarden:
+
+$$ \varphi _ {\rm{B}} ^{\rm{BC}} = \varphi _ {\rm{B}} ^{\rm{AB}} \rightarrow 0.01 \cdot M_{\rm{B}}^{\rm{AB}} = 0.006 \cdot M_{\rm{B}}^{\rm{BC}} + 0.297 $$
+$$ \varphi _ {\rm{B}} ^{\rm{AB}} = \varphi _ {\rm{B}} ^{\rm{BD}} \rightarrow 0.01 \cdot M_{\rm{B}}^{\rm{AB}} = -0.004 \cdot  M_{\rm{D}} -0.008 \cdot M_{\rm{B}}^{\rm{BD}} $$
+$$ \varphi _ {\rm{D}} ^{\rm{AD}} = \varphi _ {\rm{D}} ^{\rm{BD}} \rightarrow  0.006 \cdot M_{\rm{D}} = -0.008 \cdot  M_{\rm{D}} -0.004 \cdot M_{\rm{B}}^{\rm{BD}} $$
+
+Hieruit volgt:
+
+$$ M_{\rm{D}} = 5 \rm{kNm} $$
+$$ M_{\rm{B}}^{\rm{BD}} = -17.5 \rm{kNm} $$
+$$ M_{\rm{B}}^{\rm{AB}} = 12 \rm{kNm} $$
+$$ M_{\rm{B}}^{\rm{BC}} = -29.5 \rm{kNm} $$
+
+::::
+
 :::::{exercise}
 :label: raam_2_6
 :nonumber: true
@@ -210,3 +354,13 @@ Los de volledige krachtsverdeling op.
 ```
 
 :::::
+
+::::{solution} raam_2_6
+:class: dropdown
+
+$$ M_{\rm{A}} = 0 \rm{kNm} $$
+$$ M_{\rm{halverwege} \ \rm{BC}} = 34.75 \rm{kNm} (◡) $$ 
+$$ N_{\rm{BD}} \approx 0.83  \rm{kN} $$
+$$ B_{\rm{v}} \approx 41.60 \rm{kN} $$
+
+::::
