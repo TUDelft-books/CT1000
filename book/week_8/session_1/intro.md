@@ -10,13 +10,7 @@
 
 During today's lesson it's demonstrated how you to handle Temperature influences, stiffness discontinuities and support settlement for statically indeterminate structures.
 
-```{figure} intro_data/constructie.svg
-:align: center
-```
-
-## Demonstration temperature influences
-
-% source files at https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
+% source files at https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 
 ```{figure} intro_data/constructie.svg
 :align: center

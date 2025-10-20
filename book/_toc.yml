@@ -177,9 +177,7 @@ parts:
     - file: week_7/session_3/intro
   - file: week_8/intro
     sections:
-# START REMOVE-FROM-PUBLISH
     - file: week_8/session_1/intro
-# END REMOVE-FROM-PUBLISH
     - file: week_8/homework_2/intro
       sections:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/support_settlement.md
