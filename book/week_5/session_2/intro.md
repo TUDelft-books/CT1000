@@ -10,7 +10,7 @@ During today's lesson it's demonstrated how you to use the force method for stat
 ```{attributiongrey} Attribution
 :class: attribution
 
-This demonstration is adapted from https://oit.tudelft.nl/CTB2210/toz/TOZ/opgave.html
+This demonstration is adapted from https://oit.tudelft.nl/CTB2210/TOZ/opgave.html
 
 ```
 ```` 
