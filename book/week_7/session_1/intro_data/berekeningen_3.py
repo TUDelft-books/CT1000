@@ -15,9 +15,11 @@ M_B = N_CD * L2 * -1
 
 phi_B = q * L1 **3 / 24 / EI +  M_B * L1 / (3 * EI)
 
-print("phi_B =", phi_B)
+print("phi_B =", phi_B, "approx =", phi_B.evalf())
 
 eq1 = sym.Eq(w_D, - phi_B * L2 + N_CD * L2 **3 / (3 * EI))
+
+print("eq1 =", eq1, "approx =", eq1.evalf())
 
 N_CD_BC = sym.solve(eq1, N_CD)[0]
 print("N_CD_BC =", N_CD_BC)
