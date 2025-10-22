@@ -10,7 +10,7 @@ During today's lesson it's demonstrated how you to use the force method for stat
 ```{attributiongrey} Attribution
 :class: attribution
 
-This demonstration is adapted from an assignment of the course CTB2210.
+This demonstration is adapted from https://oit.tudelft.nl/CTB2210/toz/TOZ/opgave.html
 
 ```
 ```` 
@@ -212,7 +212,7 @@ $$
 
 The displacement at $\rm{E}$ is found with a forget-me-not:
 
-```{figure} ./intro_data/wE.svg
+```{figure} ./intro_data/we.svg
 :align: center
 ```
 
