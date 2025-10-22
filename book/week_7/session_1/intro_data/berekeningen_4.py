@@ -11,6 +11,7 @@ T = 29
 
 eq1 = sym.Eq(phi, M_D_AD * 5 / 4/ EI)
 M_D_AD_sol = sym.solve(eq1, M_D_AD)[0]
+print("Equation 1:", eq1,"approx =", eq1.evalf())
 print("M_D_AD =", M_D_AD_sol)
 
 eq2 = sym.Eq(phi, -M_D_CD * 5 / 3 / EI)
@@ -18,6 +19,7 @@ M_D_CD_sol = sym.solve(eq2, M_D_CD)[0]
 print("M_D_CD =", M_D_CD_sol)
 
 eq3 = sym.Eq(phi, -M_D_DB * 2 / 3 / EI - T * sym.S(2) / 6 / EI)
+print("Equation 3:", eq3, "approx =", eq3.evalf())
 M_D_DB_sol = sym.solve(eq3, M_D_DB)[0]
 print("M_D_DB =", M_D_DB_sol)
 

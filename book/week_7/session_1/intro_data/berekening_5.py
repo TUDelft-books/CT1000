@@ -32,7 +32,7 @@ print("K_tot after AD =", K_tot)
 
 M_A = sym.symbols('M_A')
 
-F = sym.Matrix([M_A, -29, 0, 29])
+F = sym.Matrix([M_A, 29, 0, -29])
 
 print("F =", F)
 
