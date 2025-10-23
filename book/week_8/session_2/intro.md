@@ -192,7 +192,7 @@ Constructie
 :label: steun_2_5
 :nonumber: true
 
-Bepaal de krachtsverdeling en verplaatsingen als $A_{\rm{v}}$ en $D_{\rm{v}}$ gelijk zijn aan 0
+Bepaal de krachtsverdeling en verplaatsingen als $A_{\rm{v}}$ en $D_{\rm{v}}$ gelijk zijn aan 0 en je de opgelegde zakking/vormveranderingsvoorwaarde voor $\rm{A}$ negeert.
 
 ```{h5p} https://tudelft.h5p.com/content/1292654762901470137/embed
 ```
