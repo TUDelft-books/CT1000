@@ -1,3 +1,3 @@
-# Week 7 (October 14th)
+# Week 7 (October 13th)
 
 {{week7}}
