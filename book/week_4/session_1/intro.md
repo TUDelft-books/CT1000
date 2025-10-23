@@ -1,6 +1,8 @@
 ```{index} Force method; demonstration statically indeterminate extension only
 ```
 
+% source files at https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
+
 (lesson4.1)=
 # Lesson Monday September 22th
 
@@ -178,20 +180,20 @@ Leading to the following displacements if $\rm{AC}$ doesn't rotate:
 | joint | Displacement due to $20 \ \rm{ kN}$ with fixed $\rm{AC}$ in horizontal direction → $\left( \rm{mm}\right)$| Displacement due to $20 \ \rm{ kN}$ with fixed $\rm{AC}$ = in vertical direction ↓ $\left( \rm{mm}\right)$|
 | :-:|:-:|:-:|
 |$\rm{A}$|$0$|$0$|
-|$\rm{C}$|$-13$|$21$|
-|$\rm{D}$|$18$|$-12.5$|
-|$\rm{E}$|$-25$|$-55$|
-|$\rm{B}$|$24$|$-103$|
+|$\rm{C}$|$-15$|$20$|
+|$\rm{D}$|$18$|$-15.1667$|
+|$\rm{E}$|$-27$|$-59.333$|
+|$\rm{B}$|$24$|$-108$|
 
-$\rm{B}$ shouldn't move vertically, so this structure has to be rotated back with $\theta  \approx \cfrac{{103}}{{12000}} \approx 8.5476 \cdot {10^{ - 3}}{\rm{ rad}}$ ⟳, leading to:
+$\rm{B}$ shouldn't move vertically, so this structure has to be rotated back with $\theta  \approx \cfrac{{108}}{{12000}} = 9 \cdot {10^{ - 3}}{\rm{ rad}}$ ⟳, leading to:
 
 | joint | Displacement due to $\theta$ in horizontal direction → $\left( \rm{mm}\right)$| Displacement due to $\theta$ in vertical direction ↓ $\left( \rm{mm}\right)$|
 | :-:|:-:|:-:|
 |$\rm{A}$|$0$|$0$|
-|$\rm{C}$|$34$|$26$|
-|$\rm{D}$|$0$|$51$|
-|$\rm{E}$|$34$|$77$|
-|$\rm{B}$|$0$|$103$|
+|$\rm{C}$|$36$|$27$|
+|$\rm{D}$|$0$|$54$|
+|$\rm{E}$|$36$|$81$|
+|$\rm{B}$|$0$|$108$|
 
 Resulting in total displacements of:
 
@@ -199,8 +201,8 @@ Resulting in total displacements of:
 | :-:|:-:|:-:|
 |$\rm{A}$|$0$|$0$|
 |$\rm{C}$|$21$|$47$|
-|$\rm{D}$|$18$|$39$|
-|$\rm{E}$|$9$|$22$|
+|$\rm{D}$|$18$|$38.833$|
+|$\rm{E}$|$9$|$21.67$|
 |$\rm{B}$|$24$|$0$|
 
 ```{figure} ./intro_data/displaced.svg
