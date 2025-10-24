@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export stat_onbepaaldheid.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.21776in" height="2.64296in"
+		viewBox="0 0 303.679 190.293" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st2 {marker-start:url(#mrkr5-15);stroke:#00cc99;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st3 {fill:#00cc99;fill-opacity:1;stroke:#00cc99;stroke-opacity:1;stroke-width:0.44247787610619}
+		.st4 {marker-end:url(#mrkr5-36);stroke:#00cc99;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st5 {marker-start:url(#mrkr5-42);stroke:#800000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st6 {fill:#800000;fill-opacity:1;stroke:#800000;stroke-opacity:1;stroke-width:0.44247787610619}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-15" class="st3" v:arrowType="5" v:arrowSize="2" v:setback="3.775" refX="3.775" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(2.26) "/>
+		</marker>
+		<marker id="mrkr5-36" class="st3" v:arrowType="5" v:arrowSize="2" v:setback="3.775" refX="-3.775" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.26,-2.26) "/>
+		</marker>
+		<marker id="mrkr5-42" class="st6" v:arrowType="5" v:arrowSize="2" v:setback="3.775" refX="3.775" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(2.26) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape404-1" v:mID="404" v:groupContext="shape" transform="translate(-66.7999,151.839) rotate(-90)">
+			<title>Ligger, 2 pt.404</title>
+			<path d="M0 190.29 L113.39 190.29" class="st1"/>
+		</g>
+		<g id="shape405-4" v:mID="405" v:groupContext="shape" transform="translate(123.493,-151.839)">
+			<title>Ligger, 2 pt.405</title>
+			<path d="M0 190.29 L141.73 190.29" class="st1"/>
+		</g>
+		<g id="shape406-7" v:mID="406" v:groupContext="shape" transform="translate(10.107,-151.839)">
+			<title>Ligger, 2 pt.406</title>
+			<path d="M0 190.29 L113.39 190.29" class="st1"/>
+		</g>
+		<g id="shape433-10" v:mID="433" v:groupContext="shape" transform="translate(455.518,38.4535) rotate(90)">
+			<title>oplegreactie</title>
+			<path d="M7.55 190.29 L7.91 190.29 L28.35 190.29" class="st2"/>
+		</g>
+		<g id="shape434-16" v:mID="434" v:groupContext="shape" transform="translate(123.493,-38.4535)">
+			<title>oplegreactie.434</title>
+			<path d="M7.55 190.29 L7.91 190.29 L28.35 190.29" class="st2"/>
+		</g>
+		<g id="shape435-21" v:mID="435" v:groupContext="shape" transform="translate(265.225,-151.839)">
+			<title>oplegreactie.435</title>
+			<path d="M7.55 190.29 L7.91 190.29 L28.35 190.29" class="st2"/>
+		</g>
+		<g id="shape438-26" v:mID="438" v:groupContext="shape" transform="translate(313.786,151.839) rotate(90)">
+			<title>oplegreactie.438</title>
+			<path d="M7.55 190.29 L7.91 190.29 L28.35 190.29" class="st2"/>
+		</g>
+		<g id="shape439-31" v:mID="439" v:groupContext="shape" transform="translate(455.518,24.2803) rotate(90)">
+			<title>Oplegmoment</title>
+			<path d="M-0 190.29 A14.1732 14.1732 0 0 1 14.17 176.12 A14.1732 14.1732 0 0 1 26.14 182.7 L26.24 183.04" class="st4"/>
+		</g>
+		<g id="shape440-37" v:mID="440" v:groupContext="shape" transform="translate(-180.186,38.4535) rotate(-90)">
+			<title>Kracht.440</title>
+			<path d="M7.55 190.29 L7.91 190.29 L28.35 190.29" class="st5"/>
+		</g>
+	</g>
+</svg>

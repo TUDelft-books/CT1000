@@ -46,12 +46,28 @@ plt.figure()
 print(w_D)
 w_D_func = sym.lambdify(n, w_D, 'numpy')
 n_vals = np.linspace(0, 100, 400)
-plt.plot(0, float(w_D.subs(n, 0)), 'ro')  # point at n=0
+plt.plot(0, float(w_D.subs(n, 0)), 'x')  # point at n=0
 plt.plot(n_vals, w_D_func(n_vals))
 #add horizontal lines for w_D at n=0 and n=oo
 plt.axhline(y=float(sym.limit(w_D, n, sym.oo)), color='g', linestyle='--', label='w_D(n=oo)')
 plt.xlim([0, 100])
 #plt.ylim([float(w_D.subs(n, 0)), float(sym.limit(w_D, n, sym.oo))])
+ax = plt.gca()
+ax.spines['right'].set_color('none')
+ax.spines['top'].set_color('none')
+ax.spines['bottom'].set_position('zero')
+ax.spines['left'].set_position('zero')
+# add yticks at 3/16 and -3/16+1/4
+plt.yticks([0,float(sym.limit(w_D, n, sym.oo)),float(w_D.subs(n, 0))],('0', '7.44', '14.415'))
+plt.xticks([0, 100], ['0', '$ →  \infty$'])
+plt.xlabel('$n$')
+plt.ylabel(r'$w \ \rm{(mm)}$')
+#make labels fit in windows
+#plt.tight_layout()
+
+plt.title('Deflection at D as function of stiffness ratio n')
+
+
 plt.show()
 
 Av, Ah = sym.symbols('Av Ah')
@@ -72,7 +88,7 @@ w_A_v = w_C
 w_A_h = phi_C * L3 - Ah * L3**3 / 3 / EI
 
 print('w_A_v=',w_A_v)
-print('w_A_h=',w_A_h)
+print('w_A_h=',w_A_h,'approx ',w_A_h.evalf())
 
 eq4 = sym.Eq(w_A_v, 0)
 eq5 = sym.Eq(w_A_h, 0)

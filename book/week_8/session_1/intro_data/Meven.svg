@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export Meven.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.09834in" height="1.13622in"
+		viewBox="0 0 223.08 81.8081" xml:space="preserve" color-interpolation-filters="sRGB" class="st9">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st2 {marker-start:url(#mrkr5-9);stroke:#800000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st3 {fill:#800000;fill-opacity:1;stroke:#800000;stroke-opacity:1;stroke-width:0.44247787610619}
+		.st4 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:#000000;font-family:Times New Roman;font-size:1.00001em}
+		.st6 {marker-end:url(#mrkr5-24);stroke:#800000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st7 {font-size:1em;font-style:italic}
+		.st8 {baseline-shift:-32.4941%;font-size:0.649882em}
+		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-9" class="st3" v:arrowType="5" v:arrowSize="2" v:setback="3.775" refX="3.775" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(2.26) "/>
+		</marker>
+		<marker id="mrkr5-24" class="st3" v:arrowType="5" v:arrowSize="2" v:setback="3.775" refX="-3.775" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-2.26,-2.26) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape248-1" v:mID="248" v:groupContext="shape" transform="translate(10.107,-43.3546)">
+			<title>Ligger, 2 pt.248</title>
+			<path d="M0 81.81 L113.39 81.81" class="st1"/>
+		</g>
+		<g id="shape249-4" v:mID="249" v:groupContext="shape" transform="translate(-71.7011,38.4535) rotate(-90)">
+			<title>Kracht.249</title>
+			<path d="M7.55 81.81 L7.91 81.81 L28.35 81.81" class="st2"/>
+		</g>
+		<g id="shape250-10" v:mID="250" v:groupContext="shape" transform="translate(10.107,-57.5278)">
+			<title>Blad.250</title>
+			<desc>111.6 kN</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.3465" cy="74.7215" width="56.7" height="14.1732"/>
+			<rect x="0" y="67.6348" width="56.6929" height="14.1732" class="st4"/>
+			<text x="6.01" y="78.32" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>111.6 kN</text>		</g>
+		<g id="shape251-13" v:mID="251" v:groupContext="shape" transform="translate(123.493,-43.3546)">
+			<title>Ligger, 2 pt.251</title>
+			<path d="M0 81.81 L14.17 81.81" class="st1"/>
+		</g>
+		<g id="shape252-16" v:mID="252" v:groupContext="shape" transform="translate(41.6848,52.6267) rotate(-90)">
+			<title>Ligger, 2 pt.252</title>
+			<path d="M0 81.81 L14.17 81.81" class="st1"/>
+		</g>
+		<g id="shape253-19" v:mID="253" v:groupContext="shape" transform="translate(219.474,24.2803) rotate(90)">
+			<title>Moment.253</title>
+			<path d="M-0 81.81 A14.1732 14.1732 0 0 1 14.17 67.63 A14.1732 14.1732 0 0 1 26.14 74.21 L26.24 74.56" class="st6"/>
+		</g>
+		<g id="shape254-25" v:mID="254" v:groupContext="shape" transform="translate(109.32,134.435) scale(1,-1)">
+			<title>Moment.254</title>
+			<path d="M-0 81.81 A14.1732 14.1732 0 0 1 14.17 67.63 A14.1732 14.1732 0 0 1 26.14 74.21 L26.24 74.56" class="st6"/>
+		</g>
+		<g id="shape255-30" v:mID="255" v:groupContext="shape" transform="translate(55.858,38.4535) rotate(-90)">
+			<title>Kracht.255</title>
+			<path d="M7.55 81.81 L7.91 81.81 L28.35 81.81" class="st2"/>
+		</g>
+		<g id="shape256-35" v:mID="256" v:groupContext="shape" transform="translate(123.493,134.435) rotate(180)">
+			<title>Kracht.256</title>
+			<path d="M7.55 81.81 L7.91 81.81 L28.35 81.81" class="st2"/>
+		</g>
+		<g id="shape257-40" v:mID="257" v:groupContext="shape" transform="translate(151.839,-36.268)">
+			<title>Blad.257</title>
+			<desc>256000 · φC</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="74.7215" width="70.87" height="14.1732"/>
+			<rect x="0" y="67.6349" width="70.8661" height="14.1732" class="st4"/>
+			<text x="6.51" y="78.32" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>256000 · <tspan
+						class="st7">φ</tspan><tspan dy="-0.279em" class="st8" v:baseFontSize="12">C</tspan></text>		</g>
+		<g id="shape259-45" v:mID="259" v:groupContext="shape" transform="translate(88.0598,-0.83494)">
+			<title>Blad.259</title>
+			<desc>240000 · φC</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="74.7215" width="70.87" height="14.1732"/>
+			<rect x="0" y="67.6349" width="70.8661" height="14.1732" class="st4"/>
+			<text x="6.51" y="78.32" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>240000 · <tspan
+						class="st7">φ</tspan><tspan dy="-0.279em" class="st8" v:baseFontSize="12">C</tspan> </text>		</g>
+		<g id="shape260-50" v:mID="260" v:groupContext="shape" transform="translate(116.406,-43.3546)">
+			<title>Blad.260</title>
+			<desc>C</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08662" cy="74.7215" width="14.18" height="14.1732"/>
+			<rect x="0" y="67.6349" width="14.1732" height="14.1732" class="st4"/>
+			<text x="4" y="78.32" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>C</text>		</g>
+		<g id="shape262-53" v:mID="262" v:groupContext="shape" transform="translate(3.02044,-29.1814)">
+			<title>Blad.262</title>
+			<desc>D</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08662" cy="74.7215" width="14.18" height="14.1732"/>
+			<rect x="0" y="67.6349" width="14.1732" height="14.1732" class="st4"/>
+			<text x="4" y="78.32" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>D</text>		</g>
+	</g>
+</svg>
