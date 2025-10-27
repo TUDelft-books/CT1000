@@ -42,8 +42,8 @@ Twee statisch bepaalde systemen
 
 :::::
 
-::::{solution} raam_1_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 - Met het koppel is het niet mogelijk verplaatsingen te berekenen.
 - Er zijn geen vergeet-me-nietjes voor deze situatie.
@@ -77,8 +77,8 @@ Vrijlichaamsschema van knoop $\rm{C}$ vergroot weergegeven
 
 :::::
 
-::::{solution} raam_1_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 $M _{\rm{C}} ^{\rm{BC}} \left( M _{\rm{C}} ^{\rm{AC}} \right) = M _{\rm{C}} ^{\rm{AC}} + 30$. 
 
@@ -112,8 +112,8 @@ Ga uit van [het statisch bepaalde systeem met het scharnier in $\rm{C}$](statisc
 
 :::::
 
-::::{solution} raam_1_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Er is 1 statisch onbepaald moment, omdat de twee verschillende momenten van elkaar afhankelijk zijn door het momentenevenwicht van knoop C.  
 
@@ -130,8 +130,8 @@ Los de verplaatsingen van deze constructie uit als functie van $M_{\rm{C}}^{\rm{
 
 :::::
 
-::::{solution} raam_1_4
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De uitdrukkingen voor de hoekverdraaiingen kunnen worden gevonden met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel. 
 
@@ -153,8 +153,8 @@ Los je vormveranderingsvoorwaarde op samen met je eerder opgestelde evenwichtsve
 
 :::::
 
-::::{solution} raam_1_5
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De vormveranderingsvoorwaarde is: $\varphi_{\rm{C}}^{\rm{AC}} = \varphi_{\rm{C}}^{\rm{BC}} \rightarrow 0.001 \cdot M_{\rm{C}}^{\rm{AC}} = -0.0005 \cdot M_{\rm{C}}^{\rm{BC}}$
 
@@ -193,8 +193,8 @@ Constructie, $EI = \cfrac{1000}{3} \ \rm{kNm^2}, EA >> EI $
 
 :::::
 
-::::{solution} raam_2_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 ```{figure} lesoefeningen_data/Onbekenden.svg
 ---
@@ -225,8 +225,8 @@ Er zijn een aantal opties gegeven voor mogelijke statisch bepaalde systemen. De 
 
 :::::
 
-::::{solution} raam_2_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 ```{figure} lesoefeningen_data/Oplosmethode_optie1.svg
 ---
@@ -284,8 +284,8 @@ Er is hier wederom een scharnier in een knoop geplaatst zoals ook in [het statis
 
 :::::
 
-::::{solution} raam_2_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De uitdrukkingen voor de hoekverdraaiingen worden gevonden met behulp van de vergeet-mij-nietjes voor een ligger op twee steunpunten belast door een koppel en door een verdeelde belasting, de positieve richtingen worden genomen zoals in de figuur aangegeven. 
 
@@ -308,8 +308,8 @@ Er mist nog een vergelijking om de vier onbekenden (waarvan 3 statisch onbepaald
 
 :::::
 
-::::{solution} raam_2_4
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 $M_{\rm{B}}^{\rm{BD}} - M_{\rm{B}}^{\rm{AB}} - M_{\rm{B}}^{\rm{BC}}  = 0$
 
@@ -326,8 +326,8 @@ Los met de vormveranderingsvoorwaarden en evenwichtsvergelijking de onbekenden $
 
 :::::
 
-::::{solution} raam_2_5
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Er zijn 4 onbekenden en 4 vergelijkingen. De vergelijkingen bestaan uit de momentenevenwichtsvergelijking uit de vorige deelvraag en de onderstaande vormveranderingsvoorwaarden:
 
@@ -355,8 +355,8 @@ Los de volledige krachtsverdeling op.
 
 :::::
 
-::::{solution} raam_2_6
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 $$ M_{\rm{A}} = 0 \rm{kNm} $$
 $$ M_{\rm{halverwege} \ \rm{BC}} = 34.75 \rm{kNm} (◡) $$ 

@@ -84,8 +84,8 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 
 `````
 
-````{solution} so_2_1
-:class: dropdown
+````{admonition} Solution
+:class: solution, dropdown
 
 Er zijn *7* onbekende oplegreacties en *6* onbekende verbindingskrachten. Dat zijn *13* onbekende krachten in totaal.
 
@@ -107,8 +107,8 @@ Aantal onbekende krachten
 
 `````
 
-````{solution} so_2
-:class: dropdown
+````{admonition} Solution
+:class: solution, dropdown
 
 Er zijn *12* evenwichtsvergelijking(en).
 
@@ -130,8 +130,8 @@ Aantal evenwichtsvergelijkingen
 
 `````
 
-````{solution} so_2_3
-:class: dropdown
+````{admonition} Solution
+:class: solution, dropdown
 
 De constructie is *1*ste/de graads uitwendig statisch onbepaald
 
@@ -169,8 +169,8 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 
 `````
 
-````{solution} so_1
-:class: dropdown
+````{admonition} Solution
+:class: solution, dropdown
 
 Er zijn *6* onbekende oplegreacties en *32* onbekende staafkrachten. Dat zijn *38* onbekende krachten in totaal.
 
@@ -199,8 +199,8 @@ Aantal onbekende staafkrachten op staven
 
 `````
 
-````{solution} so_2
-:class: dropdown
+````{admonition} Solution
+:class: solution, dropdown
 
 Er zijn *0* evenwichtsvergelijkingen vanuit rolscharnieren, *6* evenwichtsvergelijking(en) vanuit scharnierende verbindingen, *9* evenwichtsvergelijking(en) vanuit algemene verbindingen, *1* evenwichtsvergelijking(en) vanuit pendelstaven en *18* evenwichtsvergelijking(en) vanuit algemene staven. Dat zijn *34* evenwichtsvergelijkingen in totaal.
 
@@ -229,8 +229,8 @@ Aantal evenwichtsvergelijkingen voor de staven
 
 `````
 
-````{solution} so_3
-:class: dropdown
+````{admonition} Solution
+:class: solution, dropdown
 
 De constructie is *4*ste/de graads inwendig statisch onbepaald
 
@@ -270,8 +270,8 @@ Splits de constructie in zo groot mogelijke, vormvaste, scharnierend verbonden d
 
 `````
 
-````{solution} so_3_1
-:class: dropdown
+````{admonition} Solution
+:class: solution, dropdown
 
 Er zijn *3* onbekende oplegreacties en *0* onbekende verbindingskrachten. Dat zijn *3* onbekende krachten in totaal.
 
@@ -293,8 +293,8 @@ Aantal onbekende krachten
 
 `````
 
-````{solution} so_3_2
-:class: dropdown
+````{admonition} Solution
+:class: solution, dropdown
 
 Er zijn *3* evenwichtsvergelijking(en).
 
@@ -316,8 +316,8 @@ Aantal evenwichtsvergelijkingen
 
 `````
 
-````{solution} so_3_3
-:class: dropdown
+````{admonition} Solution
+:class: solution, dropdown
 
 De constructie is *0*ste/de graads uitwendig statisch onbepaald
 
@@ -334,8 +334,8 @@ Splits constructie in alle losse knopen en staven, en teken het vrijlichaamssche
 
 `````
 
-````{solution} so_3_4
-:class: dropdown
+````{admonition} Solution
+:class: solution, dropdown
 
 Er zijn *3* onbekende oplegreacties en *19* onbekende staafkrachten. Dat zijn *22* onbekende krachten in totaal.
 
@@ -364,8 +364,8 @@ Aantal onbekende staafkrachten op staven
 
 `````
 
-````{solution} so_3_5
-:class: dropdown
+````{admonition} Solution
+:class: solution, dropdown
 
 Er zijn *1* evenwichtsvergelijking(en) vanuit rolscharnieren, *2* evenwichtsvergelijking(en) vanuit scharnierende verbindingen, *6* evenwichtsvergelijking(en) vanuit algemene verbindingen, *0* evenwichtsvergelijking(en) vanuit pendelstaven en *12* evenwichtsvergelijking(en) vanuit algemene staven. Dat zijn *21* evenwichtsvergelijkingen in totaal.
 
@@ -394,8 +394,8 @@ Aantal evenwichtsvergelijkingen voor de staven
 
 `````
 
-````{solution} so_3_6
-:class: dropdown
+````{admonition} Solution
+:class: solution, dropdown
 
 De constructie is *1*ste/de graads inwendig statisch onbepaald
 
