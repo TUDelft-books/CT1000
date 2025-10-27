@@ -46,6 +46,9 @@ sphinx:
     named_colors_custom_colors: {'attributiongrey':[150,150,150]}
     sphinx_codex_merge_with_proof: true
     tud_change_titlesize: false
+  local_extensions:
+    apastyle: _ext/
+    bracket_citation_style: _ext/
   extra_extensions:
     - teachbooks_favourites
     - sphinx_tudelft_theme
