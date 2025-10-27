@@ -40,8 +40,8 @@ Wat is $\kappa_{\rm{T}}$?
 
 :::::
 
-::::{solution} temp_2_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 $$\kappa^T = -\cfrac{\alpha \cdot T}{h} = - \cfrac{0.0001 \cdot 30}{0.2} = -0.015 \ m^{-1}$$
 
@@ -58,8 +58,9 @@ Bepaal met behulp van de differentiaalvergelijkingen de uitdrukkingen voor de sn
 
 :::::
 
-::::{solution} temp_2_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
+
 Voor deze constructie gelden den onderstaande randvoorwaarden:
 
 $$ w \left( 0 \right) = 0 $$
@@ -88,8 +89,8 @@ Bepaal de waardes van de integratieconstantes
 
 :::::
 
-::::{solution} temp_2_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 $$ C_1 = -0.375 $$
 $$ C_3 = -0.015 $$
@@ -105,8 +106,8 @@ $$ C_3 = -0.015 $$
 
 :::::
 
-::::{solution} temp_2_4
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Als de temperatuur verder toeneemt, dan wordt de absolute waarde van maximale verplaatsing eerst kleiner dan groter. 
 

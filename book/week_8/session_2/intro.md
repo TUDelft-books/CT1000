@@ -56,8 +56,8 @@ Met als resultaat:
 
 :::::
 
-::::{solution} steun_1_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 - De normaalkracht in $\rm{BD}$ is niet juist berekend
   - De verlenging van $\rm{BD}$ is niet enkel afhankelijk van de verplaatsing van knoop $\rm{B}$
@@ -79,8 +79,8 @@ Wat is de graad van statisch onbepaaldheid?
 
 :::::
 
-::::{solution} steun_1_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 ```{figure} ./lesoefeningen_data/Onbekenden.svg
 :align: center
@@ -126,8 +126,8 @@ Williot diagram voor het bepalen van de verplaatsing van $\rm{D}$ en $\rm{B}$.
 
 :::::
 
-::::{solution} steun_1_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De normaalkrachten in de staven AD en CD kunnen met behulp van het knoopevenwicht van $\rm{D}$ worden uitgedrukt in $B_{\rm{v}}$. 
 
@@ -172,8 +172,8 @@ Los met de vormveranderingsvoorwaarde de onbekende $B_{\rm{v}}$ op.
 
 :::::
 
-::::{solution} steun_1_4
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De vormveranderingsvoorwaarde is: $w_{B,\rm{v}} = 1.4 \cdot B_{\rm{v}} = 90 \rm{mm}$.
 
@@ -192,8 +192,8 @@ Los de volledige krachtsverdeling en verplaatsingen op.
 
 :::::
 
-::::{solution} steun_1_5
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De krachten en verplaatsingen kunnen worden opgelost uit de eerder opgestelde vergelijkingen door daar de berekende waarde voor $B_{\rm{v}}$ in in te vullen.
 
@@ -240,8 +240,8 @@ Wat is de graad van statisch onbepaaldheid?
 
 :::::
 
-::::{solution} steun_2_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De constructie is 2e graads inwendig statisch onbepaald. 
 
@@ -258,8 +258,8 @@ Voor het geval dat $nEI \to 0$, bepaal de krachtsverdeling en verplaatsingen:
 
 :::::
 
-::::{solution} steun_2_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Als deel $\rm{BC}$ geen buigstijfheid meer heeft ontstaan er feitelijk twee losse liggertjes waarvan de linker 25 $\rm{mm}$ zakt. Dit levert de onderstaande krachten en verplaatsingen:
 
@@ -286,8 +286,8 @@ Voor het geval dat $nEI \to \infty$, kies zelf een statisch bepaald systeem met 
 
 :::::
 
-::::{solution} steun_2_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Er wordt gekozen voor het onderstaande statisch bepaalde systeem, waarbij scharnieren en onbekende momentenparen zijn toegevoegd in $\rm{B}$ en $\rm{C}$. 
 
@@ -336,8 +336,8 @@ Constructie
 
 :::::
 
-::::{solution} steun_2_4
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De vormveranderingsvoorwaardes zijn:
 
@@ -357,8 +357,8 @@ Bepaal de krachtsverdeling en verplaatsingen als $A_{\rm{v}}$ en $D_{\rm{v}}$ ge
 
 :::::
 
-::::{solution} steun_2_5
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Als $A_{\rm{v}}$ en $D_{\rm{v}}$ gelijk zijn aan 0 dan kan de constructie vrij vervormen en onstaat er geen buiging. Hieruit volgt:
 
@@ -382,8 +382,8 @@ Bepaal de krachtsverdeling en verplaatsingen als functie van $A_{\rm{v}}$ en $D_
 
 :::::
 
-::::{solution} steun_2_6
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De momenten $M_{\rm{B}}$ en $M_{\rm{C}}$ kunnen worden bepaald door respectievelijk $A_{\rm{v}}$ en $D_{\rm{v}}$ te verplaatsen naar $\rm{B}$ en $\rm{C}$. 
 
@@ -414,8 +414,8 @@ Los met de vormveranderingsvoorwaardes de onbekende $A_{\rm{v}}$ en $D_{\rm{v}}$
 
 :::::
 
-::::{solution} steun_2_7
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Oplossen van de vergelijkingen levert:
 

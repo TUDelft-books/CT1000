@@ -37,8 +37,8 @@ Bepaal de oplegreacties en het snedekrachtenlijnen. Je gaat dit doen voor drie v
 
 :::::
 
-::::{solution} km_vak_1_1
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 ```{figure} lesoefeningen_data/onbekenden.svg
 ---
@@ -67,8 +67,8 @@ Dus de constructie is 1ste graads statisch onbepaald
 
 :::::
 
-::::{solution} km_vak_1_2
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 - Weghalen oplegging bij A
 - Weghalen oplegging bij B
@@ -95,8 +95,8 @@ Neem als statisch onbepaalde kracht de verticale oplegreactie bij B (positief om
 
 :::::
 
-::::{solution} km_vak_1_3
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De vormveranderingsvoorwaarde is $w_B = 0$.
 
@@ -114,8 +114,8 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $B_
 
 :::::
 
-::::{solution} km_vak_1_4
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 ```{figure} lesoefeningen_data/Vrijlichaamsschema1.svg
 ---
@@ -155,8 +155,8 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $B_{\rm{v}}$
 
 :::::
 
-::::{solution} km_vak_1_5
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Oplossen van de vergelijkingen geeft:
 
@@ -182,8 +182,8 @@ Neem als statisch onbepaalde kracht het moment $M_{\rm{B}}$ (positief zorgt voor
 
 :::::
 
-::::{solution} km_vak_1_6
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De vormveranderingsvoorwaarde is: 
 
@@ -202,8 +202,8 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $M_
 
 :::::
 
-::::{solution} km_vak_1_7
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 ```{figure} lesoefeningen_data/Vrijlichaamsschema2.svg
 ---
@@ -240,8 +240,8 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $M_{\rm{B}}$
 
 :::::
 
-::::{solution} km_vak_1_8
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Oplossen van de vergelijkingen geeft:
 
@@ -265,8 +265,8 @@ Neem als statisch onbepaalde kracht de normaalkracht $N_{\rm{AD}}$ door de pende
 
 :::::
 
-::::{solution} km_vak_1_9
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 De vormveranderingsvoorwaarde is: 
 
@@ -286,8 +286,8 @@ Bepaal achtereenvolgens de normaalkrachten en verplaatsingen als functie van $N_
 
 :::::
 
-::::{solution} km_vak_1_10
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 ```{figure} lesoefeningen_data/Vrijlichaamsschema3.svg
 ---
@@ -325,8 +325,8 @@ Los met de vormveranderingsvoorwaarde de statisch onbepaalde kracht $N_{\rm{AD}}
 :::::
 
 
-::::{solution} km_vak_1_11
-:class: dropdown
+::::{admonition} Solution
+:class: solution, dropdown
 
 Oplossen van de vergelijkingen geeft:
 
