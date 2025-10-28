@@ -11,6 +11,8 @@ Your own submission and its grading can be found here: [<img height="12px" src="
 
 Given is the structure as shown in the figure below.
 
+% source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpuntzetting
+
 ```{figure} intro_data/structure.svg
 :align: center
 ```
