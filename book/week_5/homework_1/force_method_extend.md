@@ -154,7 +154,7 @@ In hoofdstuk 2.1 van het boek Mechanica, Statisch onbepaalde constructies en bez
 
 ## Instructies in collegevorm
 
-Dit onderwerp is gepresenteerd in college vanaf 11:30 tot 43:10 [hier](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/b59d1e6849ba4f92957d462f07f7e37f1d?academicYear=2025-2026-ctb2210) in het Nederlands voor TU Delft studenten.
+Dit onderwerp is gepresenteerd in college vanaf 11:30 tot 43:10 [hier](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/b59d1e6849ba4f92957d462f07f7e37f1d?sortBy=most-recent) in het Nederlands.
 
 ## Oefeningen
 
