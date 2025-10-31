@@ -31,7 +31,7 @@ Gegeven is de volgende constructie:
 ```{figure} ./lesoefening_data/structure.svg
 :align: center
 
-Constructie, lijkend op het voorbeeld in hoofdstuk 4.3.1 uit het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`, $EI >> EA, EA = 25 \ \rm{kN}, EA_{\rm{BE}} = 125 \ \rm{kN}$
+Constructie, lijkend op het voorbeeld in hoofdstuk 4.3.1 uit het boek Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`, $EI >> EA, EA = 9000 \ \rm{kN}, EA_{\rm{BE}} = 36000 \ \rm{kN}$
 ```
 
 :::::{exercise}
@@ -71,7 +71,7 @@ Er wordt gekozen voor het volgende statisch bepaalde systeem inclusief evenwicht
 ```{figure} ./lesoefening_data/stat_deter.svg
 :align: center
 
-Statisch bepaald systeem, $EI >> EA, EA = 25 \ \rm{kN}, EA_{\rm{BE}} = 125 \ \rm{kN}$
+Statisch bepaald systeem, $EI >> EA, EA = 9000 \ \rm{kN}, EA_{\rm{BE}} = 36000 \ \rm{kN}$
 ```
 
 Los $N_{\rm{F}}^{\rm{CF}}$ en $N_{\rm{F}}^{\rm{EF}}$ op als functie van $w$.
