@@ -17,9 +17,16 @@ Deze oefening is aangepast van https://oit.tudelft.nl/CTB2210/2025/verplaatsinge
 ```
 ```` 
 
+(verpl_gecorrigeerd)=
 ## Exercise 1
 
 Gegeven is de volgende constructie:
+
+:::::{margin}
+::::{versionchanged} v2025.13.0
+31-10-2025: aangepast afmetingen, stijfheden en belasting.
+::::
+:::::
 
 ```{figure} ./lesoefening_data/structure.svg
 :align: center
@@ -47,6 +54,12 @@ Welke van de volgende statisch bepaalde systemen kan gebruikt worden voor toepas
 ```{h5p} https://tudelft.h5p.com/content/1292672294506274407/embed
 ```
 
+:::::
+
+:::::{margin}
+::::{versionchanged} v2025.13.0
+31-10-2025: antwoord $N_{\rm{F}}^{\rm{EF}}$ aangepast.
+::::
 :::::
 
 :::::{exercise}
