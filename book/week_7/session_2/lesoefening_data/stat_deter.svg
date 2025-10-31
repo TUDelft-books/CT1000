@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export stat_deter.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.94742in" height="3.54852in"
-		viewBox="0 0 284.215 255.493" xml:space="preserve" color-interpolation-filters="sRGB" class="st22">
+		viewBox="0 0 284.215 255.493" xml:space="preserve" color-interpolation-filters="sRGB" class="st23">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -29,7 +29,8 @@
 		.st19 {marker-end:url(#mrkr1-176);stroke:#000000;stroke-linecap:butt;stroke-width:3}
 		.st20 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.67567567567568}
 		.st21 {font-size:1em}
-		.st22 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st22 {baseline-shift:-32.4941%;font-size:0.649882em}
+		.st23 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -138,11 +139,11 @@
 		</g>
 		<g id="shape287-45" v:mID="287" v:groupContext="shape" transform="translate(127.934,-28.7215)">
 			<title>Blad.287</title>
-			<desc>1050 N</desc>
+			<desc>3150 kN</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="28.3465" cy="248.407" width="56.7" height="14.1732"/>
 			<rect x="0" y="241.32" width="56.6929" height="14.1732" class="st7"/>
-			<text x="10.51" y="252.01" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>1050 N</text>		</g>
+			<text x="7.51" y="252.01" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>3150 kN</text>		</g>
 		<g id="shape288-48" v:mID="288" v:groupContext="shape" transform="translate(42.8947,-156.281)">
 			<title>Punt A.288</title>
 			<desc>A</desc>
@@ -254,11 +255,11 @@
 			</g>
 			<g id="shape311-119" v:mID="311" v:groupContext="shape" transform="translate(32.5984,442.955) rotate(180)">
 				<title>Blad.311</title>
-				<desc>4 m</desc>
+				<desc>5 m</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="14.1732" cy="244.155" width="28.35" height="22.6772"/>
 				<rect x="0" y="232.816" width="28.3465" height="22.6772" class="st7"/>
-				<text x="5.01" y="247.75" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>4 m</text>			</g>
+				<text x="5.01" y="247.75" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>5 m</text>			</g>
 		</g>
 		<g id="shape312-122" v:mID="312" v:groupContext="shape" transform="translate(212.973,-78.3278)">
 			<title>EI = oo.312</title>
@@ -325,11 +326,11 @@
 			</g>
 			<g id="shape330-168" v:mID="330" v:groupContext="shape" transform="translate(4.25197,-45.3543)">
 				<title>Blad.330</title>
-				<desc>4 m</desc>
+				<desc>5 m</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="14.1732" cy="244.155" width="28.35" height="22.6772"/>
 				<rect x="0" y="232.816" width="28.3465" height="22.6772" class="st7"/>
-				<text x="5.01" y="247.75" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>4 m</text>			</g>
+				<text x="5.01" y="247.75" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>5 m</text>			</g>
 		</g>
 		<g id="shape337-171" v:mID="337" v:groupContext="shape" transform="translate(454.293,198.425) rotate(90)">
 			<title>verplaatsing.337</title>
@@ -363,7 +364,7 @@
 			<rect x="0" y="241.32" width="34.0157" height="14.1732" class="st7"/>
 			<text x="6.29" y="252.01" class="st15" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>N<tspan dy="-0.279em"
 						class="st16" v:baseFontSize="12">F</tspan><tspan dy="0.081em" class="st17" v:baseFontSize="12">EF</tspan></text>		</g>
-		<g id="shape344-202" v:mID="344" v:groupContext="shape" transform="translate(205.887,-99.5876)">
+		<g id="shape344-202" v:mID="344" v:groupContext="shape" transform="translate(212.973,-99.5876)">
 			<title>Blad.344</title>
 			<desc>w</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
@@ -383,14 +384,13 @@
 		</g>
 		<g id="shape346-210" v:mID="346" v:groupContext="shape" transform="translate(57.0679,-212.973)">
 			<title>EI = oo.346</title>
-			<desc>EI &#62;&#62; EA EA = 25 kN EABE = 125 kN</desc>
+			<desc>EI &#62;&#62; EA EA = 9000 kN EACF = 36000 kN</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="49.6063" cy="248.407" width="99.22" height="14.1732"/>
 			<rect x="0" y="241.32" width="99.2126" height="14.1732" class="st13"/>
-			<text x="26.85" y="237.6" class="st15" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>EI<tspan class="st18"> </tspan><tspan
-						class="st18">&#62;&#62; </tspan>EA<v:newlineChar/><tspan x="20.39" dy="1.2em" class="st21">EA = </tspan><tspan
-						class="st18">25 kN<v:newlineChar/></tspan><tspan x="13.08" dy="1.2em" class="st21">EA</tspan><tspan
-						dy="-0.279em" class="st16" v:baseFontSize="12">BE</tspan><tspan dy="0.181em" class="st18"> </tspan><tspan
-						class="st18">= 125 kN </tspan> </text>		</g>
+			<text x="26.18" y="237.61" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>EI &#62;&#62; EA<v:newlineChar/><tspan
+						x="14.39" dy="1.2em" class="st21">EA = 9000 kN<v:newlineChar/></tspan><tspan x="6.62" dy="1.2em"
+						class="st21">EA</tspan><tspan dy="-0.279em" class="st22" v:baseFontSize="12">CF</tspan><tspan dy="0.181em"
+						class="st21"> </tspan>= 36000 kN  </text>		</g>
 	</g>
 </svg>
