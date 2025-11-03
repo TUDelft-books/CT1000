@@ -168,6 +168,10 @@ $$
 
 Now, the moment equilibrium at $\rm{D}$ can be written:
 
+```{figure} intro_data/D.svg
+:align: center
+```
+
 $$
 \begin{align*}
 M_{\rm{D}}^{\rm{AD}} - M_{\rm{D}}^{\rm{CD}} - M_{\rm{D}}^{\rm{BD}} + 29 &= 0 \\
