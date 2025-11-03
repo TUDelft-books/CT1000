@@ -136,7 +136,7 @@ $$
 
 For part $\rm{CD}$, a statically determinate forget-me-not can be used:
 
-```{figure} intro_data/CD.svg
+```{figure} intro_data/CD2.svg
 :align: center
 ```
 
