@@ -1,3 +1,3 @@
-# Week 11 (November 11th)
+# Week 11 (November 10th)
 
 {{week11}}

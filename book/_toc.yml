@@ -200,22 +200,22 @@ parts:
   - file: week_11/intro
     sections:
     - file: week_11/session_1/intro
-    - file: week_11/homework/intro
+    - file: week_11/homework_2/intro
       sections: 
-      - file: external/CEG-mechanics-BSc/book/stresses_displacements/cross-sectional/first-moment-area
-      - file: external/CEG-mechanics-BSc/book/stresses_displacements/cross-sectional/second-moment-area
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/cross-sectional/first-moment-area.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/cross-sectional/second-moment-area.md
+    - file: week_11/session_2/intro
+    - file: week_11/homework_3/intro
+      sections:
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_extension/intro.md
+        sections: 
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_extension/normal.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_bending/intro.md
+        sections: 
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_bending/normal.md
     - file: week_11/session_3/intro 
   - file: week_12/intro
     sections:
-    - file: week_12/homework_1/intro
-      sections:
-      - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_extension/intro
-        sections: 
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_extension/normal
-      - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_bending/intro
-        sections: 
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_bending/normal     
-    - file: week_12/session_1/intro
     - file: week_12/homework_2/intro
       sections:
       - file: week_12/homework_2/copy
