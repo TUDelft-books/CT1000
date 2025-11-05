@@ -1,3 +1,3 @@
-# Week 17 (January 6th)
+# Week 17 (January 5th)
 
 {{week17}}

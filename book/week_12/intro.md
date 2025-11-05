@@ -1,3 +1,3 @@
-# Week 12 (November 18th)
+# Week 12 (November 17th)
 
 {{week12}}
