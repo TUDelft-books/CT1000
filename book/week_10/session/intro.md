@@ -143,7 +143,7 @@ $$
 
 The vertical reaction in $\rm{A}$ can now be determined using the equilibrium equations:
 
-```{figure} ./intro_data/AV.svg
+```{figure} ./intro_data/Av.svg
 :align: center
 ```
 
