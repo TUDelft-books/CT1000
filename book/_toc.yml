@@ -195,7 +195,6 @@ parts:
   - file: week_10/intro
     sections:
     - file: week_10/homework/intro
-# START REMOVE-FROM-PUBLISH
     - file: week_10/session/intro
   - file: week_11/intro
     sections:
@@ -213,7 +212,8 @@ parts:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_bending/intro.md
         sections: 
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_bending/normal.md
-    - file: week_11/session_3/intro 
+    - file: week_11/session_3/intro
+# START REMOVE-FROM-PUBLISH
   - file: week_12/intro
     sections:
     - file: week_12/homework_2/intro
