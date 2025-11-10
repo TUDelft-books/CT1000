@@ -14,12 +14,14 @@ Today we'll discuss the results of the first [exam assignment on Statically inde
 ### Question 2
 
 ```{figure} student_data/1.png
+---
 align: center
 ---
 Structure not statically determinate
 ```
 
 ```{figure} student_data/2.png
+---
 align: center
 ---
 Statically indeterminate force / displacement missing
@@ -28,6 +30,7 @@ Statically indeterminate force / displacement missing
 ### Question 3
 
 ```{figure} student_data/3.png
+---
 align: center
 ---
 Displacements due to forces in two-force member forgotten
@@ -40,18 +43,21 @@ Rotation of two-force member not taken into account (Williot not used)
 ```
 
 ```{figure} student_data/5.png
+---
 align: center
 ---
 Kinematically equivalent moment doesn't give correct curvature
 ```
 
 ```{figure} student_data/6.png
+---
 align: center
 ---
 Express forces and displacements in other unknowns than the statically indeterminate ones
 ```
 
 ```{figure} student_data/7.png
+---
 align: center
 ---
 Solving just one equilibrium or compatibility equation
