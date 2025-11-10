@@ -110,13 +110,13 @@ Leading to the following diagram:
 
 The shear forces can be calculated as:
 
-$$\sigma_{\rm{xm,max,flange}} = - \cfrac{16000 \cdot 12 \cdot 100 \cdot 150}{2 \cdot 12 \cdot 72.0288 \cdot 10^{-6}} \approx 1.7 \cdot 10^6 \ \rm{ Pa}$$
+$$\sigma_{\rm{xm,max,flange}} = - \cfrac{16000 \cdot 12 \cdot 100 \cdot -150}{2 \cdot 12 \cdot 72.0288 \cdot 10^{-6}} \approx 1.7 \cdot 10^6 \ \rm{ Pa}$$
 
-$$\sigma_{\rm{xm,min,web}} = - \cfrac{16000 \cdot 12 \cdot 100 \cdot 150}{2 \cdot 4 \cdot 72.0288 \cdot 10^{-6}} \approx 5.0 \cdot 10^6 \ \rm{ Pa}$$
+$$\sigma_{\rm{xm,min,web}} = - \cfrac{16000 \cdot 12 \cdot 100 \cdot -150}{2 \cdot 4 \cdot 72.0288 \cdot 10^{-6}} \approx 5.0 \cdot 10^6 \ \rm{ Pa}$$
 
-$$\sigma_{\rm{xm,E}} = - \cfrac{16000 \cdot \left(12 \cdot 100 \cdot 150 + 2\cdot 4\cdot 75 \cdot 112.5 \right)}{2 \cdot 4 \cdot 72.0288 \cdot 10^{-6}} \approx 6.9 \cdot 10^6 \ \rm{ Pa}$$
+$$\sigma_{\rm{xm,E}} = - \cfrac{16000 \cdot \left(12 \cdot 100 \cdot -150 + 2\cdot 4\cdot 75 \cdot -112.5 \right)}{2 \cdot 4 \cdot 72.0288 \cdot 10^{-6}} \approx 6.9 \cdot 10^6 \ \rm{ Pa}$$
 
-$$\sigma_{\rm{xm,max,web}} = - \cfrac{16000 \cdot \left(12 \cdot 100 \cdot 150 + 2\cdot 4\cdot 150 \cdot 75 \right)}{2 \cdot 4 \cdot 72.0288 \cdot 10^{-6}} \approx 7.5 \cdot 10^6 \ \rm{ Pa}$$
+$$\sigma_{\rm{xm,max,web}} = - \cfrac{16000 \cdot \left(12 \cdot 100 \cdot -150 + 2\cdot 4\cdot 150 \cdot -75 \right)}{2 \cdot 4 \cdot 72.0288 \cdot 10^{-6}} \approx 7.5 \cdot 10^6 \ \rm{ Pa}$$
 
 Leading to the following diagram:
 
