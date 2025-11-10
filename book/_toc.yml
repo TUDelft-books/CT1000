@@ -201,7 +201,7 @@ parts:
     - file: week_11/session_1/intro
     - file: week_11/homework_2/intro
       sections: 
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/cross-sectional/first-moment-area.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/cross-sectional/first-moment-area.md #BUMP
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/cross-sectional/second-moment-area.md
     - file: week_11/session_2/intro
     - file: week_11/homework_3/intro
