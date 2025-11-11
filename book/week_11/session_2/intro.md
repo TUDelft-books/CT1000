@@ -50,7 +50,7 @@ Given is the following cross-section:
 
 ````{admonition} Solution assignment 4
 :class: tip, dropdown
-$I_\text{zz} = 685.3 \cdot 10^6 \text{ mm}^4$
+$I_\text{zz} = 685.3 \cdot 10^6 \ \rm{ mm}^4$
 ````
 
 Given is the following cross-section:
