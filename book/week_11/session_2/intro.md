@@ -29,7 +29,7 @@ Given is the following cross-section:
 
 ````{admonition} Solution assignment 2
 :class: tip, dropdown
-$I_\text{zz} = 61.2 \cdot 10^6 \text{ mm}^4$
+$I_\text{zz} = 61.2 \cdot 10^6 \ \rm{ mm}^4$
 ````
 
 Given is the following cross-section:
@@ -71,7 +71,7 @@ Given is the following cross-section:
 
 ````{admonition} Solution assignment 6
 :class: tip, dropdown
-$I_\text{zz} = 24.82 \cdot 10^9 \text{ mm}^4$
+$I_\text{zz} = 24.82 \cdot 10^9 \ \rm{ mm}^4$
 ````
 
 Given is the following cross-section:
@@ -92,5 +92,5 @@ Given is the following cross-section:
 
 ````{admonition} Solution assignment 8
 :class: tip, dropdown
-$I_\text{zz} = 4.95 \cdot 10^6 \text{ mm}^4$
+$I_\text{zz} = 4.95 \cdot 10^6 \ \rm{ mm}^4$
 ````
