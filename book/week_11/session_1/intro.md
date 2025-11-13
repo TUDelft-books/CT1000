@@ -37,6 +37,7 @@ Displacements due to forces in two-force member forgotten
 ```
 
 ```{figure} student_data/4.png
+---
 align: center
 ---
 Rotation of two-force member not taken into account (Williot not used)
