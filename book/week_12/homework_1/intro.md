@@ -1,7 +1,7 @@
-(homework13.1)=
-# Homework deadline lesson Monday November 25th
+(homework12.1)=
+# Homework deadline lesson Monday November 17th
 
-As a preparation for Monday's lesson you'll look into Tensors and Transforming those:
+As a preparation for Monday's lesson you'll look into shear stresses due to bending moments:
 
 ```{tableofcontents}
 ```
