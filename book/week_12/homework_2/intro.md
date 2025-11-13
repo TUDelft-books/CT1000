@@ -1,7 +1,7 @@
 (homework12.2)=
-# Homework deadline lesson Tuesday November 19th
+# Homework deadline lesson Tuesday November 18th
 
-As a preparation for Tuesday's lesson you'll look into shear stresses due to bending moments:
+As a preparation for Tuesday's lesson you'll look into the core of a cross-section:
 
 ```{tableofcontents}
 ```

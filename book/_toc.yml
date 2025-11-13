@@ -216,29 +216,29 @@ parts:
 # START REMOVE-FROM-PUBLISH
   - file: week_12/intro
     sections:
-    - file: week_12/homework_2/intro
+    - file: week_12/homework_1/intro
       sections:
-      - file: week_12/homework_2/copy
+      - file: week_12/homework_1/bending.md
         sections:
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_bending/shear
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_bending/shear.md
+    - file: week_12/session_1/intro
+    - file: week_12/homework_2/intro
+      sections: 
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/cross-sectional/core-cross-section.ipynb
     - file: week_12/session_2/intro
     - file: week_12/homework_3/intro
-      sections: 
-      - file: external/CEG-mechanics-BSc/book/stresses_displacements/cross-sectional/core-cross-section
+      sections:
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/model/intro.md
+        sections:
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/model/stresses-3D.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/model/strains-2D.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/model/tensors.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/transformations/intro.md
+        sections:
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/transformations/analytical.md
     - file: week_12/session_3/intro
   - file: week_13/intro
     sections:
-    - file: week_13/homework_1/intro
-      sections:
-      - file: external/CEG-mechanics-BSc/book/continuum/model/intro
-        sections:
-        - file: external/CEG-mechanics-BSc/book/continuum/model/stresses-3D
-        - file: external/CEG-mechanics-BSc/book/continuum/model/strains-2D
-        - file: external/CEG-mechanics-BSc/book/continuum/model/tensors
-      - file: external/CEG-mechanics-BSc/book/continuum/transformations/intro
-        sections:
-        - file: external/CEG-mechanics-BSc/book/continuum/transformations/analytical
-    - file: week_13/session_1/intro
     - file: week_13/homework_2/intro
       sections:
       - file: week_13/homework_2/copy

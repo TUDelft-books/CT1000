@@ -1,7 +1,7 @@
 (homework12.3)=
-# Homework deadline lesson Friday November 22nd
+# Homework deadline lesson Friday November 21st
 
-As a preparation for Friday's lesson you'll look into the core of a cross-section:
+As a preparation for Friday's lesson you'll look into Tensors and Transforming those:
 
 ```{tableofcontents}
 ```
