@@ -16,7 +16,7 @@ Given is the following structure and cross-section:
 ```
 
 1. Find the relevant cross-sectional properties.
-2. Find the shear stresses at cross-section $\rm{A}$ and draw the shear stress distribution in this cross-section.
+2. Find the core of the cross-section
 
 ````{admonition} Solution assignment 1
 :class: tip, dropdown
