@@ -54,7 +54,7 @@ Normal force centre is given by:
 - $\sigma_{\rm{2,} \ \rm{just} \ \rm{below} \ \rm{G}} = -0.0040 \ \rm{ MPa}$
 - $\sigma_{\rm{1,} \ \rm{H}} = +6.73 \ \rm{ MPa}$
 - $\sigma_{\rm{2,} \ \rm{H}} = 0 \ \rm{ MPa}$
-- $\sigma_{\rm{1,} \ \rm{I}} = 0.59 \ \rm{ MPa}$
+- $\sigma_{\rm{1,} \ \rm{I}} = 0.059 \ \rm{ MPa}$
 - $\sigma_{\rm{2,} \ \rm{I}} = -2.06 \ \rm{ MPa}$
 - $\sigma_{\rm{1,} \ \rm{just} \ \rm{right} \ \rm{of} \ \rm{C}} = 0.0018 \ \rm{ MPa}$
 - $\sigma_{\rm{2,} \ \rm{just} \ \rm{right} \ \rm{of} \ \rm{C}} = -8.5 \ \rm{ MPa}$
