@@ -22,7 +22,7 @@ Given is the following cross-section
 ````{admonition} Solution assignment 1
 :class: tip, dropdown
 
-$I_{zz} = 400 \cdot 10^6 \text{ mm}^4 $
+$I_{zz} = 400 \cdot 10^6 \, \rm{mm}^4 $
 
 ````
 
