@@ -10,7 +10,7 @@
 During today's lesson you'll work on a complex exercise on the topic of the stress-strain relations. Please ask your questions regarding the [homework](homework13.1) as well!
 
 ````{margin}
-```{attributiongrey} Bronvermelding
+```{attributiongrey} Attribution
 :class: attribution
 
 This exercise is from the course CTB2210 2025-2026 {cite:p}`Francesco_stress_strain`.
@@ -84,7 +84,7 @@ $$
 ````
 
 ````{margin}
-```{attributiongrey} Bronvermelding
+```{attributiongrey} Attribution
 :class: attribution
 
 This exercise is from the [exam Q1 of CTB2210 2025-2026](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/blob/main/old_exams_CM3/2025-2026_Q1_Tentamenvraag_BS.pdf) {cite:p}`Francesco_exam_Q1_2025`.

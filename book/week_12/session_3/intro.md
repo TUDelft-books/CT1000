@@ -62,7 +62,7 @@ Normal force centre is given by:
 ````
 
 ````{margin}
-```{attributiongrey} Bronvermelding
+```{attributiongrey} Attribution
 :class: attribution
 
 This exercise is from the course CTB2210 2025-2026 {cite:p}`Francesco_stress_strain`.
