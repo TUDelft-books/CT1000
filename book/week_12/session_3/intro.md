@@ -92,18 +92,18 @@ Cross-section, with properties: $E = 30 \ \rm{ GPa}$,  $\nu = 0.2 \ \rm{(-)}$, $
 ````{admonition} Solution assignment 1
 :class: solution, dropdown
 
-- $N_{\rm{A}} = 200 \ \rm{ kN}$
-- $V_{\rm{A}} = 80 \ \rm{ kN}$
-- $M_{\rm{A}} = -160 \ \rm{ kNm}$
+- $N_{\rm{A}} = 200 \, \rm{ kN}$
+- $V_{\rm{A}} = 80 \, \rm{ kN}$
+- $M_{\rm{A}} = -160 \, \rm{ kNm}$
 
 ```` 
 
 ````{admonition} Solution assignment 2
 :class: solution, dropdown
 
-- $\sigma_{yy} = \sigma_{xy} = \sigma_{yz} = \sigma_{zz} = 0 \ \rm{ MPa}$
-- $\sigma_{xx} = -5 \ \rm{ MPa}$
-- $\sigma_{xz} = 0.75 \ \rm{ MPa}$
+- $\sigma_{yy} = \sigma_{xy} = \sigma_{yz} = \sigma_{zz} = 0 \, \rm{ MPa}$
+- $\sigma_{xx} = -5 \, \rm{ MPa}$
+- $\sigma_{xz} = 0.75 \, \rm{ MPa}$
 
 ```` 
 
@@ -115,7 +115,7 @@ $$
     -5 & 0 & 0.75 \\
     0 & 0 & 0 \\
     0.75 & 0 & 0
-\end{bmatrix} \ \rm{ MPa}
+\end{bmatrix} \, \rm{ MPa}
 $$
 
 ```` 
@@ -132,7 +132,7 @@ $$
     -3.33 & 0 & 0.45 \\
     0 & 1.67 & 0 \\
     024 & 0 & 1.67
-\end{bmatrix}\ \rm{ MPa}
+\end{bmatrix} \, \rm{ MPa}
 $$
 
 ````
