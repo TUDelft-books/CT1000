@@ -1,7 +1,7 @@
-(homework13.3)=
-# Homework deadline lesson Friday November 29th
+(homework14.2)=
+# Homework deadline lesson Friday November 28th
 
-As a preparation for Tuesday's lesson you'll look into Internal forces and displacement due to torsion:
+As a preparation for Friday's lesson you'll look into the Shear Force centre:
 
 ```{tableofcontents}
 ```

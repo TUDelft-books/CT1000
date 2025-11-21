@@ -243,21 +243,21 @@ parts:
       sections:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/model/stress-strain.md
     - file: week_13/session_1/intro
-    - file: week_13/homework_2/intro
-      sections:
-      - file: week_13/homework_2/copy
-        sections:
-        - file: external/CEG-mechanics-BSc/book/continuum/model/stress-strain
-      - file: week_13/homework_2/copy2
-        sections:
-        - file: external/CEG-mechanics-BSc/book/continuum/transformations/graphical
     - file: week_13/session_2/intro
     - file: week_13/homework_3/intro
       sections:
-      - file: week_13/homework_3/copy2
+      - file: week_13/homework_3/copy4
+        sections:
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/cross-sectional/shear-force-centre.md
+    - file: week_13/session_3/intro
+  - file: week_14/intro
+    sections:
+    - file: week_14/homework_1/intro
+      sections:
+      - file: week_14/homework_1/copy2
         sections:
         - file: external/CEG-mechanics-BSc/book/support_internal_forces/ode/torsion
-      - file: week_13/homework_3/copy
+      - file: week_14/homework_1/copy
         sections:
         - file: external/CEG-mechanics-BSc/book/support_internal_forces/equilibrium/torsional
       - file: external/CEG-mechanics-BSc/book/support_internal_forces/internal_forces_torsion/intro
@@ -265,30 +265,29 @@ parts:
         - file: external/CEG-mechanics-BSc/book/support_internal_forces/internal_forces_torsion/cross_section
         - file: external/CEG-mechanics-BSc/book/support_internal_forces/internal_forces_torsion/diagrams
         - file: external/CEG-mechanics-BSc/book/support_internal_forces/internal_forces_torsion/ode
-      - file: week_13/homework_3/copy3
+      - file: week_14/homework_1/copy3
         sections:
         - file: external/CEG-mechanics-BSc/book/stresses_displacements/model/torsion
-      - file: week_13/homework_3/copy4
+      - file: week_14/homework_1/copy4
         sections:
         - file: external/CEG-mechanics-BSc/book/stresses_displacements/cross-sectional/polar-moment-area
         - file: external/CEG-mechanics-BSc/book/stresses_displacements/cross-sectional/torsional-moment-area
-      - file: week_13/homework_3/copy5
+      - file: week_14/homework_1/copy5
         sections:
         - file: external/CEG-mechanics-BSc/book/stresses_displacements/strain_diagram/torsion
-      - file: week_13/homework_3/copy6
+      - file: week_14/homework_1/copy6
         sections:
         - file: external/CEG-mechanics-BSc/book/stresses_displacements/kinematic/torsion
-      - file: week_13/homework_3/copy7
+      - file: week_14/homework_1/copy7
         sections:
         - file: external/CEG-mechanics-BSc/book/stresses_displacements/constitutive/torsion
+    - file: week_14/session_1/intro
+    - file: week_14/homework_2/intro
+      sections:
       - file: external/CEG-mechanics-BSc/book/stresses_displacements/displacements_torsion/intro
         sections:
         - file: external/CEG-mechanics-BSc/book/stresses_displacements/displacements_torsion/equations
         - file: external/CEG-mechanics-BSc/book/stresses_displacements/displacements_torsion/ode
-    - file: week_13/session_3/intro
-  - file: week_14/intro
-    sections:
-    - file: week_14/homework_1/intro
       sections:
       - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_torsion/intro
         sections:
@@ -297,12 +296,6 @@ parts:
         - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_torsion/thin-walled-non-circular
         - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_torsion/thin-walled-cross-section
         - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_torsion/mixed
-    - file: week_14/session_1/intro
-    - file: week_14/homework_2/intro
-      sections:
-      - file: week_14/homework_2/copy4
-        sections:
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/cross-sectional/shear-force-centre
     - file: week_14/session_2/intro
     - file: week_14/homework_3/intro
       sections:
