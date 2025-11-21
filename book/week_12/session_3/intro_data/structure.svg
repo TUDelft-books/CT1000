@@ -466,11 +466,11 @@
 		</g>
 		<g id="shape187-278" v:mID="187" v:groupContext="shape" transform="translate(186.753,-7.31356)">
 			<title>Punt A.187</title>
-			<desc>I at the height of the unkonw NC</desc>
+			<desc>I at the height of the unknown NC</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="47.4803" cy="298.09" width="94.97" height="14.1732"/>
 			<rect x="0" y="291.003" width="94.9606" height="14.1732" class="st16"/>
 			<text x="7.83" y="294.49" class="st15" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>I at the height of <tspan
-						x="9.48" dy="1.2em" class="st20">the unkonw NC</tspan></text>		</g>
+						x="6.48" dy="1.2em" class="st20">the unknown NC</tspan></text>		</g>
 	</g>
 </svg>
