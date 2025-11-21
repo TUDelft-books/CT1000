@@ -1,4 +1,4 @@
-(homework13.3)=
+(homework14.1)=
 # Homework deadline lesson Friday November 29th
 
 As a preparation for Tuesday's lesson you'll look into Internal forces and displacement due to torsion:
