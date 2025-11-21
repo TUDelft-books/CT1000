@@ -61,6 +61,15 @@ Normal force centre is given by:
 
 ````
 
+````{margin}
+```{attributiongrey} Bronvermelding
+:class: attribution
+
+This exercise is from the course CTB2210 2025-2026 {cite:p}`Francesco_stress_strain`.
+
+```
+````
+
 ## Exercise stress tensor
 
 Given is the following structure and cross-section:
