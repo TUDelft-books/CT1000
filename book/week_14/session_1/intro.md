@@ -12,10 +12,6 @@ During today's lesson you'll work on a complex exercise on the topic of the Inte
 
 ## Exercise Internal forces and displacement due to torsion
 
-```{note}
-In this exercises, you'll be given the location of the [shear force centre](../../external/CEG-mechanics-BSc/book/stresses_displacements/cross-sectional/shear-force-centre.md) ('SC'). This topic will be treated in the homework of [next week Wednesday](homework14.2). The only thing you need to know now is that the torsional moment can be calculated using the lever arm with respect to this shear force centre.
-```
-
 Given is the following structure:
 
 ```{figure} intro_data/structure.svg
