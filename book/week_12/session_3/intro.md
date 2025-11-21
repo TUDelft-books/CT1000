@@ -72,12 +72,7 @@ Given is the following structure and cross-section:
 align: center
 width: 400px
 ---
-Structure, with properties:
-
-- $L = 4 \ \rm{ }$
-- $F = 200 \ \rm{ kN}$
-- $q = 20 \ \rm{ kN/m}$
-
+Structure, with properties $L = 4 \ \rm{ }$, $F = 200 \ \rm{ kN}$, $q = 20 \ \rm{ kN/m}$
 ```
 
 ````{figure} intro_data/doorsnede.png
@@ -85,12 +80,7 @@ Structure, with properties:
 align: center
 width: 200px
 ---
-Cross-section, with properties:
-
-- $E = 30 \ \rm{ GPa}$
-- $\nu = 0.2 \ \rm{(-)}$
-- $b = 200 \ \rm{ mm}$
-- $h = 600 \ \rm{ mm}$
+Cross-section, with properties: $E = 30 \ \rm{ GPa}$,  $\nu = 0.2 \ \rm{(-)}$, $b = 200 \ \rm{ mm}$, $h = 600 \ \rm{ mm}$.
 
 ````
 
