@@ -1,7 +1,7 @@
-(homework14.2)=
-# Homework deadline lesson Tuesday December 3rd
+(homework14.1)=
+# Homework deadline lesson Monday December 2nd
 
-As a preparation for Monday's lesson you'll look into the Shear Force centre:
+As a preparation for Monday's lesson you'll look into Shear stresses in torsional elements:
 
 ```{tableofcontents}
 ```

@@ -1,2 +1,7 @@
-```{include} ../../external/CEG-mechanics-BSc/book/stresses_displacements/cross-sectional/intro.md
+```{index} Cross-sectional properties
+```
+# Cross-sectional properties
+
+This chapter includes the following topics:
+```{tableofcontents}
 ```

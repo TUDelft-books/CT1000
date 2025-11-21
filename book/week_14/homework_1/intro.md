@@ -1,7 +1,7 @@
-(homework14.1)=
-# Homework deadline lesson Monday December 2nd
+(homework13.3)=
+# Homework deadline lesson Friday November 29th
 
-As a preparation for Monday's lesson you'll look into Shear stresses in torsional elements:
+As a preparation for Tuesday's lesson you'll look into Internal forces and displacement due to torsion:
 
 ```{tableofcontents}
 ```
