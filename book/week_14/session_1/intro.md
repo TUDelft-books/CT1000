@@ -5,10 +5,10 @@
 
 % Source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 
-(lesson13.3)=
+(lesson14.1)=
 # Lesson November 29th
 
-During today's lesson you'll work on a complex exercise on the topic of the Internal forces and displacement due to torsion. Please ask your questions regarding the [homework](homework13.3) as well!
+During today's lesson you'll work on a complex exercise on the topic of the Internal forces and displacement due to torsion. Please ask your questions regarding the [homework](homework14.1) as well!
 
 ## Exercise Internal forces and displacement due to torsion
 

@@ -236,20 +236,22 @@ parts:
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/transformations/analytical.md
     - file: week_12/session_3/intro
-# START REMOVE-FROM-PUBLISH
   - file: week_13/intro
     sections:
     - file: week_13/homework_1/intro
       sections:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/model/stress-strain.md
     - file: week_13/session_1/intro
+# START REMOVE-FROM-PUBLISH
     - file: week_13/session_2/intro
+# END REMOVE-FROM-PUBLISH
     - file: week_13/homework_3/intro
       sections:
       - file: week_13/homework_3/copy4
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/cross-sectional/shear-force-centre.md
     - file: week_13/session_3/intro
+# START REMOVE-FROM-PUBLISH
   - file: week_14/intro
     sections:
     - file: week_14/homework_1/intro
