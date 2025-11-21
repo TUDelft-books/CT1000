@@ -10,7 +10,7 @@ During today's lesson you'll work on a complex exercise on the topic of the Tran
 
 Given is the following structure and cross-section:
 
-% source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/shear_stresses/transform_stress
+% source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/transform_stress
 
 ```{figure} intro_data/structure.svg
 :align: center
