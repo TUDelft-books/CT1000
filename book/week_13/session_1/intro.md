@@ -17,9 +17,9 @@ This exercise is from the course CTB2210 2025-2026 {cite:p}`Francesco_stress_str
 
 During today's lesson you'll work on a complex exercise on the topic of the stress-strain relations. Please ask your questions regarding the [homework](homework13.1) as well!
 
-## Exercise tensor
+## Exercise stress-strain relations
 
-Given is the following structure and cross-section:
+Given is the following stress element:
 
 % source files on https://brightspace.tudelft.nl/d2l/le/content/774702/viewContent/4617411/View
 
