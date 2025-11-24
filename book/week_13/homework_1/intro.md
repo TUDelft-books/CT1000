@@ -1,7 +1,7 @@
 (homework13.1)=
-# Homework deadline lesson Tuesday November 25th
+# Homework deadline lesson Monday November 24th
 
-As a preparation for Tuesday's lesson you'll look into stress-strain relationships:
+As a preparation for Monday's lesson you'll look into stress-strain relationships:
 
 ```{tableofcontents}
 ```
