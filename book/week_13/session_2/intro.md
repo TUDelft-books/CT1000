@@ -121,9 +121,9 @@ Furthermore, the shear stress distribution due to the shear force can be found:
 $$
 \begin{align*}
 \tau_{V\rm{,flange,right}} &= \frac{2 \cdot 10^3 \cdot 50 \cdot 15 \cdot 75}{15 \cdot 79 \cdot 10^6} = 0.095 \, \rm{MPa} \\
-\tau_{V\rm{,flange,left}} &= \frac{2 \cdot 10^3 \cdot \left( 50 \cdot 15 \cdot 75 + 200 \cdot 15 \cdot 100 \right) }{3 \cdot 79 \cdot 10^6} = 0.60 \, \rm{MPa} \\
-\tau_{V\rm{,C}} &= \frac{2 \cdot 10^3 \cdot \left( 50 \cdot 15 \cdot 75 + 200 \cdot 15 \cdot 100 + 50 \cdot 15 \cdot 75 \right)}{3 \cdot 79 \cdot 10^6} = 0.70 \, \rm{MPa}\\
-\tau_{V\rm{,max}} &= \frac{2 \cdot 10^3 \cdot \left( 50 \cdot 15 \cdot 75 + 200 \cdot 15 \cdot 100 + 100 \cdot 15 \cdot 50 \right)}{3 \cdot 79 \cdot 10^6} = 0.73 \, \rm{MPa}\\
+\tau_{V\rm{,flange,left}} &= \frac{2 \cdot 10^3 \cdot \left( 50 \cdot 15 \cdot 75 + 200 \cdot 15 \cdot 100 \right) }{15 \cdot 79 \cdot 10^6} = 0.60 \, \rm{MPa} \\
+\tau_{V\rm{,C}} &= \frac{2 \cdot 10^3 \cdot \left( 50 \cdot 15 \cdot 75 + 200 \cdot 15 \cdot 100 + 50 \cdot 15 \cdot 75 \right)}{15 \cdot 79 \cdot 10^6} = 0.70 \, \rm{MPa}\\
+\tau_{V\rm{,max}} &= \frac{2 \cdot 10^3 \cdot \left( 50 \cdot 15 \cdot 75 + 200 \cdot 15 \cdot 100 + 100 \cdot 15 \cdot 50 \right)}{15 \cdot 79 \cdot 10^6} = 0.73 \, \rm{MPa}\\
 \end{align*}
 $$
 
@@ -152,10 +152,10 @@ The location of where the shear force acts to have the same torsional moment eff
 $$
 \begin{align*}
 \sum T_{\bar x\rm{,web,stresses}} &= \sum T_{\bar x\rm{,web,shear} \, \rm{force}} \\
-\cfrac{2000 \int_{50}^{100} \left( 15 \ z \cdot \left( 50 + z/2\right) \right) dz }{15 \cdot 79 \cdot 10^6} \ 15 \cdot 200 \\
+\cfrac{2000 \int_{0}^{50} \left( 15 \ z \cdot \left( 50 + z/2\right) \right) dz }{15 \cdot 79 \cdot 10^6} \ 15 \cdot 200 \\
 + 0.095 \cdot 15 \cdot 200 \cdot 100 \\
 + 0.095 \cdot 15 \cdot 200 \cdot 100 \\
-+ \cfrac{2000 \int_{-50}^{-100} \left( 15 \ z \cdot \left( -50 - z/2\right) \right) dz }{15 \cdot 79 \cdot 10^6} \ 15 \cdot 200 &= 2000 \cdot e \\
++ \cfrac{2000 \int_{0}^{50} \left( 15 \ z \cdot \left( -50 - z/2\right) \right) dz }{15 \cdot 79 \cdot 10^6} \ 15 \cdot 200 &= 2000 \cdot e \\
 e &\approx 111 \, \rm{mm}
 \end{align*}
 $$
@@ -193,15 +193,15 @@ align: center
 Shear stresses due to torsional moment, with thickness of the walls exaggerated for clarity.
 ```
 
-This stress is working counterclockwise in the cross-section, so upwards in $\rm{C}$ (where the shear stress due to bending was acting downwards). The total stress state at point $\rm{C}$ can now be summarised in the following stress tensor:
+This stress is working clockwise in the cross-section, so upwards in $\rm{C}$ (where the shear stress due to bending was acting downwards). The total stress state at point $\rm{C}$ can now be summarised in the following stress tensor:
 
 $$
 \sigma  = \left[ \begin{array}{}
-{-2.86 + 5.06}&{-0.70 + 7.62}\\
-{-0.70 + 7.62}&{0}
+{-2.86 + 5.06}&{0.70 - 7.62}\\
+{0.70 - 7.62}&{0}
 \end{array} \right] = \left[ \begin{array}{}
-{2.21}&{6.92}\\
-{6.92}&{0}
+{2.21}&{-6.92}\\
+{-6.92}&{0}
 \end{array} \right]
 {\ \rm{ MPa}}
 $$
@@ -217,7 +217,7 @@ The principal stresses can be calculated as:
 
 $$
 \begin{align*}
-\sigma_{1,2} &= \frac{2.21 + 0}{2} \pm \sqrt{ \left( \frac{2.21 - 0}{2} \right)^2 + 6.92^2 } \\
+\sigma_{1,2} &= \frac{2.21 + 0}{2} \pm \sqrt{ \left( \frac{2.21 - 0}{2} \right)^2 + \left(6.92\right)^2 } \\
 \sigma_{1,2} &\approx 8.05 \, \rm{MPa} \, , \, -5.84 \, \rm{MPa}
 \end{align*}
 $$
