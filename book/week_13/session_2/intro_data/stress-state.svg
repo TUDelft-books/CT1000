@@ -41,11 +41,11 @@
 			<title>Blad.1825</title>
 			<rect x="0" y="85.6397" width="85.0394" height="85.0394" class="st1"/>
 		</g>
-		<g id="shape1826-3" v:mID="1826" v:groupContext="shape" transform="translate(351.054,35.8081) rotate(90)">
+		<g id="shape1826-3" v:mID="1826" v:groupContext="shape" transform="translate(9.69598,92.501) rotate(-90)">
 			<title>Kracht.1826</title>
 			<path d="M0 170.68 L52.07 170.68" class="st2"/>
 		</g>
-		<g id="shape1827-9" v:mID="1827" v:groupContext="shape" transform="translate(102.422,-56.9182)">
+		<g id="shape1827-9" v:mID="1827" v:groupContext="shape" transform="translate(102.422,-156.131)">
 			<title>Kracht.1827</title>
 			<path d="M0 170.68 L52.07 170.68" class="st2"/>
 		</g>
@@ -77,36 +77,36 @@
 				<rect x="0" y="156.506" width="14.1732" height="14.1732" class="st6"/>
 				<text x="4.75" y="167.19" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>z</text>			</g>
 		</g>
-		<g id="shape1834-34" v:mID="1834" v:groupContext="shape" transform="translate(-89.5167,92.501) rotate(-90)">
+		<g id="shape1834-34" v:mID="1834" v:groupContext="shape" transform="translate(251.841,35.8081) rotate(90)">
 			<title>Kracht.1834</title>
 			<path d="M0 170.68 L52.07 170.68" class="st2"/>
 		</g>
-		<g id="shape1835-39" v:mID="1835" v:groupContext="shape" transform="translate(159.115,185.227) rotate(180)">
+		<g id="shape1835-39" v:mID="1835" v:groupContext="shape" transform="translate(159.115,284.44) rotate(180)">
 			<title>Kracht.1835</title>
 			<path d="M0 170.68 L52.07 170.68" class="st2"/>
 		</g>
-		<g id="shape1836-44" v:mID="1836" v:groupContext="shape" transform="translate(180.375,-71.0914)">
+		<g id="shape1836-44" v:mID="1836" v:groupContext="shape" transform="translate(180.375,-127.784)">
 			<title>Blad.1836</title>
 			<desc>6.92 MPa</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="28.3464" cy="163.592" width="56.7" height="14.1732"/>
 			<rect x="0" y="156.506" width="56.6928" height="14.1732" class="st6"/>
 			<text x="5.01" y="167.19" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>6.92 MPa</text>		</g>
-		<g id="shape1837-47" v:mID="1837" v:groupContext="shape" transform="translate(131.998,-42.745)">
+		<g id="shape1837-47" v:mID="1837" v:groupContext="shape" transform="translate(74.0757,-42.745)">
 			<title>Blad.1837</title>
 			<desc>6.92 MPa</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="28.3464" cy="163.592" width="56.7" height="14.1732"/>
 			<rect x="0" y="156.506" width="56.6928" height="14.1732" class="st6"/>
 			<text x="5.01" y="167.19" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>6.92 MPa</text>		</g>
-		<g id="shape1838-50" v:mID="1838" v:groupContext="shape" transform="translate(88.249,-156.131)">
+		<g id="shape1838-50" v:mID="1838" v:groupContext="shape" transform="translate(130.769,-156.131)">
 			<title>Blad.1838</title>
 			<desc>6.92 MPa</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="28.3464" cy="163.592" width="56.7" height="14.1732"/>
 			<rect x="0" y="156.506" width="56.6928" height="14.1732" class="st6"/>
 			<text x="5.01" y="167.19" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>6.92 MPa</text>		</g>
-		<g id="shape1839-53" v:mID="1839" v:groupContext="shape" transform="translate(24.4695,-127.784)">
+		<g id="shape1839-53" v:mID="1839" v:groupContext="shape" transform="translate(24.4695,-71.0914)">
 			<title>Blad.1839</title>
 			<desc>6.92 MPa</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
