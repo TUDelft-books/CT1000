@@ -242,9 +242,7 @@ parts:
       sections:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/model/stress-strain.md
     - file: week_13/session_1/intro
-# START REMOVE-FROM-PUBLISH
     - file: week_13/session_2/intro
-# END REMOVE-FROM-PUBLISH
     - file: week_13/homework_3/intro
       sections:
       - file: week_13/homework_3/copy4

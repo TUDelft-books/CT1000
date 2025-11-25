@@ -188,7 +188,6 @@ $$
 
 ```{figure} intro_data/shear_stress_flow.svg
 ---
-name: shear_stress
 align: center
 ---
 Shear stresses due to torsional moment, with thickness of the walls exaggerated for clarity.
