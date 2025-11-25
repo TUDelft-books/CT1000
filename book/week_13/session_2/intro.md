@@ -160,6 +160,8 @@ e &\approx 111 \, \rm{mm}
 \end{align*}
 $$
 
+Note that an integral is used to calculate the moment of the varying shear stress in the web as it changes parabolically. If the parabola has a known minimum and maximum value, the integral can be simplified to $\frac{1}{3}bh$ and $\frac{2}{3}bh$ respectively.
+
 So the shear force center is located at approximately $111 \, \rm{mm}$ left of the web.
 
 Now we can continue finding the stresses at point $\rm{C}$, combining the normal and shear stresses, with the stress due to the torsional moment. Note that there's no additional torsion moment other than the $-0.4 \, \rm{kNm}$, as the external force is applied at the shear force center.
@@ -183,6 +185,14 @@ $$
 \tau_{\rm{t,C}} &\approx 7.62 \, \rm{MPa}
 \end{align*}
 $$
+
+```{figure} intro_data/shear_stress_flow.svg
+---
+name: shear_stress
+align: center
+---
+Shear stresses due to torsional moment, with thickness of the walls exaggerated for clarity.
+```
 
 This stress is working counterclockwise in the cross-section, so upwards in $\rm{C}$ (where the shear stress due to bending was acting downwards). The total stress state at point $\rm{C}$ can now be summarised in the following stress tensor:
 

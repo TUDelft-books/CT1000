@@ -538,26 +538,26 @@
 			<rect x="0" y="199.607" width="83.622" height="14.1732" class="st6"/>
 			<text x="8.35" y="210.29" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
 						class="st24" v:baseFontSize="12">t</tspan><tspan dy="0.181em" class="st9"> </tspan><tspan class="st9">= 0.4 kNm</tspan></text>		</g>
-		<g id="shape1519-350" v:mID="1519" v:groupContext="shape" transform="translate(288.092,-156.967)">
+		<g id="shape1519-350" v:mID="1519" v:groupContext="shape" transform="translate(322.107,-156.967)">
 			<title>Punt A.1519</title>
 			<desc>C</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="7.08661" cy="206.693" width="14.18" height="14.1732"/>
 			<rect x="0" y="199.607" width="14.1732" height="14.1732" class="st6"/>
 			<text x="4" y="210.29" class="st14" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>C</text>		</g>
-		<g id="shape1520-353" v:mID="1520" v:groupContext="shape" transform="translate(158.186,200.892) rotate(-135)">
+		<g id="shape1520-353" v:mID="1520" v:groupContext="shape" transform="translate(164.099,200.892) rotate(-135)">
 			<title>Blad.1520</title>
 			<path d="M0 213.78 L5.67 213.78" class="st25"/>
 		</g>
-		<g id="shape1521-356" v:mID="1521" v:groupContext="shape" transform="translate(162.195,204.9) rotate(-135)">
+		<g id="shape1521-356" v:mID="1521" v:groupContext="shape" transform="translate(168.107,204.9) rotate(-135)">
 			<title>Blad.1521</title>
 			<path d="M0 213.78 L5.67 213.78" class="st25"/>
 		</g>
-		<g id="shape1522-359" v:mID="1522" v:groupContext="shape" transform="translate(154.177,-97.4302) rotate(-45)">
+		<g id="shape1522-359" v:mID="1522" v:groupContext="shape" transform="translate(160.09,-97.4302) rotate(-45)">
 			<title>Blad.1522</title>
 			<path d="M0 213.78 L5.67 213.78" class="st25"/>
 		</g>
-		<g id="shape1523-362" v:mID="1523" v:groupContext="shape" transform="translate(158.186,-101.439) rotate(-45)">
+		<g id="shape1523-362" v:mID="1523" v:groupContext="shape" transform="translate(164.099,-101.439) rotate(-45)">
 			<title>Blad.1523</title>
 			<path d="M0 213.78 L5.67 213.78" class="st25"/>
 		</g>
