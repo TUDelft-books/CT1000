@@ -147,7 +147,7 @@ align: center
 Shear force acting eccentrically
 ```
 
-The location of where the shear force acts to have the same torsional moment effect as the shear stresses, is called the shear force centre. It can be calculated by comparing {numref}`shear_stress` with figure {numref}`shear_eccentric`, which both should have the same torsional moment around any point.
+The location of where the shear force acts to have the same torsional moment effect as the shear stresses, is called the shear force centre. It can be calculated by comparing {numref}`shear_stress` with {numref}`shear_eccentric`, which both should have the same torsional moment around any point.
 
 $$
 \begin{align*}
@@ -227,7 +227,6 @@ So the yield stress of the material should be at least $14 \, \rm{MPa}$ to preve
 
 ```{figure} intro_data/envelope.svg
 ---
-name: shear_eccentric
 align: center
 ---
 Tresca failure envelope showing the stress state at point $\rm{C}$
