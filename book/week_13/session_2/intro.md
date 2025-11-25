@@ -19,7 +19,7 @@ align: center
 Structure and cross-section, with point $\rm{C}$ in the cross-section of $\rm{A}$.
 ```
 
-Evaluate where the shear force center is located and find the required yield stress of the material in order to prevent failure in point $\rm{C}$ according to Tresca.
+Evaluate where the shear force center is located and find the required yield stress of the material in order to prevent failure in point $\rm{C}$ according to Tresca. Draw the required Tresca failure envelope too.
 
 We can start with evaluating the internal forces in the structure:
 
@@ -147,7 +147,7 @@ align: center
 Shear force acting eccentrically
 ```
 
-The location of where the shear force acts to have the same torsional moment effect as the shear stresses, is called the shear force centre. It can be calculated by comparing figure {numref}`shear_eccentric` with the free body diagram in figure {numref}`VLS_2D`, which both should have the same torsional moment around any point.
+The location of where the shear force acts to have the same torsional moment effect as the shear stresses, is called the shear force centre. It can be calculated by comparing {numref}`shear_stress` with figure {numref}`shear_eccentric`, which both should have the same torsional moment around any point.
 
 $$
 \begin{align*}
@@ -160,7 +160,11 @@ e &\approx 111 \, \rm{mm}
 \end{align*}
 $$
 
-It is an open-thin walled cross-section, therefore, the torsional cross-sectional property, the torsion constant $I_{\rm{t}}$, can be calculated with:
+So the shear force center is located at approximately $111 \, \rm{mm}$ left of the web.
+
+Now we can continue finding the stresses at point $\rm{C}$, combining the normal and shear stresses, with the stress due to the torsional moment. Note that there's no additional torsion moment other than the $-0.4 \, \rm{kNm}$, as the external force is applied at the shear force center.
+
+We have an open-thin walled cross-section, therefore, the torsional cross-sectional property, the torsion constant $I_{\rm{t}}$, can be calculated with:
 
 $$
 \begin{align*}
@@ -169,3 +173,63 @@ I_{\rm{t}} &= \frac{1}{3} \cdot \sum \left( t_i^3 \cdot h_i \right) \\
 &= 787500 \, \rm{mm^4}
 \end{align*}
 $$
+
+The shear stress due to torsion can now be calculated as:
+
+$$
+\begin{align*}
+\tau_{\rm{t,C}} &= \left| \cfrac{M_t \cdot e_{\rm{m}}}{\frac{1}{2} I_{\rm{t}}} \right| \\
+\tau_{\rm{t,C}} &= \left|  \cfrac{-0.4 \cdot 10^6 \cdot 7.5}{0.5 \cdot 787500} \right| \\
+\tau_{\rm{t,C}} &\approx 7.62 \, \rm{MPa}
+\end{align*}
+$$
+
+This stress is working counterclockwise in the cross-section, so upwards in $\rm{C}$ (where the shear stress due to bending was acting downwards). The total stress state at point $\rm{C}$ can now be summarised in the following stress tensor:
+
+$$
+\sigma  = \left[ \begin{array}{}
+{-2.86 + 5.06}&{-0.70 + 7.62}\\
+{-0.70 + 7.62}&{0}
+\end{array} \right] = \left[ \begin{array}{}
+{2.21}&{6.92}\\
+{6.92}&{0}
+\end{array} \right]
+{\ \rm{ MPa}}
+$$
+
+```{figure} intro_data/stress-state.svg
+---
+align: center
+---
+Stress state at point $\rm{C}$
+```
+
+The principal stresses can be calculated as:
+
+$$
+\begin{align*}
+\sigma_{1,2} &= \frac{2.21 + 0}{2} \pm \sqrt{ \left( \frac{2.21 - 0}{2} \right)^2 + 6.92^2 } \\
+\sigma_{1,2} &\approx 8.05 \, \rm{MPa} \, , \, -5.84 \, \rm{MPa}
+\end{align*}
+$$
+
+According to the Tresca failure criterion in 2D, the material will fail when:
+
+$$
+\begin{align*}
+\left| \sigma_1 - \sigma_2 \right| &\geq \sigma_{\rm{y}} \\
+\left| 8.05 - \left( -5.84 \right) \right| &\geq \sigma_{\rm{y}} \\
+14 \geq \sigma_{\rm{y}}
+\end{align*}
+$$
+
+So the yield stress of the material should be at least $14 \, \rm{MPa}$ to prevent failure in point $\rm{C}$.
+
+```{figure} intro_data/envelope.svg
+---
+name: shear_eccentric
+align: center
+---
+Tresca failure envelope showing the stress state at point $\rm{C}$
+```
+
