@@ -1,2 +1,10 @@
-```{include} ../../external/CEG-mechanics-BSc/book/support_internal_forces/ode/intro.md
+```{index} Differential equations for equilibrium relations
+```
+```{index} Equilibrium relations
+```
+```{index} Static relations
+```
+# Differential equations for equilibrium relations
+
+```{tableofcontents}
 ```
