@@ -31,3 +31,6 @@ As a preparation for the exam assignment on Continuum mechanics you can repeat a
     - Statics: all topics as a prerequisite except for `Differential equations for equilibrium relations` and, `Solve section forces frame structures - Diagrams` and  `Solve section forces ... using differential equations`.
     - Stresses and displacements: all topics as a prerequisite, except for `Solve displacements ...` and `kinematic relations`.
     - Continuum mechanics: all topics 
+
+- The following old exam questions could be used as additional practice material. Note that the emphasis in old exams might be different. Furthermore some (indicated) questions are not part of the content of this course.
+  ...
