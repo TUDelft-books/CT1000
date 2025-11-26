@@ -249,7 +249,6 @@ parts:
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/cross-sectional/shear-force-centre.md
     - file: week_13/session_3/intro
-# START REMOVE-FROM-PUBLISH
   - file: week_14/intro
     sections:
     - file: week_14/homework_1/intro
@@ -298,6 +297,7 @@ parts:
   - file: week_15/intro
     sections:
     - file: week_15/homework/intro
+# START REMOVE-FROM-PUBLISH
     - file: week_15/session/intro
     - file: week_15/session_2/intro
       sections:
