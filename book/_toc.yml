@@ -254,52 +254,46 @@ parts:
     sections:
     - file: week_14/homework_1/intro
       sections:
+      - file: week_14/homework_1/model
+        sections:
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/model/loads_torsional.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/model/internal_torsion.md
       - file: week_14/homework_1/copy2
         sections:
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/ode/torsion
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/ode/torsion.md
       - file: week_14/homework_1/copy
         sections:
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/equilibrium/torsional
-      - file: external/CEG-mechanics-BSc/book/support_internal_forces/internal_forces_torsion/intro
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/equilibrium/torsional.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/internal_forces_torsion/intro.md
         sections:
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/internal_forces_torsion/cross_section
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/internal_forces_torsion/diagrams
-        - file: external/CEG-mechanics-BSc/book/support_internal_forces/internal_forces_torsion/ode
-      - file: week_14/homework_1/copy3
-        sections:
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/model/torsion
-      - file: week_14/homework_1/copy4
-        sections:
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/cross-sectional/polar-moment-area
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/cross-sectional/torsional-moment-area
-      - file: week_14/homework_1/copy5
-        sections:
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/strain_diagram/torsion
-      - file: week_14/homework_1/copy6
-        sections:
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/kinematic/torsion
-      - file: week_14/homework_1/copy7
-        sections:
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/constitutive/torsion
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/internal_forces_torsion/cross_section.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/internal_forces_torsion/diagrams.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/internal_forces_torsion/ode.md
     - file: week_14/session_1/intro
     - file: week_14/homework_2/intro
       sections:
-      - file: external/CEG-mechanics-BSc/book/stresses_displacements/displacements_torsion/intro
+      - file: week_14/homework_2/copy3
         sections:
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/displacements_torsion/equations
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/displacements_torsion/ode
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/model/torsion.md
+      - file: week_14/homework_2/copy4
+        sections:
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/cross-sectional/polar-moment-area.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/cross-sectional/torsional-moment-area.md
+      - file: week_14/homework_2/copy5
+        sections:
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/strain_diagram/torsion.md
       sections:
-      - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_torsion/intro
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_torsion/intro.md
         sections:
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_torsion/thin-walled-circular
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_torsion/thick-walled-circular
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_torsion/thin-walled-non-circular
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_torsion/thin-walled-cross-section
-        - file: external/CEG-mechanics-BSc/book/stresses_displacements/solve_torsion/mixed
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_torsion/thin-walled-circular.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_torsion/thick-walled-circular.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_torsion/thin-walled-non-circular.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_torsion/thin-walled-cross-section.md
+        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_torsion/mixed.md
     - file: week_14/session_2/intro
     - file: week_14/homework_3/intro
       sections:
-      - file: external/CEG-mechanics-BSc/book/continuum/failure/failure
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/failure/failure.md
     - file: week_14/session_3/intro
   - file: week_15/intro
     sections:

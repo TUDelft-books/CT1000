@@ -1,5 +1,5 @@
 (homework14.3)=
-# Homework deadline lesson Friday December 6th
+# Homework deadline lesson Friday December 5th
 
 As a preparation for Monday's lesson you'll look into the Failure criteria:
 

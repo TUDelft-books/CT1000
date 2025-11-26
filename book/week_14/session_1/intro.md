@@ -6,38 +6,58 @@
 % Source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 
 (lesson14.1)=
-# Lesson November 29th
+# Lesson December 1st
 
 During today's lesson you'll work on a complex exercise on the topic of the Internal forces and displacement due to torsion. Please ask your questions regarding the [homework](homework14.1) as well!
 
-## Exercise Internal forces and displacement due to torsion
+## Exercise Internal forces
 
-Given is the following structure:
+Gegeven is de volgende constructie:
 
-```{figure} intro_data/structure.svg
-:align: center
+```{figure} ./lesoefening_data/constructie.svg
+---
+align: center
+---
+Constructie
 ```
 
-It represents the Puente de la Mujer in Buenos Aires, Argentina. The cables are connected to the edge of the deck, leading to torsional forces.
+:::::{exercise}
+:nonumber: true
 
-1. Draw the torsional moment distribution in the structure.
-2. Find the rotation around axis $x$ at $\text{E}$
+Gegeven zijn twee 3D-weergaves van de constructie
 
-````{admonition} Solution assignment 1
-:class: tip, dropdown
-
-```{figure} intro_data/Mt-line.svg
-:align: center
+```{figure} ./lesoefening_data/3D.svg
+---
+align: center
+---
 ```
 
-````
+```{h5p} https://tudelft.h5p.com/content/1292750958020428577/embed
+```
 
-````{admonition} Solution assignment 2
-:class: tip, dropdown
+:::::
 
-$\varphi_{\text{E,}x} = -1.1 \cdot 10^{-4} \text{ rad}$
+:::::{exercise}
+:nonumber: true
 
-````
+Wat weet je over de vorm van de wringende momentenlijn.
+
+```{h5p}  https://tudelft.h5p.com/content/1292751704243715217/embed
+```
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Bepaal de wringend momentenlijn.
+
+```{h5p}  https://tudelft.h5p.com/content/1292751710544863507/embed
+```
+
+:::::
+
+## Exercise 2
 
 Given is the following structure:
 
@@ -45,21 +65,13 @@ Given is the following structure:
 :align: center
 ```
 
-3. Draw the torsional moment distribution in the structure.
-4. Find the rotation around axis $x$ at $\text{B}$
+Draw the torsional moment distribution in the structure.
 
-````{admonition} Solution assignment 3
+````{admonition} Solution assignment 2
 :class: tip, dropdown
 
 ```{figure} intro_data/Mt-line2.svg
 :align: center
 ```
-
-````
-
-````{admonition} Solution assignment 4
-:class: tip, dropdown
-
-$\varphi_{\text{B,}x} = -0.0254 \text{ rad}$
 
 ````
