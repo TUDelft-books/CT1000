@@ -25,7 +25,7 @@ Given is the following structure. It represents the Prinses Amaliabrug, a bicycl
 ````{admonition} Solution assignment 1
 :class: tip, dropdown
 
-$A_m = 3.23 \text{ m}^2$
+$A_m = 3.23 \, \rm{m}^2$
 
 ````
 
@@ -46,8 +46,8 @@ $A_m = 3.23 \text{ m}^2$
 ````{admonition} Solution assignment 3
 :class: tip, dropdown
 
-- $\sigma_\text{E} = -0.0174 \text{ MPa}$
-- $\tau_\text{E} = 12.53 \text{ MPa}$
+- $\sigma_\text{E} = -0.0174 \, \rm{MPa}$
+- $\tau_\text{E} = 12.53 \, \rm{MPa}$
 
 ```{figure} intro_data/stress.svg
 :align: center
@@ -67,6 +67,6 @@ $A_m = 3.23 \text{ m}^2$
 ````{admonition} Solution assignment 5
 :class: tip, dropdown
 
-- $f_y > 25.06 \text{ MPa}$
+- $f_y > 25.06 \, \rm{MPa}$
 
 ````

@@ -27,9 +27,9 @@ Given is the following structure:
 :align: center
 ```
 
-- $A = 9020 \text{ mm}^2$
-- $I_{zz} = 37.2 \cdot 10^6 \text{ mm}^4 $
-- $I_t = 364 \cdot 10^3 \text{ mm}^4$
+- $A = 9020 \, \rm{mm}^2$
+- $I_{zz} = 37.2 \cdot 10^6 \, \rm{mm}^4 $
+- $I_t = 364 \cdot 10^3 \, \rm{mm}^4$
 
 ````
 
@@ -41,7 +41,7 @@ In segment $\text{AD}$ in grey crosses:
 :align: center
 ```
 
-$\left| \tau_{\max} \right| = 477.6 \text{ MPa} $
+$\left| \tau_{\max} \right| = 477.6 \, \rm{MPa} $
 
 ````
 
