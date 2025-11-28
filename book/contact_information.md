@@ -39,10 +39,10 @@ If you're stuck on a certain topic, you can also visit the teaching assistants d
 ```
 
 - Alexander Dzhanibekyan
-- Gweneira van Koot
 - Iris Oskam
 - Jelke Janssen
 - Laurens van Bavel
+- Lisette de Langen
 - Martijn Westerhof
 
 ## TeachBook editing
