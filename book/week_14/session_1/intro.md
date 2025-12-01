@@ -3,8 +3,6 @@
 ```{index} Displacements torsion structures; Class exercise
 ```
 
-% Source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
-
 (lesson14.1)=
 # Lesson December 1st
 
@@ -17,6 +15,7 @@ Gegeven is de volgende constructie:
 ```{figure} ./lesoefening_data/constructie.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ---
 Constructie
 ```
@@ -29,6 +28,7 @@ Gegeven zijn twee 3D-weergaves van de constructie
 ```{figure} ./lesoefening_data/3D.svg
 ---
 align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ---
 ```
 
@@ -63,6 +63,7 @@ Given is the following structure:
 
 ```{figure} intro_data/structure2.svg
 :align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ```
 
 Draw the torsional moment distribution in the structure.
@@ -72,6 +73,7 @@ Draw the torsional moment distribution in the structure.
 
 ```{figure} intro_data/Mt-line2.svg
 :align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ```
 
 ````
