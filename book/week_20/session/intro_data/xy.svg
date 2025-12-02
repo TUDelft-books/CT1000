@@ -76,21 +76,21 @@
 		</g>
 		<g id="shape1779-29" v:mID="1779" v:groupContext="shape" transform="translate(154.608,-80.1759)">
 			<title>A.1779</title>
-			<desc>279 kN</desc>
+			<desc>279 MPa</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="30.4724" cy="153.265" width="60.95" height="14.1732"/>
 			<rect x="0" y="146.179" width="60.9449" height="14.1732" class="st8"/>
-			<text x="12.64" y="156.87" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>279 kN</text>		</g>
+			<text x="8.64" y="156.87" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>279 MPa</text>		</g>
 		<g id="shape1781-32" v:mID="1781" v:groupContext="shape" transform="translate(30.5924,240.528) scale(1,-1)">
 			<title>Spanning.1781</title>
 			<path d="M3.47 160.35 L3.83 160.35 L35.43 160.35" class="st6"/>
 		</g>
 		<g id="shape1782-37" v:mID="1782" v:groupContext="shape" transform="translate(0.12,-80.1759)">
 			<title>A.1782</title>
-			<desc>279 kN</desc>
+			<desc>279 MPa</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="30.4724" cy="153.265" width="60.95" height="14.1732"/>
 			<rect x="0" y="146.179" width="60.9449" height="14.1732" class="st8"/>
-			<text x="12.64" y="156.87" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>279 kN</text>		</g>
+			<text x="8.64" y="156.87" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>279 MPa</text>		</g>
 	</g>
 </svg>
