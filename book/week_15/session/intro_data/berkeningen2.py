@@ -6,13 +6,13 @@ b = sym.nsimplify(500)
 h = sym.nsimplify(600)
 t = sym.nsimplify(12)
 
-A = b * t + 2 * (h/4*5 * t)
+A = b * t + 2 * (h/12*13 * t)
 print(f'A = {A}')
 
-NC_z = sym.simplify(h/4*5*t*2*h/2 / (h/4*5*t*2 + b*t))
+NC_z = sym.simplify(h/12*13*t*2*h/2 / (h/12*13*t*2 + b*t))
 print(f'NC_z = {NC_z}')
 
-I_zz = sym.nsimplify(1/12 * b * t**3 + b * t * NC_z**2 + 2 * (1/12 * t*5/4 * h**3 + h/4*5 * t * (h/2 - NC_z)**2))
+I_zz = sym.nsimplify(1/12 * b * t**3 + b * t * NC_z**2 + 2 * (1/12 * t*13/12 * h**3 + h/12*13 * t * (h/2 - NC_z)**2))
 print(f'I_zz = {I_zz}')
 
 F, a, L = sym.symbols('F a L')
