@@ -273,8 +273,8 @@ $$
 \mathbf{f} =
 \begin{bmatrix}
 0 \\
-0 \\
 29 \\
+0 \\
 -29
 \end{bmatrix}
 $$
@@ -297,8 +297,8 @@ $$
 =
 \begin{bmatrix}
 M_{\rm{A}} \\
-0 \\
 29 \\
+0 \\
 -29
 \end{bmatrix}
 $$
@@ -318,8 +318,8 @@ $$
 \end{bmatrix}
 =
 \begin{bmatrix}
-0 \\
 29 \\
+0 \\
 -29
 \end{bmatrix}
 $$
