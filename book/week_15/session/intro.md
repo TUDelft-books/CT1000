@@ -14,6 +14,10 @@ Your own submission and its grading will be available on [<img height="12px" src
 
 Given is the following structure:
 
+
+
+% Checked on: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_SOB
+
 ## Exam assignment 1 Continuum mechanics
 
 Your own submission and its grading will be available on [<img height="12px" src="../../figures/ANS.svg" alt="ANS"> exam assignment Continuum mechanics 1](https://ans.app/universities/1/courses/576319/assignments/1584881/go_to) after the exam.
