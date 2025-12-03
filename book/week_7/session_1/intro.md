@@ -85,7 +85,7 @@ $$
 This gives:
 
 $$
-N_{\rm{C}}^{\rm{CD}} = -250 \cdot w
+N_{\rm{C}}^{\rm{CD}} = -250 \cdot w_{\rm{C}}
 $$
 
 Now, the equilibrium equation can be solved:
