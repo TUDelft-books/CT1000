@@ -18,8 +18,8 @@ Given is the following structure. It represents the Prinses Amaliabrug, a bicycl
 
 1. Find the relevant cross-sectional properties.
 2. Find the bending- en torsional moment distribution.
-3. Find the shear- and normal forces in cross-section just right of $\text{D}$ at point $\text{E}$
-4. Draw the stress state in cross-section just right of $\text{D}$ at point $\text{E}$ in the principal stress plane including Tresca's failure criterium for unknown yield stress.
+3. Find the shear- and normal forces in cross-section just right of $\rm{D}$ at point $\rm{E}$
+4. Draw the stress state in cross-section just right of $\rm{D}$ at point $\rm{E}$ in the principal stress plane including Tresca's failure criterium for unknown yield stress.
 5. What should be the minimum yield stress according to Tresca?
 
 ````{admonition} Solution assignment 1
@@ -46,8 +46,8 @@ $A_m = 3.23 \, \rm{m}^2$
 ````{admonition} Solution assignment 3
 :class: tip, dropdown
 
-- $\sigma_\text{E} = -0.0174 \, \rm{MPa}$
-- $\tau_\text{E} = 12.53 \, \rm{MPa}$
+- $\sigma_\rm{E} = -0.0174 \, \rm{MPa}$
+- $\tau_\rm{E} = 12.53 \, \rm{MPa}$
 
 ```{figure} intro_data/stress.svg
 :align: center
