@@ -79,13 +79,13 @@ For the other part the displacement of $\rm{C}$ can be found using the relations
 ```
 
 $$
-w_{\rm{C}} = \cfrac{N_{\rm{C}}^{\rm{CD}} \cdot 5}{1250} = {1}{250} \cdot N_{\rm{C}}^{\rm{CD}} = 0.004 \cdot N_{\rm{C}}^{\rm{CD}}
+w_{\rm{C}} = -\cfrac{N_{\rm{C}}^{\rm{CD}} \cdot 5}{1250} = -{1}{250} \cdot N_{\rm{C}}^{\rm{CD}} = -0.004 \cdot N_{\rm{C}}^{\rm{CD}}
 $$
 
 This gives:
 
 $$
-N_{\rm{C}}^{\rm{CD}} = 250 \cdot w
+N_{\rm{C}}^{\rm{CD}} = -250 \cdot w
 $$
 
 Now, the equilibrium equation can be solved:
@@ -93,7 +93,7 @@ Now, the equilibrium equation can be solved:
 $$
 \begin{align*}
 N_{\rm{C}}^{\rm{BC}} \left( w_{\rm{C}} \right) &= N_{\rm{C}}^{\rm{CD}} \left( w_{\rm{C}} \right) \\
-2000 \cdot w_{\rm{C}} + 36 &= 250 \cdot w_{\rm{C}} \\
+2000 \cdot w_{\rm{C}} + 36 &= -250 \cdot w_{\rm{C}} \\
 w_{\rm{C}} &= \cfrac{-2}{125} = -0.016 \, \rm{m} 
 \end{align*}
 $$
@@ -273,8 +273,8 @@ $$
 \mathbf{f} =
 \begin{bmatrix}
 0 \\
-0 \\
 29 \\
+0 \\
 -29
 \end{bmatrix}
 $$
@@ -297,8 +297,8 @@ $$
 =
 \begin{bmatrix}
 M_{\rm{A}} \\
-0 \\
 29 \\
+0 \\
 -29
 \end{bmatrix}
 $$
@@ -318,8 +318,8 @@ $$
 \end{bmatrix}
 =
 \begin{bmatrix}
-0 \\
 29 \\
+0 \\
 -29
 \end{bmatrix}
 $$
