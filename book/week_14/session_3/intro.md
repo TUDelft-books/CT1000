@@ -46,8 +46,8 @@ $A_m = 3.23 \, \rm{m}^2$
 ````{admonition} Solution assignment 3
 :class: tip, dropdown
 
-- $\sigma_\rm{E} = -0.0174 \, \rm{MPa}$
-- $\tau_\rm{E} = 12.53 \, \rm{MPa}$
+- $\sigma_{\rm{E}} = -0.0174 \, \rm{MPa}$
+- $\tau_{\rm{E}} = 12.53 \, \rm{MPa}$
 
 ```{figure} intro_data/stress.svg
 :align: center
