@@ -70,7 +70,7 @@
 				<rect x="0" y="146.179" width="14.1732" height="14.1732" class="st4"/>
 				<text x="4.75" y="156.87" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>z</text>			</g>
 		</g>
-		<g id="shape1771-23" v:mID="1771" v:groupContext="shape" transform="translate(186.498,-80.1759) scale(-1,1)">
+		<g id="shape1771-23" v:mID="1771" v:groupContext="shape" transform="translate(66.0255,-80.1759) scale(-1,1)">
 			<title>Spanning.1771</title>
 			<path d="M3.47 160.35 L3.83 160.35 L35.43 160.35" class="st6"/>
 		</g>
@@ -81,7 +81,7 @@
 			<v:textRect cx="30.4724" cy="153.265" width="60.95" height="14.1732"/>
 			<rect x="0" y="146.179" width="60.9449" height="14.1732" class="st8"/>
 			<text x="8.64" y="156.87" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>279 MPa</text>		</g>
-		<g id="shape1781-32" v:mID="1781" v:groupContext="shape" transform="translate(30.5924,240.528) scale(1,-1)">
+		<g id="shape1781-32" v:mID="1781" v:groupContext="shape" transform="translate(151.065,240.528) scale(1,-1)">
 			<title>Spanning.1781</title>
 			<path d="M3.47 160.35 L3.83 160.35 L35.43 160.35" class="st6"/>
 		</g>
