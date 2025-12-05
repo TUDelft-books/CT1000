@@ -47,7 +47,7 @@ Mtb = Bv*2
 Mtc = Mtb+14.32*2
 print(Mtb,Mtc)
 
-Am = np.pi*2.8**2 / 4 - 2.8*2.8*0.5+0.25*4
+Am = np.pi*(2 * np.sqrt(2))**2 / 4 - 2 * np.sqrt(2)*2 * np.sqrt(2)*0.5+0.25*4
 tau = Mtc / (2*Am*t*1000)
 print('Am=',Am,', tau=',tau)
 

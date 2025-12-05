@@ -112,31 +112,31 @@
 			<text x="4.76" y="162.21" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>17 kPa</text>		</g>
 		<g id="shape218-61" v:mID="218" v:groupContext="shape" transform="translate(154.863,-61.5899)">
 			<title>Blad.218</title>
-			<desc>12.5 MPa</desc>
+			<desc>12.4 MPa</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="27.6378" cy="158.613" width="55.28" height="14.1732"/>
 			<rect x="0" y="151.526" width="55.2756" height="14.1732" class="st4"/>
-			<text x="4.3" y="162.21" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>12.5 MPa</text>		</g>
+			<text x="4.3" y="162.21" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>12.4 MPa</text>		</g>
 		<g id="shape219-64" v:mID="219" v:groupContext="shape" transform="translate(0.375,-89.9364)">
 			<title>Blad.219</title>
-			<desc>12.5 MPa</desc>
+			<desc>12.4 MPa</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="27.6378" cy="158.613" width="55.28" height="14.1732"/>
 			<rect x="0" y="151.526" width="55.2756" height="14.1732" class="st4"/>
-			<text x="4.3" y="162.21" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>12.5 MPa</text>		</g>
+			<text x="4.3" y="162.21" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>12.4 MPa</text>		</g>
 		<g id="shape220-67" v:mID="220" v:groupContext="shape" transform="translate(118.721,-26.1568)">
 			<title>Blad.220</title>
-			<desc>12.5 MPa</desc>
+			<desc>12.4 MPa</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="27.6378" cy="158.613" width="55.28" height="14.1732"/>
 			<rect x="0" y="151.526" width="55.2756" height="14.1732" class="st4"/>
-			<text x="4.3" y="162.21" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>12.5 MPa</text>		</g>
+			<text x="4.3" y="162.21" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>12.4 MPa</text>		</g>
 		<g id="shape221-70" v:mID="221" v:groupContext="shape" transform="translate(36.5167,-125.369)">
 			<title>Blad.221</title>
-			<desc>12.5 MPa</desc>
+			<desc>12.4 MPa</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="27.6378" cy="158.613" width="55.28" height="14.1732"/>
 			<rect x="0" y="151.526" width="55.2756" height="14.1732" class="st4"/>
-			<text x="4.3" y="162.21" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>12.5 MPa</text>		</g>
+			<text x="4.3" y="162.21" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>12.4 MPa</text>		</g>
 	</g>
 </svg>
