@@ -29,6 +29,8 @@ L = sym.nsimplify(10000)
 tau_V = sym.simplify(F * b*t*NC_z / I_zz / 2 / t)
 print(f'tau_V = {tau_V} = {tau_V.evalf()} MPa')
 
+print(f'M_t = F * a = {F * a} = {(F * a).evalf()} Nmm')
+
 tau_M = F * a / 2 / t / (b * h / 2)
 print(f'tau_M = {tau_M} = {tau_M.evalf()} MPa')
 
@@ -38,11 +40,11 @@ print(f'sigma_M = {sigma_M} = {sigma_M.evalf()} MPa')
 nu = sym.nsimplify(0.3)
 E = sym.nsimplify(210000)
 
-sigma_yy = sigma_M
+sigma_xx = sigma_M
 
-sigma_xy = tau_M + tau_V
+sigma_xy = -(tau_M + tau_V)
 
-sigma_xx = 0
+sigma_yy = 0
 
 eps_xx = (1/E) * (sigma_xx - nu * sigma_yy)
 eps_yy = (1/E) * (sigma_yy - nu * sigma_xx)
