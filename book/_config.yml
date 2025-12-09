@@ -158,5 +158,5 @@ parse:
     week30: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|
       |:-:|:-:|:-:|:-:|:--:|:-:|
-      |Homework deadlines |[Prepare for exam assignment buckling](homework30) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`|
-      |Class activities|[Exam assignment 2 buckling](exam4) <br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`|
+      |Homework deadlines ||||[Prepare for exam assignment buckling](homework30) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`|
+      |Class activities||||[Exam assignment 2 buckling](exam4) <br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`|
