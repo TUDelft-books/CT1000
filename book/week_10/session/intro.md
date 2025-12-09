@@ -65,6 +65,25 @@ A few potential variants are:
 
 ::::
 
+::::::{admonition} Veelgemaakte fouten
+:class: remark, dropdown
+
+```{figure} student_data/1.png
+---
+align: center
+---
+Structure not statically determinate
+```
+
+```{figure} student_data/2.png
+---
+align: center
+---
+Statically indeterminate force / displacement missing
+```
+
+::::::
+
 :::::{exercise}
 :label: exam_stat_indet_2025_3
 :nonumber: true
@@ -152,3 +171,43 @@ $$
 $$
 
 ::::
+
+::::::{admonition} Veelgemaakte fouten
+:class: remark, dropdown
+
+```{figure} student_data/3.png
+---
+align: center
+---
+Displacements due to forces in two-force member forgotten
+```
+
+```{figure} student_data/4.png
+---
+align: center
+---
+Rotation of two-force member not taken into account (Williot not used)
+```
+
+```{figure} student_data/5.png
+---
+align: center
+---
+Kinematically equivalent moment doesn't give correct curvature
+```
+
+```{figure} student_data/6.png
+---
+align: center
+---
+Express forces and displacements in other unknowns than the statically indeterminate ones
+```
+
+```{figure} student_data/7.png
+---
+align: center
+---
+Solving just one equilibrium or compatibility equation
+```
+
+::::::
