@@ -297,8 +297,8 @@ parts:
   - file: week_15/intro
     sections:
     - file: week_15/homework/intro
-# START REMOVE-FROM-PUBLISH
     - file: week_15/session/intro
+# START REMOVE-FROM-PUBLISH
     - file: week_15/session_2/intro
 # END REMOVE-FROM-PUBLISH
   - file: week_16/intro
