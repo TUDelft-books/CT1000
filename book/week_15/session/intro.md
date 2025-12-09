@@ -167,10 +167,10 @@ $$
 
 ::::
 
-::::{admonition} Alternatieve oplossing
+::::{admonition} Alternative solution
 :class: solution, dropdown
 
-Een mogelijke alternatieve oplossing is het gebruik van de krachtmethode met als statisch onbepaalde krachten het moment en de verticale kracht in $\rm{A}$. Dat is [hier](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/exam_SOB/resolution.pdf) getoond.
+An alternative solution is to use the force method with as statically indeterminate forces the moment and vertical force in $\rm{A}$. This is shown [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/exam_SOB/resolution.pdf).
 
 ::::
 
