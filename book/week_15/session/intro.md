@@ -229,7 +229,7 @@ Given is the following structure and cross-section:
 :::::{exercise}
 :nonumber: true
 
-Show that $A = 21600 \, \rm{mm^2}$, $\bar z_{\rm{N.C.}} = \cfrac{650}{3} \approx 217 \, \rm{mm}$ and $I_{zz} = 85.8072 \cdot 10^6 \, \rm{mm^4}$.
+Show that $A = 21600 \, \rm{mm^2}$, $\bar z_{\rm{N.C.}} = \cfrac{650}{3} \approx 217 \, \rm{mm}$ and $I_{zz} = 858.072 \cdot 10^6 \, \rm{mm^4}$.
 
 :::::
 
