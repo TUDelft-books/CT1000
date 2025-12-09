@@ -48,7 +48,7 @@ For each of the variants, provide the necessary equation(s) to determine the sta
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 A few potential variants are:
@@ -72,7 +72,7 @@ Determine the support bending moment in $\rm{A}$ using the force- or a displacem
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 As an example, the displacement method with as degree of freedom the horizontal displacement in $\rm{B}$, but other methods could be used too:
@@ -181,7 +181,7 @@ Determine the support bending moment in $\rm{A}$ in the extreme cases that $EA_{
 
 :::::
 
-::::{admonition} Oplossing
+::::{admonition} Solution
 :class: solution, dropdown
 
 For $EA_{\rm{BC}} \to 0$, segment $\rm{BC}$ can be ignored for the purpose of load transfer. The structure then simplified to:
