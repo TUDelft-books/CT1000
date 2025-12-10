@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export mechanisme.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.84506in" height="2.76632in"
+		viewBox="0 0 204.844 199.175" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st2 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#00cc99;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:#00cc99;fill-opacity:0.5;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5;stroke-width:0.75}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.5;stroke-width:0.75}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape3734-1" v:mID="3734" v:groupContext="shape" transform="translate(199.207,-48.5672) rotate(71.5254)">
+			<title>Ligger, 2 pt.3734</title>
+			<path d="M0 199.18 L179.32 199.18" class="st1"/>
+		</g>
+		<g id="shape3692-4" v:mID="3692" v:groupContext="shape" transform="translate(266.164,14.5482) rotate(90)">
+			<title>Ligger, 2 pt.3692</title>
+			<path d="M0 199.18 L170.08 199.18" class="st2"/>
+		</g>
+		<g id="shape3693-7" v:mID="3693" v:groupContext="shape" transform="translate(353.888,134.053) rotate(126.87)">
+			<title>Ligger, 2 pt.3693</title>
+			<path d="M0 199.18 L212.6 199.18" class="st1"/>
+		</g>
+		<g id="group3694-10" transform="translate(204.469,202.385) rotate(180)" v:mID="3694" v:groupContext="group">
+			<title>Scharnieroplegging.3694</title>
+			<g id="shape3695-11" v:mID="3695" v:groupContext="shape" transform="translate(2.83465,0)">
+				<title>Blad.3695</title>
+				<path d="M0 199.18 L14.17 199.18 L7.09 187.84 L0 199.18 Z" class="st3"/>
+			</g>
+			<g id="shape3696-13" v:mID="3696" v:groupContext="shape" transform="translate(2.83465,398.35) rotate(180)">
+				<title>Blad.3696</title>
+				<path d="M0 199.18 L2.83 199.18" class="st2"/>
+			</g>
+			<g id="shape3697-16" v:mID="3697" v:groupContext="shape" transform="translate(17.0079,0)">
+				<title>Blad.3697</title>
+				<path d="M0 199.18 L2.83 199.18" class="st2"/>
+			</g>
+		</g>
+		<g id="group3698-19" transform="translate(57.0679,-0.375)" v:mID="3698" v:groupContext="group">
+			<title>Rol.3698</title>
+			<g id="group3699-20" transform="translate(0.261477,-2.83465)" v:mID="3699" v:groupContext="group">
+				<title>Scharnier</title>
+				<g id="shape3700-21" v:mID="3700" v:groupContext="shape" transform="translate(2.79729,0)">
+					<title>Blad.3700</title>
+					<path d="M0 199.18 L13.99 199.18 L6.99 187.84 L0 199.18 Z" class="st3"/>
+				</g>
+				<g id="shape3701-23" v:mID="3701" v:groupContext="shape" transform="translate(2.79729,398.35) rotate(180)">
+					<title>Blad.3701</title>
+					<path d="M0 199.18 L2.8 199.18" class="st2"/>
+				</g>
+				<g id="shape3702-26" v:mID="3702" v:groupContext="shape" transform="translate(16.7838,0)">
+					<title>Blad.3702</title>
+					<path d="M0 199.18 L2.8 199.18" class="st2"/>
+				</g>
+			</g>
+			<g id="shape3703-29" v:mID="3703" v:groupContext="shape">
+				<title>Blad.3703</title>
+				<path d="M0 199.18 L19.84 199.18" class="st2"/>
+			</g>
+		</g>
+		<g id="shape3704-32" v:mID="3704" v:groupContext="shape" transform="translate(64.8632,-12.4222)">
+			<title>Scharnier.3704</title>
+			<ellipse cx="2.12598" cy="197.049" rx="2.12598" ry="2.12598" class="st4"/>
+		</g>
+		<g id="group3728-34" transform="translate(76.9104,199.55) rotate(180)" v:mID="3728" v:groupContext="group">
+			<title>Rol.3728</title>
+			<g id="group3729-35" transform="translate(0.261477,-2.83465)" v:mID="3729" v:groupContext="group">
+				<title>Scharnier</title>
+				<g id="shape3730-36" v:mID="3730" v:groupContext="shape" transform="translate(2.79729,0)">
+					<title>Blad.3730</title>
+					<path d="M0 199.18 L13.99 199.18 L6.99 187.84 L0 199.18 Z" class="st5"/>
+				</g>
+				<g id="shape3731-38" v:mID="3731" v:groupContext="shape" transform="translate(2.79729,398.35) rotate(180)">
+					<title>Blad.3731</title>
+					<path d="M0 199.18 L2.8 199.18" class="st6"/>
+				</g>
+				<g id="shape3732-41" v:mID="3732" v:groupContext="shape" transform="translate(16.7838,0)">
+					<title>Blad.3732</title>
+					<path d="M0 199.18 L2.8 199.18" class="st6"/>
+				</g>
+			</g>
+			<g id="shape3733-44" v:mID="3733" v:groupContext="shape">
+				<title>Blad.3733</title>
+				<path d="M0 199.18 L19.84 199.18" class="st6"/>
+			</g>
+		</g>
+		<g id="group3735-47" transform="translate(20.2175,199.55) rotate(180)" v:mID="3735" v:groupContext="group">
+			<title>Rol.3735</title>
+			<g id="group3736-48" transform="translate(0.261477,-2.83465)" v:mID="3736" v:groupContext="group">
+				<title>Scharnier</title>
+				<g id="shape3737-49" v:mID="3737" v:groupContext="shape" transform="translate(2.79729,0)">
+					<title>Blad.3737</title>
+					<path d="M0 199.18 L13.99 199.18 L6.99 187.84 L0 199.18 Z" class="st3"/>
+				</g>
+				<g id="shape3738-51" v:mID="3738" v:groupContext="shape" transform="translate(2.79729,398.35) rotate(180)">
+					<title>Blad.3738</title>
+					<path d="M0 199.18 L2.8 199.18" class="st2"/>
+				</g>
+				<g id="shape3739-54" v:mID="3739" v:groupContext="shape" transform="translate(16.7838,0)">
+					<title>Blad.3739</title>
+					<path d="M0 199.18 L2.8 199.18" class="st2"/>
+				</g>
+			</g>
+			<g id="shape3740-57" v:mID="3740" v:groupContext="shape">
+				<title>Blad.3740</title>
+				<path d="M0 199.18 L19.84 199.18" class="st2"/>
+			</g>
+		</g>
+	</g>
+</svg>

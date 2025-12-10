@@ -65,6 +65,22 @@ A few potential variants are:
 
 ::::
 
+::::::{admonition} Frequently made mistakes
+:class: remark, dropdown
+
+**Creating a mechanism**
+
+Many students created a mechanism by replacing the fixed support in A with a horizontal roller support.
+
+```{figure} ./intro_data/mechanisme.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_SOB
+
+Mechanism created when replacing fixed support in A with horizontal roller support
+```
+
+::::::
+
 :::::{exercise}
 :nonumber: true
 
@@ -174,6 +190,35 @@ An alternative solution is to use the force method with as statically indetermin
 
 ::::
 
+::::::{admonition} Frequently made mistakes
+:class: remark, dropdown
+
+**Trying to solve displacement of mechanism**
+
+The mechanism created in the previous exercise cannot be used to determine displacements, since it is a mechanism. Some students still tried to determine displacements of this mechanism, which is not possible.
+
+```{figure} ./intro_data/mechanisme.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_SOB
+
+Mechanism created when replacing fixed support in A with horizontal roller support
+```
+
+**Incomplete Williot diagram**
+
+When the structure is made statically determinate by removing the roller support at $\rm{B}$ and splitting the two-force member $\rm{BC}$, like so:
+
+```{figure} ./intro_data/williot_complex.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_SOB
+
+Statically determinate structure after removing roller support in $\rm{B}$ and splitting two-force member $\rm{BC}$
+```
+
+The williot diagram in which $\rm{B}$ only moves horizontally is incomplete: beam $\rm{AB}$ will also shorten, leading to a vertical displacement in $\rm{B}$ as well. This vertical displacement must also be taken into account in the williot diagram.
+
+::::::
+
 :::::{exercise}
 :nonumber: true
 
@@ -222,6 +267,17 @@ Simplified structure for $EA_{\rm{BC}} \to \infty$
 This gives $A_{\rm{m}} = 0 \, \rm{kNm}$ because the load is fully carried by the hinged support in $\rm{B}$.
 ::::
 
+::::::{admonition} Veelgemaakte fouten
+:class: remark, dropdown
+
+**Not simplified**
+
+Although not wrong, some student redid their calculations as done in exercise 3 instead of explicitly simplifying the structure. For the cases $EA_{\rm{BC}} \to 0$, only equilibrium can be used. For $EA_{\rm{BC}} \to \infty$, a forget-me-not for can be used.
+
+::::::
+
+
+
 ## Exam assignment 1 Continuum mechanics
 
 Your own submission and its grading will be available on [<img height="12px" src="../../figures/ANS.svg" alt="ANS"> exam assignment Continuum mechanics 1](https://ans.app/universities/1/courses/576319/assignments/1584881/go_to) after the exam.
@@ -265,6 +321,15 @@ I_{zz} &= \cfrac{1}{12} \cdot 500 \cdot 12^3 + 500 \cdot 12 \cdot \left( -\cfrac
 $$
     
 ::::
+
+::::::{admonition} Veelgemaakte fouten
+:class: remark, dropdown
+
+**Calculating $I_{zz}$ incorrectly**
+
+Many studenten calculated $I_{zz}$ of the diagonal parts of the cross-section with the incorrect formula: $I_{zz} = \frac{1}{12} b h^3 \sin^2\left(\theta\right)$. This formula is incorrect. $I_{zz}$ is actually part of a tensor (with $I_{yy}$ and $I_{yz}$) and the correct transformation formulas could be used to find $I_{zz}$ in the global coordinate system. However, looking at the diagonal element as a parallelogram would also work.
+
+::::::
 
 :::::{exercise}
 :nonumber: true
@@ -339,6 +404,34 @@ $$
 
 ::::
 
+::::::{admonition} Veelgemaakte fouten
+:class: remark, dropdown
+
+**Shear stresses due to bending forgotten**
+
+Some students only calculated the shear stresses due to torsion, forgetting the shear stresses due to bending.
+
+**Directions of shear stresses mixed up**
+
+Some students mixed up the directions of the shear stresses due to bending and torsion, leading to incorrect addition of the shear stresses or stresses in the wrong direction.
+
+The internal forces act on a negative cut as follows:
+
+```{figure} intro_data/directions.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_continuum
+
+Directions of internal forces
+```
+
+Leading to shear stresses for both bending and torsion in the negative y-direction on a negative cut and in the positive y-direction on a positive cut.
+
+**Direction of tensor not clear**
+
+Many students wrote down a strain tensor without clearly indicating the coordinate system in which this tensor is acting (which should have been the $xy$-coordinate system) as the normal stresses in (thin-walled) point $\rm{D}$ work in the $x$-direction and the shear stresses in the $xy$-plane. The strain tensor could have been described in the full 3D coordinate system too.
+
+::::::
+
 :::::{exercise}
 :nonumber: true
 
@@ -376,3 +469,23 @@ $$
 With $\varepsilon_1$ at $-5.2^\circ$ (clockwise) from the $x$-axis and $\varepsilon_2$ at $84.8^\circ$ (counterclockwise) from the $x$-axis.
 
 ::::
+
+::::::{admonition} Veelgemaakte fouten
+:class: remark, dropdown
+
+**Used transformation formula for $x-y$ coordinate system for mirrored coordinate system**
+
+Many students applied the transformation formulas (which are valid for a rightward $x$, upward $y$ coordinate system) on another coordinate system (for example upward $y$, rightward $x$). This can lead to incorrect results.
+
+```{figure} ./intro_data/coordinate.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_continuum
+
+THe transformation formulas are only valid for a rightward $x$, upward $y$ coordinate system.
+```
+
+**Not clear why $\varepsilon_1$ is in the principle direction or at $90^\circ$ from that one**
+
+Many students calculated the principal strains correctly and a direction. But from the direct formulas for principle strains it cannot be found which strain corresponds to which direction. This can only be found by substituting the directions back into the transformation formulas to see which strain corresponds to which direction.
+
+::::::
