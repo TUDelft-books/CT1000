@@ -267,7 +267,7 @@ Simplified structure for $EA_{\rm{BC}} \to \infty$
 This gives $A_{\rm{m}} = 0 \, \rm{kNm}$ because the load is fully carried by the hinged support in $\rm{B}$.
 ::::
 
-::::::{admonition} Veelgemaakte fouten
+::::::{admonition} Frequently made mistakes
 :class: remark, dropdown
 
 **Not simplified**
@@ -322,7 +322,7 @@ $$
     
 ::::
 
-::::::{admonition} Veelgemaakte fouten
+::::::{admonition} Frequently made mistakes
 :class: remark, dropdown
 
 **Calculating $I_{zz}$ incorrectly**
@@ -404,7 +404,7 @@ $$
 
 ::::
 
-::::::{admonition} Veelgemaakte fouten
+::::::{admonition} Frequently made mistakes
 :class: remark, dropdown
 
 **Shear stresses due to bending forgotten**
@@ -470,7 +470,7 @@ With $\varepsilon_1$ at $-5.2^\circ$ (clockwise) from the $x$-axis and $\varepsi
 
 ::::
 
-::::::{admonition} Veelgemaakte fouten
+::::::{admonition} Frequently made mistakes
 :class: remark, dropdown
 
 **Used transformation formula for $x-y$ coordinate system for mirrored coordinate system**
