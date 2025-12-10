@@ -272,7 +272,7 @@ This gives $A_{\rm{m}} = 0 \, \rm{kNm}$ because the load is fully carried by the
 
 **Not simplified**
 
-Although not wrong, some student redid their calculations as done in exercise 3 instead of explicitly simplifying the structure. For the cases $EA_{\rm{BC}} \to 0$, only equilibrium can be used. For $EA_{\rm{BC}} \to \infty$, a forget-me-not for can be used.
+Although not wrong, some student redid their calculations as done in exercise 3 instead of explicitly simplifying the structure. For the cases $EA_{\rm{BC}} \to 0$, only equilibrium can be used. For $EA_{\rm{BC}} \to \infty$, a forget-me-not can be used.
 
 ::::::
 
