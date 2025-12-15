@@ -38,7 +38,7 @@ For $\rm{AC}$ this gives:
 :align: center
 ```
 
-$$\varphi_{\rm{C}} = \cfrac{M_{\rm{AC}} \cdot 4}{3 \cdot n \cdot 320000} \to M_{\rm{AC}} = 240000 \varphi_{\rm{C}}$$
+$$\varphi_{\rm{C}} = \cfrac{M_{\rm{AC}} \cdot 4}{3 \cdot n \cdot 320000} \to M_{\rm{AC}} = 240000 \cdot n \cdot \varphi_{\rm{C}}$$
 
 For $\rm{BC}$ this gives:
 
@@ -256,7 +256,7 @@ Now the displacements at $\rm{C}$ can be calculated in the same way as before, b
 $$
 \begin{align*}
 w_{\rm{C}} &= \cfrac{(111.6 - A_{\rm{v}}) \cdot 4^3}{3 \cdot 320000} + \cfrac{(446.4 - 4 \cdot A_{\rm{h}}) \cdot 4^2}{2 \cdot 320000} + \cfrac{512 \cdot 4^2}{2 \cdot 320000} \\
-w_{\rm{C}} &=-\cfrac{A_{\rm{h}}}{6400} - \cfrac{A_{\rm{v}}}{7680} + \cfrac{1663}{320000}\\
+w_{\rm{C}} &=-\cfrac{A_{\rm{h}}}{6400} - \cfrac{A_{\rm{v}}}{7680} + \cfrac{1663}{32000}\\
 \varphi_{\rm{C}} &= \cfrac{(111.6 - A_{\rm{v}}) \cdot 4^2}{2 \cdot 320000} + \cfrac{(446.4 - 4 \cdot A_{\rm{h}}) \cdot 4}{320000} + \cfrac{512 \cdot 4}{320000} \\
 \varphi_{\rm{C}} &= -\cfrac{A_{\rm{h}}}{16000} - \cfrac{A_{\rm{v}}}{25600} + \cfrac{6187}{320000}
 \end{align*}
@@ -267,7 +267,7 @@ The displacements at $\rm{A}$ can be calculated in the same way as before, but i
 $$
 \begin{align*}
 w_{\rm{A_v}} &= w_{\rm{C}} \\
-w_{\rm{A_v}} &=-\cfrac{A_{\rm{h}}}{6400} - \cfrac{A_{\rm{v}}}{7680} + \cfrac{1663}{320000} \\
+w_{\rm{A_v}} &=-\cfrac{A_{\rm{h}}}{6400} - \cfrac{A_{\rm{v}}}{7680} + \cfrac{1663}{32000} \\
 w_{\rm{A_h}} &= \varphi_{\rm{C}} \cdot 4 - \cfrac{A_{\rm{h}} \cdot 4^3}{3 \cdot 320000} - \cfrac{1}{625} \\
 w_{\rm{A_h}} &=-\cfrac{256003 \cdot A_{\rm{h}}}{12000} - \cfrac{A_{\rm{v}}}{6400} + \cfrac{6123}{80000}\\
 \end{align*}

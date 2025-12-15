@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export VCMC.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.96317in" height="2.90149in"
-		viewBox="0 0 213.348 208.907" xml:space="preserve" color-interpolation-filters="sRGB" class="st13">
+		viewBox="0 0 213.348 208.907" xml:space="preserve" color-interpolation-filters="sRGB" class="st15">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -18,9 +18,11 @@
 		.st8 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.1219512195122}
 		.st9 {fill:#000000;font-family:Times New Roman;font-size:1.00001em;font-style:italic}
 		.st10 {baseline-shift:-32.4941%;font-size:0.649882em;font-style:normal}
-		.st11 {marker-end:url(#mrkr5-99);stroke:#800000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
-		.st12 {baseline-shift:32.4941%;font-size:0.649882em;font-style:normal}
-		.st13 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st11 {marker-start:url(#mrkr5-89);stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st12 {fill:#31859b;fill-opacity:1;stroke:#31859b;stroke-opacity:1;stroke-width:0.44247787610619}
+		.st13 {marker-end:url(#mrkr5-100);stroke:#31859b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st14 {baseline-shift:32.4941%;font-size:0.649882em;font-style:normal}
+		.st15 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -43,7 +45,11 @@
 				markerUnits="strokeWidth" overflow="visible">
 			<use xlink:href="#lend4" transform="scale(-8.2,-8.2) "/>
 		</marker>
-		<marker id="mrkr5-99" class="st3" v:arrowType="5" v:arrowSize="2" v:setback="3.775" refX="-3.775" orient="auto"
+		<marker id="mrkr5-89" class="st12" v:arrowType="5" v:arrowSize="2" v:setback="3.775" refX="3.775" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(2.26) "/>
+		</marker>
+		<marker id="mrkr5-100" class="st12" v:arrowType="5" v:arrowSize="2" v:setback="3.775" refX="-3.775" orient="auto"
 				markerUnits="strokeWidth" overflow="visible">
 			<use xlink:href="#lend5" transform="scale(-2.26,-2.26) "/>
 		</marker>
@@ -172,31 +178,31 @@
 						class="st10" v:baseFontSize="12">v</tspan></text>		</g>
 		<g id="shape584-84" v:mID="584" v:groupContext="shape" transform="translate(351.015,38.4535) rotate(90)">
 			<title>Kracht.584</title>
-			<path d="M7.55 208.91 L7.91 208.91 L28.35 208.91" class="st2"/>
+			<path d="M7.55 208.91 L7.91 208.91 L28.35 208.91" class="st11"/>
 		</g>
-		<g id="shape586-89" v:mID="586" v:groupContext="shape" transform="translate(142.107,-170.454)">
+		<g id="shape586-90" v:mID="586" v:groupContext="shape" transform="translate(142.107,-170.454)">
 			<title>Kracht.586</title>
-			<path d="M7.55 208.91 L7.91 208.91 L28.35 208.91" class="st2"/>
+			<path d="M7.55 208.91 L7.91 208.91 L28.35 208.91" class="st11"/>
 		</g>
-		<g id="shape587-94" v:mID="587" v:groupContext="shape" transform="translate(351.015,24.2803) rotate(90)">
+		<g id="shape587-95" v:mID="587" v:groupContext="shape" transform="translate(351.015,24.2803) rotate(90)">
 			<title>Moment.587</title>
-			<path d="M-0 208.91 A14.1732 14.1732 0 0 1 14.17 194.73 A14.1732 14.1732 0 0 1 26.14 201.31 L26.24 201.66" class="st11"/>
+			<path d="M-0 208.91 A14.1732 14.1732 0 0 1 14.17 194.73 A14.1732 14.1732 0 0 1 26.14 201.31 L26.24 201.66" class="st13"/>
 		</g>
-		<g id="shape588-100" v:mID="588" v:groupContext="shape" transform="translate(127.934,-127.934)">
+		<g id="shape588-101" v:mID="588" v:groupContext="shape" transform="translate(127.934,-127.934)">
 			<title>Blad.588</title>
 			<desc>VCCD</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="21.2598" cy="201.821" width="42.52" height="14.1732"/>
 			<rect x="0" y="194.734" width="42.5197" height="14.1732" class="st4"/>
 			<text x="9.58" y="205.42" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>V<tspan dy="-0.279em"
-						class="st10" v:baseFontSize="12">C</tspan><tspan dy="0.081em" class="st12" v:baseFontSize="12">CD</tspan></text>		</g>
-		<g id="shape589-105" v:mID="589" v:groupContext="shape" transform="translate(142.107,-142.107)">
+						class="st10" v:baseFontSize="12">C</tspan><tspan dy="0.081em" class="st14" v:baseFontSize="12">CD</tspan></text>		</g>
+		<g id="shape589-106" v:mID="589" v:groupContext="shape" transform="translate(142.107,-142.107)">
 			<title>Blad.589</title>
 			<desc>MCCD</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="21.2598" cy="201.821" width="42.52" height="14.1732"/>
 			<rect x="0" y="194.734" width="42.5197" height="14.1732" class="st4"/>
 			<text x="8.24" y="205.42" class="st9" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>M<tspan dy="-0.279em"
-						class="st10" v:baseFontSize="12">C</tspan><tspan dy="0.081em" class="st12" v:baseFontSize="12">CD</tspan></text>		</g>
+						class="st10" v:baseFontSize="12">C</tspan><tspan dy="0.081em" class="st14" v:baseFontSize="12">CD</tspan></text>		</g>
 	</g>
 </svg>
