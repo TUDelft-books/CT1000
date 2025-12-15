@@ -35,7 +35,8 @@ M_C_3 = F * L1
 
 eq3 = sym.Eq(M_C + M_C_2 - M_C_3, 0)
 phi = sym.solve(eq3, phi)[0]
-print('phi=',phi)
+print('phi=',phi,' =',phi.expand(),' approx ',phi.expand().evalf())
+print('phi_C=',sym.collect(phi, n),' approx ',sym.collect(phi, n).evalf())
 
 w_D = phi * L1 + F * L1**3 / 3 / EI
 print('w_D=',w_D,' approx ',w_D.evalf())
