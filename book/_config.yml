@@ -31,7 +31,7 @@ sphinx:
       use_issues_button : true
       launch_buttons:
         thebe: true
-      announcement: "<p>This book is from the 2024-25 academic year. The version currently used in education is at <a href='https://oit.tudelft.nl/CT1000/' style='color: cyan;'>oit.tudelft.nl/CT1000/book</a></p>"
+      announcement: "<p>This book is from the 2024-25 academic year. The version currently used in education is at <a href='https://oit.tudelft.nl/CT1000/' style='color: cyan;'>oit.tudelft.nl/CT1000</a></p>"
     html_show_copyright: false
     html_last_updated_fmt: '%B %-d, %Y'
     bibtex_default_style: myapastyle
