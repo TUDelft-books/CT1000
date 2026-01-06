@@ -15,7 +15,7 @@ This TeachBook links to relevant part of the other literature and only provides 
   - Book available at [<img height="12px" src="./figures/logo-boom.svg" alt="Boom">](https://www.boom.nl/hoger-onderwijs/100-9587_Mechanica-Statisch-onbepaalde-constructies-en-bezwijkanalyse-3e-druk). This book is only available as a paid version in Dutch
 - Mechanica: Stabiliteit van het evenwicht, by {cite:ts}`Hartsuijker2023`.
   - Book available at [<img height="12px" src="./figures/logo-boom.svg" alt="Boom">](https://www.boom.nl/hoger-onderwijs/100-10458_Mechanica-Stabiliteit-van-het-evenwicht). This book is only available as a paid version in Dutch.
-  - Summary available in Dutch [here](https://icozct.tudelft.nl/TUD_CT/CM3bridge/collegestof/stabiliteit/files/SAMENVATTING%20BOEK%20STABILITEIT.pdf)
+  - Summary available in Dutch [here](https://icozct.tudelft.nl/TUD_CT/CM3bridge/collegestof/stabiliteit/files/LEESWIJZER_BOEK_STABILITEIT.pdf)
   - Visual summary available in Dutch [here](https://icozct.tudelft.nl/TUD_CT/CM3bridge/collegestof/stabiliteit/files/SAMENVATTINGSKAART_stabiliteit.pdf).
   - Answers available in Dutch [here](https://icozct.tudelft.nl/TUD_CT/CM3bridge/collegestof/stabiliteit/files/antwoorden-BOEK-deel-4.pdf).
   - Additional notes on example 3 of chpt 4 in Dutch [here](https://icozct.tudelft.nl/TUD_CT/CM3bridge/collegestof/stabiliteit/files/toelichting_Hfst4_voorbeeld3.pdf)
