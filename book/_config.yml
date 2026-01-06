@@ -43,6 +43,7 @@ sphinx:
     named_colors_custom_colors: {'attributiongrey':[150,150,150]}
     sphinx_codex_merge_with_proof: true
     tud_change_titlesize: false
+    html_last_updated_fmt: ''                        # Adds the date of the last update to the footer
     git_show_all_authors: true
   extra_extensions:
     - teachbooks_favourites
