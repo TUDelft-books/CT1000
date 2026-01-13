@@ -20,6 +20,8 @@ jupyter-book config sphinx book/
 # by changing 'git_show_all_authors' from True to False in conf.py
 sed -i 's/git_show_all_authors = True/git_show_all_authors = False/' book/conf.py
 
+sed -i "s/external_toc_path = '_toc.yml'/external_toc_path = '_toc_with_local_paths.yml'/" book/conf.py
+
 # Build and serve the Sphinx documentation with auto-reload
 # Opens browser automatically and ignores build artifacts and Python files
-sphinx-autobuild book book/_build/html --open-browser --ignore "book/_build/**" --ignore "*.py"
+sphinx-autobuild book book/_build/html --open-browser --ignore "book/_build/**" --ignore "*.py" --ignore "book/references.bib" --ignore "book/_toc_with_local_paths.yml" --pre-build "teachbooks build book/ --process-only"
