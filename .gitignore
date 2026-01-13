@@ -134,6 +134,7 @@ _build/
 .teachbooks/
 _toc_with_local_paths.yml
 _git/
+book/conf.py
 
 # poetry files
 pyproject.toml

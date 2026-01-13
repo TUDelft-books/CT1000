@@ -173,10 +173,10 @@ The displacement and rotation of $\rm{C}$ can be determined with forget-me-nots 
 
 $$
 \begin{align*}
-w_{\rm{C}} &= \cfrac{(111.6 - A_{\rm{v}}) \cdot 4^3}{3 \cdot 320000} + \cfrac{(446.4 - 4 \cdot A_{\rm{h}}) \cdot 4^2}{2 \cdot 320000} + 0.031 \\
+w_{\rm{C}} &= \cfrac{(111.6 - A_{\rm{v}}) \cdot 5^3}{3 \cdot 320000} + \cfrac{(446.4 - 4 \cdot A_{\rm{h}}) \cdot 5^2}{2 \cdot 320000} + 0.031 \\
 w_{\rm{C}} &=-\cfrac{A_{\rm{h}}}{6400} - \cfrac{A_{\rm{v}}}{7680} + \cfrac{403}{6400} \\
 w_{\rm{C}} &\approx -0.00015625 \cdot A_{\rm{h}} - 0.00013020833 \cdot A_{\rm{v}} + 0.06296875 \\
-\varphi_{\rm{C}} &= \cfrac{(111.6 - A_{\rm{v}}) \cdot 4^2}{2 \cdot 320000} + \cfrac{(446.4 - 4 \cdot A_{\rm{h}}) \cdot 4}{320000} \\
+\varphi_{\rm{C}} &= \cfrac{(111.6 - A_{\rm{v}}) \cdot 5^2}{2 \cdot 320000} + \cfrac{(446.4 - 4 \cdot A_{\rm{h}}) \cdot 5}{320000} \\
 \varphi_{\rm{C}} &= -\cfrac{A_{\rm{h}}}{16000} - \cfrac{A_{\rm{v}}}{25600} + \cfrac{3627}{320000} \\
 \varphi_{\rm{C}} &= -0.0000625 \cdot A_{\rm{h}} - 0.0000390625 \cdot A_{\rm{v}} + 0.011334375
 \end{align*}
@@ -255,9 +255,9 @@ Now the displacements at $\rm{C}$ can be calculated in the same way as before, b
 
 $$
 \begin{align*}
-w_{\rm{C}} &= \cfrac{(111.6 - A_{\rm{v}}) \cdot 4^3}{3 \cdot 320000} + \cfrac{(446.4 - 4 \cdot A_{\rm{h}}) \cdot 4^2}{2 \cdot 320000} + \cfrac{512 \cdot 4^2}{2 \cdot 320000} \\
+w_{\rm{C}} &= \cfrac{(111.6 - A_{\rm{v}}) \cdot 5^3}{3 \cdot 320000} + \cfrac{(446.4 - 4 \cdot A_{\rm{h}}) \cdot 5^2}{2 \cdot 320000} + \cfrac{512 \cdot 5^2}{2 \cdot 320000} \\
 w_{\rm{C}} &=-\cfrac{A_{\rm{h}}}{6400} - \cfrac{A_{\rm{v}}}{7680} + \cfrac{1663}{32000}\\
-\varphi_{\rm{C}} &= \cfrac{(111.6 - A_{\rm{v}}) \cdot 4^2}{2 \cdot 320000} + \cfrac{(446.4 - 4 \cdot A_{\rm{h}}) \cdot 4}{320000} + \cfrac{512 \cdot 4}{320000} \\
+\varphi_{\rm{C}} &= \cfrac{(111.6 - A_{\rm{v}}) \cdot 5^2}{2 \cdot 320000} + \cfrac{(446.4 - 4 \cdot A_{\rm{h}}) \cdot 5}{320000} + \cfrac{512 \cdot 5}{320000} \\
 \varphi_{\rm{C}} &= -\cfrac{A_{\rm{h}}}{16000} - \cfrac{A_{\rm{v}}}{25600} + \cfrac{6187}{320000}
 \end{align*}
 $$
