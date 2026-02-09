@@ -2,6 +2,9 @@
 
 [TeachBooks Versioning](https://teachbooks.io/manual/features/versioning.html) is used (a special type of semantic numbering for educational purposes) with generic format `v<academic_year>.<additions>.<errata>`.
 
+## v2025.26.0: 2026-02-09
+Added exam and solutions to [](./week_20/session/intro.md)
+
 ## v2025.25.0: 2025-12-09
 Added week 16 and onwards.
 
