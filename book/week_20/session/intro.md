@@ -181,5 +181,3 @@ The solution is shown [here](antw_stab.pdf)
 ````
 
 -->
-
-klhk
