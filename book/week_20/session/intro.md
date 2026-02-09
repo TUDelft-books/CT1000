@@ -169,6 +169,8 @@ In the following direction:
 
 ::::
 
+<!--
+
 ## Exam assignment 1 Buckling
 The exam assignment was provided as shown [here](stab.pdf)
 
@@ -177,3 +179,5 @@ The exam assignment was provided as shown [here](stab.pdf)
 
 The solution is shown [here](antw_stab.pdf)
 ````
+
+-->
