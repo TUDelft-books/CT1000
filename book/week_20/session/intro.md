@@ -169,15 +169,5 @@ In the following direction:
 
 ::::
 
-<!--
-
 ## Exam assignment 1 Buckling
-The exam assignment was provided as shown [here](stab.pdf)
-
-````{admonition} Solution
-:class: tip, dropdown
-
-The solution is shown [here](antw_stab.pdf)
-````
-
--->
+The exam assignment was provided as shown [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/stab_exam/CT1000S-stab-deeltentamen-JAN2026.pdf). The solution is included in the same file.
