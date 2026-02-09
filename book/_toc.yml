@@ -319,9 +319,7 @@ parts:
   - file: week_20/intro
     sections:
     - file: week_20/homework/intro
-# START REMOVE-FROM-PUBLISH
     - file: week_20/session/intro
-# END REMOVE-FROM-PUBLISH
   - file: week_30/intro
     sections:
     - file: week_30/homework/intro
