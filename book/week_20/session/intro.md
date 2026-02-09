@@ -14,6 +14,12 @@ Your own submission and its grading will be available on [<img height="12px" src
 
 Given is the following structure:
 
+::::{margin}
+:::{note}
+In the original exam, the $y$-axis was incorrectly pointing in the opposite direction. This does not affect the solution of the exercises.
+:::
+::::
+
 ```{figure} intro_data/constructie.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/shear_2
