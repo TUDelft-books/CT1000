@@ -2,78 +2,78 @@
 
 Click the dropdown blocks below to find a detailed schedule for the course activities per week. Clicking the links will take you to the relevant content pages.
 
-```{dropdown} Week 1 (September 1th)
+```{dropdown} Week 1 (August 31st)
 {{week1}}
 ```
 
-```{dropdown} Week 2 (September 8th)
+```{dropdown} Week 2 (September 7th)
 {{week2}}
 ```
 
-```{dropdown} Week 3 (September 15th)
+```{dropdown} Week 3 (September 14th)
 {{week3}}
 ```
 
-```{dropdown} Week 4 (September 22nd)
+```{dropdown} Week 4 (September 21st)
 {{week4}}
 ```
 
-```{dropdown} Week 5 (September 29th)
+```{dropdown} Week 5 (September 28th)
 {{week5}}
 ```
 
-```{dropdown} Week 6 (October 6th)
+```{dropdown} Week 6 (October 5th)
 {{week6}}
 ```
 
-```{dropdown} Week 7 (October 13th)
+```{dropdown} Week 7 (October 12th)
 {{week7}}
 ```
 
-```{dropdown} Week 8 (October 20th)
+```{dropdown} Week 8 (October 19th)
 {{week8}}
 ```
 
-```{dropdown} Week 10 (November 3th)
+```{dropdown} Week 10 (November 2nd)
 {{week10}}
 ```
 
-```{dropdown} Week 11 (November 10th)
+```{dropdown} Week 11 (November 9th)
 {{week11}}
 ```
 
-```{dropdown} Week 12 (November 17th)
+```{dropdown} Week 12 (November 16th)
 {{week12}}
 ```
 
-```{dropdown} Week 13 (November 24th)
+```{dropdown} Week 13 (November 23th)
 {{week13}}
 ```
 
-```{dropdown} Week 14 (December 1st)
+```{dropdown} Week 14 (November 30th)
 {{week14}}
 ```
 
-```{dropdown} Week 15 (December 8th)
+```{dropdown} Week 15 (December 7th)
 {{week15}}
 ```
 
-```{dropdown} Week 16 (December 15th)
+```{dropdown} Week 16 (December 13th)
 {{week16}}
 ```
 
-```{dropdown} Week 17 (January 5th)
+```{dropdown} Week 17 (January 4th)
 {{week17}}
 ```
 
-```{dropdown} Week 18 (January 12th)
+```{dropdown} Week 18 (January 11th)
 {{week18}}
 ```
 
-```{dropdown} Week 20 (January 26th)
+```{dropdown} Week 20 (January 27th)
 {{week20}}
 ```
 
-```{dropdown} Week 30 (April 14th)
+```{dropdown} Week 30 (April 12th)
 {{week30}}
 ```

@@ -33,14 +33,15 @@ This TeachBook links to relevant part of the other literature and only provides 
 Updated link to ANS course with practice assignments
 :::
 :::::
-- Additional exercises in [<img height="12px" src="./figures/ANS.svg" alt="ANS"> course `Constructiemechanica BSc Civiele Techniek`](https://ans.app/routing/courses/436978). This ANS course contains all the practice assignments linked to the content of [Mechanics-BSc TeachBook](http://oit.tudelft.nl/CEG-mechanics-BSc/). You can login into this course by logging in into ANS - joining the course [with this link](https://ans.app/accept/invitations/9c5c0c3a-742b-4406-8d30-d5b0e2a5f5fd). Afterwards, you can directly go to the course by clicking the course in [your personal ANS dashboard](https://ans.app/routing/courses/436978) or by clicking the provided links in the book.
-- Self-assessed prerequisite tests and paper-based exams in [<img height="12px" src="./figures/ANS.svg" alt="ANS"> course `CT1000 S Structural Mechanics EXAM 24/25 (Q1)`](https://ans.app/routing/courses/437261). In this course all the assignments specific for this year's course can be found. This includes the prerequisite tests and the exams. You are added to this course as soon as you participate in one of the tests or exams.
+% - Additional exercises in [<img height="12px" src="./figures/ANS.svg" alt="ANS"> course `Constructiemechanica BSc Civiele Techniek`](https://ans.app/routing/courses/436978). This ANS course contains all the practice assignments linked to the content of [Mechanics-BSc TeachBook](http://oit.tudelft.nl/CEG-mechanics-BSc/). You can login into this course by logging in into ANS - joining the course [with this link](https://ans.app/accept/invitations/9c5c0c3a-742b-4406-8d30-d5b0e2a5f5fd). Afterwards, you can directly go to the course by clicking the course in [your personal ANS dashboard](https://ans.app/routing/courses/436978) or by clicking the provided links in the book.
+% - Self-assessed prerequisite tests and paper-based exams in [<img height="12px" src="./figures/ANS.svg" alt="ANS"> course `CT1000 S Structural Mechanics EXAM 24/25 (Q1)`](https://ans.app/routing/courses/437261). In this course all the assignments specific for this year's course can be found. This includes the prerequisite tests and the exams. You are added to this course as soon as you participate in one of the tests or exams.
 - Recordings of lectures in Dutch:
   - Public recordings from topic statically indeterminate structure in course "Constructiemechanica 3": https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210
+  - Public recordings from prerequisite topics topics shear stresses in course "Constructiemechanica 2": https://collegerama.tudelft.nl/Mediasite/Channel/public-ctb1310
   - Recordings requiring TU Delft login:
     - Other topics in course "Constructiemechanica 3": https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210
     - Course "Constructiemechanica 1": https://collegeramavideoportal.tudelft.nl/catalogue/ctb1110/
-    - Course "Constructiemechanica 2": https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/?academicYear=2021-2022-ctb1310
+    - Course "Constructiemechanica 2": https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/
 
 ## Interactive features
 This TeachBook includes interactive features!
@@ -54,4 +55,4 @@ If you spot any mistakes, you can click on <svg class="svg-inline--fa fa-github"
 If you'd like to make this TeachBook more personal by adding (private or public) annotations I can recommend the [Hypothesis extension](https://web.hypothes.is/start/). This is only for your own use, I won't monitor public post on this platform.
 
 ## Version
-This is the `2025-2026`-version of the TeachBook. Go to [https://oit.tudelft.nl/CT1000](https://oit.tudelft.nl/CT1000) to view the most recent version complete of this TeachBook, or adapt the year in [/CT1000/2025](https://oit.tudelft.nl/CT1000/2025) to the year when you took the course. The [2024 version](https://oit.tudelft.nl/CT1000/2024) is the latest complete (but outdated) version.
+This is the `2026-2027`-version of the TeachBook. Go to [https://oit.tudelft.nl/CT1000](https://oit.tudelft.nl/CT1000) to view the most recent version complete of this TeachBook, or adapt the year in [/CT1000/2026](https://oit.tudelft.nl/CT1000/2026) to the year when you took the course. The [2025 version](https://oit.tudelft.nl/CT1000/2025) is the latest complete (but outdated) version.
