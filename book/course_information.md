@@ -39,7 +39,7 @@ The learning will be assessed incrementally:
 - Exam week period Q2, exam assignments on buckling and continuum mechanics
 - Exam week Q3, exam assignments on buckling.
 
-During the exam assignments, you're allowed to bring your books, notes, etc. and you're allowed to use your laptop including software like SymPy. You're not allowed to communicate during the exam session, which will be strictly monitored. Furthermore, you're not allowed to use structural analysis software.
+During the exam assignments, you're allowed to bring your books, notes, etc. Except for a calculator, you're not allowed to use any other tools.
 
 For each exam sessions(consisting of one or more assignments) you'll have three hours.
 
