@@ -2,7 +2,7 @@
 
 This course is mainly taught by Tom van Woudenberg. Furthermore, Hans Welleman teaches the topic on buckling. Please contact us if you've any questions, feedback or when you've personal circumstances which we should know.
 
-If you're stuck on a certain topic, you can also visit the teaching assistants during every lunch question hour in 6.41
+If you're stuck on a certain topic, you can also visit the teaching assistants during lunch question hour in 6.41 on Tuesday to Thursday in Q1.
 
 ## Tom van Woudenberg
 - Room 6.45
