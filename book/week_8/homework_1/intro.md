@@ -1,7 +1,7 @@
-(homework4.3)=
-# Homework deadline lesson Friday September 26th
+(homework8.1)=
+# Homework deadline lesson Wednesday October 19th
 
-As a preparation for Friday's lesson you'll look into the force method for truss structures:
+As a preparation for Monday's lesson you'll look into the displacement method with degrees of freedom:
 
 ```{tableofcontents}
 ```

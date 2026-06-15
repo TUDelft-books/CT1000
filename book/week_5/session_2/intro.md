@@ -2,7 +2,7 @@
 ```
 
 (lesson5.2)=
-# Lesson Wednesday Oktober 1st
+# Lesson Wednesday September 30th
 
 During today's lesson it's demonstrated how you to use the force method for statically indeterminate problems which involve bending.
 

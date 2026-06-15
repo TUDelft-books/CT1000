@@ -2,7 +2,7 @@
 ```
 
 (lesson2.3)=
-# Lesson Friday September 12th
+# Lesson Friday September 11th
 
 During today's lesson you'll work on a complex exercise on the topic of Mechanisms and Virtual work. Please ask your questions regarding the [homework](homework2.3) as well!
 

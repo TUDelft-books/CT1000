@@ -2,7 +2,7 @@
 ```
 
 (lesson6.3)=
-# Lesson Friday October 10th
+# Lesson Friday October 9th
 
 During today's lesson you'll work on a complex exercise on the topic of force method for frame structures. Please ask your questions regarding the [homework](homework6.2) as well!
 

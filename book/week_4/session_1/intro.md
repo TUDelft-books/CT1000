@@ -4,7 +4,7 @@
 % source files at https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 
 (lesson4.1)=
-# Lesson Monday September 22th
+# Lesson Monday September 21st
 
 During today's lesson it's demonstrated how you to use the force method for statically indeterminate problems which only involve extension
 

@@ -1,7 +1,7 @@
 (homework8.2)=
-# Homework deadline lesson Thursday October 23th
+# Homework deadline lesson Wednesday October 21th
 
-As a preparation for Monday's lesson you'll look into the Support settlement and Stiffness influences:
+As a preparation for Wednesday's lesson you'll look into the Matrix method:
 
 ```{tableofcontents}
 ```
