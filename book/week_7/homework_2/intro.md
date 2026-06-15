@@ -1,7 +1,7 @@
 (homework7.2)=
-# Homework deadline lesson Wednesday October 15th
+# Homework deadline lesson Wednesday October 14th
 
-As a preparation for Wednesday's lesson you'll look into the Displacement method with statically determinate displacements:
+As a preparation for Wednesday's lesson you'll look into the support settlement and stiffness influences:
 
 ```{tableofcontents}
 ```

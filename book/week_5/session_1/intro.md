@@ -2,7 +2,7 @@
 ```
 
 (lesson5.1)=
-# Lesson Monday September 29th
+# Lesson Monday September 28th
 
 During today's lesson you'll work on an exercise on the topic of the force method for truss structures with and without the need for Williot. Please ask your questions regarding the [homework](homework5.1) as well!
 

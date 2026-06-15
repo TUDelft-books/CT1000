@@ -2,7 +2,7 @@
 ```
 
 (lesson6.2)=
-# Lesson October Wednesday 8th
+# Lesson October Wednesday 7th
 
 During today's lesson you'll work on a complex exercise on the topic of force method for beam structures. Please ask your questions regarding the [homework](homework6.2) as well!
 

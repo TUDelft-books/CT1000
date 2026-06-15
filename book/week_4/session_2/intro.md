@@ -2,7 +2,7 @@
 ```
 
 (lesson4.2)=
-# Lesson Wednesday September 24th
+# Lesson Wednesday September 23rd
 
 During today's lesson you'll work on a complex exercise on the topic of Extension. Please ask your questions regarding the [homework](homework4.2) as well!
 

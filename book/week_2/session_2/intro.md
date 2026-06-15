@@ -2,7 +2,7 @@
 ```
 
 (lesson2.2)=
-# Lesson Wednesday September 10th
+# Lesson Wednesday September 9th
 
 During today's lesson you'll work on a complex exercise on the topic of Statics. Please ask your questions regarding the [homework](homework2.2) as well!
 
