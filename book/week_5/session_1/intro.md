@@ -343,6 +343,7 @@ Given the following structure.
 
 ```{figure} intro_data/structure.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_williot_2
 ```
 
 1. Find the normal force in element $\text{BC}$ and $\text{BE}$
