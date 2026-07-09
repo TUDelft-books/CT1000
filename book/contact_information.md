@@ -1,6 +1,6 @@
 # Contact information 💬
 
-This course is mainly taught by Tom van Woudenberg. Furthermore, Hans Welleman teaches the topic on buckling. Please contact us if you've any questions, feedback or when you've personal circumstances which we should know.
+This course is taught by Tom van Woudenberg in Q1. Furthermore, Francesco Messali and Hans Welleman continue in Q2. Please contact Tom if you've general questions, feedback or when you've personal circumstances which we should know.
 
 If you're stuck on a certain topic, you can also visit the teaching assistants during lunch question hour in 6.41 on Tuesday to Thursday in Q1.
 
@@ -10,6 +10,17 @@ If you're stuck on a certain topic, you can also visit the teaching assistants d
 - T.R.vanWoudenberg@tudelft.nl
 
 ```{figure} figures/Tom.jpg
+:width: 300px
+:align: center
+:class: dark-light
+```
+
+## Francesco Messali
+- Room 6.50.1
+- 015-2782529
+- F.Messali@tudelft.nl
+
+```{figure} figures/Francesco.jpg
 :width: 300px
 :align: center
 :class: dark-light
@@ -28,7 +39,7 @@ If you're stuck on a certain topic, you can also visit the teaching assistants d
 
 ## Teaching assistants
 - Room 6.41
-- Question hour during every lunch break
+- Question hour during lunch break on Tuesday to Thursday
 - 015-2783654
 - SA-mech-CITG@tudelft.nl
 
@@ -42,8 +53,5 @@ If you're stuck on a certain topic, you can also visit the teaching assistants d
 - Iris Oskam
 - Jelke Janssen
 - Laurens van Bavel
-- Lisette de Langen
-- Martijn Westerhof
-
-## TeachBook editing
-This online TeachBooks has partly been edited by Bart Slingerland.
+- Quirijn Stegers
+- Vyas Jagan

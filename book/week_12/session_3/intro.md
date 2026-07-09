@@ -2,7 +2,7 @@
 ```
 
 (lesson12.3)=
-# Lesson November 21th
+# Lesson Thursday
 
 During today's lesson you'll work on a complex exercise on the topic of the Transforming tensors. Please ask your questions regarding the [homework](homework12.3) as well!
 

@@ -1,3 +1,3 @@
-# Week 8 (October 20th)
+# Week 8 (October 19)
 
 {{week8}}

@@ -4,7 +4,7 @@
 ```
 
 (lesson8.2)=
-# Lesson October 21th
+# Lesson Wednesday
 
 During today's lesson you'll work on a complex exercise on the matrix method. Please ask your questions regarding the [homework](homework8.2) as well!
 

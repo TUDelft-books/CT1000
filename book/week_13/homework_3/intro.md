@@ -1,7 +1,7 @@
 (homework13.3)=
-# Homework deadline lesson Friday November 28th
+# Homework for Thursday
 
-As a preparation for Friday's lesson you'll look into the Shear Force centre:
+As a preparation for Thursday's lesson you'll look into the Shear Force centre:
 
 ```{tableofcontents}
 ```

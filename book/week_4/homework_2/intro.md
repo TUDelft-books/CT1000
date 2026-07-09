@@ -1,5 +1,5 @@
 (homework4.2)=
-# Homework deadline lesson Wednesday September 24th
+# Homework for Wednesday
 
 As a preparation for Wednesday's lesson you'll look into statical determinacy and displacement of extension structures:
 

@@ -1,7 +1,7 @@
 (homework11.3)=
-# Homework deadline lesson Friday November 14th
+# Homework for Thursday
 
-As a preparation for Friday's lesson you'll look into normal stresses due to normal forces and bending moments:
+As a preparation for Thursday's lesson you'll look into normal stresses due to normal forces and bending moments:
 
 ```{tableofcontents}
 ```

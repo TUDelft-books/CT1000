@@ -5,7 +5,7 @@
 
 
 (lesson7.2)=
-# Lesson October 14th
+# Lesson Wednesday
 
 During today's lesson you'll work on an exercise on the topic of Stiffness influences and Support settlement. Please ask your questions regarding the [homework](homework7.2) as well!
 

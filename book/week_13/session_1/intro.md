@@ -5,7 +5,7 @@
 
 
 (lesson13.1)=
-# Lesson November 24th
+# Lesson Monday
 
 During today's lesson you'll work on a complex exercise on the topic of the stress-strain relations. Please ask your questions regarding the [homework](homework13.1) as well!
 

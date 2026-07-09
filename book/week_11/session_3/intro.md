@@ -1,7 +1,7 @@
 ```{index} Normal stresses; Class exercise for bending
 ```
 (lesson11.3)=
-# Lesson November 14th
+# Lesson Thursday
 
 During today's lesson you'll work on a complex exercise on the topic of normal stresses. Please ask your questions regarding the [homework](homework11.3) as well!
 

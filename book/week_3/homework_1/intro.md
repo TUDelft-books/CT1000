@@ -1,5 +1,5 @@
 (homework3.1)=
-# Homework deadline lesson Monday September 15th
+# Homework for Monday
 
 As a preparation for Monday's lesson you'll look into equilibrium relations and cables, consisting of the following topics:
 

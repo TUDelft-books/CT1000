@@ -1,5 +1,5 @@
 (homework6.1)=
-# Homework deadline lesson Monday October 6th.
+# Homework for Monday
 
 As a preparation for Monday's lesson you'll look into Displacements for bending:
 

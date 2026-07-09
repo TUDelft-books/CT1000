@@ -1,5 +1,5 @@
 (homework4.3)=
-# Homework deadline lesson Friday September 26th
+# Homework for Friday
 
 As a preparation for Friday's lesson you'll look into displacement of truss structures using Williot:
 

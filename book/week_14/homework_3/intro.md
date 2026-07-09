@@ -1,7 +1,7 @@
 (homework14.3)=
-# Homework deadline lesson Friday December 5th
+# Homework for Thursday
 
-As a preparation for Monday's lesson you'll look into the Failure criteria:
+As a preparation for Thursday's lesson you'll look into the Failure criteria:
 
 ```{tableofcontents}
 ```

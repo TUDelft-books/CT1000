@@ -1,5 +1,5 @@
 (homework7.2)=
-# Homework deadline lesson Wednesday October 14th
+# Homework for Wednesday
 
 As a preparation for Wednesday's lesson you'll look into the support settlement and stiffness influences:
 

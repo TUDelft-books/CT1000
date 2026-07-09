@@ -12,7 +12,7 @@
 ```
 
 (lesson7.1)=
-# Lesson October 12th
+# Lesson Monday
 
 During today's lesson it's demonstrated how you to handle temperature influences, stiffness discontinuities and support settlement for statically indeterminate structures. Furthermore, we'll introduce two more methods for solving statically indeterminate structures: the displacement method using degrees of freedom and the matrix method.
 

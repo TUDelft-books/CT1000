@@ -1,7 +1,7 @@
 ```{index} Shear stresses; Class exercise for bending
 ```
 (lesson12.1)=
-# Lesson November 17th
+# Lesson Monday
 
 During today's lesson you'll work on a complex exercise on the topic of shear stresses. Please ask your questions regarding the [homework](homework12.1) as well!
 

@@ -1,3 +1,3 @@
-# Week 3 (September 15th)
+# Week 3 (September 14)
 
 {{week3}}

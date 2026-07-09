@@ -2,7 +2,7 @@
 ```
 
 (lesson11.2)=
-# Lesson November 11th
+# Lesson Tuesday
 
 
 During today's lesson you'll work on a complex exercise on the topic of Cross-sectional properties. Please ask your questions regarding the [homework](homework11.2) as well!

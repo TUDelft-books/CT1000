@@ -1,5 +1,5 @@
 (homework8.1)=
-# Homework deadline lesson Wednesday October 19th
+# Homework for Monday
 
 As a preparation for Monday's lesson you'll look into the displacement method with degrees of freedom:
 

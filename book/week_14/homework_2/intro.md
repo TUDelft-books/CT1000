@@ -1,5 +1,5 @@
 (homework14.2)=
-# Homework deadline lesson Tuesday December 2nd
+# Homework for Tuesday
 
 As a preparation for Tuesday's lesson you'll look into Shear stresses in torsional elements:
 

@@ -4,7 +4,7 @@
 ```
 
 (exam2)=
-# Exam Tuesday December 9th
+# Exam Wednesday
 
 Today you'll make the second exam assignment covering Statically indeterminate structures including its prerequisites and/or the first exam assignment covering Continuum mechanics including its prerequisites. For more information about the exam see [the assessment information in course information](exam-general)
 

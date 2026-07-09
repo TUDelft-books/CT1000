@@ -1,5 +1,5 @@
 (homework8.3)=
-# Homework deadline lesson Friday October 24th
+# Homework for Friday
 
 As a preparation for Friday's lesson you'll look into the Temperature influences:
 

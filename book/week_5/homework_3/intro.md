@@ -1,5 +1,5 @@
 (homework5.3)=
-# Homework deadline lesson Friday October 3th
+# Homework for Friday
 
 As a preparation for Friday's lesson you'll look into Section force diagrams:
 

@@ -298,7 +298,8 @@ parts:
   - file: week_15/intro
     sections:
     - file: week_15/homework/intro
-    - file: week_15/session/intro
+    - file: week_15/session_1/intro
+    - file: week_15/session_2/intro
   - file: week_16/intro
     sections:
     - url: https://icozct.tudelft.nl/TUD_CT/CM3bridge/collegestof/stabiliteit/

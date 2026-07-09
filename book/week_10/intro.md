@@ -1,3 +1,3 @@
-# Week 10 (November 3th)
+# Week 10 (November 2)
 
 {{week10}}

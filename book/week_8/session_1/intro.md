@@ -2,7 +2,7 @@
 ```
 
 (lesson8.1)=
-# Lesson October 26th
+# Lesson Monday
 
 During today's lesson you'll work on a complex exercise on the topic of the Displacement method with degrees of freedom. Please ask your questions regarding the [homework](homework8.1) as well!
 

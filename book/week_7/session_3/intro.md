@@ -2,7 +2,7 @@
 ```
 
 (lesson7.3)=
-# Lesson October 16th
+# Lesson Friday
 
 During today's lesson you'll work on two complex exercises on the topic of Temperature influences. Please ask your questions regarding the [homework](homework7.3) as well!
 

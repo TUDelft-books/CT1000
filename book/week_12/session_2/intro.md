@@ -1,7 +1,7 @@
 ```{index} Core of cross-section; Class exercise
 ```
 (lesson12.2)=
-# Lesson November 18th
+# Lesson Tuesday
 
 During today's lesson you'll work on a complex exercise on the topic of the core of a cross-section. Please ask your questions regarding the [homework](homework12.2) as well!
 

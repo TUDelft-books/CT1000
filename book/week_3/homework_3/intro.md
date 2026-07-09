@@ -1,5 +1,5 @@
 (homework3.3)=
-# Homework deadline lesson Friday September 19th
+# Homework for Friday
 
 As a preparation for Friday's lesson you'll look into differential equations, consisting of the following topics:
 

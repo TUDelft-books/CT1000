@@ -1,5 +1,5 @@
 (lesson1.3)=
-# Lesson Friday September 4th
+# Lesson Friday
 
 Your own prerequisite test are graded. Today we'll discuss the results. If there's time left, you can start working on next week homework deadline.
 
