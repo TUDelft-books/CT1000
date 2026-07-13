@@ -4,7 +4,7 @@
 ```
 
 (exam3)=
-# Exam Friday January 30th
+# Exam Thursday
 
 Today you'll make the second exam assignment covering Continuuum mechanics including its prerequisites and/or the first exam assignment covering Buckling including its prerequisites. For more information about the exam see [the assessment information in course information](exam-general)
 
