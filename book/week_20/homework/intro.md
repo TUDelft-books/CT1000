@@ -1,5 +1,5 @@
 (homework20)=
-# Preparation exam assignments Friday January 30th
+# Preparation exam assignments Thursday
 
 ```{include} ../../exam_continuum.md
 ```
