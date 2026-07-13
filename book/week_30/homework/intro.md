@@ -1,5 +1,5 @@
 (homework30)=
-# Preparation exam assignment Thursday April 16th
+# Preparation exam assignment Monday
 
 ```{include} ../../exam_buckling.md
 ```
