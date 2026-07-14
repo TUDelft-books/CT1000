@@ -199,7 +199,137 @@ This gives:
 
 ::::
 
+```{hide-sticky-margin}
+```
+
 ## Exam assignment 3 Continuum mechanics
 Your own submission and its grading will be available on [<img height="12px" src="../../figures/ANS.svg" alt="ANS">](https://ans.app/universities/1/courses/576319/assignments/.../go_to) after the exam.
 
 
+Given is the following structure:
+
+::::{grid}
+:class-container: center-grid
+
+:::{grid-item}
+:columns: auto
+
+```{figure} continuum_data/cross-section.svg
+:align: center
+:figclass: sticky-margin
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/continuum_exam
+```
+
+:::
+
+:::{grid-item}
+:columns: auto
+
+```{figure-start} continuum_data/structure.svg
+:align: center
+:figclass: sticky-margin
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/continuum_exam
+```
+
+Forces and support reactions are acting on the normal force centre.
+The cross-section can be regarded as thin-walled
+
+```{figure-end}
+```
+
+:::
+
+::::
+
+:::::{exercise}
+:nonumber: true
+
+Show that $A = 150 \sqrt{2} \, \rm{cm}^2$, $\bar z_{\rm{N.C.}} = 0 \, \rm{mm}$ and $I_{zz} = 31250 \sqrt{2} \, \rm{cm}^4$.
+
+:::::
+
+::::{admonition} Solution
+:class: solution, dropdown
+
+The area of the cross section is:
+
+$$ A = 2 \cdot 50 \cdot \sqrt{2} \cdot 1.5 = 150 \sqrt{2} \, \rm{cm}^2 $$
+
+There is as much material above as below the $y$-axis, which gives $\bar z_{\rm{N.C.}} = 0 \, \rm{mm}$.
+
+The second moment of area $I_{zz}$ is (taking into account the projected horizontal thickness of the parts):
+
+$$I_{zz} = 2 \cdot \cfrac{1}{12} \cdot 1.5 \sqrt{2} \cdot 50^3 = 31250 \cdot \sqrt{2} \, \rm{cm}^4$$
+
+::::
+
+:::::{exercise}
+:nonumber: true
+
+Determine the 3D stress tensor on a positive cross section just left of $\rm{B}$ in point $\rm{E}$. Indicate the directions of this stress tensor.
+
+:::::
+
+::::{admonition} Solution
+:class: solution, dropdown
+
+Using equilibrium equation you can find:
+
+- $ V_{\rm{B}}^{\rm{SB}} = -60 \, \rm{kN}$
+- $ M_{\rm{B}} = -240 \, \rm{kNm}$
+
+To find the shear stress in $\rm{E}$, the part below $\rm{E}$ can be seen as sliding off, this gives:
+
+$$\tau = \cfrac{\left| -60000 \cdot 0.125 \cdot 0.015 \cdot \sqrt{2} \cdot \cfrac{0.125}{2} \right|}{0.015 \cdot 31250 \cdot \sqrt{2} \cdot 10^{-8}} = 2 \cdot 10^6 \, \rm{Pa} = 2 \, \rm{MPa}$$
+
+As the shear force acts upwards on a positive cross section, the shear stress acts in in top right direction in $\rm{E}$
+
+The normal force can be found with:
+
+$$\sigma = \cfrac{ -240 \cdot 10^3\cdot 0.125}{31250 \cdot \sqrt{2} \cdot 10^{-8}} = -48 \cdot 10^6 \cdot \sqrt{2} \, \rm{Pa} \approx -67.88 \, \rm{MPa}$$
+
+So the 3D stress tensor is:
+
+$$\sigma = \begin{bmatrix} -67.88 & 0 & -2 \\ 0 & 0 & 0 \\ -2 & 0 & 0 \end{bmatrix} \, \rm{MPa}$$
+
+With the $x$-axis in the original $x$-direction, the $z$-axis along the edge to the bottom left and the $y$-axis perpendicular to the edge to the top left:
+
+```{figure} continuum_data/direction.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/continuum_exam
+```
+
+::::
+
+:::::{exercise}
+:nonumber: true
+
+Determine the deviatoric stress tensor on a positive cross section just left of $\rm{B}$ in point $\rm{E}$. Include the direction of the coordinate system of this deviatoric stress tensor.
+
+:::::
+
+::::{admonition} Solution
+:class: solution, dropdown
+
+The principle stresses are:
+
+- $\sigma_1 = \frac{1}{2} \cdot 67.88 + \frac{1}{2} \cdot \sqrt{68^2 + 4 \cdot 1.5^2} \approx 67.92 \, \rm{MPa}$
+- $\sigma_2 = \frac{1}{2} \cdot 67.88 - \frac{1}{2} \cdot \sqrt{68^2 + 4 \cdot 1.5^2} \approx -0.033 \, \rm{MPa}$
+- $\sigma_3 = 0 \, \rm{MPa}$
+
+This gives the isotropic stress:
+
+$$\sigma_{\rm{o}} = \cfrac{67.92 - 0.033 + 0}{3} \approx 22.63 \, \rm{MPa}$$
+
+This gives the deviatoric stress tensor:
+
+$$\sigma_{\rm{d}} = \begin{bmatrix} 67.92 - 22.63 \\ -0.033 -22.63 \\ 0 - 22.63 \end{bmatrix} = \begin{bmatrix} 45.29 \\ -22.66 \\ -22.63 \end{bmatrix} \, \rm{MPa}$$
+
+This stress tensor is coordinated in the principle stress directions, which are not the same as the original stress tensor.
+
+The coordination system of the deviatoric stress tensor is the principle stress direction. This is the original coordinate system rotated over an angle of $\theta = \frac{1}{2} \cdot \arctan \left( \cfrac{1.5}{\frac{1}{2} \left(67.88 - 0\right)} \right) \approx 1.26^{\circ}$ around the $y$-axis of the 3D stress tensor in the direction from $z$ to $x$.
+
+::::
