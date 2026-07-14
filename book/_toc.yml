@@ -323,9 +323,6 @@ parts:
     sections:
     - file: week_30/homework/intro
     - file: week_30/session/intro
-  - file: extra_exam/intro
-    sections:
-    - file: extra_exam/homework/intro
 
 # END REMOVE-FROM-PUBLISH
 
