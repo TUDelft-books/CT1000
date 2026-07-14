@@ -11,7 +11,7 @@
 Today some studnets make an additional exam assignment covering static indeterminate structures, continuum mechanics or stability including its prerequisites. For more information about the exam see [the assessment information in course information](exam-general)
 
 ## Exam assignment 3 Statically indeterminate structures
-Your own submission and its grading will be available on [<img height="12px" src="../../figures/ANS.svg" alt="ANS"> exam assignment Statically indeterminate structures 2](https://ans.app/universities/1/courses/576319/assignments/1584858/go_to) after the exam.
+Your own submission and its grading will be available on [<img height="12px" src="../../figures/ANS.svg" alt="ANS">](https://ans.app/universities/1/courses/576319/assignments/.../go_to) after the exam.
 
 Given is the following structure:
 
@@ -198,3 +198,8 @@ This gives:
 ```
 
 ::::
+
+## Exam assignment 3 Continuum mechanics
+Your own submission and its grading will be available on [<img height="12px" src="../../figures/ANS.svg" alt="ANS">](https://ans.app/universities/1/courses/576319/assignments/.../go_to) after the exam.
+
+
