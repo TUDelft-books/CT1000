@@ -40,6 +40,9 @@ sphinx:
       chtml: {
         mtextInheritFont: true # To typeset text within math prettier
       }
+      loader:
+        load:
+          - "ui/nonlazy"
     named_colors_custom_colors: {'attributiongrey':[150,150,150]}
     sphinx_codex_merge_with_proof: true
     tud_change_titlesize: false
