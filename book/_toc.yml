@@ -298,9 +298,6 @@ parts:
     sections:
     - file: week_15/homework/intro
     - file: week_15/session/intro
-# START REMOVE-FROM-PUBLISH
-    - file: week_15/session_2/intro
-# END REMOVE-FROM-PUBLISH
   - file: week_16/intro
     sections:
     - url: https://icozct.tudelft.nl/TUD_CT/CM3bridge/collegestof/stabiliteit/
@@ -328,7 +325,6 @@ parts:
     sections:
     - file: extra_exam/homework/intro
 
-# END REMOVE-FROM-PUBLISH
 
 - caption: Miscellaneous
   chapters:
