@@ -1,7 +1,7 @@
 (homework7.3)=
-# Homework for Friday
+# Homework for Thursday
 
-As a preparation for Fridays's lesson you'll look into the Temperature influences:
+As a preparation for Thursday's lesson you'll look into the Temperature influences:
 
 ```{tableofcontents}
 ```
