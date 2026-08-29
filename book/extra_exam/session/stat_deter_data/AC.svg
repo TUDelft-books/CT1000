@@ -191,11 +191,11 @@
 			</g>
 			<g id="shape861-102" v:mID="861" v:groupContext="shape" transform="translate(4.25197,-51.0236)">
 				<title>Blad.861</title>
-				<desc>4 m</desc>
+				<desc>6 m</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="14.1732" cy="164.97" width="28.35" height="25.5118"/>
 				<rect x="0" y="152.214" width="28.3465" height="25.5118" class="st12"/>
-				<text x="5.01" y="168.57" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>4 m</text>			</g>
+				<text x="5.01" y="168.57" class="st8" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>6 m</text>			</g>
 		</g>
 		<g id="shape863-105" v:mID="863" v:groupContext="shape" transform="translate(78.0728,-139.273)">
 			<title>reactiekracht (scharnier/inwendig).863</title>

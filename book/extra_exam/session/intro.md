@@ -54,7 +54,7 @@ There are 5 unknowns and 3 equilibrium equations, making the structure staticall
 :::::{exercise}
 :nonumber: true
 
-Provide three alternative valid variants to make this structure statically determinate for the purpose of the force method. Provide three different variants: over all variants, you must have adjusted at least each node and element once.
+Provide three valid variants to make this structure statically determinate for the purpose of the force method. Provide three different variants: over all variants, you must have adjusted at least each node and element once.
 For each of the variants, provide the necessary compatibility equation(s) to determine the statically indeterminate force(s).
 
 :::::
@@ -178,7 +178,7 @@ This gives:
 :::::{exercise}
 :nonumber: true
 
-Draw the displaced statically indeterminate structure for which you indicate the displacements of node $\rm{C}$ and indicate the location of the point of inflection (buigpunt): the point for which the curvature changes sign.
+Draw the displaced statically indeterminate structure for which you indicate the displacements of node $\rm{C}$ and the location of the point of inflection (the point for which the curvature changes sign).
 
 :::::
 
@@ -268,7 +268,7 @@ $$I_{zz} = 2 \cdot \cfrac{1}{12} \cdot 1.5 \sqrt{2} \cdot 50^3 = 31250 \cdot \sq
 :::::{exercise}
 :nonumber: true
 
-Determine the 3D stress tensor on a positive cross section just left of $\rm{B}$ in point $\rm{E}$. Indicate the directions of this stress tensor.
+Show that $V_{\rm{B}}^{\rm{SB}} = -60 \, \rm{kN}$ and $M_{\rm{B}} = -240 \, \rm{kNm}$.
 
 :::::
 
@@ -279,6 +279,18 @@ Using equilibrium equation you can find:
 
 - $ V_{\rm{B}}^{\rm{SB}} = -60 \, \rm{kN}$
 - $ M_{\rm{B}} = -240 \, \rm{kNm}$
+
+::::
+
+:::::{exercise}
+:nonumber: true
+
+Determine the 3D stress tensor on a positive cross section just left of $\rm{B}$ in point $\rm{E}$. Indicate the directions of this stress tensor.
+
+:::::
+
+::::{admonition} Solution
+:class: solution, dropdown
 
 To find the shear stress in $\rm{E}$, the part below $\rm{E}$ can be seen as sliding off, this gives:
 
