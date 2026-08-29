@@ -24,7 +24,9 @@ Izz = t*sym.sqrt(2)*h**3/12 * 2
 print(Izz*100000000)
 
 sigma = -M * 1000 * h / 4 / Izz
-tau = V * 1000 * t * sym.sqrt(2) * h/8 * ( h/4) / t / Izz
+Sz = t * sym.sqrt(2) * h*3/8 * ( h/4)
+print('Sz:', Sz, Sz.evalf())
+tau = V * 1000 * Sz / t / Izz
 
 print('sigma:', sigma, sigma.evalf())
 print('tau:', tau)

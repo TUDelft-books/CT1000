@@ -294,7 +294,7 @@ Determine the 3D stress tensor on a positive cross section just left of $\rm{B}$
 
 To find the shear stress in $\rm{E}$, the part below $\rm{E}$ can be seen as sliding off, this gives:
 
-$$\tau = \cfrac{\left| -60000 \cdot 0.125 \cdot 0.015 \cdot \sqrt{2} \cdot \cfrac{0.125}{2} \right|}{0.015 \cdot 31250 \cdot \sqrt{2} \cdot 10^{-8}} = 2 \cdot 10^6 \, \rm{Pa} = 2 \, \rm{MPa}$$
+$$\tau = \cfrac{\left| -60000 \cdot \left( 0.125+0.\cfrac{125}{2} \right) \cdot 0.015 \cdot \sqrt{2} \cdot \cfrac{0.125}{2} \right|}{0.015 \cdot 31250 \cdot \sqrt{2} \cdot 10^{-8}} = 4.5 \cdot 10^6 \, \rm{Pa} = 2 \, \rm{MPa}$$
 
 As the shear force acts upwards on a positive cross section, the shear stress acts in in top right direction in $\rm{E}$
 
@@ -304,7 +304,7 @@ $$\sigma = \cfrac{ -240 \cdot 10^3\cdot 0.125}{31250 \cdot \sqrt{2} \cdot 10^{-8
 
 So the 3D stress tensor is:
 
-$$\sigma = \begin{bmatrix} -67.88 & 0 & -2 \\ 0 & 0 & 0 \\ -2 & 0 & 0 \end{bmatrix} \, \rm{MPa}$$
+$$\sigma = \begin{bmatrix} -67.88 & 0 & -4.5 \\ 0 & 0 & 0 \\ -4.5 & 0 & 0 \end{bmatrix} \, \rm{MPa}$$
 
 With the $x$-axis in the original $x$-direction, the $z$-axis along the edge to the bottom left and the $y$-axis perpendicular to the edge to the top left:
 
@@ -328,20 +328,20 @@ Determine the deviatoric stress tensor on a positive cross section just left of 
 
 The principle stresses are:
 
-- $\sigma_1 = \frac{1}{2} \cdot 67.88 + \frac{1}{2} \cdot \sqrt{68^2 + 4 \cdot 1.5^2} \approx 67.92 \, \rm{MPa}$
-- $\sigma_2 = \frac{1}{2} \cdot 67.88 - \frac{1}{2} \cdot \sqrt{68^2 + 4 \cdot 1.5^2} \approx -0.033 \, \rm{MPa}$
+- $\sigma_1 = \frac{1}{2} \cdot -67.88 - \frac{1}{2} \cdot \sqrt{ \left(-67.88 \right)^2 + 4 \cdot 4.5^2} \approx -68.18 \, \rm{MPa}$
+- $\sigma_2 = \frac{1}{2} \cdot -67.88 + \frac{1}{2} \cdot \sqrt{ \left(-67.88 \right)^2 + 4 \cdot 4.5^2} \approx 0.297 \, \rm{MPa}$
 - $\sigma_3 = 0 \, \rm{MPa}$
 
 This gives the isotropic stress:
 
-$$\sigma_{\rm{o}} = \cfrac{67.92 - 0.033 + 0}{3} \approx 22.63 \, \rm{MPa}$$
+$$\sigma_{\rm{o}} = \cfrac{-68.18 + 0.297 + 0}{3} \approx -22.63 \, \rm{MPa}$$
 
 This gives the deviatoric stress tensor:
 
-$$\sigma_{\rm{d}} = \begin{bmatrix} 67.92 - 22.63 \\ -0.033 -22.63 \\ 0 - 22.63 \end{bmatrix} = \begin{bmatrix} 45.29 \\ -22.66 \\ -22.63 \end{bmatrix} \, \rm{MPa}$$
+$$\sigma_{\rm{d}} = \begin{bmatrix} -67.88 - \left(-22.63\right) \\ 0.297 - \left(-22.63\right) \\ 0 - \left(-22.63\right) \end{bmatrix} = \begin{bmatrix} 45.55 \\ -22.92 \\ -22.63 \end{bmatrix} \, \rm{MPa}$$
 
 This stress tensor is coordinated in the principle stress directions, which are not the same as the original stress tensor.
 
-The coordination system of the deviatoric stress tensor is the principle stress direction. This is the original coordinate system rotated over an angle of $\theta = \frac{1}{2} \cdot \arctan \left( \cfrac{1.5}{\frac{1}{2} \left(67.88 - 0\right)} \right) \approx 1.26^{\circ}$ around the $y$-axis of the 3D stress tensor in the direction from $z$ to $x$.
+The coordination system of the deviatoric stress tensor is the principle stress direction. This is the original coordinate system rotated over an angle of $\theta = \frac{1}{2} \cdot \arctan \left( \cfrac{4.5}{\frac{1}{2} \left(67.88 - 0\right)} \right) \approx 3.74^{\circ}$ around the $y$-axis of the 3D stress tensor in the direction from $z$ to $x$.
 
 ::::
