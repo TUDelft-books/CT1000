@@ -324,6 +324,7 @@ parts:
   - file: extra_exam/intro
     sections:
     - file: extra_exam/homework/intro
+    - file: extra_exam/session/intro
 
 
 - caption: Miscellaneous
