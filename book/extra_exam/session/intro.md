@@ -294,7 +294,7 @@ Determine the 3D stress tensor on a positive cross section just left of $\rm{B}$
 
 To find the shear stress in $\rm{E}$, the part below $\rm{E}$ can be seen as sliding off, this gives:
 
-$$\tau = \cfrac{\left| -60000 \cdot \left( 0.125+0.\cfrac{125}{2} \right) \cdot 0.015 \cdot \sqrt{2} \cdot \cfrac{0.125}{2} \right|}{0.015 \cdot 31250 \cdot \sqrt{2} \cdot 10^{-8}} = 4.5 \cdot 10^6 \, \rm{Pa} = 2 \, \rm{MPa}$$
+$$\tau = \cfrac{\left| -60000 \cdot \left( 0.125+0.\cfrac{125}{2} \right) \cdot 0.015 \cdot \sqrt{2} \cdot \cfrac{0.125}{2} \right|}{0.015 \cdot 31250 \cdot \sqrt{2} \cdot 10^{-8}} = 4.5 \cdot 10^6 \, \rm{Pa} = 4.5 \, \rm{MPa}$$
 
 As the shear force acts upwards on a positive cross section, the shear stress acts in in top right direction in $\rm{E}$
 
