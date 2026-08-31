@@ -6,8 +6,8 @@ Your own prerequisite test are graded. Today we'll discuss the results. If there
 ## View own test result
 You can view test including the model answer as soon as it is scanned at:
 
-- [<img height="12px" src="../../figures/ANS.svg" alt="ANS"> prerequisite test 1](https://ans.app/universities/1/courses/576319/assignments/1475605/go_to)
-- [<img height="12px" src="../../figures/ANS.svg" alt="ANS"> prerequisite test 2](https://ans.app/universities/1/courses/576319/assignments/1475636/go_to).
+- [<img height="12px" src="../../figures/ANS.svg" alt="ANS"> prerequisite test 1](https://ans.app/universities/1/courses/714632/assignments/1873409/go_to)
+- [<img height="12px" src="../../figures/ANS.svg" alt="ANS"> prerequisite test 2](https://ans.app/universities/1/courses/714632/assignments/1873410/go_to).
 
 We'll discuss [common mistakes](./FMM2.md) made in the test and the correct answer
 
