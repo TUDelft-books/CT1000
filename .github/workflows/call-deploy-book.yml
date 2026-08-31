@@ -17,16 +17,22 @@ on:
 
 jobs: 
   merge-to-2026:
-    if: ${{ github.ref == 'refs/heads/2026-draft' }}
+    if: ${{ github.ref == 'refs/heads/2026-draft' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ secrets.CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-          token: ${{ secrets.ACTIONS_DEPLOY_KEY_CT1000 }}
+          token: ${{ steps.app-token.outputs.token }}
       
       - name: Configure Git
         run: |
