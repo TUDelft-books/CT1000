@@ -41,8 +41,16 @@ jobs:
       
       - name: Merge 2026-draft into 2026
         run: |
-          git checkout 2026
-          git merge 2026-draft --no-ff -m "Auto-merge 2026-draft into 2026"
+          # Delete remote branches to start fresh (ignore errors if they don't exist)
+          git push origin --delete 2026 2>/dev/null || true
+          
+          # Delete local branches to start fresh (ignore errors if they don't exist)
+          git branch -D 2026 2>/dev/null || true
+          
+          # Create fresh 2026-draft from cleaned 2026-teacher
+          git checkout -b 2026 origin/2026-draft
+          git add .
+          
           git push origin 2026
 
   call-workflow:
