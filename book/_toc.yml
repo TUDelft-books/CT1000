@@ -20,6 +20,7 @@ parts:
       sections:
       - file: week_1/session_3/answer
       - file: week_1/session_3/FMM2
+# END REMOVE-FROM-PUBLISH
   - file: week_2/intro
     sections:
 # START REMOVE-FROM-PUBLISH
