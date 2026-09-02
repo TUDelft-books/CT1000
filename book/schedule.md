@@ -5,3 +5,7 @@ Click the dropdown blocks below to find a detailed schedule for the course activ
 ```{dropdown} Week 1 (August 31st)
 {{week1}}
 ```
+
+```{dropdown} Week 2 (September 7th)
+{{week2}}
+```
