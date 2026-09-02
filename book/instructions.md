@@ -6,15 +6,15 @@ This TeachBook combines the course schedule and content. The content is shown in
 This TeachBook links to relevant part of the other literature and only provides additional content when the other literature is insufficient.
 - [Brightspace course page](https://brightspace.tudelft.nl/d2l/home/844367): this Brightspace page is only used for announcements.
 - Engineering Mechanics: Volume 1: Equilibrium, by {cite:ts}`Hartsuijker2006`.
-  - eBook available for free via TU Delft at [<img height="20px" src="./figures/springer-logo.svg" alt="Springer">](https://link-springer-com.tudelft.idm.oclc.org/book/10.1007/978-1-4020-5483-9).
-  - This book is also available in Dutch (only paid version) at [<img height="12px" src="./figures/logo-boom.svg" alt="Boom">](https://www.boomhogeronderwijs.nl/product/100-9055_Mechanica-Evenwicht-3e-druk).
+  - eBook available for free via TU Delft at [Springer](https://link-springer-com.tudelft.idm.oclc.org/book/10.1007/978-1-4020-5483-9).
+  - This book is also available in Dutch (only paid version) at [Boom](https://www.boomhogeronderwijs.nl/product/100-9055_Mechanica-Evenwicht-3e-druk).
 - Engineering Mechanics: Volume 2: Stresses, strains and displacements, by {cite:ts}`Hartsuijker2007`.
-  - eBook available for free via TU Delft at [<img height="20px" src="./figures/springer-logo.svg" alt="Springer">](https://link.springer.com/book/10.1007/978-1-4020-5763-2).
-  - This book is also available in Dutch (only paid version) at [<img height="12px" src="./figures/logo-boom.svg" alt="Boom">](https://www.boomhogeronderwijs.nl/product/100-9056_Mechanica-Spanningen-vervormingen-verplaatsingen-3e-druk).
+  - eBook available for free via TU Delft at [Springer](https://link.springer.com/book/10.1007/978-1-4020-5763-2).
+  - This book is also available in Dutch (only paid version) at [Boom](https://www.boomhogeronderwijs.nl/product/100-9056_Mechanica-Spanningen-vervormingen-verplaatsingen-3e-druk).
 - Mechanica: Statisch onbepaalde constructies en bezwijkanalyse, by {cite:ts}`Hartsuijker2016`. 
-  - Book available at [<img height="12px" src="./figures/logo-boom.svg" alt="Boom">](https://www.boom.nl/hoger-onderwijs/100-9587_Mechanica-Statisch-onbepaalde-constructies-en-bezwijkanalyse-3e-druk). This book is only available as a paid version in Dutch
+  - Book available at [Boom](https://www.boom.nl/hoger-onderwijs/100-9587_Mechanica-Statisch-onbepaalde-constructies-en-bezwijkanalyse-3e-druk). This book is only available as a paid version in Dutch
 - Mechanica: Stabiliteit van het evenwicht, by {cite:ts}`Hartsuijker2023`.
-  - Book available at [<img height="12px" src="./figures/logo-boom.svg" alt="Boom">](https://www.boom.nl/hoger-onderwijs/100-10458_Mechanica-Stabiliteit-van-het-evenwicht). This book is only available as a paid version in Dutch.
+  - Book available at [Boom](https://www.boom.nl/hoger-onderwijs/100-10458_Mechanica-Stabiliteit-van-het-evenwicht). This book is only available as a paid version in Dutch.
   - Summary available in Dutch [here](https://icozct.tudelft.nl/TUD_CT/CM3bridge/collegestof/stabiliteit/files/LEESWIJZER_BOEK_STABILITEIT.pdf)
   - Visual summary available in Dutch [here](https://icozct.tudelft.nl/TUD_CT/CM3bridge/collegestof/stabiliteit/files/SAMENVATTINGSKAART_stabiliteit.pdf).
   - Answers available in Dutch [here](https://icozct.tudelft.nl/TUD_CT/CM3bridge/collegestof/stabiliteit/files/antwoorden-BOEK-deel-4.pdf).
@@ -28,7 +28,7 @@ This TeachBook links to relevant part of the other literature and only provides 
   - Chapter 7, 12 and 13 are not part of this course.
 - Introduction to continuum mechanics, by {cite:ts}`Hartsuijker2007con`.
   - Book available [here](external/CEG-mechanics-BSc/book/Lecture_Notes_Elasticity.pdf).
-% - Additional exercises in [<img height="12px" src="./figures/ANS.svg" alt="ANS"> course `Constructiemechanica BSc Civiele Techniek`](https://ans.app/routing/courses/436978). This ANS course contains all the practice assignments linked to the content of [Mechanics-BSc TeachBook](http://oit.tudelft.nl/CEG-mechanics-BSc/). You can login into this course by logging in into ANS - joining the course [with this link](https://ans.app/accept/invitations/9c5c0c3a-742b-4406-8d30-d5b0e2a5f5fd). Afterwards, you can directly go to the course by clicking the course in [your personal ANS dashboard](https://ans.app/routing/courses/436978) or by clicking the provided links in the book.
+- Additional exercises in [ANS](https://ans.app/routing/courses/436978). You can login into this course by logging in into ANS - joining the course [with this link](https://ans.app/accept/invitations/9c5c0c3a-742b-4406-8d30-d5b0e2a5f5fd). Afterwards, you can directly go to the course by clicking the course in [your personal ANS dashboard](https://ans.app/routing/courses/436978) or by clicking the provided links in the book.
 % - Self-assessed prerequisite tests and paper-based exams in [<img height="12px" src="./figures/ANS.svg" alt="ANS"> course `CT1000 S Structural Mechanics EXAM 24/25 (Q1)`](https://ans.app/routing/courses/437261). In this course all the assignments specific for this year's course can be found. This includes the prerequisite tests and the exams. You are added to this course as soon as you participate in one of the tests or exams.
 - Recordings of lectures in Dutch:
   - Public recordings from topic statically indeterminate structure in course "Constructiemechanica 3": https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210
