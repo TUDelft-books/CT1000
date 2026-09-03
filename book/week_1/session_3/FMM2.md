@@ -8,35 +8,33 @@
 
 ### No free-body diagrams
 
+![alt text](FMM2_data/image_27.png)
+
 ### 'Incorrect' free-body diagrams
 
-![alt text](./FMM2_data/image_3.png)
+![alt text](./FMM2_data/image_21.png)
 
-![alt text](./FMM2_data/image_4.png)
+![alt text](./FMM2_data/image_26.png)
 
 ### Missing forces in free-body diagrams
 
+![alt text](./FMM2_data/image_25.png)
+
 ![alt text](./FMM2_data/image_5.png)
 
-### Incorrect free-body diagrams
+### Incorrect lever arm
+
+![alt text](./FMM2_data/image_23.png)
 
 ### Resultant / Equilibrium
 
-![alt text](./FMM2_data/image_7.png)
-
-![alt text](./FMM2_data/image_12.png)
+![alt text](./FMM2_data/image_22.png)
 
 ### Missing equilibrium equations
 
-![alt text](./FMM2_data/image.png)
+![alt text](./FMM2_data/image_20.png)
 
-![alt text](./FMM2_data/image_6.png)
-
-![alt text](./FMM2_data/image_8.png)
-
-![alt text](./FMM2_data/image_9.png)
-
-![alt text](./FMM2_data/image_10.png)
+![alt text](./FMM2_data/image_24.png)
 
 ## 1.2 Determine the displacement of node $\rm{C}$
 
