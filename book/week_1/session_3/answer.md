@@ -107,7 +107,7 @@ $$
 \begin{aligned}
 \mathop {\sum {{{\left. T \right|}_{{S_2}}}} }\limits^↺ &= 0 \\
 50 \cdot 8 \cdot 4 + 100 \cdot 8 - {B_{\rm{v}}} \cdot 4 &= 0 \\
-{B_{\rm{v}}} &=  \ {\rm{ kN}}
+{B_{\rm{v}}} &= 600 \ {\rm{ kN}}
 \end{aligned}
 $$
 
