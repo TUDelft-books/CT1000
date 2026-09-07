@@ -8,83 +8,92 @@ During today's lesson you'll work on a complex exercise on the topic of Mechanis
 
 ## Exercise Mechanisms and virtual work
 
+::::::{admonition} Exercise
+:class: exercise
+
 Given the following structure.
 
 ```{figure} intro_data/struc1.svg
 :align: center
+:number:
 ```
 
-1. Find the vertical support reaction in $\rm{C}$
-2. Find the bending moment in $\rm{E}$
-3. Find the shear force just right of $\rm{B}$
+::::{question}
+:type: short-answer
+:variant: gaps
+:nocaption:
+
+---
+M[23.75]
+M[22.5]
+M[11.25]
+^^^
+? Find the following forces and moments in the structure:
+
+- $C_{\rm{v}} = $ {gap} $\rm{kN} $ (↑)
+- $M_{\rm{E}} = $ {gap} $\rm{kNm} $ (◡)
+- $V_{\rm{B}}^{\rm{BC}} = $ {gap} $\rm{kN} $ (⎽|⎺)
+---
+
+::::
+
+::::::
+
+::::::{admonition} Exercise
+:class: exercise
+
+Given the following structure.
 
 ```{figure} intro_data/struc2.svg
 :align: center
+:number:
 ```
 
-4. Find the vertical support reaction in $\rm{B}$
-5. Find the bending moment in $\rm{D}$
-6. Find the shear force just right of $\rm{S}_1$
+::::{question}
+:type: short-answer
+:variant: gaps
+:nocaption:
+
+---
+M[72]
+M[-144]
+M[-72]
+^^^
+? Find the following forces and moments in the structure:
+
+- $B_{\rm{v}} = $ {gap} $\rm{kN} $ (↑)
+- $M_{\rm{D}} = $ {gap} $\rm{kNm} $ (◡)
+- $V_{\rm{S}_1} = $ {gap} $\rm{kN} $ (⎽|⎺)
+---
+
+::::
+
+::::::
+
+::::::{admonition} Exercise
+:class: exercise
+
+Given the following structure.
 
 ```{figure} intro_data/struc3.svg
 :align: center
+:number:
 ```
 
-7. Find the bending moment just above $\rm{C}$
-8. Find the bending moment just below $\rm{C}$
+::::{question}
+:type: short-answer
+:variant: gaps
+:nocaption:
 
-````{admonition} Solution assignment 1
-:class: tip, dropdown
+---
+M[120]
+M[-240]
+^^^
+? Find the following forces and moments in the structure:
 
-$C_\rm{v} = 23.75 \ \rm{ kN} $ (↑)
+- $M_{\rm{just \ above \ C}} = $ {gap} $\rm{kN} $ (ᑐ)
+- $M_{\rm{just \ below \ C}} = $ {gap} $\rm{kN} $ (ᑐ)
+---
 
-````
-
-````{admonition} Solution assignment 2
-:class: tip, dropdown
-
-$M_\rm{E} = 22.5 \ \rm{ kNm} $ (◡)
-
-````
-
-````{admonition} Solution assignment 3
-:class: tip, dropdown
-
-$V_\rm{B}^\rm{BC} = 11.25 \ \rm{ kN} $ (⎽|⎺)
-
-````
-
-````{admonition} Solution assignment 4
-:class: tip, dropdown
-
-$B_\rm{v} = 72 \ \rm{ kN} $ (↑)
-
-````
-
-````{admonition} Solution assignment 5
-:class: tip, dropdown
-
-$M_\rm{D} = 144 \ \rm{ kNm} $ (◠)
-
-````
-
-````{admonition} Solution assignment 6
-:class: tip, dropdown
-
-$V_{\rm{S}_1} = 72 \ \rm{ kN} $ (⎺|⎽)
-
-````
-
-````{admonition} Solution assignment 7
-:class: tip, dropdown
-
-$M_\rm{C}^\rm{CE} = 120 \ \rm{ kNm} $ (ᑐ)
-
-````
-
-````{admonition} Solution assignment 8
-:class: tip, dropdown
-
-$M_\rm{C}^\rm{BC} = 240 \ \rm{ kNm} $ (ᑕ)
-
-````
+::::
+::::::
