@@ -73,7 +73,7 @@ M[-199]
 
 - $M = $ {gap} $ \rm{kNm} $ ![](intro_data/MD.svg)
 - $V = $ {gap} $ \rm{kN} $ ![](intro_data/VD.svg)
-- $N = $ {gap} $ \rm{kN} \left(\uparrow \right)$
+- $N = $ {gap} $ \rm{kN} $
 
 ---
 
@@ -93,9 +93,9 @@ M[61]
 ^^^
 ? Find the bending moment, shear force and normal force just left of $\rm{C}$
 
-- $M = $ {gap} $ \rm{kNm} $ ![](intro_data/MD.svg)
+- $M = $ {gap} $ \rm{kNm} $
 - $V = $ {gap} $ \rm{kN} $ ![](intro_data/VC.svg)
-- $N = $ {gap} $ \rm{kN} \left(\uparrow \right)$
+- $N = $ {gap} $ \rm{kN} $
 
 ---
 
