@@ -6,12 +6,14 @@ Given is the truss structure as shown below:
 
 ```{figure} ./answer_data/structure1.svg
 :align: center
+:number:
 ```
 
 ### 1a Determine the normal force in bar $\rm{CD}$ and $\rm{AC}$
 
 ```{figure} ./answer_data/FBD_1.svg
 :align: center
+:number:
 ```
 
 $$
@@ -24,6 +26,7 @@ $$
 
 ```{figure} ./answer_data/FBD_2.svg
 :align: center
+:number:
 ```
 
 $$
@@ -36,6 +39,7 @@ $$
 
 ```{figure} ./answer_data/FBD_3.svg
 :align: center
+:number:
 ```
 
 $$
@@ -51,6 +55,7 @@ $$
 
 ```{figure} ./answer_data/FBD_4.svg
 :align: center
+:number:
 ```
 
 $$
@@ -76,6 +81,7 @@ Williot graph gives:
 
 ```{figure} ./answer_data/williot.svg
 :align: center
+:number:
 ```
 
 ## Prerequisite test 2
@@ -84,12 +90,14 @@ Given is the structure as shown below:
 
 ```{figure} ./FMM_data/2.1.svg
 :align: center
+:number:
 ```
 
 ### 2a Determine the support reaction at $\rm{D}$.
 
 ```{figure} ./answer_data/AS.svg
 :align: center
+:number:
 ```
 
 $$
@@ -101,6 +109,7 @@ $$
 
 ```{figure} ./answer_data/AS2.svg
 :align: center
+:number:
 ```
 
 $$
@@ -113,6 +122,7 @@ $$
 
 ```{figure} ./answer_data/VLS_geheel.svg
 :align: center
+:number:
 ```
 
 $$
@@ -127,6 +137,7 @@ $$
 
 ```{figure} ./answer_data/mechanica.svg
 :align: center
+:number:
 ```
 
 $$
@@ -141,6 +152,7 @@ $$
 
 ```{figure} ./answer_data/AB.svg
 :align: center
+:number:
 ```
 
 $$
@@ -158,6 +170,7 @@ Constructing the M-line gives:
 
 ```{figure} ./answer_data/M-lijn.svg
 :align: center
+:number:
 ```
 
 ### 2d Draw the shear stress distribution just left of $\rm{C}$ including values.
@@ -169,6 +182,7 @@ $$A = 2 \cdot 5 \cdot 400 + 4 \cdot 200 = 4800 \ {\rm{ mm}}^2$$
 
 ```{figure} ./answer_data/cross-section.svg
 :align: center
+:number:
 ```
 
 $${S_{\bar z}} = 5 \cdot 400 \cdot 200 \cdot 2 + 200 \cdot 4 \cdot 400 = 1120000{ \ \rm{ m}}{{\rm{m}}^3}$$
@@ -189,18 +203,21 @@ $$\tau _{\rm{H}}^{{\rm{flange}}} = - \cfrac{{100 \cdot {{10}^3} \cdot - 66666}}{
 
 ```{figure} ./answer_data/shear_stress.svg
 :align: center
+:number:
 ```
 
 ### 2e Determine the displacement at $\rm{S}_2$. You can use the additional forget-me-not.
 
 ```{figure} ./answer_data/CD.svg
 :align: center
+:number:
 ```
 
 $${\theta _{\rm{C}}} = \cfrac{1}{3}\cfrac{{400 \cdot {{10}^3} \cdot 8}}{{360 \cdot {{10}^9} \cdot 8.00 \cdot {{10}^{ - 5}}}} + \cfrac{3}{{128}} \cdot \cfrac{{50 \cdot {{10}^3} \cdot {8^3}}}{{360 \cdot {{10}^9} \cdot 8.00 \cdot {{10}^{ - 5}}}} \approx 0.0578 \ {\rm{ rad}}$$
 
 ```{figure} ./answer_data/S2D.svg
 :align: center
+:number:
 ```
 
 $${w_{{{\rm{S}}_2}}} = 0.0578 \cdot 4 + \cfrac{1}{3}\cfrac{{400 \cdot {{10}^3} \cdot {8^3}}}{{360 \cdot {{10}^9} \cdot 8.00 \cdot {{10}^{ - 5}}}} = 0.306 \ {\rm{ m}}$$
@@ -210,4 +227,5 @@ $$V_{\rm{S}_2} = V_{\rm{C}} = 100 \ \rm{ kN}$$
 
 ```{figure} ./answer_data/displaced.svg
 :align: center
+:number:
 ```
