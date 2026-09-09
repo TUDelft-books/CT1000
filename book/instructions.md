@@ -8,11 +8,16 @@ This TeachBook links to relevant part of the other literature and only provides 
 - Engineering Mechanics: Volume 1: Equilibrium, by {cite:ts}`Hartsuijker2006`.
   - eBook available for free via TU Delft at [Springer](https://link-springer-com.tudelft.idm.oclc.org/book/10.1007/978-1-4020-5483-9).
   - This book is also available in Dutch (only paid version) at [Boom](https://www.boomhogeronderwijs.nl/product/100-9055_Mechanica-Evenwicht-3e-druk).
+  - Just the exercises are available in Dutch [here](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM1vraagstukkenbundel.pdf)
+  - Answers to exercises are available [here](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/).
 - Engineering Mechanics: Volume 2: Stresses, strains and displacements, by {cite:ts}`Hartsuijker2007`.
   - eBook available for free via TU Delft at [Springer](https://link.springer.com/book/10.1007/978-1-4020-5763-2).
   - This book is also available in Dutch (only paid version) at [Boom](https://www.boomhogeronderwijs.nl/product/100-9056_Mechanica-Spanningen-vervormingen-verplaatsingen-3e-druk).
+  - Just the exercises are available in Dutch [here](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf)
+  - Answers to exercises are available [here](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/).
 - Mechanica: Statisch onbepaalde constructies en bezwijkanalyse, by {cite:ts}`Hartsuijker2016`. 
   - Book available at [Boom](https://www.boom.nl/hoger-onderwijs/100-9587_Mechanica-Statisch-onbepaalde-constructies-en-bezwijkanalyse-3e-druk). This book is only available as a paid version in Dutch
+  - Answers to exercises are available [here](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/).
 - Mechanica: Stabiliteit van het evenwicht, by {cite:ts}`Hartsuijker2023`.
   - Book available at [Boom](https://www.boom.nl/hoger-onderwijs/100-10458_Mechanica-Stabiliteit-van-het-evenwicht). This book is only available as a paid version in Dutch.
   - Summary available in Dutch [here](https://icozct.tudelft.nl/TUD_CT/CM3bridge/collegestof/stabiliteit/files/LEESWIJZER_BOEK_STABILITEIT.pdf)
