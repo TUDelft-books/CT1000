@@ -22,6 +22,7 @@ Given the following structure.
 :type: short-answer
 :variant: gaps
 :nocaption:
+:showanswer:
 
 ---
 M[23.75]
@@ -53,6 +54,7 @@ Given the following structure.
 :type: short-answer
 :variant: gaps
 :nocaption:
+:showanswer:
 
 ---
 M[72]
@@ -84,6 +86,7 @@ Given the following structure.
 :type: short-answer
 :variant: gaps
 :nocaption:
+:showanswer:
 
 ---
 M[120]
