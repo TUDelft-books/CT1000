@@ -20,6 +20,7 @@ Given the following structure:
 :admonition:
 :class: exercise
 :nocaption:
+:showanswer:
 
 ---
 M[254]
@@ -63,6 +64,7 @@ Draw the free body diagram of the full structure.
 :admonition:
 :class: exercise
 :nocaption:
+:showanswer:
 
 ---
 M[277]
@@ -85,6 +87,7 @@ M[-199]
 :admonition:
 :class: exercise
 :nocaption:
+:showanswer:
 
 ---
 M[0]
