@@ -77,7 +77,6 @@ parts:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/cable/equilibrium.md
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN//book/support_internal_forces/cable/ode.md
     - file: week_3/session_1/intro
-# START REMOVE-FROM-PUBLISH
     - file: week_3/homework_2/intro
       sections:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/model/intro.md
@@ -104,6 +103,7 @@ parts:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_frame/ode.md #BUMP
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/matrixframe.md #BUMPBUMP
     - file: week_3/session_2/intro
+# START REMOVE-FROM-PUBLISH
     - file: week_3/homework_3/intro
       sections:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/sympy.ipynb
