@@ -101,13 +101,12 @@ parts:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_frame/intro.md
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_frame/ode.md #BUMP
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/matrixframe.md #BUMPBUMP
     - file: week_3/session_2/intro
 # START REMOVE-FROM-PUBLISH
     - file: week_3/homework_3/intro
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/sympy.ipynb
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/sympy_mech.ipynb
+      - file: week_3/homework_3/sympy_mech.ipynb
+      - file: week_3/homework_3/lesoefening2.ipynb
     - file: week_3/session_3/intro
   - file: week_4/intro
     sections:

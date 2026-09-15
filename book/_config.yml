@@ -81,8 +81,8 @@ parse:
     week3: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |[Read theory and make homework exercises equilibrium relations and cables](homework3.1) <br>{bdg-secondary}`Prerequisites` ||[Read theory and make homework exercises constitutive and kinematic equations, and MatrixFrame](homework3.2)  <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises differential equations and SymPy](homework3.3) <br>{bdg-primary}`New content`|Monday: [Read theory and make homework exercises Extension](homework4.2) <br>{bdg-secondary}`Prerequisites`|
-      |Class activities| [Guided practice on equilibrium relations and cables](lesson3.1) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on constitutive and kinematic equations, and MatrixFrame](lesson3.2) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on differential equations and SymPy](lesson3.3) <br>{bdg-primary-line}`New content`|
+      |Homework deadlines |[Read theory and make homework exercises equilibrium relations and cables](homework3.1) <br>{bdg-secondary}`Prerequisites` ||[Read theory and make homework exercises constitutive and kinematic equations](homework3.2)  <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises differential equations and SymPy](homework3.3) <br>{bdg-primary}`New content`|Monday: [Read theory and make homework exercises Extension](homework4.2) <br>{bdg-secondary}`Prerequisites`|
+      |Class activities| [Guided practice on equilibrium relations and cables](lesson3.1) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on constitutive and kinematic equations](lesson3.2) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on differential equations and SymPy](lesson3.3) <br>{bdg-primary-line}`New content`|
     week4: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
