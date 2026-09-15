@@ -32,7 +32,7 @@ This TeachBook links to relevant part of the other literature and only provides 
   - Summary of formulas flexural buckling [in Dutch here](https://icozct.tudelft.nl/TUD_CT/CM3bridge/collegestof/stabiliteit/files/Samenvatting%20buigzame%20staven.pdf) and [in English here](https://icozct.tudelft.nl/TUD_CT/CM3bridge/collegestof/stabiliteit/files/Summary-Flexural-Buckling-Formulas.pdf).
   - Chapter 7, 12 and 13 are not part of this course.
 - Introduction to continuum mechanics, by {cite:ts}`Hartsuijker2007con`.
-  - Book available [here](external/CEG-mechanics-BSc/book/Lecture_Notes_Elasticity.pdf).
+  - Book available [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/CT4145Lecture_Notes-version7.pdf).
 - Additional exercises in [ANS](https://ans.app/routing/courses/436978). You can login into this course by logging in into ANS - joining the course [with this link](https://ans.app/accept/invitations/9c5c0c3a-742b-4406-8d30-d5b0e2a5f5fd). Afterwards, you can directly go to the course by clicking the course in [your personal ANS dashboard](https://ans.app/routing/courses/436978) or by clicking the provided links in the book.
 % - Self-assessed prerequisite tests and paper-based exams in [<img height="12px" src="./figures/ANS.svg" alt="ANS"> course `CT1000 S Structural Mechanics EXAM 24/25 (Q1)`](https://ans.app/routing/courses/437261). In this course all the assignments specific for this year's course can be found. This includes the prerequisite tests and the exams. You are added to this course as soon as you participate in one of the tests or exams.
 - Recordings of lectures in Dutch:

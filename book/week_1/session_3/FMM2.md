@@ -91,7 +91,7 @@ Similar to 1.1
 
 ### Wrong formula for $\tau$
 
-![alt text](./FMM_data/image_32.png)
+![alt text](./FMM2_data/image_32.png)
 
 ## 2.5 Determine the displacement at $\rm{S}_2$
 
