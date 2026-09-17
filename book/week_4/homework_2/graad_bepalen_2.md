@@ -3,7 +3,7 @@
 :class: attribution
 This page originates from https://oit.tudelft.nl/CTB2210/2026/statisch_onbepaald/graad_bepalen_2.html
 ```
-````}````
+````
 
 # Exercise 2
 
