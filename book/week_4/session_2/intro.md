@@ -78,7 +78,6 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 :admonition:
 :class: exercise
 :nocaption:
-:showanswer:
 
 ---
 M[3]
@@ -90,39 +89,18 @@ The structure is externally statically indeterminate to degree {gap}
 
 ::::
 
-::::{admonition} Solution
-:class: solution, dropdown
-
-```{figure} coz_data/uitwerking1.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_coz
-:number:
-```
-
-$8 + 4 - 9 = 3 $
-
-::::
-
 ::::{question} Exercise
 :type: short-answer
 :variant: gaps
 :admonition:
 :class: exercise
 :nocaption:
-:showanswer:
 
 ---
 M[3]
 ^^^
 ? The structure is internally statically indeterminate to degree {gap}
 ---
-
-::::
-
-::::{admonition} Solution
-:class: solution, dropdown
-
-The degree of internal static indeterminacy is equal to the degree of external static indeterminacy because the structure is open.
 
 ::::
 
@@ -153,7 +131,6 @@ source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tre
 :admonition:
 :class: exercise
 :nocaption:
-:showanswer:
 
 ---
 M[1]
@@ -163,19 +140,6 @@ M[1]
 
 ::::
 
-::::{admonition} Solution
-:class: solution, dropdown
-
-```{figure} coz_data/uitwerking3.svg
-:align: center
-:number:
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_raamwerk
-
-```
-
-$ 4 - 3 = 1$
-
-::::
 
 ::::{question} Exercise
 :type: short-answer
@@ -183,38 +147,11 @@ $ 4 - 3 = 1$
 :admonition:
 :class: exercise
 :nocaption:
-:showanswer:
 
 ---
 M[3]
 ^^^
 ? The structure is internally statically indeterminate to degree {gap}
 ---
-
-::::
-
-::::{admonition} Solution
-:class: solution, dropdown
-:name: stat_onbepaald_raamwerk
-
-```{figure} ./intro_data/Onbekenden.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_coz
-:number:
-:name: stat_onbepaald_raamwerk_1
-```
-
-There are 25 unknown forces.
-
-```{figure} ./intro_data/Vergelijkingen.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/graad_statisch_coz
-:number:
-:name: stat_onbepaald_raamwerk_2
-```
-
-There are 22 equilibrium equations.
-
-$25 - 22 = 3 $
 
 ::::
