@@ -185,6 +185,14 @@ Leading to the following displacements if $\rm{AC}$ doesn't rotate:
 |$\rm{E}$|$-27$|$-59.333$|
 |$\rm{B}$|$24$|$-108$|
 
+This leads to the following deformed structure:
+
+```{figure} ./intro_data/displaced_20.svg
+:align: center
+
+Deformed structure due to $20 \rm{ kN}$ with fixed $\rm{AC}$
+```
+
 $\rm{B}$ shouldn't move vertically, so this structure has to be rotated back with $\theta  \approx \cfrac{{108}}{{12000}} = 9 \cdot {10^{ - 3}}{\rm{ rad}}$ ⟳, leading to:
 
 | joint | Displacement due to $\theta$ in horizontal direction → $\left( \rm{mm}\right)$| Displacement due to $\theta$ in vertical direction ↓ $\left( \rm{mm}\right)$|
