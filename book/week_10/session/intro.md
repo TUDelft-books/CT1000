@@ -7,7 +7,7 @@
 Today you'll make the first exam assignment covering Statically indeterminate structures including its prerequisites. For more information about the exam see [the assessment information in course information](exam-general)
 
 ## Exam assignment
-Your own submission and its grading can be found here: [<img height="12px" src="../../figures/ANS.svg" alt="ANS"> exam assignment Statically indeterminate structures 1](https://ans.app/universities/1/courses/576319/assignments/1527984/go_to). The exam assignment was provided as follows:
+Your own submission and its grading can be found here: [<img height="12px" src="../../figures/ANS.svg" alt="ANS" class="no-zoomies"> exam assignment Statically indeterminate structures 1](https://ans.app/universities/1/courses/576319/assignments/1527984/go_to). The exam assignment was provided as follows:
 
 Given is the structure as shown in the figure below.
 

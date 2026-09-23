@@ -124,12 +124,12 @@ parts:
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/equations.md
     - file: week_4/session_2/intro
-# START REMOVE-FROM-PUBLISH
     - file: week_4/homework_3/intro
       sections:
       - file: week_4/homework_3/solve_displacements.md
         sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/williot.md
+        - file: week_4/homework_3/williot.md
+  # START REMOVE-FROM-PUBLISH
     - file: week_4/session_3/intro
   - file: week_5/intro
     sections:

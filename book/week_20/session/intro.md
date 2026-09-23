@@ -10,7 +10,7 @@ Today you'll make the second exam assignment covering Continuuum mechanics inclu
 
 ## Exam assignment 2 Continuum mechanics
 
-Your own submission and its grading will be available on [<img height="12px" src="../../figures/ANS.svg" alt="ANS"> exam assignment Continuum mechanics 2](https://ans.app/universities/1/courses/576319/assignments/1649807/go_to) after the exam.
+Your own submission and its grading will be available on [<img height="12px" src="../../figures/ANS.svg" alt="ANS" class="no-zoomies"> exam assignment Continuum mechanics 2](https://ans.app/universities/1/courses/576319/assignments/1649807/go_to) after the exam.
 
 Given is the following structure:
 

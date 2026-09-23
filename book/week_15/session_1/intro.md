@@ -10,7 +10,7 @@ Today you'll make the second exam assignment covering Statically indeterminate s
 
 ## Exam assignment 2 Statically indeterminate structures
 
-Your own submission and its grading will be available on [<img height="12px" src="../../figures/ANS.svg" alt="ANS"> exam assignment Statically indeterminate structures 2](https://ans.app/universities/1/courses/576319/assignments/1584858/go_to) after the exam.
+Your own submission and its grading will be available on [<img height="12px" src="../../figures/ANS.svg" alt="ANS" class="no-zoomies"> exam assignment Statically indeterminate structures 2](https://ans.app/universities/1/courses/576319/assignments/1584858/go_to) after the exam.
 
 Given is the following structure:
 
@@ -280,7 +280,7 @@ Although not wrong, some student redid their calculations as done in exercise 3 
 
 ## Exam assignment 1 Continuum mechanics
 
-Your own submission and its grading will be available on [<img height="12px" src="../../figures/ANS.svg" alt="ANS"> exam assignment Continuum mechanics 1](https://ans.app/universities/1/courses/576319/assignments/1584881/go_to) after the exam.
+Your own submission and its grading will be available on [<img height="12px" src="../../figures/ANS.svg" alt="ANS" class="no-zoomies"> exam assignment Continuum mechanics 1](https://ans.app/universities/1/courses/576319/assignments/1584881/go_to) after the exam.
 
 Given is the following structure and cross-section:
 
