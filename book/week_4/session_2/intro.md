@@ -22,7 +22,7 @@ Given the following structure.
 ````{admonition} Solution assignment 1
 :class: tip, dropdown
 
-$96.7 \text{ mm}$ ↓
+$96.7 \ \rm{mm}$ ↓
 
 ```{admonition} Solution elongations cables
 :class: tip, dropdown
