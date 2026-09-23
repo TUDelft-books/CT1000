@@ -129,8 +129,8 @@ parts:
       - file: week_4/homework_3/solve_displacements.md
         sections:
         - file: week_4/homework_3/williot.md
-  # START REMOVE-FROM-PUBLISH
     - file: week_4/session_3/intro
+# START REMOVE-FROM-PUBLISH
   - file: week_5/intro
     sections:
     - file: week_5/homework_1/intro
