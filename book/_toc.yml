@@ -143,8 +143,6 @@ parts:
     - file: week_5/homework_3/intro
       sections:
       - file: week_5/homework_3/frames
-        sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/internal_forces_beam/diagrams.md
     - file: week_5/session_3/intro
 # START REMOVE-FROM-PUBLISH
   - file: week_6/intro
