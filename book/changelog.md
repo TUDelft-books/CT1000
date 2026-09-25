@@ -11,7 +11,7 @@
 ## 2026-09-21: v2026.10.0
 - Added solution of exercise of [Week 3 - Lesson Friday](./week_3/session_3/intro.ipynb)
 - Added [Week 4 - Homework Friday](./week_4/homework_3/intro.md)
-- Added [Week 4 - Lesson Friday](./week_4/session_3/intro.md)
+- Added [Week 4 - Lesson Friday](./week_4/session_3/intro.ipynb)
 
 ## 2026-09-17: v2026.9.0
 - Added solution of exercise 2 of [Week 3 - Lesson Wednesday](./week_3/session_2/intro.ipynb)
@@ -48,7 +48,7 @@ Added [Week 2 - Lesson Wednesday](./week_2/session_2/intro.md)
 - Added course schedule to [Lesson on Friday of week 1](./week_1/session_3/intro.md)
 - Added work-out solution of prerequisite tests to [Lesson on Friday of week 1](./week_1/session_3/answer.md)
 - Added frequently made mistakes to [Lesson on Friday of week 1](./week_1/session_3/FMM2.md)
-- Added [Week 2 - Lesson Monday](./week_2/session_1/intro.md)
+- Added [Week 2 - Lesson Monday](./week_2/session_1/intro.ipynb)
 
 ## v2026.1.0
 Added material week 1
