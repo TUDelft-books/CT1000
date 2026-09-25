@@ -24,5 +24,5 @@ This topic is presented in
 
 
 ## Exercises
-- If you're a TU Delft student, you can practise with the following [<img height="12px" src="../../images/ANS.svg" alt="ANS" class="no-zoomies"> exercises](https://ans.app/universities/1/courses/436978/assignments/1906035/go_to)
+- If you're a TU Delft student, you can practise with the following [<img height="12px" src="/figures/ANS.svg" alt="ANS" class="no-zoomies"> exercises](https://ans.app/universities/1/courses/436978/assignments/1906035/go_to)
 - Exercises in chapter 7.5 of the book Engineering Mechanics Volume 2 {cite:p}`Hartsuijker2007`, answers are available on [this website](https://icozct.tudelft.nl/TUD_CT/bookanswers/vol2/Chapter7/): 7.1 - 7.44.
