@@ -20,15 +20,15 @@ Given the following structure:
 ````{admonition} Solution assignment 1
 :class: tip, dropdown
 
-$N_\text{BE} \approx 3.074 \text{ kN}$
+$N_\text{BE} \approx 3.074 \, \rm{kN}$
 
-$N_\text{BC} \approx 2.273 \text{ kN}$
+$N_\text{BC} \approx 2.273 \, \rm{kN}$
 
 ````
 
 ````{admonition} Solution assignment 2
 :class: tip, dropdown
 
-$w_\text{E} \approx 6.147 \text{ mm}$ ↓
+$w_\text{E} \approx 6.147 \, \rm{mm}$ ↓
 
 ````
