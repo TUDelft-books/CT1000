@@ -31,8 +31,8 @@ Given the following structure.
 ````{admonition} Solution assignment 1
 :class: tip, dropdown
 
-- $w_\text{C} \approx 0.0278 \text{ m}$ ↓
-- $w_\text{D} = 0.018 \text{ m}$ ↓
+- $w_\text{C} \approx 0.0278 \, \rm{m}$ ↓
+- $w_\text{D} = 0.018 \, \rm{m}$ ↓
 
 ````
 
@@ -50,10 +50,10 @@ Given the following structure.
 ````{admonition} Solution assignment 3
 :class: tip, dropdown
 
-- $w_{v,\text{C}} = 0.012 \text{ m}$ ↓
-- $w_{h,\text{C}} = 0.016 \text{ m}$ ←
-- $w_{v,\text{D}} \approx 0.0033 \text{ m}$ ↓
-- $w_{h,\text{D}} \approx 0.019 \text{ m}$ ←
+- $w_{v,\rm{C}} = 0.012 \, \rm{m}$ ↓
+- $w_{h,\rm{C}} = 0.016 \, \rm{m}$ ←
+- $w_{v,\rm{D}} \approx 0.0033 \, \rm{m}$ ↓
+- $w_{h,\rm{D}} \approx 0.019 \, \rm{m}$ ←
 
 ````
 

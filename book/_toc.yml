@@ -144,14 +144,12 @@ parts:
       sections:
       - file: week_5/homework_3/frames
     - file: week_5/session_3/intro
-# START REMOVE-FROM-PUBLISH
   - file: week_6/intro
     sections:
     - file: week_6/homework_1/intro
       sections:
       - file: week_6/homework_1/frame
-        sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_frame/forget-me-nots.md #BUMP
+# START REMOVE-FROM-PUBLISH
     - file: week_6/session_1/intro
     - file: week_6/homework_2/intro
       sections:
