@@ -159,9 +159,13 @@ parts:
 # START REMOVE-FROM-PUBLISH
     - file: week_6/homework_3/intro
       sections:
-      - file: week_6/homework_3/force
+      - file: week_6/homework_3/instructie.md
         sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/bending2.md
+        - file: week_6/homework_3/lesoefeningen.md
+        - file: week_6/homework_3/lesoefeningen_2.md
+      - file: week_6/homework_3/instructie_2.md
+        sections:
+        - file: week_6/homework_3/lesoefening_1.md
     - file: week_6/session_3/intro
   - file: week_7/intro
     sections:
