@@ -1,351 +1,380 @@
 ```{index} Force method; Class exercise for beam structures
 ```
 
+````{margin}
+```{attributiongrey} Attribution
+:class: attribution
+
+This page is translated from https://oit.tudelft.nl/CTB2210/2026/krachtenmethode_balk/lesoefeningen_2.html.
+
+```
+````
+
 (lesson6.2)=
 # Lesson October
 
 During today's lesson you'll work on a complex exercise on the topic of force method for beam structures. Please ask your questions regarding the [homework](homework6.2) as well!
 
-````{margin}
-```{attributiongrey} Attribution
-:class: attribution
-
-Deze oefening is aangepast van https://oit.tudelft.nl/CTB2210/2025/krachtenmethode_balk/lesoefeningen.html. Deze oefening is niet vertaald omdat er geen Engelstalige studenten zijn in de klas.
-
-```
-```` 
-
-## Oefening 1
-
-Gegeven is de volgende constructie:
-
-```{figure} bending_data/Example.svg
-:align: center
-
-Constructie, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
-```
-
-Bepaal de krachtsverdeling en verplaatsingen.
-
-:::::{exercise}
-:label: balk_1_1
-:nonumber: true
-
-Ga uit van het volgende statisch bepaalde systeem:
-
-```{figure} bending_data/SB-systeem2.svg
-:align: center
-
-Statisch bepaalde constructie met vormveranderingsvoorwaarde, $EA = \infty, EI = \cfrac{16}{3} \ \rm{MNm^2}$
-```
-
-Los de krachtsverdeling en verplaatsingen van deze constructie op als functie van $A_{\rm{v}}$
-
-```{h5p} https://tudelft.h5p.com/content/1292636025372301087/embed
-```
-
-:::::
-
-::::{admonition} Solution
-:class: solution, dropdown
-
-```{figure} lesoefeningen_data/VrijlichaamsschemaBC.svg
----
-align: center
----
-Vrijlichaamsschema van deel BC
-```
-$$ M_{\rm{B}} \left( A_{\rm{v}} \right) = 4 \cdot A_{\rm{v}} -200 $$
-
-De hoekverdraaiing bij B, $\varphi_{\rm{B}}$, kan worden bepaald uit $M_{\rm{B}}$ met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel.
-
-$$ \varphi_{\rm{B}} \left( A_{\rm{v}} \right) = \cfrac{1}{3} \cdot \cfrac{\left(4 \cdot A_{\rm{v}} -200\right) \cdot6}{\cfrac{16}{3} \cdot 10^3} = 0.0015 \cdot A_{\rm{v}} -0.0750 $$
-
-De zakking in A, $w_{\rm{A}}$, kan worden bepaald door deel AB bij B schuin in te klemmen met hoek $\varphi_{\rm{B}}$ en de zakkingen ten gevolge van de verdeelde belasting en $A_{\rm{v}}$ in rekening te brengen. Hiervoor worden het vergeet-mij-nietje voor een uitkragende ligger met een verdeelde belasting en het vergeet-mij-nietje voor een uitkragende ligger belast door een puntlast gebruikt:
-
-$$ w_{\rm{A}} \left( A_{\rm{v}} \right) = \varphi_{\rm{B}} \cdot 4 - \cfrac{25 \cdot 4^4}{8 \cdot \cfrac{16}{3} \cdot 10^3} + \cfrac{A_{\rm{v}} \cdot 4^3}{3 \cdot \cfrac{16}{3} \cdot 10^3}  =0.01 \cdot A_{\rm{v}} -0.45 $$
-
-::::
-
-
-:::::{exercise}
-:label: balk_1_2
-:nonumber: true
-
-Los de vormveranderingsvoorwaarde op om $A_{\rm{v}}$ te vinden.
-
-```{h5p} https://tudelft.h5p.com/content/1292636567761480237/embed
-```
-
-:::::
-
-::::{admonition} Solution
-:class: solution, dropdown
-
-De vormveranderingsvoorwaarde is: $w_{\rm{A}} = 0.01 \cdot A_{\rm{v}} -0.45 = 0$. 
-
-Hieruit volgt $A_{\rm{v}} = 45 \rm{kN}$
-
-::::
-
-
-:::::{exercise}
-:label: balk_1_3
-:nonumber: true
-
-Los nu de andere oplegreacties op en bepaal de momenten en verplaatsingen.
-
-```{h5p} https://tudelft.h5p.com/content/1292636572692927547/embed
-```
-
-:::::
-
-::::{admonition} Solution
-:class: solution, dropdown
-
-Nu $A_{\rm{v}}$ bekend is kunnen de andere oplegreacties worden opgelost, $B_{\rm{v}}$ en $C_{\rm{v}}$ worden omhoog positief aangenomen. De gebruikte vergelijkingen zijn:
-
-$$ \sum \left. T \right|  _ {\rm{C}} = -45 \cdot 10 + 25 \cdot 4 \cdot 8 - B_{\rm{v}} \cdot 6 = 0 \rightarrow B_{\rm{v}} = 58.3 \rm{kN} $$ 
-
-$$ \sum F_ {\rm{v}} = 45 - 4 \cdot 25 + 58.3 + C_{\rm{v}} = 0 \rightarrow C_{\rm{v}} = -3.3 \rm{kN} $$
-
-$M_{\rm{B}}$ kan worden bepaald uit de momentensom om B van deel AB, dit geeft: $M_{\rm{B}} = - 20 \rm{kNm}$. $M_{\rm{halverwege \ AB}}$ kan op vergelijkbare wijze worden bepaald uit de momentensom om het punt halverwege AB: $M_{\rm{halverwege \ AB}} = 40 \rm{kNm}$. 
-
-De zakking halverwege AB, $w_{\rm{halverwege} \ \rm{AB}}$, kan op verschillende manieren worden gevonden. Hier wordt deze bepaald met behulp van het het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel en het vergeet-mij-nietje voor een ligger op twee steunpunten met een verdeelde belasting. 
-
-$$ w_{\rm{halverwege \ AB}} = \cfrac{5}{384} \cdot \cfrac{25 \cdot 4^4}{\cfrac{16}{3}} - \cfrac{1}{16} \cdot \cfrac{20 \cdot 4^2}{\cfrac{16}{3}} = 12 \rm{mm} $$
-
-De zakking halverwege BC kan worden bepaald met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel:
-
-$$ w_{\rm{halverwege \ BC}} =  - \cfrac{1}{16} \cdot \cfrac{20 \cdot 6^2}{\cfrac{16}{3}} = -8 \rm{mm} $$
-
-::::
-
-````{margin}
-```{attributiongrey} Attribution
-:class: attribution
-
-Deze oefening is aangepast van https://oit.tudelft.nl/CTB2210/2025/krachtenmethode_balk/lesoefeningen_2.html. Deze oefening is niet vertaald omdat er geen Engelstalige studenten zijn in de klas.
-
-```
-```` 
-
-## Oefening 2
-
-Gegeven is de volgende constructie
+Consider the following structure:
 
 ```{figure} ./lesoefeningen_data/structure.svg
 :align: center
-
-Constructie, $EI_{\rm{AC}} = 1800 \ \rm{kNm}^2, EI_{\rm{BC}} = 900 \ \rm{kNm^2}$
+:figclass: sticky-margin
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 ```
 
-Bepaal de krachtsverdeling en verplaatsingen.
+Determine the force distribution and displacements.
 
-:::::{exercise}
-:label: balk_2_1
-:nonumber: true
+We consider the following alternatives for transforming the structure into a statically determinate system:
 
-Wat is de graad van inwendig statisch onbepaaldheid?
+- Replace the fixed support at $\rm{A}$ with a pin support and add a hinge at $\rm{C}$
+- Remove the vertical support at $\rm{A}$
+- Replace the fixed support at $\rm{A}$ with a pin support
+- Add a hinge at $\rm{C}$
+- Remove the vertical support at $\rm{B}$
 
-```{h5p} https://tudelft.h5p.com/content/1292636677784672607/embed
+:::::{question} Exercise
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Sketch the possible deformations for the option in which the fixed support at $\rm{A}$ is replaced by a pin support and a hinge is added at $\rm{C}$
+---
+=
+
+```{figure} ./lesoefeningen_data/optie_5.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
+:number:
 ```
+
+---
 
 :::::
 
-::::{admonition} Solution
-:class: solution, dropdown
+:::::{question} Exercise
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-De constructie is *1*ste/de graads inwendig statisch onbepaald
+Sketch the possible deformations for the option in which the vertical support at $\rm{A}$ is removed
+---
+=
 
-::::
-
-:::::{exercise}
-:label: balk_2_2
-:nonumber: true
-
-```{h5p} https://tudelft.h5p.com/content/1292636680849554767/embed
+```{figure} ./lesoefeningen_data/optie_1.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
+:number:
 ```
+
+---
 
 :::::
 
-::::{admonition} Solution
-:class: solution, dropdown
+:::::{question} Exercise
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-- Weghalen verticale oplegging bij A
-  - Inderdaad, er is geen vergeet-me-nietje die voor dat statisch bepaalde systeem de verplaatsingen geeft
-- Toevoegen scharnier bij A
-  - Inderdaad, er is geen vergeet-me-nietje die voor dat statisch bepaalde systeem de verplaatsingen geeft
-- Toevoegen scharnier bij C
-  - Er zijn wel degelijk vergeet-me-nietjes voor deze situatie, maar het rechter deel zal echter ook nog roteren rondom B
-- Weghalen verticale oplegging bij B
+Sketch the possible deformations for the option in which the fixed support at $\rm{A}$ is replaced by a pin support
+---
+=
+
+```{figure} ./lesoefeningen_data/optie_2.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Exercise
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Sketch the possible deformations for the option in which a hinge is added at $\rm{C}$
+---
+=
+
+```{figure} ./lesoefeningen_data/optie_3.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
+:name: optie3_balk
+:number:
+```
+
+---
+
+:::::
+
+:::::{question} Exercise
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Sketch the possible deformations for the option in which the vertical support at $\rm{B}$ is removed
+---
+=
+
+```{figure} ./lesoefeningen_data/optie_4.svg
+:align: center
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
+:number:
+```
+
+---
+
+:::::
+
+::::{question} Exercise
+:variant: multiple-select
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Which of the following is not a suitable option for making the structure statically determinate for analysis? Also exclude cases for which no standard beam formulas are available or the displacements are relatively complex
+---
+[x] Replace the fixed support at $\rm{A}$ with a pin support and add a hinge at $\rm{C}$
+> Correct: this creates a mechanism, so it is not a valid statically determinate system.
+[x] Remove the vertical support at $\rm{A}$
+> Correct: no forget-me-not gives the displacements for this statically determinate system.
+[x] Replace the fixed support at $\rm{A}$ with a pin support
+> Correct: no forget-me-not gives the displacements for this statically determinate system.
+[ ] Add a hinge at $\rm{C}$
+> forget-me-nots are available for this case, but the right-hand segment will also rotate about $\rm{B}$, making it somewhat more complex than the other options.
+[ ] Remove the vertical support at $\rm{B}$
+---
 
 ::::
 
-### Statisch bepaald systeem 1
 
-:::::{exercise}
-:label: balk_2_3
-:nonumber: true
+## Statically determinate system 1
 
-Ga uit van het volgende statisch bepaalde systeem:
+Consider the following statically determinate system:
 
 ```{figure} ./lesoefeningen_data/SB-1.svg
 :align: center
+:figclass: sticky-margin
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 
-Statisch bepaalde constructie met vormveranderingsvoorwaarde, $EI_{\rm{AC}} = 1800 \ \rm{kNm}^2, EI_{\rm{BC}} = 900 \ \rm{kNm^2}$
 ```
 
-Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie van $B_{\rm{v}}$
+::::{question} Exercise
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292642090947945297/embed
-```
+---
+M[15]
+^^^
+? Apply the deformation condition to find $B_{\rm{v}}$.
 
-:::::
+$B_{\rm{v}}= $ {gap} $\rm{kN}$ (↑)
 
-::::{admonition} Solution
+---
+
+::::
+
+::::{admonition} Worked-out solution
 :class: solution, dropdown
 
-Met behulp van het gegeven vrijlichaamsschema kunnen de dwarskracht net links van C, het moment in C en de dwarskracht net links van B worden bepaald als functie van $B_{\rm{v}}$:
+Using the given free-body diagram, the shear force just to the left of C, the moment at C, and the shear force just to the left of B can be determined as functions of $B_{\rm{v}}$:
 
 $$ V_{\rm{C}}^{\rm{AC}} \left( B_{\rm{v}} \right) = -1 \cdot B_{\rm{v}} + 54 $$
 $$ M_{\rm{C}} \left( B_{\rm{v}} \right) = -3 \cdot B_{\rm{v}} $$ 
 $$ V_{\rm{B}}^{\rm{BC}} \left( B_{\rm{v}} \right) = -1 \cdot B_{\rm{v}} $$
 
-De zakking, $w_{\rm{C}}$, en rotatie, $\varphi_{\rm{C}}$, in C kunnen worden gevonden door de kracht $B_{\rm{v}}$ te verplaatsen van B naar C met toevoeging van een moment, zie het onderstaande vrijlichaamsschema:
+The deflection $w_{\rm{C}}$ and rotation $\varphi_{\rm{C}}$ at C can be found by moving the force $B_{\rm{v}}$ from B to C and adding a moment, as shown in the free-body diagram below:
 
 ```{figure} ./lesoefeningen_data/VrijlichaamsschemaAC_1.svg
 :align: center
-
-Vrijlichaamsschema van deel AC
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 ```
 
-Met behulp van de vergeet-mij-nietjes voor een uitkragende ligger belast door een kracht en een koppel wordt gevonden:
+Using the forget-me-nots for a cantilever beam subjected to a force and a moment gives:
 
 $$ w_{\rm{C}} \left( B_{\rm{v}} \right) = \cfrac{\left(54 - B_{\rm{v}} \right) \cdot 3^3}{3 \cdot 1800} - \cfrac{3 \cdot B_{\rm{v}} \cdot 3^2}{2 \cdot 1800} = -0.0125 \cdot B_{\rm{v}} + 0.27 $$
-$$ \varphi_{\rm{C}} \left( B_{\rm{v}} \right) = \cfrac{\left(54 - B_{\rm{v}} \right) \cdot 3^2}{2 \cdot 1800} - \cfrac{3 \cdot B_{\rm{v}} \cdot 3}{1800} = -0.0075 \cdot B_{\rm{v}} + 0.135 $$
+$$ \varphi_{\rm{C}} \left( B_{\rm{v}} \right) = -\cfrac{\left(54 - B_{\rm{v}} \right) \cdot 3^2}{2 \cdot 1800} + \cfrac{3 \cdot B_{\rm{v}} \cdot 3}{1800} = 0.0075 \cdot B_{\rm{v}} - 0.135 $$
 
-De zakking in B, $w_{\rm{B}}$, is dan gelijk aan:
+The deflection at B, $w_{\rm{B}}$, is therefore:
 
-$$ w_{\rm{B}} \left( B_{\rm{v}} \right) = w_{\rm{C}} + \varphi_{\rm{C}} \cdot 3 - \cfrac{B_{\rm{v}} \cdot 3^3}{3 \cdot 900} = -0.045 \cdot B_{\rm{v}} + 0.675 $$
+$$ w_{\rm{B}} \left( B_{\rm{v}} \right) = w_{\rm{C}} - \varphi_{\rm{C}} \cdot 3 - \cfrac{B_{\rm{v}} \cdot 3^3}{3 \cdot 900} = -0.045 \cdot B_{\rm{v}} + 0.675 $$
 
-::::
+The deformation condition is: $w_{\rm{B}} = -0.045 \cdot B_{\rm{v}} + 0.675 = 0$.
 
-:::::{exercise}
-:label: balk_2_4
-:nonumber: true
-
-Los je vormveranderingsvoorwaarde op om $B_{\rm{v}}$ te vinden.
-
-```{h5p} https://tudelft.h5p.com/content/1292642094940904187/embed
-```
-
-:::::
-
-::::{admonition} Solution
-:class: solution, dropdown
-
-De vormveranderingsvoorwaarde is: $w_{\rm{B}} = -0.045 \cdot B_{\rm{v}} + 0.675 = 0$. 
-
-Hieruit volgt dat $B_{\rm{v}} = 15 \rm{kN}$
+This gives $B_{\rm{v}} = 15 \rm{kN}$.
 
 ::::
 
+## Statically determinate system 2
 
-### Statisch bepaald systeem 2
-
-:::::{exercise}
-:label: balk_2_5
-:nonumber: true
-
-Ga nu uit van het volgende statisch bepaalde systeem:
+Now consider the following statically determinate system:
 
 ```{figure} ./lesoefeningen_data/SB-2.svg
 :align: center
+:figclass: sticky-margin
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 
-Statisch bepaalde constructie met vormveranderingsvoorwaarde, $EI_{\rm{AC}} = 1800 \ \rm{kNm}^2, EI_{\rm{BC}} = 900 \ \rm{kNm^2}$
 ```
 
-Los de krachtsverdeling en verplaatsingen van deze constructie uit als functie van $M_{\rm{C}}$
+::::{question} Exercise
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-```{h5p} https://tudelft.h5p.com/content/1292642608547530667/embed
-```
+---
+M[45]
+^^^
+? Apply the deformation condition to find $M_{\rm{C}}$.
 
-:::::
+$M_{\rm{C}}= $ {gap} $\rm{kNm}$
 
-::::{admonition} Solution
+---
+
+::::
+
+::::{admonition} Worked-out solution
 :class: solution, dropdown
 
-De uitdrukkingen voor $B_{\rm{v}}$ en $V_{\rm{C}}^{\rm{AC}}$ kunnen worden afgeleid uit evenwicht van het deel BC.
+The expressions for $B_{\rm{v}}$ and $V_{\rm{C}}^{\rm{AC}}$ can be derived from equilibrium of segment BC.
 
 $$ \sum \left. T \right| _ {\rm{C}} ^{\rm{CB}} = - 3 \cdot B_{\rm{v}} - M_{\rm{C}} = 0 \rightarrow B_{\rm{v}} = - \cfrac{1}{3} \cdot M_{\rm{C}} $$
 $$ V_{\rm{C}}^{\rm{AC}} = B_{\rm{v}} + 54 = - \cfrac{1}{3} \cdot M_{\rm{C}} + 54 $$
 
-De rotatie net links van C, $\varphi_{\rm{C}}^{\rm{AC}}$, en de zakking in C $w_{\rm{C}}$ kunnen worden bepaald met de vergeet-mij-nietjes voor een uitkragende ligger belast door een koppel en door een puntlast, zie het onderstaande vrijlichaamsschema:
+The rotation just to the left of C, $\varphi_{\rm{C}}^{\rm{AC}}$, and the deflection at C, $w_{\rm{C}}$, can be determined using the forget-me-nots for a cantilever beam subjected to a moment and a point load, as shown in the free-body diagram below:
 
 ```{figure} ./lesoefeningen_data/VrijlichaamsschemaAC_2.svg
 :align: center
-
-Vrijlichaamsschema van deel AC
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
 ```
 
-$$ \varphi_{\rm{C}}^{\rm{AC}} \left( M_{\rm{C}} \right) = - \cfrac{M_{\rm{C}} \cdot 3}{1800} + \cfrac{\left( - \cfrac{1}{3} \cdot M_{\rm{C}} + 54 \right) \cdot 3^2}{2 \cdot 1800} = -0.0025 \cdot M_{\rm{C}} + 0.135 $$
+$$ \varphi_{\rm{C}}^{\rm{AC}} \left( M_{\rm{C}} \right) = \cfrac{M_{\rm{C}} \cdot 3}{1800} - \cfrac{\left( - \cfrac{1}{3} \cdot M_{\rm{C}} + 54 \right) \cdot 3^2}{2 \cdot 1800} = 0.0025 \cdot M_{\rm{C}} - 0.135 $$
 
 $$ w_{\rm{C}} \left( M_{\rm{C}} \right) = - \cfrac{M_{\rm{C}} \cdot 3^2}{2 \cdot 1800} + \cfrac{\left( - \cfrac{1}{3} \cdot M_{\rm{C}} + 54 \right) \cdot 3^3}{3 \cdot 1800} = -0.00417 \cdot M_{\rm{C}} + 0.27 $$
 
-De rotatie net rechts van C, $\varphi_{\rm{C}}^{\rm{BC}}$, wordt veroorzaakt door buiging van deel BC ten gevolge van $M_{\rm{C}}$ en door de zakking in C, $w_{\rm{C}}$. De rotatie ten gevolge van de buiging kan worden bepaald met behulp van het vergeet-mij-nietje voor een ligger op twee steunpunten belast door een koppel. 
+The rotation just to the right of C, $\varphi_{\rm{C}}^{\rm{BC}}$, is caused by the bending of segment BC due to $M_{\rm{C}}$ and by the deflection at C, $w_{\rm{C}}$:
 
-$$ \varphi_{\rm{C}}^{\rm{BC}} \left( M_{\rm{C}} \right) = - \cfrac{w_{\rm{C}}}{3} + \cfrac{M_{\rm{C}} \cdot 3}{3 \cdot 900} = 0.0025 \cdot M_{\rm{C}} -0.09 $$
+:::{fetch} {numref}`optie3_balk`
+:::
 
-::::
+The rotation due to bending can be determined using the forget-me-nots for a simply supported beam subjected to a moment.
 
-:::::{exercise}
-:label: balk_2_6
-:nonumber: true
+$$ \varphi_{\rm{C}}^{\rm{BC}} \left( M_{\rm{C}} \right) = \cfrac{w_{\rm{C}}}{3} - \cfrac{M_{\rm{C}} \cdot 3}{3 \cdot 900} = 0.0025 \cdot M_{\rm{C}} -0.09 $$
 
-Los je vormveranderingsvoorwaarde op om $M_{\rm{C}}$ te vinden.
 
-```{h5p} https://tudelft.h5p.com/content/1292642615022517117/embed
-```
+The deformation condition is: $\varphi_{\rm{C}}^{\rm{AC}} = \varphi_{\rm{C}}^{\rm{BC}} \rightarrow 0.0025 \cdot M_{\rm{C}} - 0.135 = -0.0025 \cdot M_{\rm{C}} + 0.09$.
 
-:::::
-
-::::{admonition} Solution
-:class: solution, dropdown
-
-De vormveranderingsvoorwaarde is: $\varphi_{\rm{C}}^{\rm{AC}} = \varphi_{\rm{C}}^{\rm{BC}} \rightarrow -0.0025 \cdot M_{\rm{C}} + 0.135 = 0.0025 \cdot M_{\rm{C}} -0.09$. 
-
-Hieruit volgt $M_{\rm{C}} = 45 \rm{kNm}$. 
+This gives $M_{\rm{C}} = 45 \rm{kNm}$.
 
 ::::
 
+## Force distribution and displacements of the statically indeterminate structure
 
-### Krachtsverdeling en verplaatsingen statisch onbepaald systeem
+::::{question} Exercise
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
 
-:::::{exercise}
-:label: balk_2_7
-:nonumber: true
+---
+M[-39]
+M[72]
+M[-15]
+M[-72]
+M[45]
+M[39]
+M[-15]
+M[82.5]
+M[-0.0225]
 
-Los nu de volledige krachtsverdeling en verplaatsingen op met de resultaten van een of beide van je statisch onbepaalde systemen.
+^^^
+? Now determine the complete force distribution and displacements using the results from one or both of your statically determinate systems.
 
-```{h5p} https://tudelft.h5p.com/content/1292642621332227027/embed
-```
+- $A_{\rm{v}}= $ {gap} $\rm{kN}$
+- $A_{\rm{m}}= $ {gap} $\rm{kNm}$
+- $B_{\rm{v}}= $ {gap} $\rm{kN}$
+- $M_{\rm{A}}= $ {gap} $\rm{kNm}$
+- $M_{\rm{C}}= $ {gap} $\rm{kNm}$
+- $V_{\rm{AC}}= $ {gap} $\rm{kN}$
+- $V_{\rm{CB}}= $ {gap} $\rm{kN}$
+- $w_{\rm{C}}= $ {gap} $\rm{mm}$
+- $\varphi_{\rm{C}}= $ {gap} $\rm{rad}$
 
-:::::
+---
 
-::::{admonition} Solution
+::::
+
+::::{question} Exercise
+:type: short-answer
+:variant: gaps
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+---
+MAPE[24/13;0.01;3]
+
+^^^
+? Where is the point of contraflexure (where the curvature changes sign)?
+
+$x_{\rm{buigpunt}}= $ {gap} $\rm{m}$
+
+---
+
+::::
+
+::::{admonition} Worked-out solution
 :class: solution, dropdown
 
-De onbekenden kunnen worden opgelost met verticaal- en momentenevenwicht van de hele constructie en met behulp van de eerder opgestelde vergelijkingen.
+The slope of the bending-moment diagram between $\rm{A}$ and $\rm{C}$ is equal to the shear force, $V_{\rm{AC}} = 39 \, \rm{kN}$. Thus, the bending moment is zero at $x_{\rm{buigpunt}} = \cfrac{M_{\rm{A}}}{V_{\rm{AC}}} = \cfrac{72}{39} = \cfrac{24}{13} \approx 1.85 \, \rm{m}$.
 
-$$ A_{\rm{v}} = -39 \rm{kN} $$
-$$ A_{\rm{m}} = 72 \rm{kNm} $$
-$$ B_{\rm{v}} = -15 \rm{kN} $$
-$$ M_{\rm{A}} = -72 \rm{kNm} $$ 
-$$ M_{\rm{C}} = 45 \rm{kNm} $$
-$$ V_{\rm{AC}} = 39 \rm{kN} $$
-$$ V_{\rm{CB}} = -15 \rm{kN} $$
-$$ w_{\rm{C}} = 82.5 \rm{mm} $$
-$$ \varphi_{\rm{C}} = 0.0225 \rm{rad} $$ 
+::::
+
+::::{question} Exercise
+:type: no-input
+:admonition:
+:class: exercise
+:nocaption:
+:showanswer:
+
+Draw the deformed statically **indeterminate** structure to scale
+---
+=
+
+```{figure} ./lesoefeningen_data/disp.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk
+```
+
+---
 
 ::::

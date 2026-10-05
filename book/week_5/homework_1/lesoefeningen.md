@@ -5,7 +5,7 @@
 This page is translated from https://oit.tudelft.nl/CTB2210/2026/krachtenmethode_vakwerk/lesoefeningen.html.
 
 ```
-```` 
+````
 
 # Guided exercise
 
