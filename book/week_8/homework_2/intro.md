@@ -1,7 +1,7 @@
 (homework8.2)=
 # Homework for Wednesday
 
-As a preparation for Wednesday's lesson you'll look into the Matrix method:
+As a preparation for Wednesday's lesson you'll look into the support settlement and stiffness influences:
 
 ```{tableofcontents}
 ```

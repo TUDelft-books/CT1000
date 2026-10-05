@@ -96,13 +96,13 @@ parse:
     week6: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |[Read theory and make homework exercises displacement bending](homework6.1) <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises force method bending beams](homework6.2) <br>{bdg-primary}`New content`|| [Read theory and make homework exercises force method bending frames](homework6.3) <br>{bdg-primary}`New content` |Wednesday: [Read theory and make homework exercises displacement method](homework7.2) <br>{bdg-primary}`New content`|
+      |Homework deadlines |[Read theory and make homework exercises displacement bending](homework6.1) <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises force method bending beams](homework6.2) <br>{bdg-primary}`New content`|| [Read theory and make homework exercises force method bending frames](homework6.3) <br>{bdg-primary}`New content` |Wednesday: [Read theory and make homework exercises Displacement method](homework7.2) <br>{bdg-primary}`New content`|
       |Class activities| [Guided practice on displacement bending](lesson6.1) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on force method bending beams](lesson6.2) <br>{bdg-primary-line}`New content`||[Read theory and make homework exercises force method frames](homework6.3) <br>{bdg-primary-line}`New content`|
     week7: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |||[Read theory and make homework exercises Displacement method](homework7.2) <br>{bdg-primary}`New content`|[Read theory and make homework exercises displacement method 2 and matrix method](homework7.2) <br>{bdg-primary}`New content`||Thursday: [Read theory and make homework exercises stiffness discontinuities and support settlement](homework7.3) <br>{bdg-primary}`New content`|
-      |Class activities| [Demonstration Displacement method](lesson7.1) <br>{bdg-primary-line}`New content`||[Guided practice on Displacement method](lesson7.2) <br>{bdg-primary-line}`New content`|[Guided practice on displacement method 2 and matrix method](lesson7.3) <br>{bdg-primary-line}`New content`||
+      |Homework deadlines |||[Read theory and make homework exercises Displacement method](homework7.2) <br>{bdg-primary}`New content`||[Read theory and make homework exercises matrix method](homework7.3) <br>{bdg-primary}`New content`||Wednesday: [Read theory and make homework exercises Stiffness discontinuities and support settlement](homework8.2) <br>{bdg-primary}`New content`|
+      |Class activities| [Demonstration Displacement method](lesson7.1) <br>{bdg-primary-line}`New content`||[Guided practice on Displacement method](lesson7.2) <br>{bdg-primary-line}`New content`|[Guided practice on matrix method](lesson7.3) <br>{bdg-primary-line}`New content`||
     week8: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|

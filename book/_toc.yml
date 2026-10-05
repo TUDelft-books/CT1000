@@ -172,10 +172,21 @@ parts:
     - file: week_7/session_1/intro
     - file: week_7/homework_2/intro
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/support_settlement.md
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/stiffness_influences.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/displacement_method2.md
     - file: week_7/session_2/intro
     - file: week_7/homework_3/intro
+      sections:
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/matrix.md
+    - file: week_7/session_3/intro
+  - file: week_8/intro
+    sections:
+    - file: week_8/session_1/intro
+    - file: week_8/homework_2/intro
+      sections:
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/support_settlement.md
+      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/stiffness_influences.md
+    - file: week_8/session_2/intro
+    - file: week_8/homework_3/intro
       sections:
       - file: week_8/homework_3/constitutive
         sections:
@@ -183,18 +194,6 @@ parts:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/temperature/temperature.md
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/temperature.md
         title: Solve statically indeterminate structures subjected to temperature influences
-    - file: week_7/session_3/intro
-  - file: week_8/intro
-    sections:
-    - file: week_8/homework_1/intro
-      sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/displacement_method2.md
-    - file: week_8/session_1/intro
-    - file: week_8/homework_2/intro
-      sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/matrix.md
-    - file: week_8/session_2/intro
-    - file: week_8/homework_3/intro
     - file: week_8/session_3/intro
   - file: week_10/intro
     sections:
