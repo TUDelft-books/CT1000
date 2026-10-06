@@ -243,13 +243,13 @@ $$
 \end{bmatrix}
 =
 \begin{bmatrix}
-\cfrac{7}{19200} \\
+\cfrac{11}{60000} \\
 \cfrac{1}{16000} \\
 \cfrac{-1}{8000}
 \end{bmatrix}
 \approx
 \begin{bmatrix}
-3.65 \cdot 10^{-4} \\
+1.83 \cdot 10^{-4} \\
 6.25 \cdot 10^{-5} \\
 -1.25 \cdot 10^{-4}
 \end{bmatrix}

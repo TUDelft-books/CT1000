@@ -156,7 +156,6 @@ parts:
         sections:
         - file: week_6/homework_2/lesoefeningen.md
     - file: week_6/session_2/intro
-# START REMOVE-FROM-PUBLISH
     - file: week_6/homework_3/intro
       sections:
       - file: week_6/homework_3/instructie.md
@@ -170,6 +169,7 @@ parts:
   - file: week_7/intro
     sections:
     - file: week_7/session_1/intro
+# START REMOVE-FROM-PUBLISH
     - file: week_7/homework_2/intro
       sections:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/displacement_method2.md
