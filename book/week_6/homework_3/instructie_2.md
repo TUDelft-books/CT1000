@@ -388,7 +388,7 @@ number:
 
 This topic was presented in Dutch in [lecture 10 of CTB2210](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/f6562fd68aa643d9ac4970b6a618cf111d?sortBy=most-recent), from 0:14:10 to 0:57:10.
 
-## Additional exercises in the book
+## Additional exercises
 
 - The guided exercises on the next two pages are a first exercise to check your understanding
 - For more practice, you can work on:

@@ -383,7 +383,7 @@ When the book refers to the 'moment-area method' in examples 2.2.6 and 2.2.7, th
 
 This topic was presented in Dutch in [lecture 9 of CTB2210](https://collegerama.tudelft.nl/Mediasite/Channel/public-ceg-ctb2210/watch/2dabd45be53f4c368ddb2bc325231cfa1d?sortBy=most-recent), from 0:04:35 to 0:39:40.
 
-## Additional exercises in the book
+## Additional exercises
 
 - The guided exercises on the next two pages are a first exercise to check your understanding
 - For more practice, you can work on:

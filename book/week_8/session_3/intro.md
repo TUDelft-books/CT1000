@@ -10,210 +10,112 @@ During today's lesson you'll work on two complex exercises on the topic of Tempe
 ```{attributiongrey} Attribution
 :class: attribution
 
-Deze oefening is aangepast van https://oit.tudelft.nl/CTB2210/2025/temperatuur/lesoefening.html. Deze oefening is niet vertaald omdat er geen Engelstalige studenten zijn in de klas.
-
-% source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/temperatuur3
+This exercise is translated from https://oit.tudelft.nl/CTB2210/2026/temperatuur/COZ1_temp.html
 
 ```
 ````
 
 ## Exercise 1
 
-Gegeven is de volgende constructie:
+Given is the following statically structure:
 
-```{figure} ./intro_data/structure.svg
-:align: center
+```{figure-start} ./COZ1_data/constructie.svg
+---
+align: center
+number:
+figclass: sticky-margin
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/COZ_temp_1
+---
 
-Constructie, $EI = \cfrac{800}{3} \ \rm{kNm^2}$
 ```
 
-We gaan deze constructie doorrekenen met behulp van differentiaalvergelijkingen
+- $ EI = 20 \, \rm{MNm}^2 $
+- $ EA \gg EI $
+- $ \alpha = 0.0003 \ ^{\circ} \rm{C}^{-1} $
+- $ \Delta T = 35 \ ^{\circ} \rm{C} $
 
-:::::{exercise}
-:label: temp_2_1
-:nonumber: true
-
-Wat is $\kappa_{\rm{T}}$?
-
-```{h5p} https://tudelft.h5p.com/content/1292671259091838977/embed
+```{figure-end}
 ```
 
-:::::
+::::{admonition} Exercise
+:class: exercise
+
+Determinate the reaction moment in $\rm{A}$.
+
+::::
 
 ::::{admonition} Solution
 :class: solution, dropdown
 
-$$\kappa^T = -\cfrac{\alpha \cdot T}{h} = - \cfrac{0.0001 \cdot 30}{0.2} = -0.015 \ m^{-1}$$
+$ \left| M_{\rm{A}} \right| = 350 \ \rm{kNm} $
 
 ::::
 
-:::::{exercise}
-:label: temp_2_2
-:nonumber: true
+````{margin}
+```{attributiongrey} Attribution
+:class: attribution
 
-Bepaal met behulp van de differentiaalvergelijkingen de uitdrukkingen voor de snedekrachten en verplaatsingen. Merk op dat twee randvoorwaarden direct twee integratieconstantes geven.
+This exercise is translated from https://oit.tudelft.nl/CTB2210/2026/temperatuur/COZ2_temp.html
 
-```{h5p} https://tudelft.h5p.com/content/1292671251572754907/embed
 ```
-
-:::::
-
-::::{admonition} Solution
-:class: solution, dropdown
-
-Voor deze constructie gelden den onderstaande randvoorwaarden:
-
-$$ w \left( 0 \right) = 0 $$
-$$ M \left( 0 \right) = +6 \rm{kNm} $$
-$$ w \left( 8 \right) = 0 $$
-$$ \varphi \left( 8 \right) = 0 $$
-
-Hieruit volgt voor de snedekrachten en verplaatsingen:
-
-$$ V\left( x  \right) = C_1 $$ 
-$$ M\left( x  \right) = C_1 \cdot x + 6 $$
-$$ \kappa \left( x \right) = \cfrac{M}{EI} = \cfrac{3}{800} \cdot C_1 \cdot x + \cfrac{6 \cdot 3}{800} - 0.015 = 0.00375 \cdot C_1 \cdot x + 0.0075 $$
-$$ \varphi \left( x \right) = 0.001875  C_1 \cdot x^2 + 0.0075 \cdot x + C_3 $$
-$$ w \left( x \right) = -0.000625 \cdot C_1 \cdot x^3 -0.00375 \cdot x^2 - C_3 \cdot x + 0 $$
-
-::::
-
-:::::{exercise}
-:label: temp_2_3
-:nonumber: true
-
-Bepaal de waardes van de integratieconstantes
-
-```{h5p} https://tudelft.h5p.com/content/1292671264027013177/embed
-```
-
-:::::
-
-::::{admonition} Solution
-:class: solution, dropdown
-
-$$ C_1 = -0.375 $$
-$$ C_3 = -0.015 $$
-
-::::
-
-:::::{exercise}
-:label: temp_2_4
-:nonumber: true
-
-```{h5p} https://tudelft.h5p.com/content/1292671266355957267/embed
-```
-
-:::::
-
-::::{admonition} Solution
-:class: solution, dropdown
-
-Als de temperatuur verder toeneemt, dan wordt de absolute waarde van maximale verplaatsing eerst kleiner dan groter. 
-
-::::
-
-:::::{exercise}
-:label: temp_2_5
-:nonumber: true
-
-Waar is het buigpunt?
-
-```{h5p} https://tudelft.h5p.com/content/1292696178444240937/embed
-```
-
-:::::
+````
 
 ## Exercise 2
 
-% source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/temperatuur2
+Given is the following structure:
 
-Given the following structure. 
+```{figure-start} ./COZ2_data/constructie.svg
+---
+align: center
+number:
+figclass: sticky-margin
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/COZ_temp_2
+---
 
-```{figure} intro_data/struct.svg
-:align: center
 ```
 
-:::::{exercise}
-:label: temp_1_1
-:nonumber: true
+- $ EA = 15 \, \rm{MN} $
+- $ EI \gg EA $
+- $ \alpha = 0.0002 \ ^{\circ} \rm{C}^{-1} $
+- $ \Delta T = 12.1 \ ^{\circ} \rm{C} $
 
-Find the curvature and strain due to the temperature influence
 
-```{h5p} https://tudelft.h5p.com/content/1292660766863817267/embed
+```{figure-end}
 ```
 
-:::::
+::::{admonition} Exercise
+:class: exercise
 
-:::::{exercise}
-:label: temp_1_2
-:nonumber: true
+Determine the displacement of $\rm{D}$ solely due to the point load.
 
-Create a statically determinate system which uses the following displacement constraint: $w_{\rm{C}}^{\rm{BC}} = w_{\rm{C}}^{\rm{CD}}$ with $N_{\rm{CD}}$ as the statical indeterminate force. It is shown in the figure below without equivalent forces for the temperature influence.
+::::
 
-```{figure} intro_data/SD.svg
-:align: center
-```
+% solution_start
 
+::::{admonition} Solution
+:class: solution, dropdown
 
-What are the force distributions and displacements due to the distributed load as a function of $N_{\rm{CD}}$? So don't include kinematical equivalent forces due to the temperature influence.
+- $ \cfrac{\sqrt{5} \cdot 100}{12} \approx 18.6 \ \rm{mm} $ (→)
+- No vertical displacement
 
-```{h5p} https://tudelft.h5p.com/content/1292660774931288447
-```
+::::
 
-:::::
+% solution_end
 
-:::::{exercise}
-:label: temp_1_3
-:nonumber: true
+::::{admonition} Exercise
+:class: exercise
 
-What are the force distributions and displacements including temperature influences and as a function of $N_{\rm{CD}}$?
+Determine the displacement of $\rm{D}$ solely due to the temperature change.
 
-```{h5p} https://tudelft.h5p.com/content/1292660796839945267/embed
-```
+::::
 
-:::::
+% solution_start
 
-:::::{exercise}
-:label: temp_1_4
-:nonumber: true
+::::{admonition} Solution
+:class: solution, dropdown
 
-Use the displacement constraint to solve for $N_{\rm{CD}}$
+- No horizontal displacement
+- $2 \cdot \sqrt{5} +  5.25\approx 9.72 \ \rm{mm} $ ↑
 
-```{h5p} https://tudelft.h5p.com/content/1292660799484783077/embed
-```
-
-:::::
-
-:::::{exercise}
-:label: temp_1_5
-:nonumber: true
-
-What are the bending moments?
-
-```{h5p} https://tudelft.h5p.com/content/1292660805509625677/embed
-```
-
-:::::
-
-:::::{exercise}
-:label: temp_1_6
-:nonumber: true
-
-What is the curvature?
-
-```{h5p} https://tudelft.h5p.com/content/1292660806977160817/embed
-```
-
-:::::
-
-:::::{exercise}
-:label: temp_1_7
-:nonumber: true
-
-What are the displacements?
-
-```{h5p} https://tudelft.h5p.com/content/1292660808935020687/embed
-```
-
-:::::
+::::
+% solution_end

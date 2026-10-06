@@ -172,28 +172,37 @@ parts:
 # START REMOVE-FROM-PUBLISH
     - file: week_7/homework_2/intro
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/displacement_method2.md
+      - file: week_7/homework_2/theorie.md
+        sections:
+        - file: week_7/homework_2/lesoefening1.md
+        - file: week_7/homework_2/lesoefening2.md
     - file: week_7/session_2/intro
     - file: week_7/homework_3/intro
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/matrix.md
+      - file: week_7/homework_3/theorie.md
+        sections:
+        - file: week_7/homework_3/lesoefening1.md
     - file: week_7/session_3/intro
   - file: week_8/intro
     sections:
     - file: week_8/session_1/intro
     - file: week_8/homework_2/intro
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/support_settlement.md
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/stiffness_influences.md
+      - file: week_8/homework_2/theorie1.md
+        sections:
+        - file: week_8/homework_2/lesoefeningen.md
+      - file: week_8/homework_2/theorie2.md
+        sections:
+        - file: week_8/homework_2/lesoefeningen_2.md
     - file: week_8/session_2/intro
     - file: week_8/homework_3/intro
       sections:
       - file: week_8/homework_3/constitutive
+      - file: week_8/homework_3/temperature.md
+      - file: week_8/homework_3/theorie.md
         sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/constitutive/temperature.md
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/temperature/temperature.md
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/temperature.md
-        title: Solve statically indeterminate structures subjected to temperature influences
+        - file: week_8/homework_3/lesoefening.md
+        - file: week_8/homework_3/lesoefening1.md
     - file: week_8/session_3/intro
   - file: week_10/intro
     sections:
