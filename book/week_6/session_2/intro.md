@@ -145,6 +145,7 @@ Sketch the possible deformations for the option in which the vertical support at
 :admonition:
 :class: exercise
 :nocaption:
+:showanswer:
 
 Which of the following is not a suitable option for making the structure statically determinate for analysis? Also exclude cases for which no standard beam formulas are available or the displacements are relatively complex
 ---
@@ -180,6 +181,7 @@ Consider the following statically determinate system:
 :admonition:
 :class: exercise
 :nocaption:
+:showanswer:
 
 ---
 M[15]
@@ -189,6 +191,38 @@ M[15]
 $B_{\rm{v}}= $ {gap} $\rm{kN}$ (↑)
 
 ---
+
+::::
+
+::::{admonition} Worked-out solution
+:class: solution, dropdown
+
+Using the given free-body diagram, the shear force just to the left of C, the moment at C, and the shear force just to the left of B can be determined as functions of $B_{\rm{v}}$:
+
+$$ V_{\rm{C}}^{\rm{AC}} \left( B_{\rm{v}} \right) = -1 \cdot B_{\rm{v}} + 54 $$
+$$ M_{\rm{C}} \left( B_{\rm{v}} \right) = -3 \cdot B_{\rm{v}} $$ 
+$$ V_{\rm{B}}^{\rm{BC}} \left( B_{\rm{v}} \right) = -1 \cdot B_{\rm{v}} $$
+
+The deflection $w_{\rm{C}}$ and rotation $\varphi_{\rm{C}}$ at C can be found by moving the force $B_{\rm{v}}$ from B to C and adding a moment, as shown in the free-body diagram below:
+
+```{figure} ./lesoefeningen_data/VrijlichaamsschemaAC_1.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
+```
+
+Using the forget-me-nots for a cantilever beam subjected to a force and a moment gives:
+
+$$ w_{\rm{C}} \left( B_{\rm{v}} \right) = \cfrac{\left(54 - B_{\rm{v}} \right) \cdot 3^3}{3 \cdot 1800} - \cfrac{3 \cdot B_{\rm{v}} \cdot 3^2}{2 \cdot 1800} = -0.0125 \cdot B_{\rm{v}} + 0.27 $$
+$$ \varphi_{\rm{C}} \left( B_{\rm{v}} \right) = -\cfrac{\left(54 - B_{\rm{v}} \right) \cdot 3^2}{2 \cdot 1800} + \cfrac{3 \cdot B_{\rm{v}} \cdot 3}{1800} = 0.0075 \cdot B_{\rm{v}} - 0.135 $$
+
+The deflection at B, $w_{\rm{B}}$, is therefore:
+
+$$ w_{\rm{B}} \left( B_{\rm{v}} \right) = w_{\rm{C}} - \varphi_{\rm{C}} \cdot 3 - \cfrac{B_{\rm{v}} \cdot 3^3}{3 \cdot 900} = -0.045 \cdot B_{\rm{v}} + 0.675 $$
+
+The deformation condition is: $w_{\rm{B}} = -0.045 \cdot B_{\rm{v}} + 0.675 = 0$.
+
+This gives $B_{\rm{v}} = 15 \rm{kN}$.
 
 ::::
 
@@ -210,6 +244,7 @@ Now consider the following statically determinate system:
 :admonition:
 :class: exercise
 :nocaption:
+:showanswer:
 
 ---
 M[45]
@@ -222,6 +257,42 @@ $M_{\rm{C}}= $ {gap} $\rm{kNm}$
 
 ::::
 
+::::{admonition} Worked-out solution
+:class: solution, dropdown
+
+The expressions for $B_{\rm{v}}$ and $V_{\rm{C}}^{\rm{AC}}$ can be derived from equilibrium of segment BC.
+
+$$ \sum \left. T \right| _ {\rm{C}} ^{\rm{CB}} = - 3 \cdot B_{\rm{v}} - M_{\rm{C}} = 0 \rightarrow B_{\rm{v}} = - \cfrac{1}{3} \cdot M_{\rm{C}} $$
+$$ V_{\rm{C}}^{\rm{AC}} = B_{\rm{v}} + 54 = - \cfrac{1}{3} \cdot M_{\rm{C}} + 54 $$
+
+The rotation just to the left of C, $\varphi_{\rm{C}}^{\rm{AC}}$, and the deflection at C, $w_{\rm{C}}$, can be determined using the forget-me-nots for a cantilever beam subjected to a moment and a point load, as shown in the free-body diagram below:
+
+```{figure} ./lesoefeningen_data/VrijlichaamsschemaAC_2.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/krachtenmethode_balk_2
+```
+
+$$ \varphi_{\rm{C}}^{\rm{AC}} \left( M_{\rm{C}} \right) = \cfrac{M_{\rm{C}} \cdot 3}{1800} - \cfrac{\left( - \cfrac{1}{3} \cdot M_{\rm{C}} + 54 \right) \cdot 3^2}{2 \cdot 1800} = 0.0025 \cdot M_{\rm{C}} - 0.135 $$
+
+$$ w_{\rm{C}} \left( M_{\rm{C}} \right) = - \cfrac{M_{\rm{C}} \cdot 3^2}{2 \cdot 1800} + \cfrac{\left( - \cfrac{1}{3} \cdot M_{\rm{C}} + 54 \right) \cdot 3^3}{3 \cdot 1800} = -0.00417 \cdot M_{\rm{C}} + 0.27 $$
+
+The rotation just to the right of C, $\varphi_{\rm{C}}^{\rm{BC}}$, is caused by the bending of segment BC due to $M_{\rm{C}}$ and by the deflection at C, $w_{\rm{C}}$:
+
+:::{fetch} {numref}`optie3_balk`
+:::
+
+The rotation due to bending can be determined using the forget-me-nots for a simply supported beam subjected to a moment.
+
+$$ \varphi_{\rm{C}}^{\rm{BC}} \left( M_{\rm{C}} \right) = \cfrac{w_{\rm{C}}}{3} - \cfrac{M_{\rm{C}} \cdot 3}{3 \cdot 900} = 0.0025 \cdot M_{\rm{C}} -0.09 $$
+
+
+The deformation condition is: $\varphi_{\rm{C}}^{\rm{AC}} = \varphi_{\rm{C}}^{\rm{BC}} \rightarrow 0.0025 \cdot M_{\rm{C}} - 0.135 = -0.0025 \cdot M_{\rm{C}} + 0.09$.
+
+This gives $M_{\rm{C}} = 45 \rm{kNm}$.
+
+::::
+
 ## Force distribution and displacements of the statically indeterminate structure
 
 ::::{question} Exercise
@@ -230,6 +301,7 @@ $M_{\rm{C}}= $ {gap} $\rm{kNm}$
 :admonition:
 :class: exercise
 :nocaption:
+:showanswer:
 
 ---
 M[-39]
@@ -265,6 +337,7 @@ M[-0.0225]
 :admonition:
 :class: exercise
 :nocaption:
+:showanswer:
 
 ---
 MAPE[24/13;0.01;3]
@@ -275,6 +348,13 @@ MAPE[24/13;0.01;3]
 $x_{\rm{buigpunt}}= $ {gap} $\rm{m}$
 
 ---
+
+::::
+
+::::{admonition} Worked-out solution
+:class: solution, dropdown
+
+The slope of the bending-moment diagram between $\rm{A}$ and $\rm{C}$ is equal to the shear force, $V_{\rm{AC}} = 39 \, \rm{kN}$. Thus, the bending moment is zero at $x_{\rm{buigpunt}} = \cfrac{M_{\rm{A}}}{V_{\rm{AC}}} = \cfrac{72}{39} = \cfrac{24}{13} \approx 1.85 \, \rm{m}$.
 
 ::::
 
