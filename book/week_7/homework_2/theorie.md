@@ -397,4 +397,8 @@ This topic was presented in Dutch in [lecture 13 of CTB2210](https://collegerama
 
 ## Additional exercises
 - The guided exercises on the next two pages are a first exercise to check your understanding
-- For more practice, you can work on exercises 4.4–4.33, 4.35 and 4.36 in section 4.5 of the book Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Unfortunately, no answers are available. You can analyse the structures using MatrixFrame to check your answers.
+- For more practice:
+  - Exercises 4.4–4.33, 4.35 and 4.36 in section 4.5 of the book Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Unfortunately, no answers are available. You can analyse the structures using MatrixFrame to check your answers.
+  - Exercises 4.4–4.33, 4.35 and 4.36 in section 4.5 of the book Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Unfortunately, no solutions are available. You can analyse the structures using MatrixFrame to check your answers.
+  - Question 3 of [the Dutch 2013 resit exam for Structural Mechanics 3](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Opgaven_Apr2013.pdf). The solutions are available [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Uitwerkingen_Apr2013.pdf) {cite:p}`Exam_jan_2013_2`.
+  - Part 1 of Question 1 of [the Dutch 2016 resit exam for Structural Mechanics 3](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Opgaven_Apr_2016.pdf). The solutions are available [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Uitwerkingen_Apr2016.pdf) {cite:p}`Exam_jan_2016`.

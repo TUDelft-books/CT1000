@@ -16,6 +16,13 @@ pip install -r requirements.txt sphinx-autobuild
 # Initialize Jupyter Book configuration for the book directory
 jupyter-book config sphinx book/
 
+# Make the local Sphinx extensions importable from the generated configuration
+sed -i "/# re-generate this one/a\\
+import os\\
+import sys\\
+\\
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '_ext'))" book/conf.py
+
 # Disable display of all git authors in Sphinx documentation
 # by changing 'git_show_all_authors' from True to False in conf.py
 sed -i 's/git_show_all_authors = True/git_show_all_authors = False/' book/conf.py

@@ -2,6 +2,9 @@
 
 [TeachBooks Versioning](https://teachbooks.io/manual/features/versioning.html) is used (a special type of semantic numbering for educational purposes) with generic format `v<academic_year>.<additions>.<errata>`.
 
+# 2026-10-08: v2026.17.0
+- Added exam exercises to relevant exercises for topic of statically indeterminate structures.
+
 # 2026-10-08: v2026.16.0
 - Added solution of exercise of [Week 6 - Lesson Wednesday](./week_6/session_2/intro.md)
 - Added [Week 7](./week_7/intro.md)

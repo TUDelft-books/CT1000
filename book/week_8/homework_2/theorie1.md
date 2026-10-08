@@ -164,4 +164,7 @@ This topic was presented in Dutch in [lecture 11 in CTB2210](https://collegerama
 
 ## Additional exercises
 - The guided exercise on the next page is a first exercise to check your understanding.
-- For more practice, work through the following exercises: 6.1–6.18, 6.20 and 6.22–6.24 in section 6.3 of the book Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Unfortunately, no answers are available.
+- For more practice:
+  - Exercises: 6.1–6.18, 6.20 and 6.22–6.24 in section 6.3 of the book Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Unfortunately, no answers are available.
+  - Problems 1a and 1b from [the Dutch 2018 Structural Mechanics 3 exam](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/CM3_jan2018_tentamenopgaven.pdf). The solutions are available [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/CM3_jan2018_tentamenopgaven_uitwerkingen.pdf) {cite:p}`Exam_2018`.
+  - Question 1 from [the Dutch first 2020 Structural Mechanics 3 exam](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/CM3_januari_2020_tentamenopgaven.pdf). The solutions are available [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Uitwerkingen_tentamen_CM3_januari_2020.pdf) {cite:p}`Exam_2020_A`.
