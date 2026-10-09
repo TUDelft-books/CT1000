@@ -180,7 +180,7 @@ The bending-moment diagram and displacements can now be determined. The kinemati
 ::::::
 
 ## Derivation and more examples
-The derivation of temperature effects is covered in chapter 4.12 of the book Mechanica: spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013`. A simplified version for statically determinate structures is repeated in section 6.2.1 of the book Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. The moment-area method is not covered in this course. The standard cases for a simply supported beam and a cantilever beam are also not used. Statically indeterminate structures are covered in section 6.2.2; the moment-area method is not part of this course there either.
+The derivation of temperature effects is covered in chapter 4.12 of the book Engineering Mechanics: Volume 2: Stresses, strains and displacements {cite:p}`Hartsuijker2007`. A simplified version for statically determinate structures is repeated in section 6.2.1 of the book Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. The moment-area method is not covered in this course. The standard cases for a simply supported beam and a cantilever beam are also not used. Statically indeterminate structures are covered in section 6.2.2; the moment-area method is not part of this course there either.
 
 ## Lecture recording
 
@@ -188,4 +188,11 @@ This topic was presented in Dutch in [lecture 12 of CTB2210](https://collegerama
 
 ## Additional exercises
 - The guided exercises on the next two pages are a first exercise to check your understanding.
-- For more practice, you can work on exercises 6.25–6.30, 3.32–6.39, and 6.41–6.43 in section 6.3 of the book Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Unfortunately, no answers are available.
+- For more practice, you can work on:
+  - Exercises 6.25–6.30, 3.32–6.39, and 6.41–6.43 in section 6.3 of the book Mechanica, Statisch onbepaalde constructies en bezwijkanalyse {cite:p}`Hartsuijker2016`. Unfortunately, no answers are available.
+  - Question 1 of [the 2012 Structural Mechanics 3 exam](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Opgaven_Jan2012.pdf). The solutions are available [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Uitwerkingen_Jan2012.pdf) {cite:p}`Exam_jan_2012`.
+  - Part 3 of Question 1 of [the 2013 Structural Mechanics 3 exam](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Opgaven_Jan_2013.pdf). The solutions are available [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/Uitwerkingen_Jan2013.pdf) {cite:p}`Exam_jan_2013`.
+  - Question 1 of [the 2018 Structural Mechanics 3 resit exam](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/CM3april_2018_tentamenopgaven.pdf). The solutions are available [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/CM3_2018_05_18_Uitwerkingen.pdf) {cite:p}`Resit_2018`.
+  - Question 1 of [the 2019 Structural Mechanics 3 exam](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/CM3_januari2019_tentamenopgaven.pdf). The solutions are available [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/CM3_januari2019_uitwerkingen.pdf) {cite:p}`Exam_2019`.
+  - Question 2 of [the 2025 Structural Mechanics 3 exam](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/CM3_29januari_2025_tentamenopgaven.pdf). The solutions are available [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/CM3_29januari2025_uitwerkingen.pdf) {cite:p}`Exam_2025`.
+  - Exam assignment 1 on statically indeterminate structures from [the 2025 Structural Mechanics exam](https://oit.tudelft.nl/CT1000/2025/week_10/session/intro.html#exam-assignment). The solutions are available on the same page {cite:p}`CT1000`.
