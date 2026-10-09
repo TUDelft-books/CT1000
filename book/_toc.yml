@@ -240,6 +240,7 @@ parts:
     - file: week_12/homework_3/intro
       sections:
       - file: week_12/homework_3/stresses-3D.md
+      - file: week_12/homework_3/analytical_transformations.md
     - file: week_12/session_3/intro
   - file: week_13/intro
     sections:
