@@ -239,14 +239,10 @@ parts:
     - file: week_12/session_2/intro
     - file: week_12/homework_3/intro
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/model/intro.md
-        sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/model/stresses-3D.md
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/model/strains-2D.md
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/model/tensors.md
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/transformations/intro.md
-        sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/continuum/transformations/analytical.md
+      - file: week_12/homework_1/bending.md
+      - file: week_12/homework_1/bending.md
+      - file: week_12/homework_1/bending.md
+      - file: week_12/homework_1/bending.md
     - file: week_12/session_3/intro
   - file: week_13/intro
     sections:
