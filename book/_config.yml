@@ -52,6 +52,7 @@ sphinx:
     git_author_aliases:
       GitHub Action: Tom van Woudenberg
       fmessali: Francesco Messali
+      copilot-swe-agent[bot]: Tom van Woudenberg
   extra_extensions:
     - teachbooks_favourites
     - sphinx_tudelft_theme
