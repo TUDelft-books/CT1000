@@ -1,8 +1,8 @@
-```{index} Shear stresses
+```{index} Cross-sectional shear stresses
 ```
-```{index} ???
+```{index} Longitudinal shear stresses
 ```
-```{index} ???
+```{index} Shear stresses; for bending
 ```
 
 # Shear stresses due to bending
