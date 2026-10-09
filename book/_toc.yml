@@ -239,7 +239,7 @@ parts:
     - file: week_12/session_2/intro
     - file: week_12/homework_3/intro
       sections:
-      - file: week_12/homework_1/bending.md
+      - file: week_12/homework_3/stressed-3D.md
       - file: week_12/homework_1/bending.md
       - file: week_12/homework_1/bending.md
       - file: week_12/homework_1/bending.md
