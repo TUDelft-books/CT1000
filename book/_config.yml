@@ -49,6 +49,9 @@ sphinx:
     tud_change_titlesize: false
     html_last_updated_fmt: ''                        # Adds the date of the last update to the footer
     git_show_all_authors: true
+    git_author_aliases:
+      GitHub Action: Tom van Woudenberg
+      fmessali: Francesco Messali
   extra_extensions:
     - teachbooks_favourites
     - sphinx_tudelft_theme
