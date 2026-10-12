@@ -39,6 +39,8 @@ The learning will be assessed incrementally:
 - Exam week period Q2, exam assignments on buckling and continuum mechanics
 - Halfway Q3, exam assignments on buckling.
 
+There's no need to register for the exam like in other courses. Just show up in the exam room!
+
 During the exam assignments, you're allowed to bring your books, notes, etc. Except for a calculator, you're not allowed to use any other tools.
 
 For each exam sessions (consisting of one or more assignments) you'll have three hours.
