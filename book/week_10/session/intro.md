@@ -71,7 +71,7 @@ Solve the statically indeterminate force using the force method using a statical
 Due to which restriction(s), for the matrix method as taught in this course, is it not possible to apply the matrix method to this structure. For your information, the matrix method in this course was based on this single stiffness matrix:
 
 $$
-\mathbf{K^{\rm{(e)}}} &= \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2 EI}{L} \\ \cfrac{2 EI}{L} & \cfrac{4 EI}{L} \end{bmatrix}
+\mathbf{K^{\rm{(e)}}} = \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2 EI}{L} \\ \cfrac{2 EI}{L} & \cfrac{4 EI}{L} \end{bmatrix}
 $$
 
 :::::
