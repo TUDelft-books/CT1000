@@ -7,207 +7,80 @@
 Today you'll make the first exam assignment covering Statically indeterminate structures including its prerequisites. For more information about the exam see [the assessment information in course information](exam-general)
 
 ## Exam assignment
-Your own submission and its grading can be found here: [<img height="12px" src="../../figures/ANS.svg" alt="ANS"> exam assignment Statically indeterminate structures 1](https://ans.app/universities/1/courses/576319/assignments/1527984/go_to). The exam assignment was provided as follows:
+Your own submission and its grading can be found here: [<img height="12px" src="../../figures/ANS.svg" alt="ANS" class="no-zoomies"> exam assignment Statically indeterminate structures 1](https://ans.app/universities/1/courses/714632/assignments/1937243/go_to). The exam assignment was provided as follows:
 
 Given is the structure as shown in the figure below.
 
-% source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/exam2
-
-```{figure} intro_data/structure.svg
+```{figure} ./lesson_data/constructie1.svg
 :align: center
+:figclass: sticky-margin
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
 ```
 
 :::::{exercise}
 :label: exam_stat_indet_2025_1
 :nonumber: true
 
-Show that this structure is statically indeterminate to the second degree.
+Show that this structure is internally statically indeterminate to the second degree.
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Provide five different statically determinate variants of this structure for the purpose of the force method. Making an identical change at two points in the same element doesn't count as a different variant.
+
+For each of the variants:
+
+- Provide the necessary compatibility equations to determine the statically indeterminate forces
+- Explain why your variants are not mechanisms based on drawings of the deformed structures.
+
+:::::
+
+```{hide-sticky-margin}
+```
+
+Given the following structure. Note that the vertical roller support at $\rm{C}$ is removed.
+
+```{figure-start} ./lesson_data/constructie2.svg
+:align: center
+:figclass: sticky-margin
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+- $EA_{\rm{BC}} = 14.4 \, \rm{MN}$
+- $EI_{\rm{CDA}} = 62720 \, \rm{kNm}^2$
+- $EA_{\rm{CDA}} \gg EI_{\rm{CDA}} $
+
+```{figure-end}
+```
+
+
+:::::{exercise}
+:nonumber: true
+
+Solve the statically indeterminate force using the force method using a statically determinate structure of your own choice.
+
+:::::
+
+:::::{exercise}
+:nonumber: true
+
+Due to which restriction(s), for the matrix method as taught in this course, is it not possible to apply the matrix method to this structure. For your information, the matrix method in this course was based on this single stiffness matrix:
+
+$$
+\mathbf{K^{\rm{(e)}}} &= \begin{bmatrix} \cfrac{4 EI}{L} & \cfrac{2 EI}{L} \\ \cfrac{2 EI}{L} & \cfrac{4 EI}{L} \end{bmatrix}
+$$
 
 :::::
 
 ::::{admonition} Solution
 :class: solution, dropdown
 
-
-```{figure} intro_data/stat_deter.svg
-:align: center
-```
-
-For this structure, the external static indeterminacy is equal to the internal static indeterminacy.
-
-There are 8 unknowns and 6 equilibrium equations, making the structure statically indeterminate to the second degree.
+- Moveable nodes
+- Hinges
+- Loads on elements
 
 ::::
-
-:::::{exercise}
-:label: exam_stat_indet_2025_2
-:nonumber: true
-
-Provide two alternative valid variants to make this structure statically determinate for the purpose of the force method or displacement method with statically indeterminate displacements. Provide two different variants: your adjustments must each modify a different part of the structure.
-For each of the variants, provide the necessary equation(s) to determine the statically indeterminate force(s) or statically indeterminate displacement(s).
-
-:::::
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-Adding a hinge in the same segment or releasing a two-force-element in the same segment does not count as a valid variant.
-
-A few potential variants are:
-
-```{figure} ./intro_data/SB1.svg
-:align: center
-```
-
-```{figure} ./intro_data/SB2.svg
-:align: center
-```
-
-::::
-
-::::::{admonition} Veelgemaakte fouten
-:class: remark, dropdown
-
-```{figure} student_data/1.png
----
-align: center
----
-Structure not statically determinate
-```
-
-```{figure} student_data/2.png
----
-align: center
----
-Statically indeterminate force / displacement missing
-```
-
-::::::
-
-:::::{exercise}
-:label: exam_stat_indet_2025_3
-:nonumber: true
-
-Determine the vertical support reaction in $\rm{A}$ using the force-or displacement method
-
-:::::
-
-::::{admonition} Oplossing
-:class: solution, dropdown
-
-As an example, the force method has been applied using the following statically determinate system, but other methods are also acceptable:
-
-```{figure} ./intro_data/SB3.svg
-:align: center
-```
-
-The effect of temperature can be taken into account by a kinematically equivalent load on $\rm{ADC}$:
-
-$$ M^{\rm{T}} = 7875 \cdot 10^{-5} \cdot \cfrac{66.5}{0.25} = 20.9475 \ \rm{kNm}$$
-
-This must be applied at both ends of $\rm{ADC}$ to obtain a constant curvature.
-
-```{figure} ./intro_data/temp.svg
-:align: center
-```
-
-The elongation of $\rm{BD}$ can now be found using the elongation of a bar:
-
-```{figure} ./intro_data/BD.svg
-:align: center
-```
-
-$$ \Delta L_{\rm{BD}} = \cfrac{N^{\rm{BD}} \cdot 5}{2000} = \cfrac{N^{\rm{BD}}}{400} = 0.0025 N^{\rm{BD}}$$
-
-The displacement $w_{\rm{D}}^{\rm{BD}}$ can now be found using Williot's theorem:
-
-```{figure} ./intro_data/Williot.svg
-:align: center
-```
-
-$$ w_{\rm{D}}^{\rm{BD}} = -\cfrac{N^{\rm{BD}}}{400} \cdot \cfrac{5}{4} = -\cfrac{N^{\rm{BD}}}{320} = -0.003125 N^{\rm{BD}} $$
-
-The displacement $w_{\rm{D}}^{\rm{ADC}}$ and rotation $\varphi_{\rm{A}}$ can now be found using the forget‑me‑nots:
-
-```{figure} ./intro_data/ADC.svg
-:align: center
-```
-
-$$
-\begin{align*}
-w_{\rm{D}}^{\rm{ADC}} &= \cfrac{M_{\rm{A}} \cdot 6^2}{16 \cdot 7875} - 2\cdot \cfrac{20.9475^2}{16 \cdot 7875} + \cfrac{N^{\rm{BD}} \cdot \cfrac{4}{5} \cdot 6^3}{48 \cdot 7875} \\
-w_{\rm{D}}^{\rm{ADC}} &= \cfrac{M_{\rm{A}}}{3500} + \cfrac{2 \cdot N^{\rm{BD}}}{4375} - \cfrac{1197}{100000}\\
-w_{\rm{D}}^{\rm{ADC}} &\approx 0.0002857 M_{\rm{A}} + 0.0004571 N^{\rm{BD}} - 0.01197 \\
-\varphi_{\rm{A}} &= \cfrac{M_{\rm{A}} \cdot 6}{3 \cdot 7875} - \cfrac{20.9475 \cdot 6}{6 \cdot 7875} - \cfrac{20.9475 \cdot 6}{3 \cdot 7875} + \cfrac{N^{\rm{BD}} \cdot \cfrac{4}{5} \cdot 6^2}{16 \cdot 7875} \\
-\varphi_{\rm{A}} &= \cfrac{M_{\rm{A}} \cdot 2}{7875} + \cfrac{N^{\rm{BD}}}{4375} - \cfrac{399}{50000}\\
-\varphi_{\rm{A}} &\approx 0.000254 M_{\rm{A}} + 0.0002286 N^{\rm{BD}} - 0.00798
-\end{align*}
-$$
-
-Solving for the displacement conditions gives:
-
-$$
-\left\{
-\begin{matrix}
-{w_{\rm{D}}^{\rm{ADC}}=w_{\rm{D}}^{\rm{BD}}} \\
-{\varphi_{\rm{A}}=0}
-\end{matrix}
-\right.
-\;\to\;
-\begin{matrix}
-{M_{\rm{A}} = \cfrac{24489}{800} = 30.61125 \ \rm{kNm}} \\
-{N_{\rm{BD}} = 0.9 \ \rm{kN}}
-\end{matrix}
-$$
-
-The vertical reaction in $\rm{A}$ can now be determined using the equilibrium equations:
-
-```{figure} ./intro_data/Av.svg
-:align: center
-```
-
-$$
-\sum \left. T \right|_{\rm{C}}^{\rm{ADC}} = 0 \to A_{\rm{v}} = -\cfrac{7587}{1600} = -4.741875 \ \rm{kN} \left(\downarrow\right)
-$$
-
-::::
-
-::::::{admonition} Veelgemaakte fouten
-:class: remark, dropdown
-
-```{figure} student_data/3.png
----
-align: center
----
-Displacements due to forces in two-force member forgotten
-```
-
-```{figure} student_data/4.png
----
-align: center
----
-Rotation of two-force member not taken into account (Williot not used)
-```
-
-```{figure} student_data/5.png
----
-align: center
----
-Kinematically equivalent moment doesn't give correct curvature
-```
-
-```{figure} student_data/6.png
----
-align: center
----
-Express forces and displacements in other unknowns than the statically indeterminate ones
-```
-
-```{figure} student_data/7.png
----
-align: center
----
-Solving just one equilibrium or compatibility equation
-```
-
-::::::
