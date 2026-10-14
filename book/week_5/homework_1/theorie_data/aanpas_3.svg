@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export aanpas_3.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.25451in" height="1.35768in"
+		viewBox="0 0 162.325 97.753" xml:space="preserve" color-interpolation-filters="sRGB" class="st4">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#00cc99;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st4 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group649-1" transform="translate(0.375,-0.375)" v:mID="649" v:groupContext="group">
+			<title>Scharnieroplegging.102</title>
+			<g id="shape650-2" v:mID="650" v:groupContext="shape" transform="translate(2.83465,0)">
+				<title>Blad.650</title>
+				<path d="M0 97.75 L14.17 97.75 L7.09 86.41 L0 97.75 Z" class="st1"/>
+			</g>
+			<g id="shape651-4" v:mID="651" v:groupContext="shape" transform="translate(2.83465,195.506) rotate(180)">
+				<title>Blad.651</title>
+				<path d="M0 97.75 L2.83 97.75" class="st2"/>
+			</g>
+			<g id="shape652-7" v:mID="652" v:groupContext="shape" transform="translate(17.0079,0)">
+				<title>Blad.652</title>
+				<path d="M0 97.75 L2.83 97.75" class="st2"/>
+			</g>
+		</g>
+		<g id="shape653-10" v:mID="653" v:groupContext="shape" transform="translate(-64.7996,23.4595) rotate(-50.1944)">
+			<title>Ligger, 2 pt.106</title>
+			<path d="M0 97.75 L110.7 97.75" class="st3"/>
+		</g>
+		<g id="shape654-13" v:mID="654" v:groupContext="shape" transform="translate(76.9326,148.619) rotate(-129.806)">
+			<title>Ligger, 2 pt.107</title>
+			<path d="M0 97.75 L110.7 97.75" class="st3"/>
+		</g>
+		<g id="group655-16" transform="translate(142.107,-0.375)" v:mID="655" v:groupContext="group">
+			<title>Scharnieroplegging.108</title>
+			<g id="shape656-17" v:mID="656" v:groupContext="shape" transform="translate(2.83465,0)">
+				<title>Blad.656</title>
+				<path d="M0 97.75 L14.17 97.75 L7.09 86.41 L0 97.75 Z" class="st1"/>
+			</g>
+			<g id="shape657-19" v:mID="657" v:groupContext="shape" transform="translate(2.83465,195.506) rotate(180)">
+				<title>Blad.657</title>
+				<path d="M0 97.75 L2.83 97.75" class="st2"/>
+			</g>
+			<g id="shape658-22" v:mID="658" v:groupContext="shape" transform="translate(17.0079,0)">
+				<title>Blad.658</title>
+				<path d="M0 97.75 L2.83 97.75" class="st2"/>
+			</g>
+		</g>
+	</g>
+</svg>

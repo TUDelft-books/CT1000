@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export kromming.svg Pagina-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.39345in" height="1.21235in"
+		viewBox="0 0 172.329 87.2894" xml:space="preserve" color-interpolation-filters="sRGB" class="st4">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st4 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape798-1" v:mID="798" v:groupContext="shape" transform="translate(55.5679,86.1644) rotate(-90)">
+			<title>Ligger, 2 pt.798</title>
+			<path d="M0 87.29 L56.69 87.29" class="st1"/>
+		</g>
+		<g id="shape799-4" v:mID="799" v:groupContext="shape" transform="translate(1.125,-57.8179)">
+			<title>Ligger, 2 pt.799</title>
+			<path d="M0 87.29 L56.69 87.29" class="st1"/>
+		</g>
+		<g id="shape800-7" v:mID="800" v:groupContext="shape" transform="translate(57.8179,-57.8179)">
+			<title>Ligger, 2 pt.800</title>
+			<path d="M0 87.29 L85.04 87.29" class="st1"/>
+		</g>
+		<g id="shape801-10" v:mID="801" v:groupContext="shape" transform="translate(1.125,-57.8179)">
+			<title>Blad.801</title>
+			<path d="M0 87.29 L0 58.94 L141.73 58.94 L141.73 87.29" class="st2"/>
+		</g>
+		<g id="shape802-13" v:mID="802" v:groupContext="shape" transform="translate(142.857,-1.125)">
+			<title>Blad.802</title>
+			<path d="M0 30.6 L28.35 30.6 L28.35 87.29 L0 87.29" class="st2"/>
+		</g>
+		<g id="shape803-16" v:mID="803" v:groupContext="shape" transform="translate(64.9045,-68.4478)">
+			<title>Momentvervormingsteken.803</title>
+			<path d="M0 87.29 A7.08661 7.08661 0 0 1 7.09 80.2 A7.08661 7.08661 0 0 1 14.17 87.29" class="st3"/>
+		</g>
+		<g id="shape804-19" v:mID="804" v:groupContext="shape" transform="translate(240.777,50.7313) rotate(90)">
+			<title>Momentvervormingsteken.804</title>
+			<path d="M0 87.29 A7.08661 7.08661 0 0 1 7.09 80.2 A7.08661 7.08661 0 0 1 14.17 87.29" class="st3"/>
+		</g>
+	</g>
+</svg>

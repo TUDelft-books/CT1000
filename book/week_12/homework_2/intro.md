@@ -1,5 +1,5 @@
 (homework12.2)=
-# Homework deadline lesson Tuesday November 18th
+# Homework for Tuesday
 
 As a preparation for Tuesday's lesson you'll look into the core of a cross-section:
 

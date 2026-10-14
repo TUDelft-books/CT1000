@@ -4,7 +4,7 @@
 % Source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/failure_criteria
 
 (lesson14.3)=
-# Lesson December 5th
+# Lesson Thursday
 
 During today's lesson you'll work on a complex exercise on the topic of the Failure models. Please ask your questions regarding the [homework](homework14.3) as well!
 

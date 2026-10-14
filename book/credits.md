@@ -3,13 +3,13 @@
 
 You can refer to this book as:
 
-> Van Woudenberg, Tom (2024) _TeachBook Bridging course Structural Mechanics_. [https://github.com/TeachBooks/bridging_mechanics](https://github.com/TeachBooks/bridging_mechanics)
+> Van Woudenberg, Tom (2026) _TeachBook Bridging course Structural Mechanics_. [https://github.com/TeachBooks/bridging_mechanics](https://github.com/TeachBooks/bridging_mechanics)
 
 The introduction, structure of the book and formatting of contents is done by the Editors.
 
 You can refer to individual chapters or pages within this book as:
 
-> `<Title of Chapter or Page>` (2024). In Van Woudenberg, Tom, _TeachBook Bridging course Structural Mechanics_. [https://github.com/TeachBooks/bridging_mechanics](https://github.com/TeachBooks/bridging_mechanics)
+> `<Title of Chapter or Page>` (2026). In Van Woudenberg, Tom, _TeachBook Bridging course Structural Mechanics_. [https://github.com/TeachBooks/bridging_mechanics](https://github.com/TeachBooks/bridging_mechanics)
 
 We anticipate that the content of this book will change significantly. Therefore, we recommend using the source code directly with the citation above that refers to the GitHub repository and lists the date and name of the file. Although content will be added over time, chapter titles and URL's in this book are expected to remain relatively static. However, we make no guarantee, so if it is important for you to reference a specific location within the book. For example:
 

@@ -1,3 +1,3 @@
-# Week 2 (September 8th)
+# Week 2 (September 7)
 
 {{week2}}

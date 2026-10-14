@@ -1,5 +1,5 @@
 (homework6.3)=
-# Homework deadline lesson Friday October 10th
+# Homework for Friday
 
 As a preparation for Friday's lesson you'll look into Force method for bending in frames:
 

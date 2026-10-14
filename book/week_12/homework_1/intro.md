@@ -1,5 +1,5 @@
 (homework12.1)=
-# Homework deadline lesson Monday November 17th
+# Homework for Monday
 
 As a preparation for Monday's lesson you'll look into shear stresses due to bending moments:
 

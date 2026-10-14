@@ -1,7 +1,7 @@
 (homework12.3)=
-# Homework deadline lesson Friday November 21st
+# Homework for Thursday
 
-As a preparation for Friday's lesson you'll look into Tensors and Transforming those:
+As a preparation for Thursday's lesson you'll look into Tensors and Transforming those:
 
 ```{tableofcontents}
 ```

@@ -1,110 +1,19 @@
-```{index} Displacement method using statically indeterminate displacement; Demonstration
-```
 ```{index} Displacement method using degrees of freedom; Demonstration
 ```
 ```{index} Matrix method; Demonstration
 ```
 
 (lesson7.1)=
-# Lesson October 13th
+# Lesson Monday
 
-## Displacement method using statically indeterminate displacements
+During today's lesson it's demonstrated how you to use two more methods for solving statically indeterminate structures: the displacement method using degrees of freedom and the matrix method.
 
-% source files at https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_2
-
-Given is the following structure:
-
-```{figure} intro_data/constructie.svg
-:align: center
-```
-
-To apply the displacment method using statically indeterminate displacements, we first need to find the degree of statical indeterminacy:
-
-```{figure} intro_data/stat_heid.svg
-:align: center
-```
-
-This gives 4 support reactions and 1 unknown internal force, while we have 4 equilibrium equations, leading to a degree of statical indeterminacy of 1.
-
-Just as with the force method, we need to add hinges or split two-force members until we've created a statically determinate structure, while making sure it doesn't turn into a mechanism. As opposed to the force method, we define the displacement at this location as a statically determinate displacement, which can be solved for with equilibrium equations.
-
-A possible statically determinate structure is shown below:
-
-```{figure} intro_data/stat_bepaald.svg
-:align: center
-```
-
-The equilibrium equation for solving this structure is $N_{\rm{C}}^{\rm{BC}} \left( w_{\rm{C}} \right) = N_{\rm{C}}^{\rm{CD}} \left( w_{\rm{C}} \right)$. Normally, we solve for the inverse relations, where the displacements are a function of the internal forces. Most relations are defined in this way, so in general it's useful to first find the relation of $w_{\rm{C}}$ as a function of $N_{\rm{C}}^{\rm{BC}}$ or $N_{\rm{C}}^{\rm{CD}}$, and then invert this relation to find the internal forces as a function of the displacements.
-
-The moment in $\rm{B}$ can be found using equilibrium:
-
-```{figure} intro_data/MB.svg
-:align: center
-```
-
-$$
-\sum \left. T \right|_{\rm{B}}^{\rm{BC}} = 0 \to M_{\rm{B}} = 3 \cdot N_{\rm{C}}^{\rm{BC}}
-$$
-
-Using forget-me-nots, the rotation of $\rm{B}$ can be found:
-
-```{figure} intro_data/AB.svg
-:align: center
-```
-
-$$
-\varphi_{\rm{B}} = \cfrac{94.5 \cdot 4^3}{3 \cdot 420000} - \cfrac{N_{\rm{C}}^{\rm{BC}} \cdot 4}{3 \cdot 420000} = \cfrac{3}{500} - \cfrac{N_{\rm{C}}^{\rm{BC}}}{10500} \approx 0.006 - 9.52 \cdot 10^{-5} \cdot N_{\rm{C}}^{\rm{BC}}
-$$
-
-The displacement of $\rm{C}$ can be found by extending the rotation of $\rm{B}$ over the length of member $\rm{BC}$ and adding the deflection defined by another forget-me-not:
-
-```{figure} intro_data/BCw.svg
-:align: center
-```
-
-$$
-w_{\rm{C}} = -\varphi_{\rm{B}} \cdot 3 + \cfrac{N_{\rm{C}}^{\rm{BC}} \cdot 3^3}{3 \cdot 420000} = \cfrac{-9}{500} + \cfrac{1}{2000} \cdot N_{\rm{C}}^{\rm{BC}} = -0.018 + 5 \cdot 10^{-4} \cdot N_{\rm{C}}^{\rm{BC}}
-$$
-
-Inverting this relation gives:
-
-$$
-N_{\rm{C}}^{\rm{BC}} = 2000 \cdot w_{\rm{C}} + 36
-$$
-
-For the other part the displacement of $\rm{C}$ can be found using the relations for a bar under tension:
-
-```{figure} intro_data/CD.svg
-:align: center
-```
-
-$$
-w_{\rm{C}} = -\cfrac{N_{\rm{C}}^{\rm{CD}} \cdot 5}{1250} = -{1}{250} \cdot N_{\rm{C}}^{\rm{CD}} = -0.004 \cdot N_{\rm{C}}^{\rm{CD}}
-$$
-
-This gives:
-
-$$
-N_{\rm{C}}^{\rm{CD}} = -250 \cdot w_{\rm{C}}
-$$
-
-Now, the equilibrium equation can be solved:
-
-$$
-\begin{align*}
-N_{\rm{C}}^{\rm{BC}} \left( w_{\rm{C}} \right) &= N_{\rm{C}}^{\rm{CD}} \left( w_{\rm{C}} \right) \\
-2000 \cdot w_{\rm{C}} + 36 &= -250 \cdot w_{\rm{C}} \\
-w_{\rm{C}} &= \cfrac{-2}{125} = -0.016 \, \rm{m} 
-\end{align*}
-$$
-
-Now the statically indeterminate structure is solved. Eventually, the full internal force distribution and displacement can be found.
 
 ## Displacement method using degrees of freedom
 
 % source files at https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/verplaatsingenmethode_1
 
-Next to the displacement method using statically indeterminate displacements, there's also the displacement method using degrees of freedom. This method comes with the benefit that there's no need to create a statically determinate structure first. Instead, the degrees of freedom are defined directly on the statically indeterminate structure. As long as the displacement and forces can be solved for the individual parts of the structure, the method can be applied. For the deformations of the individual parts, a larger set of forget-me-nots can be used, including various statically indeterminate cases.
+Next to the force method, there's also the displacement method using degrees of freedom. This method comes with the benefit that there's no need to create a statically determinate structure first. Instead, the degrees of freedom are defined directly on the statically indeterminate structure. As long as the displacement and forces can be solved for the individual parts of the structure, the method can be applied. For the deformations of the individual parts, a larger set of forget-me-nots can be used, including various statically indeterminate cases.
 
 Given is the following structure:
 
@@ -334,13 +243,13 @@ $$
 \end{bmatrix}
 =
 \begin{bmatrix}
-\cfrac{7}{19200} \\
+\cfrac{11}{60000} \\
 \cfrac{1}{16000} \\
 \cfrac{-1}{8000}
 \end{bmatrix}
 \approx
 \begin{bmatrix}
-3.65 \cdot 10^{-4} \\
+1.83 \cdot 10^{-4} \\
 6.25 \cdot 10^{-5} \\
 -1.25 \cdot 10^{-4}
 \end{bmatrix}

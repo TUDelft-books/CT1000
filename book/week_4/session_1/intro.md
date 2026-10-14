@@ -4,7 +4,7 @@
 % source files at https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/krachtenmethode_vakwerk_2
 
 (lesson4.1)=
-# Lesson Monday September 22th
+# Lesson Monday
 
 During today's lesson it's demonstrated how you to use the force method for statically indeterminate problems which only involve extension
 
@@ -184,6 +184,14 @@ Leading to the following displacements if $\rm{AC}$ doesn't rotate:
 |$\rm{D}$|$18$|$-15.1667$|
 |$\rm{E}$|$-27$|$-59.333$|
 |$\rm{B}$|$24$|$-108$|
+
+This leads to the following deformed structure:
+
+```{figure} ./intro_data/displaced_20.svg
+:align: center
+
+Deformed structure due to $20 \rm{ kN}$ with fixed $\rm{AC}$
+```
 
 $\rm{B}$ shouldn't move vertically, so this structure has to be rotated back with $\theta  \approx \cfrac{{108}}{{12000}} = 9 \cdot {10^{ - 3}}{\rm{ rad}}$ ⟳, leading to:
 

@@ -1,3 +1,3 @@
-# Week 13 (November 24th)
+# Week 13 (November 23)
 
 {{week13}}

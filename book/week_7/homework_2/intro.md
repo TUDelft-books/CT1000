@@ -1,7 +1,7 @@
 (homework7.2)=
-# Homework deadline lesson Wednesday October 15th
+# Homework for Wednesday
 
-As a preparation for Wednesday's lesson you'll look into the Displacement method with statically determinate displacements:
+As a preparation for Wednesday's lesson you'll look into the displacement method:
 
 ```{tableofcontents}
 ```

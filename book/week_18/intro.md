@@ -1,3 +1,3 @@
-# Week 18 (January 12th)
+# Week 18 (January 11)
 
 {{week18}}

@@ -2,7 +2,7 @@
 ```
 
 (exam1)=
-# Exam Friday November 7th
+# Exam Tuesday
 
 Today you'll make the first exam assignment covering Statically indeterminate structures including its prerequisites. For more information about the exam see [the assessment information in course information](exam-general)
 

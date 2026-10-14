@@ -7,7 +7,7 @@ parts:
   - file: schedule
   - file: instructions
   - file: contact_information
-  - url: https://brightspace.tudelft.nl/d2l/home/774737
+  - url: https://brightspace.tudelft.nl/d2l/home/844367
     title: Brightspace announcements 📢
 - caption: Activities
   chapters:
@@ -101,19 +101,22 @@ parts:
       - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_frame/intro.md
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_frame/ode.md #BUMP
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/matrixframe.md #BUMPBUMP
     - file: week_3/session_2/intro
     - file: week_3/homework_3/intro
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/sympy.ipynb
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/tools/sympy_mech.ipynb
+      - file: week_3/homework_3/sympy_mech.ipynb
+      - file: week_3/homework_3/lesoefening2.ipynb
     - file: week_3/session_3/intro
   - file: week_4/intro
     sections:
     - file: week_4/session_1/intro
     - file: week_4/homework_2/intro
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/determinancy.md
+      - file: week_4/homework_2/instructie.md
+        sections:
+        - file: week_4/homework_2/graad_bepalen.md
+        - file: week_4/homework_2/graad_bepalen_2.md
+        - file: week_4/homework_2/graad_bepalen_3.md
       - file: week_4/homework_2/model
         sections:
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/model/small_rotations.md
@@ -125,72 +128,81 @@ parts:
       sections:
       - file: week_4/homework_3/solve_displacements.md
         sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_truss/williot.md
+        - file: week_4/homework_3/williot.md
     - file: week_4/session_3/intro
   - file: week_5/intro
     sections:
     - file: week_5/homework_1/intro
       sections:
-      - file: week_5/homework_1/force_method
+      - file: week_5/homework_1/elongation_simple.md #BUMP
         sections:
-        - file: week_5/homework_1/force_method_extend #BUMP
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/extension.md
+        - file: week_5/homework_1/lesoefeningen.md
+      - file: week_5/homework_1/instructie.md
     - file: week_5/session_1/intro
     - file: week_5/session_2/intro
     - file: week_5/homework_3/intro
       sections:
       - file: week_5/homework_3/frames
-        sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/support_internal_forces/internal_forces_beam/diagrams.md
     - file: week_5/session_3/intro
   - file: week_6/intro
     sections:
     - file: week_6/homework_1/intro
       sections:
       - file: week_6/homework_1/frame
-        sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/displacements_frame/forget-me-nots.md #BUMP
     - file: week_6/session_1/intro
     - file: week_6/homework_2/intro
       sections:
-      - file: week_6/homework_2/force
+      - file: week_6/homework_2/instructie.md
         sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/bending.md #BUMP
+        - file: week_6/homework_2/lesoefeningen.md
     - file: week_6/session_2/intro
     - file: week_6/homework_3/intro
       sections:
-      - file: week_6/homework_3/force
+      - file: week_6/homework_3/instructie.md
         sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/force_method/bending2.md
+        - file: week_6/homework_3/lesoefeningen.md
+        - file: week_6/homework_3/lesoefeningen_2.md
+      - file: week_6/homework_3/instructie_2.md
+        sections:
+        - file: week_6/homework_3/lesoefening_1.md
     - file: week_6/session_3/intro
   - file: week_7/intro
     sections:
     - file: week_7/session_1/intro
     - file: week_7/homework_2/intro
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/displacement_method.md
+      - file: week_7/homework_2/theorie.md
+        sections:
+        - file: week_7/homework_2/lesoefening1.md
+        - file: week_7/homework_2/lesoefening2.md
     - file: week_7/session_2/intro
     - file: week_7/homework_3/intro
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/displacement_method2.md
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/matrix.md
+      - file: week_7/homework_3/theorie.md
+        sections:
+        - file: week_7/homework_3/lesoefening1.md
     - file: week_7/session_3/intro
   - file: week_8/intro
     sections:
     - file: week_8/session_1/intro
+# START REMOVE-FROM-PUBLISH
     - file: week_8/homework_2/intro
       sections:
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/support_settlement.md
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/stiffness_influences.md
+      - file: week_8/homework_2/theorie1.md
+        sections:
+        - file: week_8/homework_2/lesoefeningen.md
+      - file: week_8/homework_2/theorie2.md
+        sections:
+        - file: week_8/homework_2/lesoefeningen_2.md
     - file: week_8/session_2/intro
     - file: week_8/homework_3/intro
       sections:
       - file: week_8/homework_3/constitutive
+      - file: week_8/homework_3/temperature.md
+      - file: week_8/homework_3/theorie.md
         sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/constitutive/temperature.md
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/temperature/temperature.md
-      - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/statically_inderminate/temperature.md
-        title: Solve statically indeterminate structures subjected to temperature influences
+        - file: week_8/homework_3/lesoefening.md
+        - file: week_8/homework_3/lesoefening1.md
     - file: week_8/session_3/intro
   - file: week_10/intro
     sections:
@@ -219,7 +231,7 @@ parts:
       sections:
       - file: week_12/homework_1/bending.md
         sections:
-        - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_bending/shear.md
+        - file: week_12/homework_1/shear_stresses_bending.md
     - file: week_12/session_1/intro
     - file: week_12/homework_2/intro
       sections: 
@@ -297,7 +309,8 @@ parts:
   - file: week_15/intro
     sections:
     - file: week_15/homework/intro
-    - file: week_15/session/intro
+    - file: week_15/session_1/intro
+    - file: week_15/session_2/intro
   - file: week_16/intro
     sections:
     - url: https://icozct.tudelft.nl/TUD_CT/CM3bridge/collegestof/stabiliteit/
@@ -321,11 +334,8 @@ parts:
     sections:
     - file: week_30/homework/intro
     - file: week_30/session/intro
-  - file: extra_exam/intro
-    sections:
-    - file: extra_exam/homework/intro
-    - file: extra_exam/session/intro
 
+# END REMOVE-FROM-PUBLISH
 
 - caption: Miscellaneous
   chapters:

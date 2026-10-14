@@ -4,7 +4,7 @@
 % Source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsion_stress
 
 (lesson14.2)=
-# Lesson December 2nd
+# Lesson Tuesday
 
 During today's lesson you'll work on a complex exercise on the topic of the Stresses due to torsion. Please ask your questions regarding the [homework](homework14.2) as well!
 

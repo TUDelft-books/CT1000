@@ -1,5 +1,5 @@
 (homework2.3)=
-# Homework deadline lesson Friday September 12th
+# Homework for Friday
 
 As a preparation for Friday's lesson you'll look into using virtual work to solve for support reactions and internal forces.
 

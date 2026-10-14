@@ -1,3 +1,3 @@
-# Week 15 (December 8th)
+# Week 15 (December 7)
 
 {{week15}}

@@ -4,13 +4,13 @@
 ```
 
 (exam3)=
-# Exam Friday January 30th
+# Exam Thursday
 
 Today you'll make the second exam assignment covering Continuuum mechanics including its prerequisites and/or the first exam assignment covering Buckling including its prerequisites. For more information about the exam see [the assessment information in course information](exam-general)
 
 ## Exam assignment 2 Continuum mechanics
 
-Your own submission and its grading will be available on [<img height="12px" src="../../figures/ANS.svg" alt="ANS"> exam assignment Continuum mechanics 2](https://ans.app/universities/1/courses/576319/assignments/1649807/go_to) after the exam.
+Your own submission and its grading will be available on [<img height="12px" src="../../figures/ANS.svg" alt="ANS" class="no-zoomies"> exam assignment Continuum mechanics 2](https://ans.app/universities/1/courses/576319/assignments/1649807/go_to) after the exam.
 
 Given is the following structure:
 

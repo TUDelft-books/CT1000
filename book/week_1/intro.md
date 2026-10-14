@@ -1,3 +1,3 @@
-# Week 1 (September 1st)
+# Week 1 (August 31)
 
 {{week1}}

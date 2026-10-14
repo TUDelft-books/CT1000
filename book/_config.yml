@@ -8,11 +8,12 @@ execute:
 
 only_build_toc_files: true
 
-
 html:
-  baseurl :  https://oit.tudelft.nl/CT1000/2025"
+  baseurl :  https://oit.tudelft.nl/CT1000/2026"
 
 sphinx:
+  local_extensions:
+    bib_href: _ext/
   config:
     html_js_files:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
@@ -21,18 +22,18 @@ sphinx:
       exclude_patterns: ["**/**"]
     html_theme_options:
       logo: {
-        text: CTS1000 Structural Mechanics 2025/2026
+        text: CTS1000 Structural Mechanics 2026/2027
       }
       repository_url: "https://github.com/TUDelft-books/CT1000"
       path_to_docs: "book"
-      repository_branch: "2025"
+      repository_branch: "2026-draft"
       use_repository_button: true
       use_edit_page_button: true
       use_issues_button : true
       launch_buttons:
         thebe: true
 # START REMOVE-FROM-RELEASE
-      announcement: "<p>This book is not the version shared with students. That one is available here <a href='https://oit.tudelft.nl/CT1000/2025' style='color: cyan;'>oit.tudelft.nl/CT1000/2025</a></p>"
+      announcement: "<p>This book is not the version shared with students. That one is available here <a href='https://oit.tudelft.nl/CT1000/2026' style='color: cyan;'>oit.tudelft.nl/CT1000/2026</a></p>"
     keep_warnings: true
 # END REMOVE-FROM-RELEASE
     html_show_copyright: false
@@ -48,6 +49,10 @@ sphinx:
     tud_change_titlesize: false
     html_last_updated_fmt: ''                        # Adds the date of the last update to the footer
     git_show_all_authors: true
+    git_author_aliases:
+      GitHub Action: Tom van Woudenberg
+      fmessali: Francesco Messali
+      copilot-swe-agent[bot]: Tom van Woudenberg
   extra_extensions:
     - teachbooks_favourites
     - sphinx_tudelft_theme
@@ -73,7 +78,7 @@ parse:
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
       |Homework deadlines ||||||Wednesday: [Read theory and make homework exercises Statics externally](homework2.2) <br>{bdg-secondary}`Prerequisites`|
-      |Class activities| [Introduction course and prerequisite test 1](lesson1.1) <br> {bdg-secondary-line}`Prerequisites` ||[Prerequisites test](lesson1.2) <br> {bdg-secondary-line}`Prerequisites` || [Evaluation test](lesson1.3) {bdg-secondary-line}`Prerequisites`|
+      |Class activities|||[Introduction course and prerequisite test 1](lesson1.1) <br> {bdg-secondary-line}`Prerequisites` |[Prerequisites test](lesson1.2) <br> {bdg-secondary-line}`Prerequisites` | [Evaluation test](lesson1.3) {bdg-secondary-line}`Prerequisites`|
     week2: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
@@ -82,63 +87,63 @@ parse:
     week3: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |[Read theory and make homework exercises equilibrium relations and cables](homework3.1) <br>{bdg-secondary}`Prerequisites` ||[Read theory and make homework exercises constitutive and kinematic equations, and MatrixFrame](homework3.2)  <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises differential equations and SymPy](homework3.3) <br>{bdg-primary}`New content`|Monday: [Read theory and make homework exercises Extension](homework4.2) <br>{bdg-secondary}`Prerequisites`|
-      |Class activities| [Guided practice on equilibrium relations and cables](lesson3.1) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on constitutive and kinematic equations, and MatrixFrame](lesson3.2) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on differential equations and SymPy](lesson3.3) <br>{bdg-primary-line}`New content`|
+      |Homework deadlines |[Read theory and make homework exercises equilibrium relations and cables](homework3.1) <br>{bdg-secondary}`Prerequisites` ||[Read theory and make homework exercises constitutive and kinematic equations](homework3.2)  <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises differential equations and SymPy](homework3.3) <br>{bdg-primary}`New content`|Monday: [Read theory and make homework exercises Extension](homework4.2) <br>{bdg-secondary}`Prerequisites`|
+      |Class activities| [Guided practice on equilibrium relations and cables](lesson3.1) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on constitutive and kinematic equations](lesson3.2) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on differential equations and SymPy](lesson3.3) <br>{bdg-primary-line}`New content`|
     week4: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
       |Homework deadlines |||[Read theory and make homework exercises statical determinacy and extension](homework4.2) <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises extension and Williot](homework4.3) <br>{bdg-secondary}`Prerequisites`|Monday: [Read theory and make homework exercises Force method extension](homework5.1) <br>{bdg-primary}`New content`|
       |Class activities|[Demonstration force method extension](lesson4.1) <br>{bdg-primary-line}`New content`||[Guided practice on statical determinacy and extension](lesson4.2) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on extension and Williot](lesson4.3) <br>{bdg-secondary-line}`Prerequisites`|
     week5: |
-      ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
-      |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |[Read theory and make homework exercises Force method extension](homework5.1) <br>{bdg-primary}`New content`||||[Read theory and make homework exercises internal forces bending](homework5.3)  <br>{bdg-secondary}`Prerequisites`|Monday: [Read theory and make homework exercises displacement bending](homework6.1) <br>{bdg-secondary}`Prerequisites`|
-      |Class activities|[Guided practice on force method extension](lesson5.1) <br>{bdg-primary-line}`New content`|| [Demonstration Force method bending](lesson5.2) <br>{bdg-primary-line}`New content`||[Guided practice on Section force diagrams](lesson5.3) <br>{bdg-secondary-line}`Prerequisites`|
+      ||Monday morning|Monday afternoon|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
+      |:-:|:-:|:-:|:-:|:--:|:-:|:-:|:-:|
+      |Homework deadlines |[Read theory and make homework exercises Force method extension](homework5.1) <br>{bdg-primary}`New content`|||||[Read theory and make homework exercises internal forces bending](homework5.3)  <br>{bdg-secondary}`Prerequisites`|Monday: [Read theory and make homework exercises displacement bending](homework6.1) <br>{bdg-secondary}`Prerequisites`|
+      |Class activities|[Guided practice on force method extension](lesson5.1) <br>{bdg-primary-line}`New content`|[Demonstration Force method bending](lesson5.2) <br>{bdg-primary-line}`New content`||||[Guided practice on Section force diagrams](lesson5.3) <br>{bdg-secondary-line}`Prerequisites`|
     week6: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |[Read theory and make homework exercises displacement bending](homework6.1) <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises force method bending beams](homework6.2) <br>{bdg-primary}`New content`|| [Read theory and make homework exercises force method bending frames](homework6.3) <br>{bdg-primary}`New content` |Wednesday: [Read theory and make homework exercises displacement method](homework7.2) <br>{bdg-primary}`New content`|
+      |Homework deadlines |[Read theory and make homework exercises displacement bending](homework6.1) <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises force method bending beams](homework6.2) <br>{bdg-primary}`New content`|| [Read theory and make homework exercises force method bending frames](homework6.3) <br>{bdg-primary}`New content` |Wednesday: [Read theory and make homework exercises Displacement method](homework7.2) <br>{bdg-primary}`New content`|
       |Class activities| [Guided practice on displacement bending](lesson6.1) <br>{bdg-secondary-line}`Prerequisites`||[Guided practice on force method bending beams](lesson6.2) <br>{bdg-primary-line}`New content`||[Read theory and make homework exercises force method frames](homework6.3) <br>{bdg-primary-line}`New content`|
     week7: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |||[Read theory and make homework exercises Displacement method](homework7.2) <br>{bdg-primary}`New content`||[Read theory and make homework exercises displacement method 2 and matrix method](homework8.2) <br>{bdg-primary}`New content`|Thursday: [Read theory and make homework exercises stiffness discontinuities and support settlement](homework8.2) <br>{bdg-primary}`New content`|
-      |Class activities| [Demonstration Displacement method](lesson7.1) <br>{bdg-primary-line}`New content`||[Guided practice on Displacement method](lesson7.2) <br>{bdg-primary-line}`New content`||[Guided practice on displacement method 2 and matrix method](lesson7.3) <br>{bdg-primary-line}`New content`|
+      |Homework deadlines |||[Read theory and make homework exercises Displacement method](homework7.2) <br>{bdg-primary}`New content`||[Read theory and make homework exercises matrix method](homework7.3) <br>{bdg-primary}`New content`||Wednesday: [Read theory and make homework exercises Stiffness discontinuities and support settlement](homework8.2) <br>{bdg-primary}`New content`|
+      |Class activities| [Demonstration Displacement method](lesson7.1) <br>{bdg-primary-line}`New content`||[Guided practice on Displacement method](lesson7.2) <br>{bdg-primary-line}`New content`|[Guided practice on matrix method](lesson7.3) <br>{bdg-primary-line}`New content`||
     week8: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines ||||[Read theory and make homework exercises Stiffness discontinuities and support settlement](homework8.2) <br>{bdg-primary}`New content`|[Read theory and make homework exercises temperature influences](homework8.3) <br>{bdg-primary}`New content`|Friday week 10: [Prepare for exam assignment Statically indeterminate structures](homework10) <br>{bdg-primary}`New content` <br> {bdg-secondary}`Prerequisites`|
-      |Class activities|[Demonstration support settlement, stiffness discontinuities and temperature influences](lesson8.1)|||[Guided practice on Stiffness discontinuities and support settlement](lesson8.2) <br>{bdg-primary-line}`New content`|[Guided practice on temperature influences](lesson8.3) <br>{bdg-primary-line}`New content`|
+      |Homework deadlines |||[Read theory and make homework exercises Stiffness discontinuities and support settlement](homework8.2) <br>{bdg-primary}`New content`||[Read theory and make homework exercises temperature influences](homework8.3) <br>{bdg-primary}`New content`|Tuesday week 10: [Prepare for exam assignment Statically indeterminate structures](homework10) <br>{bdg-primary}`New content` <br> {bdg-secondary}`Prerequisites`|
+      |Class activities|[Demonstration support settlement, stiffness discontinuities and temperature influences](lesson8.1)||[Guided practice on Stiffness discontinuities and support settlement](lesson8.2) <br>{bdg-primary-line}`New content`||[Guided practice on temperature influences](lesson8.3) <br>{bdg-primary-line}`New content`|
     week10: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |||||[Prepare for exam assignment Statically indeterminate structures](homework10) <br>{bdg-primary}`New content` <br> {bdg-secondary}`Prerequisites`|Friday: [Read theory and make homework exercise cross-sectional properties](homework11.3) <br>{bdg-secondary}`Prerequisites`|
-      |Class activities|||||[Exam assignment 1 statically indeterminate structures](exam1) <br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`|
+      |Homework deadlines ||[Prepare for exam assignment Statically indeterminate structures](homework10) <br>{bdg-primary}`New content` <br> {bdg-secondary}`Prerequisites`||||Friday: [Read theory and make homework exercise cross-sectional properties](homework11.3) <br>{bdg-secondary}`Prerequisites`|
+      |Class activities||[Exam assignment 1 statically indeterminate structures](exam1) <br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`||||
     week11: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines ||[Read theory and make homework exercise cross-sectional properties](homework11.2) <br>{bdg-secondary}`Prerequisites`|||[Read theory and make homework exercise normal stresses](homework11.3) <br>{bdg-secondary}`Prerequisites`|Monday: [Read theory and make homework exercise shear stresses in bending elements](homework12.1) <br>{bdg-secondary}`Prerequisites`|
-      |Class activities|[Review exam assignment 1 statically indeterminate structures](lesson11.1)<br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites` <br> [Demonstration transforming stress- and strain tensors](lesson11.1) <br>{bdg-primary-line}`New content`|[Guided practice on cross-sectional properties](lesson11.2) <br> {bdg-secondary-line}`Prerequisites`|||[Guided practice on normal stresses](lesson11.3)<br>{bdg-secondary-line}`Prerequisites`|
+      |Homework deadlines ||[Read theory and make homework exercise cross-sectional properties](homework11.2) <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercise normal stresses](homework11.3) <br>{bdg-secondary}`Prerequisites`||Monday: [Read theory and make homework exercise shear stresses in bending elements](homework12.1) <br>{bdg-secondary}`Prerequisites`|
+      |Class activities|[Review exam assignment 1 statically indeterminate structures](lesson11.1)<br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites` <br> [Demonstration transforming stress- and strain tensors](lesson11.1) <br>{bdg-primary-line}`New content`|[Guided practice on cross-sectional properties](lesson11.2) <br> {bdg-secondary-line}`Prerequisites`||[Guided practice on normal stresses](lesson11.3)<br>{bdg-secondary-line}`Prerequisites`||
     week12: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |[Read theory and make homework exercise shear stresses in bending elements](homework12.1) <br>{bdg-secondary}`Prerequisites`|[Read theory and make homework exercise core of cross-section](homework12.2) <br>{bdg-secondary}`Prerequisites`|||[Read theory and make homework exercises transforming tensors](homework12.3) <br>{bdg-primary}`New content`|Monday: [Read theory and make homework exercises on stress-strain relations](homework13.1) <br>{bdg-primary}`New content`|
-      |Class activities|[Guided practice on shear stresses in bending elements](lesson12.1) <br>{bdg-secondary-line}`Prerequisites`|[Guided practice on core of cross-section](lesson12.2) <br> {bdg-secondary-line}`Prerequisites`|||[Guided practice on transforming tensors](lesson12.3)<br>{bdg-primary-line}`New content`|
+      |Homework deadlines |[Read theory and make homework exercise shear stresses in bending elements](homework12.1) <br>{bdg-secondary}`Prerequisites`|[Read theory and make homework exercise core of cross-section](homework12.2) <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercises transforming tensors](homework12.3) <br>{bdg-primary}`New content`||Monday: [Read theory and make homework exercises on stress-strain relations](homework13.1) <br>{bdg-primary}`New content`|
+      |Class activities|[Guided practice on shear stresses in bending elements](lesson12.1) <br>{bdg-secondary-line}`Prerequisites`|[Guided practice on core of cross-section](lesson12.2) <br> {bdg-secondary-line}`Prerequisites`||[Guided practice on transforming tensors](lesson12.3)<br>{bdg-primary-line}`New content`||
     week13: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |[Read theory and make homework exercise on stress-strain relations](homework13.1) <br>{bdg-primary}`New content`||||[Read theory and make homework exercise shear force centre](homework13.3) <br>{bdg-secondary}`Prerequisites`|Monday: [Read theory and make homework exercise torsional internal forces](homework14.1) <br>{bdg-secondary}`Prerequisites`|
-      |Class activities|[Guided practice on stress-strain relations](lesson13.1) <br>{bdg-primary-line}`New content`|[Demonstration failure criteria](lesson13.2) <br>{bdg-primary-line}`New content`|||[Guided practice on shear force centre](lesson13.3) <br>{bdg-secondary-line}`Prerequisites`|
+      |Homework deadlines |[Read theory and make homework exercise on stress-strain relations](homework13.1) <br>{bdg-primary}`New content`|||[Read theory and make homework exercise shear force centre](homework13.3) <br>{bdg-secondary}`Prerequisites`||Monday: [Read theory and make homework exercise torsional internal forces](homework14.1) <br>{bdg-secondary}`Prerequisites`|
+      |Class activities|[Guided practice on stress-strain relations](lesson13.1) <br>{bdg-primary-line}`New content`|[Demonstration failure criteria](lesson13.2) <br>{bdg-primary-line}`New content`||[Guided practice on shear force centre](lesson13.3) <br>{bdg-secondary-line}`Prerequisites`||
     week14: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |[Read theory and make homework exercise torsional internal forces](homework14.1) <br>{bdg-secondary}`Prerequisites`|[Read theory and make homework exercise shear stresses in torsional elements](homework14.2) <br>{bdg-secondary}`Prerequisites`|||[Read theory and make homework exercise failure citeria](homework14.3) <br>{bdg-primary}`New content`|Wednesday: [Prepare for exam assignments statically indeterminate structure and continuum mechanics](homework15.1) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`|
-      |Class activities|[Guided practice on torsional internal forces](lesson14.1)<br>{bdg-secondary-line}`Prerequisites`|[Guided practice on shear stresses in torsional elements](lesson14.2)<br>{bdg-secondary-line}`Prerequisites`|||[Guided practice on failure criteria](lesson14.3) <br> {bdg-primary-line}`New content`|
+      |Homework deadlines |[Read theory and make homework exercise torsional internal forces](homework14.1) <br>{bdg-secondary}`Prerequisites`|[Read theory and make homework exercise shear stresses in torsional elements](homework14.2) <br>{bdg-secondary}`Prerequisites`||[Read theory and make homework exercise failure citeria](homework14.3) <br>{bdg-primary}`New content`||Wednesday: [Prepare for exam assignments statically indeterminate structure and continuum mechanics](homework15.1) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`|
+      |Class activities|[Guided practice on torsional internal forces](lesson14.1)<br>{bdg-secondary-line}`Prerequisites`|[Guided practice on shear stresses in torsional elements](lesson14.2)<br>{bdg-secondary-line}`Prerequisites`||[Guided practice on failure criteria](lesson14.3) <br> {bdg-primary-line}`New content`||
     week15: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines ||[Prepare for exam assignments statically indeterminate structure and continuum mechanics](homework15.1) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`||||[End-of-week homework Systems with 1 dof](homework16) <br>{bdg-primary}`New content`|
-      |Class activities||[Exam assignment 2 statically indeterminate structure and 1 continuum mechanics](exam2) <br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`||[Review exam assignment 2 statically indeterminate structures and assignment 1 continuum mechanics](lesson15.2)<br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`||
+      |Homework deadlines |||[Prepare for exam assignments statically indeterminate structure and continuum mechanics](homework15.1) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`|||[End-of-week homework Systems with 1 dof](homework16) <br>{bdg-primary}`New content`|
+      |Class activities|||[Exam assignment 2 statically indeterminate structure and 1 continuum mechanics](exam2) <br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`|[Review exam assignment 2 statically indeterminate structures and assignment 1 continuum mechanics](lesson15.2)<br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`||
     week16: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
@@ -152,15 +157,15 @@ parse:
     week18: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |||||[End-of-week homework Flexural buckling, Eulerian approach](homework18) <br>{bdg-primary}`New content`|Friday week 20: [Prepare for exam assignments continuum mechanics and buckling](homework20)<br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`|
+      |Homework deadlines |||||[End-of-week homework Flexural buckling, Eulerian approach](homework18) <br>{bdg-primary}`New content`|Thursday week 20: [Prepare for exam assignments continuum mechanics and buckling](homework20)<br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`|
       |Class activities|Lecture <br>{bdg-primary-line}`New content`|Lecture <br>{bdg-primary-line}`New content`||Lecture <br>{bdg-primary-line}`New content`|
     week20: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|Upcoming homework|
       |:-:|:-:|:-:|:-:|:--:|:-:|:-:|
-      |Homework deadlines |||||[Prepare for exam assignments continuum mechanics and buckling](homework20) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`|Monday week 30: [Prepare for exam assignments continuum mechanics and buckling](homework30) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`
-      |Class activities|||||[Exam assignment 2 continuum mechanics and 1 buckling](exam3) <br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`|
+      |Homework deadlines ||||[Prepare for exam assignments continuum mechanics and buckling](homework20) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`||Monday week 25: [Prepare for exam assignments continuum mechanics and buckling](homework30) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`
+      |Class activities||||[Exam assignment 2 continuum mechanics and 1 buckling](exam3) <br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`||
     week30: |
       ||Monday|Tuesday|Wednesday|Thursday|Friday|
       |:-:|:-:|:-:|:-:|:--:|:-:|
-      |Homework deadlines ||||[Prepare for exam assignment buckling](homework30) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`|
-      |Class activities||||[Exam assignment 2 buckling](exam4) <br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`|
+      |Homework deadlines |[Prepare for exam assignment buckling](homework30) <br>{bdg-primary}`New content`<br>{bdg-secondary}`Prerequisites`||||
+      |Class activities|[Exam assignment 2 buckling](exam4) <br>{bdg-primary-line}`New content` <br> {bdg-secondary-line}`Prerequisites`||||

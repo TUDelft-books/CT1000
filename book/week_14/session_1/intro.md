@@ -4,7 +4,7 @@
 ```
 
 (lesson14.1)=
-# Lesson December 1st
+# Lesson Monday
 
 During today's lesson you'll work on a complex exercise on the topic of the Internal forces and displacement due to torsion. Please ask your questions regarding the [homework](homework14.1) as well!
 

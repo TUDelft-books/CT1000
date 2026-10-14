@@ -5,7 +5,7 @@
 
 
 (lesson11.1)=
-# Lesson November 10th
+# Lesson Monday
 
 Today we'll discuss the results of the first [exam assignment on Statically indeterminate structures](exam1).
 

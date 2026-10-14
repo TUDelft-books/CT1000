@@ -1,3 +1,3 @@
-# Week 20 (January 26th)
+# Week 20 (January 25)
 
 {{week20}}

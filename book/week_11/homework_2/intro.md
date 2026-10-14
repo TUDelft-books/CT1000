@@ -1,5 +1,5 @@
 (homework11.2)=
-# Homework deadline lesson Tuesday November 11th
+# Homework for Tuesday
 
 As a preparation for Tuesday's lesson you'll look into cross sectional properties, mainly the static moment of area and the moment of inertia.
 

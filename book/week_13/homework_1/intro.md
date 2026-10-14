@@ -1,5 +1,5 @@
 (homework13.1)=
-# Homework deadline lesson Monday November 24th
+# Homework for Monday
 
 As a preparation for Monday's lesson you'll look into stress-strain relationships:
 

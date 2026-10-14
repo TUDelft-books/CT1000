@@ -1,4 +1,0 @@
-[submodule "book/external/CEG-mechanics-BSc"]
-	path = book/external/CEG-mechanics-BSc
-	url = https://github.com/TUDelft-books/CEG-mechanics-BSc.git
-	branch = EN

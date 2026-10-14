@@ -1,5 +1,5 @@
 (homework15.1)=
-# Preparation exam assignments Tuesday December 9th
+# Preparation exam Wednesday
 
 ```{include} ../../exam_indeterminate.md
 ```

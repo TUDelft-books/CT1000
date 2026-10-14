@@ -1,5 +1,5 @@
 (homework6.2)=
-# Homework deadline lesson Wednesday October 8th
+# Homework for Wednesday
 
 As a preparation for Wednesday's lesson you'll look into Force method for bending in beams:
 

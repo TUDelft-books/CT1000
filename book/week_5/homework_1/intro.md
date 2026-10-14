@@ -1,7 +1,7 @@
 (homework5.1)=
-# Homework deadline lesson Monday September 29th
+# Homework for Monday morning
 
-As a preparation for Monday's lesson you'll look into the force method for truss structures:
+As a preparation for Monday morning's lesson you'll look into the force method for truss structures:
 
 ```{tableofcontents}
 ```

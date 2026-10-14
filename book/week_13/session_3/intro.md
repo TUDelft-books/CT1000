@@ -2,7 +2,7 @@
 ```
 
 (lesson13.3)=
-# Lesson November 28th
+# Lesson Thursday
 
 During today's lesson you'll work on a complex exercise on the topic of the Shear force centre. Please ask your questions regarding the [homework](homework13.3) as well!
 

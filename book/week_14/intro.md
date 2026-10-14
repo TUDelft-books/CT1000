@@ -1,3 +1,3 @@
-# Week 14 (December 1st)
+# Week 14 (November 30)
 
 {{week14}}

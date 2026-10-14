@@ -37,10 +37,12 @@ The learning will be assessed incrementally:
 - Exam week period Q1, exam assignment on statically indeterminate structures
 - Halfway Q2, exam assignments on statically indeterminate structures and continuum mechanics
 - Exam week period Q2, exam assignments on buckling and continuum mechanics
-- Exam week Q3, exam assignments on buckling.
+- Halfway Q3, exam assignments on buckling.
 
-During the exam assignments, you're allowed to bring your books, notes, etc. and you're allowed to use your laptop including software like SymPy. You're not allowed to communicate during the exam session, which will be strictly monitored. Furthermore, you're not allowed to use structural analysis software.
+There's no need to register for the exam like in other courses. Just show up in the exam room!
 
-For each exam sessions(consisting of one or more assignments) you'll have three hours.
+During the exam assignments, you're allowed to bring your books, notes, etc. Except for a calculator, you're not allowed to use any other tools.
+
+For each exam sessions (consisting of one or more assignments) you'll have three hours.
 
 You pass the courses when you scores sufficient (minimum 6.0) for an assignments on each of the subjects. Each subject is graded separately as a partial grade.

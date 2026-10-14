@@ -6,11 +6,9 @@
 ```
 
 (lesson8.1)=
-# Lesson October 20th
+# Lesson Monday
 
-During today's lesson it's demonstrated how you to handle Temperature influences, stiffness discontinuities and support settlement for statically indeterminate structures.
-
-% source files at https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
+During today's lesson it's demonstrated how you to handle temperature influences, stiffness discontinuities and support settlement for statically indeterminate structures. Furthermore, we'll introduce two more methods for solving statically indeterminate structures: the displacement method using degrees of freedom and the matrix method.
 
 ## Stiffness discontinuities
 
@@ -18,6 +16,8 @@ Let's investigate the stiffness discontinuities first. Consider the following st
 
 ```{figure} intro_data/temp_infl.svg
 :align: center
+:number:
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 In which we will investigate the influence of a varying stiffness of $\rm{AC}$ on the displacement of $\rm{D}$. There are two approaches to do this: (1) do the calculation including a multiplication factor $n$ for the stiffness of $\rm{AC}$, or (2) investigating the extremes by simplifying the structure by replacing $\rm{AC}$ with an infinite stiff member and a zero stiff member.
@@ -30,12 +30,14 @@ We'll solve the structure by using the displacement method with the rotation of 
 
 ```{figure} intro_data/phi_C.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 For $\rm{AC}$ this gives:
 
 ```{figure} intro_data/AC.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$\varphi_{\rm{C}} = \cfrac{M_{\rm{AC}} \cdot 4}{3 \cdot n \cdot 320000} \to M_{\rm{AC}} = 240000 \cdot n \cdot \varphi_{\rm{C}}$$
@@ -44,6 +46,7 @@ For $\rm{BC}$ this gives:
 
 ```{figure} intro_data/BC.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$\varphi_{\rm{C}} = \cfrac{M_{\rm{AC}} \cdot 5}{4 \cdot 320000} \to M_{\rm{AC}} = 256000 \varphi_{\rm{C}}$$
@@ -52,6 +55,7 @@ Now $\varphi_{\rm{C}}$ can be determined:
 
 ```{figure} intro_data/Meven.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$
@@ -62,6 +66,7 @@ Now, the displacement of $\rm{D}$ can be determined by extending the rotation of
 
 ```{figure} intro_data/CD.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$
@@ -76,6 +81,7 @@ This result can be plotted for different values of $n$:
 
 ```{figure} intro_data/plot.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 #### Extreme cases
@@ -86,6 +92,7 @@ For $n \to \infty$, no rotation is allowed in $\rm{C}$, which reduces the struct
 
 ```{figure} intro_data/CD.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 Which gives a displacement using forget-me-nots of:
@@ -112,6 +119,7 @@ For $n = 0$, member $\rm{AC}$ doesn't give rotational stiffness to node $\rm{C}$
 
 ```{figure} intro_data/EI0.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 Which is a statically indeterminate structure which can be solved with any method of your choice. It will lead to:
@@ -136,6 +144,7 @@ Next, let's investigate the influence of support settlement. Consider the follow
 
 ```{figure} intro_data/supp_settlement.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 For statically indeterminate structures, the support settlements will cause internal forces and moments in the structure, as opposed to statically determinate structures where support settlements only causes rigid body displacements
@@ -146,18 +155,21 @@ The degree of statical determinacy can be found by evaluating the external stati
 
 ```{figure} intro_data/stat_onbepaaldheid.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 There are 5 support reaction and one rigid body with 3 equilibrium equations, so the structure is statically indeterminate to the second degree. So, the strucutre is made statical determinate by releasing both the horizontal and vertical support at $\rm{A}$:
 
 ```{figure} intro_data/stat_bepaald.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 The shear force and bending moment just right of $\rm{C}$ can be determined using equilibrium:
 
 ```{figure} intro_data/VCMC.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$
@@ -169,6 +181,7 @@ The displacement and rotation of $\rm{C}$ can be determined with forget-me-nots 
 
 ```{figure} intro_data/BC2.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 $$
@@ -186,7 +199,9 @@ Now, the displacement of $\rm{A}$ can be determined with the vertical displaceme
 
 ```{figure} intro_data/AC2.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
+
 $$
 \begin{align*}
 w_{\rm{A_v}} &= w_{\rm{C}} \\
@@ -222,6 +237,7 @@ Finally, let's investigate the influence of temperature changes. Consider the fo
 
 ```{figure} intro_data/temp.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 In this structure, the beam $\rm{DCB}$ is warmed up. The top side expands most, while the bottom fibre doesn't expand. The expansion can be defined with $\epsilon^{\rm{T}}$ and $\kappa^{\rm{T}}$. These can be calculated with:
@@ -235,6 +251,7 @@ These strains and curvatures wouldn't cause internal forces in a statically dete
 
 ```{figure} intro_data/stat_bepaald_temp.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
 
 To calculate the displacements based on the known strains, the displacement can simply be calculated with $\Delta L = \epsilon \cdot L$. For the displacement due to curvature, the curvature can be found by including a kinematic equivalent force, which would lead to the same curvature. This force can be found by $M^{\rm{T}} = E I \cdot \kappa^{\rm{T}}$, which gives:
