@@ -185,7 +185,6 @@ parts:
   - file: week_8/intro
     sections:
     - file: week_8/session_1/intro
-# START REMOVE-FROM-PUBLISH
     - file: week_8/homework_2/intro
       sections:
       - file: week_8/homework_2/theorie1.md
@@ -207,6 +206,7 @@ parts:
   - file: week_10/intro
     sections:
     - file: week_10/homework/intro
+# START REMOVE-FROM-PUBLISH
     - file: week_10/session/intro
   - file: week_11/intro
     sections:
