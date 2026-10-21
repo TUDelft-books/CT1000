@@ -9,7 +9,7 @@ Today you'll make the first exam assignment covering Statically indeterminate st
 ## Exam assignment
 Your own submission and its grading can be found here: [<img height="12px" src="../../figures/ANS.svg" alt="ANS" class="no-zoomies"> exam assignment Statically indeterminate structures 1](https://ans.app/universities/1/courses/714632/assignments/1937243/go_to). The exam assignment was provided as follows:
 
-Given is the structure as shown in the figure below.
+Given is the following structure:
 
 ```{figure} ./lesson_data/constructie1.svg
 :align: center
@@ -55,6 +55,8 @@ For each of the variants:
 
 ::::::{admonition} Solution
 :class: solution, dropdown
+
+For example the following variants.
 
 :::::{grid}
 :class-container: center-grid
@@ -226,7 +228,7 @@ This gives the following deformations:
 
 :::::
 
-The angle $\varphi_{\rm{D}}^{\rm{AD}}$ can be calculated using the forget-me-not for a cantilever beam with an end moment:
+The rotation $\varphi_{\rm{D}}^{\rm{AD}}$ can be calculated using the forget-me-not for a cantilever beam with an end moment:
 
 $$ \varphi_{\rm{D}}^{\rm{AD}} = - \cfrac{M_{\rm{D}} \cdot 3}{3 \cdot 62720} = - \cfrac{3 \cdot M_{\rm{D}}}{62720} $$
 
@@ -250,7 +252,7 @@ The vertical displacement of $\rm{C}$ can now be calculated from the elongation 
 
 $$ w_{\rm{C}} = \cfrac{N_{\rm{BC}} \cdot 3}{14.4 \cdot 10^3} = \cfrac{7}{300} + \cfrac{M_{\rm{D}}}{33600} \left( \downarrow \right) $$
 
-The angle $\varphi_{\rm{D}}^{\rm{CD}}$ can be calculated using the forget-me-nots for a simply supported beam with an end moment and a simply supported beam under a distributed load, together with the rigid-body rotation caused by the vertical displacement of $\rm{C}$:
+The rotation $\varphi_{\rm{D}}^{\rm{CD}}$ can be calculated using the forget-me-nots for a simply supported beam with an end moment and a simply supported beam under a distributed load, together with the rigid-body rotation caused by the vertical displacement of $\rm{C}$:
 
 $$ \varphi_{\rm{D}}^{\rm{CD}} = \cfrac{M_{\rm{D}} \cdot 7}{3 \cdot 62720} + \cfrac{32 \cdot 7^3}{24 \cdot 62720} + \cfrac{w_{\rm{C}}}{7} = \cfrac{17}{1600} + \cfrac{13 \cdot M_{\rm{D}}}{313600} $$
 
