@@ -17,13 +17,26 @@ q = sym.Integer(32)
 
 M_D = sym.symbols('M_D')
 
-phi_D_AD = M_D * L3 / EI
+phi_D_AD = - M_D * L3 / EI
+
+print('phi_D_AD: ', phi_D_AD)
 
 print(phi_D_AD.subs(M_D, 316.2))
 
 N_BC = q * L2 / 2 + M_D / L2
 
-phi_D_CD = -M_D * L2 / EI / 3 - q / 24 * L2**3 / EI - N_BC * L1 / EA / L2 
+print('N_BC: ', N_BC)
+
+w_C = N_BC * L1 / EA
+
+print('w_C: ', w_C)
+
+phi_D_CD = M_D * L2 / EI / 3 + q / 24 * L2**3 / EI + N_BC * L1 / EA / L2 
+
+print(q / 24 * L2**3 / EI)
+print(N_BC * L1 / EA / L2)
+
+print('phi_D_CD: ', phi_D_CD)
 
 eq1 = sym.Eq(phi_D_AD, phi_D_CD)
 
