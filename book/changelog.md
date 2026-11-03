@@ -4,6 +4,7 @@
 
 ## 2026-11-03: v2026.19.0
 - Added [Week 10 - Exam Tuesday](./week_10/session/intro.md)
+- Added [Week 11](./week_11/intro.md)
 
 ## 2026-10-15: v2026.18.0
 - Added remainder [week 8](./week_8/intro.md)
