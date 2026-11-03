@@ -348,8 +348,8 @@ $$M_{\rm{C}} = 10 \cdot D_{\rm{v}}$$
 
 The rotations at $\rm{B}$ and $\rm{C}$ can be determined by superposing the bending deformation and the free deformation calculated in the previous exercise. For the bending deformation, use the forget-me-not for a simply supported beam subjected to a moment.
 
-$$ \varphi_{\rm{B}} \left( A_{\rm{v}}, D_{\rm{v}} \right) = -\cfrac{10 \cdot A_{\rm{v}} \cdot 10}{3 \cdot \cfrac{250}{3} \cdot n\cdot 1000} - \cfrac{10 \cdot D_{\rm{v}} \cdot 10}{6 \cdot \cfrac{250}{3} \cdot n\cdot 1000} + 0.0025 = -0.0004 \cdot \cfrac{A_{\rm{v}}}{n} -0.0002 \cdot \cfrac{D_{\rm{v}}}{n} + 0.0025 $$
-$$ \varphi_{\rm{C}} \left( A_{\rm{v}}, D_{\rm{v}} \right) = \cfrac{10 \cdot A_{\rm{v}} \cdot 10}{6 \cdot \cfrac{250}{3} \cdot n\cdot 1000} + \cfrac{10 \cdot D_{\rm{v}} \cdot 10}{3 \cdot \cfrac{250}{3} \cdot n\cdot 1000} + 0.0025 = 0.0002 \cdot \cfrac{A_{\rm{v}}}{n} + 0.0004 \cdot \cfrac{D_{\rm{v}}}{n} + 0.0025 $$
+$$ \varphi_{\rm{B}} \left( A_{\rm{v}}, D_{\rm{v}} \right) = -\cfrac{10 \cdot A_{\rm{v}} \cdot 10}{3 \cdot \cfrac{250}{3} \cdot n\cdot 1000} - \cfrac{10 \cdot D_{\rm{v}} \cdot 10}{6 \cdot \cfrac{250}{3} \cdot n\cdot 1000} = -0.0004 \cdot \cfrac{A_{\rm{v}}}{n} -0.0002 \cdot \cfrac{D_{\rm{v}}}{n} $$
+$$ \varphi_{\rm{C}} \left( A_{\rm{v}}, D_{\rm{v}} \right) = \cfrac{10 \cdot A_{\rm{v}} \cdot 10}{6 \cdot \cfrac{250}{3} \cdot n\cdot 1000} + \cfrac{10 \cdot D_{\rm{v}} \cdot 10}{3 \cdot \cfrac{250}{3} \cdot n\cdot 1000} = 0.0002 \cdot \cfrac{A_{\rm{v}}}{n} + 0.0004 \cdot \cfrac{D_{\rm{v}}}{n} $$
 
 The deflections at $\rm{A}$ and $\rm{D}$ can be determined by superposing the free deformation of the structure, the bending deformation of segment $\rm{BC}$, and the bending deformations of segments $\rm{AB}$ and $\rm{CD}$.
 
