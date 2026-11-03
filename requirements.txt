@@ -1,5 +1,4 @@
-#teachbooks
-git+https://github.com/TeachBooks/TeachBooks@Tom-van-Woudenberg-patch-1 #awaiting for PR to merge
+teachbooks #BUMP
 
 sphinx-tudelft-theme #BUMP
 
