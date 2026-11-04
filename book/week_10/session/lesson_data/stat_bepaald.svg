@@ -116,7 +116,7 @@
 			<title>reactiekracht (scharnier/inwendig)</title>
 			<path d="M7.55 317.85 L7.91 317.85 L28.35 317.85" class="st11"/>
 		</g>
-		<g id="shape2453-70" v:mID="2453" v:groupContext="shape" transform="translate(10.107,-123.493)">
+		<g id="shape2453-70" v:mID="2453" v:groupContext="shape" transform="translate(38.4535,-130.579)">
 			<title>reactiekracht (scharnier/inwendig).2453</title>
 			<path d="M7.55 317.85 L7.91 317.85 L28.35 317.85" class="st11"/>
 		</g>
@@ -171,5 +171,16 @@
 			<v:textRect cx="7.08661" cy="310.765" width="14.18" height="14.1732"/>
 			<rect x="0" y="303.679" width="14.1732" height="14.1732" class="st13"/>
 			<text x="4.05" y="314.37" class="st16" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>3</text>		</g>
+		<g id="shape2463-110" v:mID="2463" v:groupContext="shape" transform="translate(38.4534,512.211) rotate(180)">
+			<title>oplegreactie.2463</title>
+			<path d="M7.55 317.85 L7.91 317.85 L28.35 317.85" class="st8"/>
+		</g>
+		<g id="shape2464-115" v:mID="2464" v:groupContext="shape" transform="translate(17.1936,-102.233)">
+			<title>Blad.2464</title>
+			<desc>1</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="7.08661" cy="310.765" width="14.18" height="14.1732"/>
+			<rect x="0" y="303.679" width="14.1732" height="14.1732" class="st13"/>
+			<text x="4.05" y="314.37" class="st14" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
 	</g>
 </svg>
