@@ -17,10 +17,10 @@ Discussed based on frequently made mistakes as shown in [](../../week_10/session
 
 Given the following structure and cross section.
 
-% source files on https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/transforming_stresses
-
 ```{figure} intro_data/structure.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/transforming_stresses
+:number:
 ```
 
 We'll find the maximum stresses in point $\rm{E}$ in cross-section $\rm{A}$ and its direction.
@@ -30,10 +30,14 @@ First, let's find the internal forces:
 
 ```{figure} intro_data/Mline.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/transforming_stresses
+:number:
 ```
 
 ```{figure} intro_data/Vline.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/transforming_stresses
+:number:
 ```
 
 At cross-section $\rm{A}$ this gives a moment of $-14.6 \rm{ kNm}$ and shear force of $+16 \ \rm{ kN}$.
@@ -54,8 +58,10 @@ $$\sigma_{\rm{max}} = \cfrac{-14600 \cdot -0.150}{72.0288 \cdot 10^{-6}} \approx
 
 Leading to the following diagram:
 
-```{figure} intro_data/normall_stress.svg
+```{figure} intro_data/normal_stresses.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/transforming_stresses
+:number:
 ```
 
 The shear forces can be calculated as:
@@ -72,12 +78,16 @@ Leading to the following diagram:
 
 ```{figure} intro_data/shear_stresses.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/transforming_stresses
+:number:
 ```
 
 The stress state for a rectangular element at point $\rm{E}$ is therefore:
 
 ```{figure} intro_data/element.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/transforming_stresses
+:number:
 ```
 
 #### Find maximum stress
@@ -86,6 +96,8 @@ As the stress can be represented as a tensor. Therefore, a $x,y$-coordinate syst
 
 ```{figure} intro_data/element2.svg
 :align: center
+:source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/transforming_stresses
+:number:
 ```
 
 Leading to the tensor $\sigma$:
