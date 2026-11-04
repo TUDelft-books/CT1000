@@ -114,5 +114,5 @@ $$\sigma_1 = \frac{1}{2} \left(15 + 0\right) + \sqrt{\left(\frac{1}{2}\left(15-0
 With a corresponding angle $\alpha$:
 
 $$
-\alpha = \frac{1}{2} \arctan\left(\cfrac{-6.9}{\frac{1}{2}\left(15-0\right)}\right) \approx 21^{\rm{o}}
+\alpha = \frac{1}{2} \arctan\left(\cfrac{-6.9}{\frac{1}{2}\left(15-0\right)}\right) \approx -21^{\rm{o}}
 $$
