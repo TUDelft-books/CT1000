@@ -22,7 +22,6 @@ This topic is presented (in Dutch) in:
   - Guided exercise 2 is available [here](https://oit.tudelft.nl/CTB1310/2025/shear/lesoefening2.html) (in Dutch).
 - For shear stresses in thin-walled sections, from 0:14:32 to 0:51:12 in [Constructiemechanica 2 2025/2026, lesson 23 February](https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/presentation/0b2feee0b6d0408682a129841ef8a1391d?academicYear=2025-2026-ctb1310):
   - The related background theory and a worked-out example are available [here](https://oit.tudelft.nl/CTB1310/2025/shear_dunwandig/instructie.html) (in Dutch).
-  - Guided exercise 1 is available [here](https://oit.tudelft.nl/CTB1310/2025/shear_dunwandig/lesoefening1.html) (in Dutch).
-  - Guided exercise 2 is available [here](https://oit.tudelft.nl/CTB1310/2025/shear_dunwandig/lesoefening2.html) (in Dutch).
+  - Guided exercise is available [here](https://oit.tudelft.nl/CTB1310/2025/shear_dunwandig/lesoefening1.html) (in Dutch).
 ## Exercises
 - Exercises in chapter 5.8 of the book Engineering Mechanics Volume 2 {cite:p}`Hartsuijker2007`, answers are available on [this website](https://icozct.tudelft.nl/TUD_CT/bookanswers/vol2/Chapter2/): 5.1-5.48, 5.59-5.73, and 5.75-5.80.

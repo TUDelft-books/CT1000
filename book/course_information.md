@@ -45,4 +45,4 @@ During the exam assignments, you're allowed to bring your books, notes, etc. Exc
 
 For each exam sessions (consisting of one or more assignments) you'll have three hours.
 
-You pass the courses when you scores on average are sufficient (with a minimum of 5.0 for each of the subjects). Each subject is graded separately as a partial grade.
+You pass the courses when you scores on average are sufficient (with a minimum of 5.8 for each of the subjects). Each subject is graded separately as a partial grade.
