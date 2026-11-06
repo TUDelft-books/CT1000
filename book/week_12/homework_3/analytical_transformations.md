@@ -15,9 +15,7 @@ This page originates from https://github.com/TUDelft-books/CEG-mechanics-BSc, ve
 ```{index} Tensors
 ```
 
-# Analytical
-
-## Transformations
+# Analytical Transformations
 The rotation matrix R is defined as:
 
 $$\mathrm{R}=\begin{bmatrix}
