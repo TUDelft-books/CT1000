@@ -1,7 +1,7 @@
 (homework12.3)=
 # Homework for Thursday
 
-As a preparation for Thursday's lesson you'll look into Stress and Strain definition, Tensors, and how to Transform those.
+As preparation for Thursday's lesson, you'll look into Stress and Strain definitions in 3D and 2D, and Tensors and how to Transform them.
 These topics can be individually explored:
 
 ```{tableofcontents}
