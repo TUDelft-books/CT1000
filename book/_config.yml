@@ -53,6 +53,7 @@ sphinx:
       GitHub Action: Tom van Woudenberg
       fmessali: Francesco Messali
       copilot-swe-agent[bot]: Tom van Woudenberg
+    myst_links_external_new_tab: true
   extra_extensions:
     - teachbooks_favourites
     - sphinx_tudelft_theme

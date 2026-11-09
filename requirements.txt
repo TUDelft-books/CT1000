@@ -1,4 +1,5 @@
-teachbooks # BUMP to 0.2.2
+teachbooks #BUMP
+
 sphinx-tudelft-theme #BUMP
 
 git+https://github.com/TeachBooks/TeachBooks-Favourites@all_authors #BUMP

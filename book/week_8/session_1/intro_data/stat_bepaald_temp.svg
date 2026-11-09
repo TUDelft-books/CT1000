@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export stat_bepaald_temp.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.53798in" height="3.6065in"
-		viewBox="0 0 326.734 259.668" xml:space="preserve" color-interpolation-filters="sRGB" class="st29">
+		viewBox="0 0 326.734 259.668" xml:space="preserve" color-interpolation-filters="sRGB" class="st28">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -27,16 +27,15 @@
 		.st17 {baseline-shift:-32.4941%;font-size:0.649882em;font-style:normal}
 		.st18 {font-size:1em;font-style:italic}
 		.st19 {baseline-shift:-32.4941%;font-size:0.649882em}
-		.st20 {baseline-shift:-50%;font-size:1em}
-		.st21 {font-family:Cambria Math;font-size:1em}
-		.st22 {baseline-shift:32.4941%;font-size:0.649882em}
-		.st23 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
-		.st24 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
-		.st25 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
-		.st26 {fill:#000000;font-family:Times New Roman;font-size:0.833336em;font-style:italic}
-		.st27 {baseline-shift:32.4947%;font-size:0.649894em;font-style:normal}
-		.st28 {baseline-shift:-32.4947%;font-size:0.649894em;font-style:normal}
-		.st29 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st20 {font-family:Cambria Math;font-size:1em}
+		.st21 {baseline-shift:32.4941%;font-size:0.649882em}
+		.st22 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st23 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st24 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
+		.st25 {fill:#000000;font-family:Times New Roman;font-size:0.833336em;font-style:italic}
+		.st26 {baseline-shift:32.4947%;font-size:0.649894em;font-style:normal}
+		.st27 {baseline-shift:-32.4947%;font-size:0.649894em;font-style:normal}
+		.st28 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -269,7 +268,7 @@
 			<title>Kracht.750</title>
 			<path d="M7.55 259.67 L7.91 259.67 L28.35 259.67" class="st2"/>
 		</g>
-		<g id="shape751-144" v:mID="751" v:groupContext="shape" transform="translate(127.934,462.268) rotate(180)">
+		<g id="shape751-144" v:mID="751" v:groupContext="shape" transform="translate(99.5876,-57.0679)">
 			<title>Kracht.751</title>
 			<path d="M7.55 259.67 L7.91 259.67 L28.35 259.67" class="st2"/>
 		</g>
@@ -320,62 +319,61 @@
 			<v:textRect cx="69.4488" cy="238.408" width="138.9" height="42.5197"/>
 			<rect x="0" y="217.148" width="138.898" height="42.5197" class="st4"/>
 			<text x="23.44" y="220.46" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Δ<tspan class="st18">T</tspan><tspan
-						dy="-0.279em" class="st19" v:baseFontSize="12">DCB</tspan><tspan dy="-0.318em" class="st20"
-						v:baseFontSize="12"> </tspan><tspan dy="0.499em" class="st9">= 32 °C (</tspan><tspan class="st21">◠</tspan>)<v:newlineChar/><tspan
-						x="25.07" dy="1.205em" class="st9">Δ</tspan><tspan class="st18">T</tspan><tspan dy="-0.279em" class="st19"
-						v:baseFontSize="12">DCB</tspan><tspan dy="0.181em" class="st9"> </tspan>= 16 °C (+)<v:newlineChar/><tspan
-						x="46.4" dy="1.2em" class="st18">h </tspan>= 0.2 m<v:newlineChar/><tspan x="42.11" dy="1.2em" class="st18">α</tspan> = 10<tspan
-						dy="-0.198em" class="st22" v:baseFontSize="12">-</tspan><tspan class="st22" v:baseFontSize="12">5 </tspan><tspan
-						dy="0.129em" class="st9">K</tspan><tspan dy="-0.198em" class="st22" v:baseFontSize="12">-</tspan><tspan
-						class="st22" v:baseFontSize="12">1</tspan></text>		</g>
-		<g id="shape759-199" v:mID="759" v:groupContext="shape" transform="translate(500.988,18.3479) rotate(90)">
+						dy="-0.279em" class="st19" v:baseFontSize="12">DCB</tspan><tspan dy="0.181em" class="st9"> </tspan>= 32 °C (<tspan
+						class="st20">◠</tspan>)<v:newlineChar/><tspan x="25.07" dy="1.205em" class="st9">Δ</tspan><tspan
+						class="st18">T</tspan><tspan dy="-0.279em" class="st19" v:baseFontSize="12">DCB</tspan><tspan dy="0.181em"
+						class="st9"> </tspan>= 16 °C (+)<v:newlineChar/><tspan x="46.4" dy="1.2em" class="st18">h </tspan>= 0.2 m<v:newlineChar/><tspan
+						x="42.11" dy="1.2em" class="st18">α</tspan> = 10<tspan dy="-0.198em" class="st21" v:baseFontSize="12">-</tspan><tspan
+						class="st21" v:baseFontSize="12">5 </tspan><tspan dy="0.129em" class="st9">K</tspan><tspan dy="-0.198em"
+						class="st21" v:baseFontSize="12">-</tspan><tspan class="st21" v:baseFontSize="12">1</tspan></text>		</g>
+		<g id="shape759-198" v:mID="759" v:groupContext="shape" transform="translate(500.988,18.3479) rotate(90)">
 			<title>Blad.759</title>
 			<path d="M0 259.67 L28.35 259.67" class="st11"/>
 		</g>
-		<g id="shape760-202" v:mID="760" v:groupContext="shape" transform="translate(241.32,-212.973)">
+		<g id="shape760-201" v:mID="760" v:groupContext="shape" transform="translate(241.32,-212.973)">
 			<title>Blad.760</title>
-			<path d="M0 259.67 L28.35 231.32 L14.17 231.32 L0 231.32" class="st23"/>
+			<path d="M0 259.67 L28.35 231.32 L14.17 231.32 L0 231.32" class="st22"/>
 		</g>
-		<g id="shape761-205" v:mID="761" v:groupContext="shape" transform="translate(241.32,-224.879)">
+		<g id="shape761-204" v:mID="761" v:groupContext="shape" transform="translate(241.32,-224.879)">
 			<title>Blad.761</title>
 			<desc>+</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="7.08661" cy="252.581" width="14.18" height="14.1732"/>
-			<rect x="0" y="245.495" width="14.1732" height="14.1732" class="st24"/>
-			<text x="4.27" y="255.58" class="st25" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>+</text>		</g>
-		<g id="shape762-208" v:mID="762" v:groupContext="shape" transform="translate(276.753,-244.721) scale(-1,1)">
+			<rect x="0" y="245.495" width="14.1732" height="14.1732" class="st23"/>
+			<text x="4.27" y="255.58" class="st24" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>+</text>		</g>
+		<g id="shape762-207" v:mID="762" v:groupContext="shape" transform="translate(276.753,-244.721) scale(-1,1)">
 			<title>Blad.762</title>
 			<desc>εTBCD</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="17.7165" cy="252.581" width="35.44" height="14.1732"/>
 			<rect x="0" y="245.495" width="35.4331" height="14.1732" class="st4"/>
-			<text x="-28.35" y="255.58" transform="scale(-1,1)" class="st26" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>ε<tspan
-						dy="-0.198em" class="st27" v:baseFontSize="10">T</tspan><tspan dy="-0.081em" class="st28"
+			<text x="-28.35" y="255.58" transform="scale(-1,1)" class="st25" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>ε<tspan
+						dy="-0.198em" class="st26" v:baseFontSize="10">T</tspan><tspan dy="-0.081em" class="st27"
 						v:baseFontSize="10">BCD</tspan></text>		</g>
-		<g id="group763-213" transform="translate(281.713,-212.973)" v:mID="763" v:groupContext="group">
+		<g id="group763-212" transform="translate(281.713,-212.973)" v:mID="763" v:groupContext="group">
 			<title>Maatlijn verticaal.763</title>
-			<g id="group764-214" transform="translate(-251.164,259.668) rotate(-90)" v:mID="764" v:groupContext="group">
+			<g id="group764-213" transform="translate(-251.164,259.668) rotate(-90)" v:mID="764" v:groupContext="group">
 				<title>Maatlijn.31</title>
-				<g id="shape765-215" v:mID="765" v:groupContext="shape" transform="translate(259.668,251.164) rotate(90)">
+				<g id="shape765-214" v:mID="765" v:groupContext="shape" transform="translate(259.668,251.164) rotate(90)">
 					<title>Blad.765</title>
 					<path d="M0 259.67 L8.5 259.67" class="st12"/>
 				</g>
-				<g id="shape766-218" v:mID="766" v:groupContext="shape" transform="translate(288.014,251.164) rotate(90)">
+				<g id="shape766-217" v:mID="766" v:groupContext="shape" transform="translate(288.014,251.164) rotate(90)">
 					<title>Blad.766</title>
 					<path d="M0 259.67 L8.5 259.67" class="st12"/>
 				</g>
-				<g id="shape767-221" v:mID="767" v:groupContext="shape" transform="translate(0,-4.25197)">
+				<g id="shape767-220" v:mID="767" v:groupContext="shape" transform="translate(0,-4.25197)">
 					<title>Blad.767</title>
 					<path d="M3.74 259.67 L4.1 259.67 L24.25 259.67" class="st13"/>
 				</g>
 			</g>
-			<g id="shape768-228" v:mID="768" v:groupContext="shape" transform="translate(4.25197,-11.3386)">
+			<g id="shape768-227" v:mID="768" v:groupContext="shape" transform="translate(4.25197,-11.3386)">
 				<title>Blad.768</title>
 				<desc>0.2 m</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="16.2992" cy="256.833" width="32.6" height="5.66929"/>
 				<rect x="0" y="253.999" width="32.5984" height="5.66929" class="st4"/>
-				<text x="4.91" y="259.83" class="st25" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>0.2 m</text>			</g>
+				<text x="4.91" y="259.83" class="st24" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>0.2 m</text>			</g>
 		</g>
 	</g>
 </svg>

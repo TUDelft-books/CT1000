@@ -64,7 +64,7 @@ $$
 
 Now, the displacement of $\rm{D}$ can be determined by extending the rotation of $\varphi_{\rm{C}}$ over member $\rm{CD}$ and add vertical displacement due to the load:
 
-```{figure} intro_data/CD.svg
+```{figure} intro_data/CD_2.svg
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
@@ -90,7 +90,7 @@ Instead of evaluating the displacement for different values of $n$, we can also 
 
 For $n \to \infty$, no rotation is allowed in $\rm{C}$, which reduces the structure to a statically determinate structure:
 
-```{figure} intro_data/CD.svg
+```{figure} intro_data/CD_2.svg
 :align: center
 :source: https://github.com/Tom-van-Woudenberg/mechanics-figures-source/tree/main/steunpunt_temp_stijfheid2
 ```
