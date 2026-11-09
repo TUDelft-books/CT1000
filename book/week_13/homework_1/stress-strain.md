@@ -46,7 +46,7 @@ $$\begin{bmatrix}
 \sigma_{zx}
 \end{bmatrix}$$
 
-This is treated in chapter 4 of the lecture notes Introduction to Continuum Mechanics {cite:p}`Hartsuijker2007con`.
+This is discussed in chapter 4 of the lecture notes Introduction to Continuum Mechanics {cite:p}`Hartsuijker2007con`.
 
 ## Instructions from lecture
 This topic is presented in Dutch in a lecture available from 0:39:05 to 1:14:45 [here](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/afa01c66a9434fae8e4a95c0b0a3348b1d?academicYear=2025-2026-ctb2210).
