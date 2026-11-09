@@ -1,4 +1,4 @@
-"""Check external links in pages written by the HTML builder."""
+"""Check external links and show retained warnings near their HTML content."""
 
 import json
 import re
@@ -79,21 +79,32 @@ def find_teachbooks_redirect(app, uri):
         return teachbooks_redirect(url, content.decode(response.encoding or "utf-8", errors="replace"))
 
 
-def report_broken(app, result, detail=None):
+def report_warning(result, message, subtype):
     logger.warning(
-        "BROKEN LINK: %s (%s)",
-        result.uri,
-        detail or result.message,
+        message,
         location=(result.docname, result.lineno),
         type="html_linkcheck",
-        subtype="broken",
+        subtype=subtype,
     )
 
 
-def collect_links(app, doctree, docname):
+def warning_block(node):
+    containers = (
+        nodes.document, nodes.section, nodes.list_item, nodes.entry,
+        nodes.field_body, nodes.definition, nodes.block_quote, nodes.Admonition,
+        nodes.container, nodes.topic, nodes.sidebar, nodes.footnote, nodes.citation,
+    )
+    while node.parent is not None and not isinstance(node.parent, containers):
+        node = node.parent
+    return node
+
+
+def check_document_links(app, doctree, docname):
     if not app.config.html_linkcheck_enabled or app.builder.format != "html":
         return
 
+    hyperlinks = {}
+    occurrences = []
     for node in doctree.findall():
         uri = None
         if isinstance(node, nodes.reference):
@@ -111,83 +122,107 @@ def collect_links(app, doctree, docname):
             line = get_node_line(node)
         except ValueError:
             line = -1
-        app.html_linkcheck_links.setdefault(
-            uri, Hyperlink(uri, docname, app.env.doc2path(docname), line)
-        )
+        hyperlink = Hyperlink(uri, docname, app.env.doc2path(docname), line)
+        hyperlinks.setdefault(uri, hyperlink)
+        occurrences.append((node, hyperlink))
 
-
-def check_links(app, exception):
-    if (
-        exception is not None
-        or not app.config.html_linkcheck_enabled
-        or app.builder.format != "html"
-    ):
+    if not hyperlinks:
         return
 
-    checker = HyperlinkAvailabilityChecker(app.config)
+    results_by_uri = app.html_linkcheck_results
+    unchecked = {
+        uri: hyperlink
+        for uri, hyperlink in hyperlinks.items()
+        if uri not in results_by_uri
+    }
     redirects = {}
-    for result in checker.check(app.html_linkcheck_links):
+    new_results = (
+        HyperlinkAvailabilityChecker(app.config).check(unchecked) if unchecked else ()
+    )
+    for result in new_results:
         if result.status == "broken":
             target = None
             if result.message.startswith("404 Client Error:"):
                 try:
                     target = find_teachbooks_redirect(app, result.uri)
                 except RequestException as error:
-                    logger.warning(
-                        "LINK CHECK INCOMPLETE: %s "
-                        "(could not inspect 404 response: %s)",
-                        result.uri,
-                        error,
-                        location=(result.docname, result.lineno),
-                        type="html_linkcheck",
-                        subtype="incomplete",
+                    results_by_uri[result.uri] = (
+                        "incomplete",
+                        f"LINK CHECK INCOMPLETE: {result.uri} "
+                        f"(could not inspect 404 response: {error})",
                     )
                     continue
             if target:
                 redirects.setdefault(target, []).append(result)
             else:
-                report_broken(app, result)
+                results_by_uri[result.uri] = (
+                    "broken",
+                    f"BROKEN LINK: {result.uri} ({result.message})",
+                )
         elif result.status in ("timeout", "unknown", ""):
-            logger.warning(
-                "LINK CHECK INCOMPLETE: %s (%s)",
-                result.uri,
-                result.message or result.status or "unknown status",
-                location=(result.docname, result.lineno),
-                type="html_linkcheck",
-                subtype="incomplete",
+            results_by_uri[result.uri] = (
+                "incomplete",
+                f"LINK CHECK INCOMPLETE: {result.uri} "
+                f"({result.message or result.status or 'unknown status'})",
             )
+        else:
+            results_by_uri[result.uri] = None
 
     if redirects:
-        hyperlinks = {
+        redirect_hyperlinks = {
             target: Hyperlink(
                 target, results[0].docname, app.env.doc2path(results[0].docname),
                 results[0].lineno,
             )
             for target, results in redirects.items()
         }
-        for result in HyperlinkAvailabilityChecker(app.config).check(hyperlinks):
+        for result in HyperlinkAvailabilityChecker(app.config).check(redirect_hyperlinks):
             for original in redirects[result.uri]:
                 if result.status == "broken":
-                    report_broken(
-                        app, original,
-                        f"TeachBooks redirect to {result.uri}: {result.message}",
+                    results_by_uri[original.uri] = (
+                        "broken",
+                        f"BROKEN LINK: {original.uri} "
+                        f"(TeachBooks redirect to {result.uri}: {result.message})",
                     )
                 elif result.status not in ("working", "redirected"):
-                    logger.warning(
-                        "LINK CHECK INCOMPLETE: %s "
-                        "(TeachBooks redirect to %s: %s)",
-                        original.uri,
-                        result.uri,
-                        result.message or result.status or "unknown status",
-                        location=(original.docname, original.lineno),
-                        type="html_linkcheck",
-                        subtype="incomplete",
+                    results_by_uri[original.uri] = (
+                        "incomplete",
+                        f"LINK CHECK INCOMPLETE: {original.uri} "
+                        f"(TeachBooks redirect to {result.uri}: "
+                        f"{result.message or result.status or 'unknown status'})",
                     )
+                else:
+                    results_by_uri[original.uri] = None
+
+    if app.config.keep_warnings:
+        last_warnings = {}
+        for node, hyperlink in occurrences:
+            cached_result = results_by_uri[hyperlink.uri]
+            if cached_result is None:
+                continue
+            block = warning_block(node)
+            block_key = id(block)
+            _, message = cached_result
+            warning = nodes.system_message(
+                message,
+                type="WARNING",
+                level=2,
+                source=app.env.doc2path(hyperlink.docname),
+                line=hyperlink.lineno,
+            )
+            previous = last_warnings.get(block_key, block)
+            previous.parent.insert(previous.parent.index(previous) + 1, warning)
+            last_warnings[block_key] = warning
+
+    for uri, hyperlink in hyperlinks.items():
+        cached_result = results_by_uri[uri]
+        if cached_result is not None:
+            subtype, message = cached_result
+            report_warning(hyperlink, message, subtype)
 
 
 def setup(app):
     app.add_config_value("html_linkcheck_enabled", True, "html", types=[bool])
-    app.html_linkcheck_links = {}
-    app.connect("doctree-resolved", collect_links)
-    app.connect("build-finished", check_links)
+    app.html_linkcheck_results = {}
+    app.connect("doctree-resolved", check_document_links)
     return {"parallel_read_safe": True, "parallel_write_safe": False}

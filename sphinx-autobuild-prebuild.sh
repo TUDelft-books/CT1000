@@ -19,11 +19,11 @@ import sys\\
 $EXTENSION_PATH" "$CONF"
 sed -i 's/git_show_all_authors = True/git_show_all_authors = False/' "$CONF"
 sed -i "s/external_toc_path = '_toc.yml'/$TOC_PATH/" "$CONF"
-printf '\n%s\n' "$LINKCHECK_SETTING" >> "$CONF"
+sed -i "s/html_linkcheck_enabled = True/$LINKCHECK_SETTING/" "$CONF"
 
 grep -Fq "$EXTENSION_PATH" "$CONF"
 grep -Fq "$TOC_PATH" "$CONF"
 grep -Fq "$AUTHORS_SETTING" "$CONF"
-grep -Fqx "$LINKCHECK_SETTING" "$CONF"
+grep -Fq "$LINKCHECK_SETTING" "$CONF"
 
 teachbooks build book/ --process-only
