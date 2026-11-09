@@ -41,7 +41,6 @@ The first part is a deformation, the second part is a rigid body rotation.
 This is treated in chapter 1.2 of the lecture notes Introduction to Continuum Mechanics {cite:p}`Hartsuijker2007con`.
 
 ## Instructions from lecture
-## Instructions from lecture
 
 This topic is presented from 1:05:50 to 1:18:18 in [Constructiemechanica 3 2026/2027, lesson 1 September](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/f05e3b7f292f44939932fc9c854632221d?academicYear=2026-2027-ctb2210):
   - Slides are available [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/CM3_Francesco/Theory_elasticity_3.pdf).
