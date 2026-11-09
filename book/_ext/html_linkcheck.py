@@ -90,7 +90,7 @@ def report_broken(app, result, detail=None):
 
 
 def collect_links(app, doctree, docname):
-    if app.builder.format != "html":
+    if not app.config.html_linkcheck_enabled or app.builder.format != "html":
         return
 
     for node in doctree.findall():
@@ -116,7 +116,11 @@ def collect_links(app, doctree, docname):
 
 
 def check_links(app, exception):
-    if exception is not None or app.builder.format != "html":
+    if (
+        exception is not None
+        or not app.config.html_linkcheck_enabled
+        or app.builder.format != "html"
+    ):
         return
 
     checker = HyperlinkAvailabilityChecker(app.config)
@@ -178,6 +182,7 @@ def check_links(app, exception):
 
 
 def setup(app):
+    app.add_config_value("html_linkcheck_enabled", True, "html", types=[bool])
     app.html_linkcheck_links = {}
     app.connect("doctree-resolved", collect_links)
     app.connect("build-finished", check_links)
