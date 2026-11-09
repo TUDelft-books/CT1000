@@ -39,7 +39,43 @@ The structure is open, so the internal degree of static indeterminacy is equal t
 
 There are therefore $3 + 1 + 2 + 2 = 8$ unknowns and $3 + 3 = 6$ equilibrium equations, so the structure is statically indeterminate to the second degree both externally and internally.
 
+:::{admonition} Alternative with internal statical determinacy
+:class: note, dropdown
+
+Alternatively, the internal degree of static indeterminacy can be calculated as follows:
+
+```{figure} ./lesson_data/inwendig.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+There are $3 + 3 + 3 + 2 + 1 +  1 + 1 + 1 = 15$ unknowns and $3 + 3 + 3 + 2 + 1 + 1 = 13$ equilibrium equations, so the structure is statically indeterminate to the second degree internally.
+
+:::
+
 ::::
+
+::::::{admonition} Frequently made mistakes
+:class: remark, dropdown
+
+**Static determinacy calculated with # support reactions - 3 equilibrium equations - # hinges**
+
+This approach is not a method that works in general, but it does give the correct answer in this case: 6 support reactions - 3 equilibrium equations - 1 hinges = 2.
+
+**Incorrectly modelled two-force member**
+
+The member $\rm{BC}$ is a two-force member, so the internal forces in this member are only axial. Therefore, the amount of unknowns at the ends of this member can be reduced to one at each end, and the amount of equilibrium equations is one for the member and may reduce for the connected members if the internal statical determinancy is calculated. A correct approach would be:
+
+```{figure} ./lesson_data/pendelstaaf.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+Mistakes were made with the amount of unknowns at the connecting ends $\rm{B}$ and $\rm{C}$ and the amount of equilibrium equations.
+
+::::::
 
 :::::{exercise}
 :nonumber: true
@@ -98,6 +134,7 @@ This variant deforms as follows under the distributed load:
 :align: center
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+:name: variant2_def
 ```
 
 Therefore, it is not a mechanism.
@@ -149,6 +186,59 @@ Therefore, it is not a mechanism.
 :::::
 ::::::
 
+::::::{admonition} Frequently made mistakes
+:class: remark, dropdown
+
+**Created a mechanism**
+
+Replaced the hinged support at $\rm{B}$ with a horizontal roller support or no support at all. This is not a statically determinate variant, because the structure is a mechanism:
+
+:::::{grid}
+:class-container: center-grid
+:gutter: 1
+
+::::{grid-item-card}
+:columns: 6
+
+```{figure} ./lesson_data/variant5.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+This variant deforms as follows under the statically indeterminate force:
+
+```{figure} ./lesson_data/variant5_def.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+::::
+
+::::{grid-item-card}
+:columns: 6
+
+
+```{figure} ./lesson_data/variant6.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+This variant deforms as follows under the statically indeterminate force:
+
+```{figure} ./lesson_data/variant6_def.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+::::
+:::::
+
+::::::
+
 ```{hide-sticky-margin}
 ```
 
@@ -167,7 +257,6 @@ Given the following structure. Note that the vertical roller support at $\rm{C}$
 
 ```{figure-end}
 ```
-
 
 :::::{exercise}
 :nonumber: true
@@ -188,6 +277,21 @@ The structure is statically indeterminate to the first degree. It could be modif
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
 ```
 
+:::{admonition} Alternative with vertical roller support at $\rm{B}$
+:class: note, dropdown
+
+Another possible solution is modifying the structure as follows:
+
+```{figure} ./lesson_data/stat_bepaald_2.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+Other solutions are possible too.
+
+:::
+
 This gives the following deformations:
 
 :::::{grid}
@@ -200,6 +304,7 @@ This gives the following deformations:
 :align: center
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+:name: vervorming_1
 ```
 
 ::::
@@ -211,6 +316,7 @@ This gives the following deformations:
 :align: center
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+:name: vervorming_2
 ```
 
 ::::
@@ -222,6 +328,7 @@ This gives the following deformations:
 :align: center
 :number:
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+:name: vervorming_3
 ```
 
 ::::
@@ -268,6 +375,67 @@ $$
 
 ::::::
 
+::::::{admonition} Frequently made mistakes
+:class: remark, dropdown
+
+**Missing elongation of $\rm{BC}$**
+
+The elongation of $\rm{BC}$ was not taken into account in the deformations, while this influences the compatibility condition. As can be seen in the figures below, the elongation of $\rm{BC}$ increases the rotation at $\rm{D}$.
+
+:::::{grid}
+:class-container: center-grid
+
+::::{grid-item}
+:columns: auto
+
+:::{fetch} {ref}`vervorming_1`
+:::
+
+::::
+
+::::{grid-item}
+:columns: auto
+
+:::{fetch} {ref}`vervorming_2`
+:::
+
+::::
+:::::
+
+**Missing deformation of $\rm{AD}$**
+
+The deformation of $\rm{AD}$, or more specifically, the rotation of $\rm{D}$ caused by the bending of $\rm{AD}$, was not taken into account in the deformations, while this influences the compatibility condition. As can be seen in the figures below, the bending of $\rm{AD}$ increases the rotation at $\rm{D}$. This mistake was mostly made when solving the statical determinate system with a vertical roller support at $\rm{B}$.
+
+:::{fetch} {ref}`variant2_def`
+:::
+
+**Use of statically indeterminate forget-me-nots**
+
+In the force-method, you've created a statically determinate structure, so the forget-me-nots for statically indeterminate structures are not needed. For example, for the statically determinate system shown here in the answers, for $\rm{AD}$ the forget-me-not for a cantilever beam with an additional support is used, while that should be the forget-me-not for a cantilever beam with an end moment. This becomes visible from the deformed shape:
+
+:::{fetch} {ref}`vervorming_3`
+:::
+
+**Statically determinate structure which is not easily solved with forget-me-nots**
+
+```{figure} ./lesson_data/variant7.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+This variant deforms as follows under the statically indeterminate force:
+
+```{figure} ./lesson_data/variant7_def.svg
+:align: center
+:number:
+:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_stat_onb
+```
+
+Which is not easily solved with the forget-me-nots.
+
+::::::
+
 :::::{exercise}
 :nonumber: true
 
@@ -291,3 +459,16 @@ The structure has:
 None of these are accounted for in the element stiffness matrix as taught in this course.
 
 ::::
+
+::::::{admonition} Frequently made mistakes
+:class: remark, dropdown
+
+**Missing numerical values for stiffnesses**
+
+The missing bending stiffness of $\rm{BC}$ and the very high axial stiffness of $\rm{CDA}$ are not a reason why the matrix method cannot be applied. Although values might be required, random or random right values can be used which leads to the correct results.
+
+**Non-uniform stiffnesses**
+
+In the matrix method every element can have it's own unique values for $EI$ and $EA$, so this is not a reason why the matrix method cannot be applied.
+
+::::::
