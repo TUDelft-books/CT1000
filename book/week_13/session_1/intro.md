@@ -87,7 +87,7 @@ $$
 ```{attributiongrey} Attribution
 :class: attribution
 
-This exercise is from the [exam Q1 of CTB2210 2025-2026](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/blob/main/old_exams_CM3/2025-2026_Q1_Tentamenvraag_BS.pdf) {cite:p}`Francesco_exam_Q1_2025`.
+This exercise is from the [exam Q1 of CTB2210 2025-2026](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/2025-2026_Q1_Tentamenvraag_BS.pdf) {cite:p}`Francesco_exam_Q1_2025`.
 
 ```
 ````
