@@ -22,8 +22,8 @@ Given is the following structure and cross-section:
 ````{admonition} Solution assignment 1
 :class: tip, dropdown
 
-- $A = 3000 \text{ mm}^2$
-- $I_\text{zz} = 2.32 \cdot 10^6 \text{ mm}^4$
+- $A = 3000 \rm{ mm} ^2$
+- $I_\text{zz} = 2.32 \cdot 10^6 \rm{ mm} ^4$
 
 ````
 
@@ -53,18 +53,18 @@ Given is the following structure and cross-section:
 ````{admonition} Solution assignment 1
 :class: tip, dropdown
 
-- $ A = 36000 \text{ mm}^2$
-- $ W_\text{z} = 1.8 \cdot 10^6 \text{ mm}^3$
-- $ W_\text{y} = 0.72 \cdot 10^6 \text{ mm}^3$
+- $ A = 36000 \rm{ mm}^2$
+- $ W_\text{z} = 1.8 \cdot 10^6 \rm{ mm}^3$
+- $ W_\text{y} = 0.72 \cdot 10^6 \rm{ mm}^3$
 
 ````
 
 ````{admonition} Solution assignment 2
 :class: tip, dropdown
 
-- $\sigma_\text{E} = 2.5 \text{ MPa}$
-- $\sigma_\text{G} = -7.5 \text{ MPa}$
-- $\sigma_\text{H} = -12.5 \text{ MPa}$
-- $\sigma_\text{I} = -2.5 \text{ MPa}$
+- $\sigma_\text{E} = 2.5 \rm{ MPa}$
+- $\sigma_\text{G} = -7.5 \rm{ MPa}$
+- $\sigma_\text{H} = -12.5 \rm{ MPa}$
+- $\sigma_\text{I} = -2.5 \rm{ MPa}$
 
 ````
