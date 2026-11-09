@@ -80,12 +80,13 @@ def find_teachbooks_redirect(app, uri):
 
 
 def report_broken(app, result, detail=None):
-    logger.info(
-        "BROKEN LINK: %s:%s: %s (%s)",
-        app.env.doc2path(result.docname),
-        result.lineno,
+    logger.warning(
+        "BROKEN LINK: %s (%s)",
         result.uri,
         detail or result.message,
+        location=(result.docname, result.lineno),
+        type="html_linkcheck",
+        subtype="broken",
     )
 
 
@@ -132,13 +133,14 @@ def check_links(app, exception):
                 try:
                     target = find_teachbooks_redirect(app, result.uri)
                 except RequestException as error:
-                    logger.info(
-                        "LINK CHECK INCOMPLETE: %s:%s: %s "
+                    logger.warning(
+                        "LINK CHECK INCOMPLETE: %s "
                         "(could not inspect 404 response: %s)",
-                        app.env.doc2path(result.docname),
-                        result.lineno,
                         result.uri,
                         error,
+                        location=(result.docname, result.lineno),
+                        type="html_linkcheck",
+                        subtype="incomplete",
                     )
                     continue
             if target:
@@ -146,12 +148,13 @@ def check_links(app, exception):
             else:
                 report_broken(app, result)
         elif result.status in ("timeout", "unknown", ""):
-            logger.info(
-                "LINK CHECK INCOMPLETE: %s:%s: %s (%s)",
-                app.env.doc2path(result.docname),
-                result.lineno,
+            logger.warning(
+                "LINK CHECK INCOMPLETE: %s (%s)",
                 result.uri,
                 result.message or result.status or "unknown status",
+                location=(result.docname, result.lineno),
+                type="html_linkcheck",
+                subtype="incomplete",
             )
 
     if redirects:
@@ -170,14 +173,15 @@ def check_links(app, exception):
                         f"TeachBooks redirect to {result.uri}: {result.message}",
                     )
                 elif result.status not in ("working", "redirected"):
-                    logger.info(
-                        "LINK CHECK INCOMPLETE: %s:%s: %s "
+                    logger.warning(
+                        "LINK CHECK INCOMPLETE: %s "
                         "(TeachBooks redirect to %s: %s)",
-                        app.env.doc2path(original.docname),
-                        original.lineno,
                         original.uri,
                         result.uri,
                         result.message or result.status or "unknown status",
+                        location=(original.docname, original.lineno),
+                        type="html_linkcheck",
+                        subtype="incomplete",
                     )
 
 
