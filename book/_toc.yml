@@ -224,7 +224,6 @@ parts:
         sections: 
         - external: https://github.com/TUDelft-books/CEG-mechanics-BSc/blob/EN/book/stresses_displacements/solve_bending/normal.md
     - file: week_11/session_3/intro
-# START REMOVE-FROM-PUBLISH
   - file: week_12/intro
     sections:
     - file: week_12/homework_1/intro
@@ -244,6 +243,7 @@ parts:
       - file: week_12/homework_3/tensors.md
       - file: week_12/homework_3/analytical_transformations.md
     - file: week_12/session_3/intro
+# START REMOVE-FROM-PUBLISH
   - file: week_13/intro
     sections:
     - file: week_13/homework_1/intro
