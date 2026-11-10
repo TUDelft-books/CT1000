@@ -14,7 +14,13 @@ html:
 sphinx:
   local_extensions:
     bib_href: _ext/
+    html_linkcheck: _ext/
   config:
+# START REMOVE-FROM-RELEASE
+    html_linkcheck_enabled: false                      # Set to false to disable external link checking during HTML builds
+# END REMOVE-FROM-RELEASE
+    linkcheck_ignore:
+      - '^https?://icozct\.tudelft\.nl(?:[/:?#]|$)' #disable temporarily as TU Delft servers are down
     html_js_files:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
     thebe_config:
@@ -36,6 +42,7 @@ sphinx:
       announcement: "<p>This book is not the version shared with students. That one is available here <a href='https://oit.tudelft.nl/CT1000/2026' style='color: cyan;'>oit.tudelft.nl/CT1000/2026</a></p>"
     keep_warnings: true
 # END REMOVE-FROM-RELEASE
+    nitpicky: true                                   # Enables warnings for all references where the target cannot be found, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-nitpicky)
     html_show_copyright: false
     mathjax3_config:
       chtml: {
