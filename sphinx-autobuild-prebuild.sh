@@ -8,7 +8,7 @@ CONF="book/conf.py"
 EXTENSION_PATH="sys.path.insert(0, os.path.join(os.path.dirname(__file__), '_ext'))"
 TOC_PATH="external_toc_path = '_toc_with_local_paths.yml'"
 AUTHORS_SETTING="git_show_all_authors = False"
-LINKCHECK_SETTING="html_linkcheck_enabled = False"
+LINKCHECK_SETTING="html_linkcheck_enabled = True"
 
 jupyter-book config sphinx book/
 
@@ -19,7 +19,7 @@ import sys\\
 $EXTENSION_PATH" "$CONF"
 sed -i 's/git_show_all_authors = True/git_show_all_authors = False/' "$CONF"
 sed -i "s/external_toc_path = '_toc.yml'/$TOC_PATH/" "$CONF"
-sed -i "s/html_linkcheck_enabled = True/$LINKCHECK_SETTING/" "$CONF"
+sed -i "s/html_linkcheck_enabled = False/$LINKCHECK_SETTING/" "$CONF"
 
 grep -Fq "$EXTENSION_PATH" "$CONF"
 grep -Fq "$TOC_PATH" "$CONF"
