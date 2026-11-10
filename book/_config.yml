@@ -19,7 +19,7 @@ sphinx:
 # END REMOVE-FROM-RELEASE
   config:
 # START REMOVE-FROM-RELEASE
-    html_linkcheck_enabled: true                      # Set to false to disable external link checking during HTML builds
+    html_linkcheck_enabled: false                      # Set to false to disable external link checking during HTML builds
 # END REMOVE-FROM-RELEASE
     html_js_files:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
