@@ -14,9 +14,7 @@ html:
 sphinx:
   local_extensions:
     bib_href: _ext/
-# START REMOVE-FROM-RELEASE
     html_linkcheck: _ext/
-# END REMOVE-FROM-RELEASE
   config:
 # START REMOVE-FROM-RELEASE
     html_linkcheck_enabled: false                      # Set to false to disable external link checking during HTML builds
