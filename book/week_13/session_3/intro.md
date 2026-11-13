@@ -12,59 +12,22 @@ During today's lesson you'll work on a complex exercise on the topic of the Shea
 
 Gegeven is de volgende constructie, doorsnede en schuifspanningsprofiel:
 
-::::{grid} 3
-:class-container: center-grid
-
-:::{grid-item}
-:columns: auto
-
-```{figure-start} 
 {figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_1.jpg
-```
-
 De puntlast en oplegreacties grijpen aan in het dwarskrachtencentrum.
 
-```{figure-end}
+```
 ```
 
-:::
-
-:::{grid-item}
-:columns: auto
-
-```{figure-start} ./2026-06-24_data/doorsnede_2.svg
-:class: sticky-margin
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_shear_2
-:number:
-```
-
+{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_2.jpg
 De doorsnede dient als dunwandig te worden beschouwd.
 
-```{figure-end}
 ```
-
-:::
-
-:::{grid-item}
-:columns: auto
-
-```{figure} ./2026-06-24_data/schuifspanningen.svg
-:class: sticky-margin
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_shear_2
-:number:
-
+```
+{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_3.jpg
 Schuifspanningsverdeling op positieve doorsnede
+
 ```
-
-:::
-
-::::
-
-:::::{exercise}
-:label: exam_2_2
-:nonumber: true
+```
 
 Bepaal de locatie van het dwarskrachtencentrum.
 
@@ -77,29 +40,18 @@ Het dwarskrachtencentrum ligt vanwege symmetrie sowieso op een hoogte $\bar z = 
 
 Voor het berekenen van het totale moment van de spanningen wordt het middenpunt gekozen (waar de twee diagonale randen elkaar snijden). De spanningen in die diagonale randen hebben dus geen effect op het totale moment rondom dat punt. Daarom worden enkel de resultanten van de horizontale spanningen in de flenzen bepaald:
 
-```{figure} ./2026-06-24_data/resultantes.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_shear_2
-:number:
+```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_4.jpg
 ```
 
 $$ F_1 = 50 \cdot 12 \cdot 300 \cdot \frac{1}{2} = 90000 \, \rm{N} $$
 
 Dit geeft:
 
-```{figure} ./2026-06-24_data/resultantes_2.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_shear_2
-:number:
-```
+```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_5.jpg
 
 Dat statisch equivalent moet zijn aan de resultante van alle spanningen die gelijk is aan de dwarskracht:
 
-```{figure} ./2026-06-24_data/resultantes_3.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_shear_2
-:number:
-```
+```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_6.jpg
 
 $$
 \begin{align*}
@@ -111,10 +63,7 @@ $$
 
 Het dwarskrachtencentrum is daarmee bepaald:
 
-```{figure} ./2026-06-24_data/dwarskrachtencentrum.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_shear_2
-:number:
+```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_6.jpg
 ```
 
 :::::
