@@ -153,8 +153,8 @@ $$
 \begin{align*}
 \sum T_{\bar x\rm{,web,stresses}} &= \sum T_{\bar x\rm{,web,shear} \, \rm{force}} \\
 \cfrac{2000 \int_{0}^{50} \left( 15 \ z \cdot \left( 50 + z/2\right) \right) dz }{15 \cdot 79 \cdot 10^6} \ 15 \cdot 200 \\
-+ 0.095 \cdot 15 \cdot 200 \cdot 100 \\
-+ 0.095 \cdot 15 \cdot 200 \cdot 100 \\
++ \cfrac{0.095 + -0.6}{2} \cdot 15 \cdot 200 \cdot 100 \\
++ \cfrac{0.095 + -0.6}{2} \cdot 15 \cdot 200 \cdot 100 \\
 + \cfrac{2000 \int_{0}^{50} \left( 15 \ z \cdot \left( -50 - z/2\right) \right) dz }{15 \cdot 79 \cdot 10^6} \ 15 \cdot 200 &= 2000 \cdot e \\
 e &\approx 111 \, \rm{mm}
 \end{align*}
