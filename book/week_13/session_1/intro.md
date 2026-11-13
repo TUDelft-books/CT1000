@@ -24,12 +24,12 @@ Given is the following stress element:
 
 % source files on https://brightspace.tudelft.nl/d2l/le/content/774702/viewContent/4617411/View
 
-```{figure} intro_data/image.png
+```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/CM3_Francesco/COZ1_1_Figure.jpg
 ---
 align: center
 width: 400px
 ---
-Aluminium plate with strain gauges: $E = 70 \ \rm{ GPa}$,  $\nu = 0.33 \ \rm{(-)}$, $\varepsilon_{\rm{G1}} = -1.0 \cdot 10^{-3}$, $\varepsilon_{\rm{G2}} = 2 \cdot 10^{-3}$, $\varepsilon_{\rm{G3}} = +2 \cdot 10^{-3}$.
+Steel plate with strain gauges: $E = 210 \ \rm{ GPa}$,  $\nu = 0.3 \ \rm{(-)}$, $\varepsilon_{\rm{G1}} = 3.0 \cdot 10^{-4}$, $\varepsilon_{\rm{G2}} = -2.0 \cdot 10^{-4}$, $\varepsilon_{\rm{G3}} = -3.0 \cdot 10^{-4}$.
 ```
 
 
@@ -43,9 +43,9 @@ Aluminium plate with strain gauges: $E = 70 \ \rm{ GPa}$,  $\nu = 0.33 \ \rm{(-)
 
 $$
 \boldsymbol{\varepsilon} = \begin{bmatrix}
-    2 & 1.5 \\
-    1.5 & -1
-\end{bmatrix} \cdot 10^{-3}
+    3.0 & -2.6 \\
+    -2.6 & -8.0
+\end{bmatrix} \cdot 10^{-4}
 $$
 
 ```` 
@@ -53,8 +53,8 @@ $$
 ````{admonition} Solution assignment 2
 :class: solution, dropdown
 
-- $\varepsilon_{1} = 2.62 \cdot 10^{-3}$
-- $\varepsilon_{2} = -1.62 \cdot 10^{-3}$
+- $\varepsilon_{1} = 3.58 \cdot 10^{-4}$
+- $\varepsilon_{2} = -8.6 \cdot 10^{-4}$
 
 ```` 
 
@@ -67,9 +67,9 @@ $$
     \sigma_{yy} \\
     \sigma_{xy}
 \end{bmatrix} =  \begin{bmatrix}
-    131.2 \\
-    -26.7 \\
-    79.0
+    13.8 \\
+    -42.0 \\
+    -163.8
 \end{bmatrix} \, \rm{ MPa}
 $$
 
@@ -78,16 +78,14 @@ $$
 ````{admonition} Solution assignment 4
 :class: solution, dropdown
 
-- $\varepsilon_{1} = 163.9 \, \rm{MPa}$
-- $\varepsilon_{2} = -59.4 \, \rm{MPa}$
+- $\sigma_{1} = 23.3 \, \rm{MPa}$
+- $\sigma_{2} = -173.3 \, \rm{MPa}$
 
 ````
 
 ````{margin}
 ```{attributiongrey} Attribution
 :class: attribution
-
-This exercise is from the [exam Q1 of CTB2210 2025-2026](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/old_exams_CM3/2025-2026_Q1_Tentamenvraag_BS.pdf) {cite:p}`Francesco_exam_Q1_2025`.
 
 ```
 ````
