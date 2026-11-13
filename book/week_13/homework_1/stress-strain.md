@@ -1,13 +1,5 @@
 <!-- Start of inserted Teachbooks header -->
 
-````{margin}
-```{attributiongrey} Attribution
-:class: attribution
-This page originates from https://github.com/TUDelft-books/CEG-mechanics-BSc, version: EN
-```
-````
-
-
 <!-- End of inserted Teachbooks header -->
 
 ```{index} Poisson's ratio
