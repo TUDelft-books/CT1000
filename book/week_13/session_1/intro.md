@@ -24,7 +24,7 @@ Given is the following stress element:
 
 % source files on https://brightspace.tudelft.nl/d2l/le/content/774702/viewContent/4617411/View
 
-```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/CM3_Francesco/COZ1_1_Figure.jpg
+```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/CM3_Francesco/COZ1_1_figure.jpg
 ---
 align: center
 width: 400px
