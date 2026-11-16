@@ -16,11 +16,11 @@ This topic is presented (in Dutch) in:
   - The related background theory and a worked-out example are available [here](https://oit.tudelft.nl/CTB1310/2025/shear_rect/instructie.html) (in Dutch).
   - Guided exercise 1 is available [here](https://oit.tudelft.nl/CTB1310/2025/shear_rect/lesoefening1.html) (in Dutch).
   - Guided exercise 2 is available [here](https://oit.tudelft.nl/CTB1310/2025/shear_rect/lesoefening2.html) (in Dutch).
-- For shear stresses in thick-walled sections, from 0:10:55 to 0:47:13 in [Constructiemechanica 2 2025/2026, lesson 20 February](https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/presentation/0b2feee0b6d0408682a129841ef8a1391d?academicYear=2025-2026-ctb1310):
+- For shear stresses in thick-walled sections, from 0:10:55 to 0:47:13 in [Constructiemechanica 2 2025/2026, lesson 20 February](https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/presentation/94a991fe09a14cdeb279a3323725287c1d?academicYear=2025-2026-ctb1310):
   - The related background theory and a worked-out example are available [here](https://oit.tudelft.nl/CTB1310/2025/shear/instructie.html) (in Dutch).
   - Guided exercise 1 is available [here](https://oit.tudelft.nl/CTB1310/2025/shear/lesoefening1.html) (in Dutch).
   - Guided exercise 2 is available [here](https://oit.tudelft.nl/CTB1310/2025/shear/lesoefening2.html) (in Dutch).
-- For shear stresses in thin-walled sections, from 0:14:32 to 0:51:12 in [Constructiemechanica 2 2025/2026, lesson 23 February](https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/presentation/0b2feee0b6d0408682a129841ef8a1391d?academicYear=2025-2026-ctb1310):
+- For shear stresses in thin-walled sections, from 0:14:32 to 0:51:12 in [Constructiemechanica 2 2025/2026, lesson 23 February](https://collegeramavideoportal.tudelft.nl/catalogue/ctb1310/presentation/a7b001c63c244295b23a03f6ebf77b2e1d?academicYear=2025-2026-ctb1310):
   - The related background theory and a worked-out example are available [here](https://oit.tudelft.nl/CTB1310/2025/shear_dunwandig/instructie.html) (in Dutch).
   - Guided exercise is available [here](https://oit.tudelft.nl/CTB1310/2025/shear_dunwandig/lesoefening1.html) (in Dutch).
 ## Exercises
