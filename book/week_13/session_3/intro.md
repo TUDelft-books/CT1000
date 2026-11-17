@@ -12,12 +12,6 @@ During today's lesson you'll work on a complex exercise on the topic of the Shea
 
 Gegeven is de volgende constructie, doorsnede en schuifspanningsprofiel:
 
-::::{grid} 3
-:class-container: center-grid
-
-:::{grid-item}
-:columns: auto
-
 ```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_1.jpg
 ---
 align: center
@@ -28,38 +22,24 @@ De puntlast en oplegreacties grijpen aan in het dwarskrachtencentrum.
 
 ```
 
-:::
-
-:::{grid-item}
-:columns: auto
-
-```{figure-start} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_2.jpg
-:class: sticky-margin
-:align: center
-:number:
-```
-
+```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_2.jpg
+---
+align: center
+width: 400px
+---
 De doorsnede dient als dunwandig te worden beschouwd.
-
-```{figure-end}
 ```
 
-:::
-
-:::{grid-item}
-:columns: auto
+```
 
 ```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_3.jpg
-:class: sticky-margin
-:align: center
-:number:
-
-Schuifspanningsverdeling op positieve doorsnede
+---
+align: center
+width: 400px
+---
+Schuifspanningsverdeling op positieve doorsnede.
 ```
 
-:::
-
-::::
 
 :::::{exercise}
 :label: exam_2_2
