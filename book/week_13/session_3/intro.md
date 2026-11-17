@@ -18,15 +18,14 @@ Gegeven is de volgende constructie, doorsnede en schuifspanningsprofiel:
 :::{grid-item}
 :columns: auto
 
-```{figure-start} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_1.jpg
-:class: sticky-margin
-:align: center
-:number:
+```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_1.jpg
+---
+align: center
+width: 400px
+---
+De puntlast en oplegreacties grijpen aan in het dwarskrachtencentrum.
 ```
 
-De puntlast en oplegreacties grijpen aan in het dwarskrachtencentrum.
-
-```{figure-end}
 ```
 
 :::
