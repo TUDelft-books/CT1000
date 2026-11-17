@@ -95,6 +95,3 @@ width: 400px
 ```
 
 :::::
-
-```{hide-sticky-margin}
-```
