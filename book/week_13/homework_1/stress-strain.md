@@ -41,7 +41,7 @@ $$\begin{bmatrix}
 This is discussed in chapter 4 of the lecture notes Introduction to Continuum Mechanics {cite:p}`Hartsuijker2007con`.
 
 ## Instructions from lecture
-This topic is presented in Dutch in a lecture available from 0:39:05 to 1:14:45 [here](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/afa01c66a9434fae8e4a95c0b0a3348b1d?academicYear=2025-2026-ctb2210).
+This topic is presented in a lecture available from 0:39:05 to 1:14:45 in [Constructiemechanica 3 2026/2027, lesson 2 September](https://collegeramavideoportal.tudelft.nl/catalogue/ctb2210/presentation/15ec6b80f1f0485cbaa59f369a2abc561d?academicYear=2026-2027-ctb2210):.
  - Slides are available [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/CM3_Francesco/Theory_elasticity_2.pdf).
  - Worked out resolutions for the guided exercises are available [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/CM3_Francesco/Theory_elasticity_exercise_L2.pdf).
  - Additionally, problems 1-3 in Chapter 5 of the lecture notes Introduction to Continuum Mechanics {cite:p}`Hartsuijker2007con` can be solved by applying the transformation formulas instead of the circle of Mohr (not covered by this course). Answers are available in Chapter 5 of the lecture notes.
