@@ -20,7 +20,6 @@ width: 400px
 De puntlast en oplegreacties grijpen aan in het dwarskrachtencentrum.
 ```
 
-```
 
 ```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_2.jpg
 ---
@@ -30,7 +29,6 @@ width: 400px
 De doorsnede dient als dunwandig te worden beschouwd.
 ```
 
-```
 
 ```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_3.jpg
 ---
@@ -57,8 +55,9 @@ Het dwarskrachtencentrum ligt vanwege symmetrie sowieso op een hoogte $\bar z = 
 Voor het berekenen van het totale moment van de spanningen wordt het middenpunt gekozen (waar de twee diagonale randen elkaar snijden). De spanningen in die diagonale randen hebben dus geen effect op het totale moment rondom dat punt. Daarom worden enkel de resultanten van de horizontale spanningen in de flenzen bepaald:
 
 ```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_4.jpg
-:align: center
-:number:
+---
+align: center
+width: 400px
 ```
 
 $$ F_1 = 50 \cdot 12 \cdot 300 \cdot \frac{1}{2} = 90000 \, \rm{N} $$
@@ -66,15 +65,17 @@ $$ F_1 = 50 \cdot 12 \cdot 300 \cdot \frac{1}{2} = 90000 \, \rm{N} $$
 Dit geeft:
 
 ```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_5.jpg
-:align: center
-:number:
+---
+align: center
+width: 400px
 ```
 
 Dat statisch equivalent moet zijn aan de resultante van alle spanningen die gelijk is aan de dwarskracht:
 
 ```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_6.jpg
-:align: center
-:number:
+---
+align: center
+width: 400px
 ```
 
 $$
@@ -87,10 +88,10 @@ $$
 
 Het dwarskrachtencentrum is daarmee bepaald:
 
-```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_1.jpg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_shear_2
-:number:
+```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/SFC/SFC_Figure_7.jpg
+---
+align: center
+width: 400px
 ```
 
 :::::
