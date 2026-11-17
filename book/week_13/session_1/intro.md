@@ -83,13 +83,6 @@ $$
 
 ````
 
-````{margin}
-```{attributiongrey} Attribution
-:class: attribution
-
-```
-````
-
 ## Exercise stress-strain relations 2
 
 Given is the following stress element:
