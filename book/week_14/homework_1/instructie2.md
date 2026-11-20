@@ -1,0 +1,196 @@
+% Source files on https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+
+````{margin}
+```{attributiongrey} Bronvermelding
+:class: attribution
+
+Deze pagina is gebaseerd op de [kennisclip 'torsielijn' als onderdeel van het vak 'Constructieve Analyse 3' op de Hogeschool van Amsterdam](https://youtu.be/fqbObUeKPYk) {cite:p}`HvA_torsielijn`
+
+```
+````
+
+# Instructie wringende momentenlijn bepalen
+
+Net zoals bij krachten en momenten voor buiging, kunnen we ook voor wringende momenten met evenwichtsvergelijkingen oplegreacties en inwendige wringende momenten bepalen. Daarvoor is de aanpak vergelijkbaar met die van buigende momenten.
+
+::::::{prf:algorithm} Bepalen wringende momentenlijn
+:nonumber: true
+
+1. Teken het vrijlichaamsschema van de constructie of maak een snede en teken het vrijlichaamschema van een deel van de constructie. Neem wringende momenten aan bij een inklemming of starre verbinding.
+2. Stel de evenwichtsvergelijkingen op voor de wringende momenten rondom een as in dezelfde richting als de staaf: $\sum T_{\rm{as}} = 0$. Alle krachten, buigende en wringende momenten die een draaiing rondom deze as veroorzaken komen in deze evenwichtsvergelijking terecht.
+3. Los de evenwichtsvergelijking op om de onbekende wringende momenten of oplegreacties te bepalen.
+4. Herhaal dit op alle karakteristieke punten om de wringende momentenlijn te bepalen.
+
+::::::
+
+## Voorbeeld
+
+Het bepalen van de wringende momentenlijn wordt getoond op onderstaande voorbeeld.
+
+::::::{prf:example}
+:nonumber: true
+
+```{figure} ./instructie2_data/torsielijn.svg
+---
+align: center
+class: sticky-margin
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
+---
+```
+
+Voor deze constructie wordt gevraagd naar de wringende momentenlijn.
+
+Daarvoor maken we op alle karakteristieke punten een snede. Beginnend bij $\rm{G}$ aan de kant van $\rm{GH}$. Het vrijlichaamsschema van $\rm{GH}$ in 2D is hieronder getoond. Het buigend moment $M_z$ is aangegeven met een kromme pijl en het wringend moment $M_{\rm{t}}$ met een pijl met dubbele pijlpunt. De snedekrachten in de andere vlakken en de normaalkracht zijn weggelaten.
+
+```{figure} ./instructie2_data/FBD_GH.svg
+---
+align: center
+name: FBD_GH
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
+---
+```
+
+Dit kan ook in 3D getoond worden, met enkel de snedekrachten die niet gelijk zijn aan $0$:
+
+```{figure} ./instructie2_data/FBD_GH_3D.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
+---
+```
+
+Hiervoor kan een evenwichtsvergelijking worden opgesteld rondom de as:
+
+$$
+\begin{align*}
+\sum T_{\rm{GH}} &= 0 \\
+M_{\rm{t}}^{\rm{GH}} &= 0
+\end{align*}
+$$
+
+Het wringend moment in $\rm{GH}$ is de enige bijdrage aan de evenwichtsvergelijking en is dus gelijk aan nul.
+
+Daarmee kan een beginnetje worden gemaakt met de wringende momentenlijn met enkel het deel $\rm{GH}$ bekend:
+
+```{figure} ./instructie2_data/Mt-lijn-GH.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
+---
+```
+
+Vervolgens maken we een snede in $\rm{E}$, hieronder is het vrijlichaamsschema getekend met e snedekrachten die gelijk zijn aan $0$ zijn weggelaten.
+
+```{figure} ./instructie2_data/FBD_EH.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
+---
+```
+
+````{note}
+Er kan ook een snede in zowel $\rm{E}$ als $\rm{G}$ in zodat we het vrijlichaamsschema in 2D kunnen tekenen:
+
+```{figure} ./instructie2_data/FBD_EH_2D.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
+---
+```
+
+Voor dit vrijlichaamsschema zouden eerst nog de snedekrachten in $\rm{G}$ aan de kant van $\rm{EG}$ moeten worden berekend. Deze volgen uit het vrijlichaamsschema in {numref}`FBD_GH` met een actie-reactie relatie: het buigende moment op $\rm{GH}$ heeft een even groot tegengesteld wringend moment tot gevolg op $\rm{EG}$, het wringend moment op $\rm{GH}$ van $0$ leidt tot een buigende moment op $\rm{EG}$ van $0$, en de dwarskracht omhoog  op $\rm{GH}$ leidt tot een dwarskracht omlaag op $\rm{EG}$
+
+````
+
+
+$$
+\begin{align*}
+\sum T_{\rm{EG}} &= 0 \\
+-M_{\rm{t}}^{\rm{EG}} - 10 \cdot 1 &= 0 \\
+M_{\rm{t}}^{\rm{EG}} &= -10 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
+\end{align*} 
+$$
+
+```{tip}
+In deze evenwichtsvergelijking kunnen de richtingen van het assenstelsel als positief worden aangenomen, maar dat is niet vereist. In dit geval wijst $M_{\rm{t}}^{\rm{EH}}$ in de negatieve $x$-richting en is daarom negatief in de evenwichtsvergelijking. Ook de kracht van $10 \ \rm{kN}$ veroorzaakt een wringend moment in de negatieve $x$-richting, als je de rechterhandregel toepast met je vingers krullend in de richting van de kracht wijst je duim in de negatieve $x$-richting.
+
+Daarnaast zou de evenwichtsvergelijking ook kunnen worden opgesteld rondom een andere as. Echter is de as $\rm{EG}$ hier het makkelijkste omdat het onbekende buigende moment $M_{\rm{E}}$ en dwarskracht $V_{\rm{E}}$ door deze as gaan en dus een arm hebben van $0$.
+```
+
+Daarmee kan de wringende momentenlijn verder worden ingevuld, nu met deel $\rm{GH}$ en $\rm{EH}$ bekend:
+
+```{figure} ./instructie2_data/Mt-lijn-EG.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
+---
+```
+
+Op dezelfde manier kunnen we doorgaan met snedes. Bijvoorbeeld met een snede bij $\rm{E}$ aan de kant van $\rm{DE}$, wederom zijn de snedekrachten die gelijk zijn aan $0$ weggelaten:
+
+```{figure} ./instructie2_data/FBD_DE.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
+---
+```
+
+$$
+\begin{align*}
+\sum T_{\rm{DE}} &= 0 \\
+M_{\rm{t}}^{\rm{DE}} - 10 \cdot 1 &= 0 \\
+M_{\rm{t}}^{\rm{DE}} &= 10 \ \rm{kNm} \left( \twoheadleftarrow \mid \twoheadrightarrow \right)
+\end{align*} 
+$$
+
+Vervolgens het wringend moment in deel $\rm{CD}$:
+
+```{figure} ./instructie2_data/FBD_CD.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
+---
+```
+
+$$
+\begin{align*}
+\sum T_{\rm{CD}} &= 0 \\
+M_{\rm{t}}^{\rm{CD}} + 10 \cdot 2 &= 0 \\
+M_{\rm{t}}^{\rm{CD}} &= -20 \ \rm{kNm} \left( \twoheadrightarrow \mid \twoheadleftarrow \right)
+\end{align*} 
+$$
+
+Dit geeft de volgende (nog steeds incomplete) wringende momentenlijn:
+
+```{figure} ./instructie2_data/Mt-lijn_deels.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie
+number:
+---
+```
+
+De rest van deze momentenlijn volgt in [](./lesoefening0.md).
+
+::::::
+
+```{hide-sticky-margin}
+```
+
+## Meer voorbeelden
+In hoofdstuk 6.4 van het boek Mechanica, spanningen, vervormingen en verplaatsingen {cite:p}`Hartsuijker2013` worden ook wringende momenten uitgerekend in voorbeeld 1 - 5. Negeer de berekeningen van stijfheden, spanningen en verplaatsingen.
+
+## Instructies in collegevorm
+Dit onderwerp is [in les 9](https://collegerama.tudelft.nl/Mediasite/Channel/public-ctb1310/watch/5bbcdc16886a48f0b0e92f3396ca041a1d) gepresenteerd in collegevorm van 10:00 tot 1:03:40.
+
+## Oefeningen
+[Opgaves 6.7, 6.8, 6.11, 6.13, 6.30 in hoofdstuk 4.5 van het boek Mechanica, spanningen, vervormingen en verplaatsingen](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/files/TM2vraagstukkenbundel.pdf) {cite:p}`Hartsuijker2013`. Bepaal enkel de wringend momentenlijn en negeer de vragen over stijfheden, spanningen en verplaatsingen. Antwoorden zijn [hier](https://icozct.tudelft.nl/TUD_CT/boekantwoorden/vol2/Chapter6/) beschikbaar.
