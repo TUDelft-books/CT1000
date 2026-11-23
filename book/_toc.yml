@@ -263,7 +263,7 @@ parts:
       sections:
       - file: week_14/homework_1/instructie.md
       - file: week_14/homework_1/instructie2.md
-    - file: week_14/session_1/guided_exercise
+    - file: week_14/session_1/intro
     - file: week_14/homework_2/intro
       sections:
       - file: week_14/homework_2/copy3
