@@ -38,7 +38,10 @@ Option 3 is correct: the distributed load works next to the transverse force cen
 
 ````
 
+:::::{exercise}
+:nonumber: true
 Draw the torsional moment distribution in the structure.
+:::::
 
 ````{admonition} Solution assignment 2
 :class: tip, dropdown
