@@ -10,61 +10,33 @@ During today's lesson you'll work on a complex exercise on the topic of the Inte
 
 ## Exercise Internal forces
 
-Gegeven is de volgende constructie:
-
-```{figure} ./lesoefening_data/constructie.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
----
-Constructie
-```
-
-:::::{exercise}
-:nonumber: true
-
-Gegeven zijn twee 3D-weergaves van de constructie
-
-```{figure} ./lesoefening_data/3D.svg
----
-align: center
-source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
----
-```
-
-```{h5p} https://tudelft.h5p.com/content/1292750958020428577/embed
-```
-
-:::::
-
-:::::{exercise}
-:nonumber: true
-
-Wat weet je over de vorm van de wringende momentenlijn.
-
-```{h5p}  https://tudelft.h5p.com/content/1292751704243715217/embed
-```
-
-:::::
-
-:::::{exercise}
-:nonumber: true
-
-Bepaal de wringend momentenlijn.
-
-```{h5p}  https://tudelft.h5p.com/content/1292751710544863507/embed
-```
-
-:::::
-
-## Exercise 2
-
 Given is the following structure:
 
-```{figure} intro_data/structure2.svg
+```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/CM3_Francesco/Torsion_session1_options.jpg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ```
+
+:::::{exercise}
+:nonumber: true
+
+Which of the following pictures shows the correct 2D free-body diagram with which the support reactions can be determined?
+
+```{figure} ./lesoefening2_data/opties.svg
+---
+align: center
+source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
+number:
+---
+```
+:::::
+
+````{admonition} Solution
+:class: solution, dropdown
+
+Option 3 is correct: the distributed load works next to the transverse force center, so this causes a wringing moment of $z$ to $y$. The right-hand rule then gives a vector arrow in the negative $x$-direction.
+
+````
 
 Draw the torsional moment distribution in the structure.
 
