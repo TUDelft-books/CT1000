@@ -266,8 +266,8 @@ parts:
     - file: week_14/session_1/intro
     - file: week_14/homework_2/intro
       sections:
-      - file: week_14/homework_2/Shear_stresses_torsion
-      - file: week_14/homework_2/Shear_stresses_combi
+      - file: week_14/homework_2/Shear_stresses_torsion.md
+      - file: week_14/homework_2/Shear_stresses_combi.md
     - file: week_14/session_2/intro
     - file: week_14/homework_3/intro
       sections:
