@@ -31,8 +31,8 @@ number:
 ```
 :::::
 
-````{admonition} Solution
-:class: solution, dropdown
+````{admonition} Solution question 1
+:class: tip, dropdown
 
 Option 3 is correct: the distributed load works next to the transverse force center, so this causes a wringing moment of $z$ to $y$. The right-hand rule then gives a vector arrow in the negative $x$-direction.
 
@@ -43,7 +43,7 @@ Option 3 is correct: the distributed load works next to the transverse force cen
 Draw the torsional moment distribution in the structure.
 :::::
 
-````{admonition} Solution assignment 2
+````{admonition} Solution question 2
 :class: tip, dropdown
 
 ```{figure} intro_data/Mt-line2.svg
