@@ -63,7 +63,7 @@ Wat is de locatie van het normaalkrachtencentrum in $y$-richting?
 :::::
 
 ::::{admonition} Oplossing
-:class: tip, dropdown
+:class: solution, dropdown
 
 $$\bar y_{\rm{N.C.}} = 75 \, \rm{mm}$$
 
@@ -80,7 +80,7 @@ De volgende vraag gaat over de absolute waarde van de maximale spanning in doors
 :::::
 
 ::::{admonition} Oplossing
-:class: tip, dropdown
+:class: solution, dropdown
 
 $$ S_z^{\rm{a}} = 135000 \, \rm{mm^3} $$
 
@@ -96,7 +96,7 @@ Wat is de absolute waarde van de maximale spanning in doorsnede $\rm{B}$ ten gev
 :::::
 
 ::::{admonition} Oplossing
-:class: tip, dropdown
+:class: solution, dropdown
 
 De maximale schuifspanning bevindt zich ter hoogte van het normaalkrachtencentrum in de verticale wanden:
 
@@ -119,7 +119,7 @@ Wat is/zijn de richting(en) van de maximale schuifspanning ten gevolge van allee
 :::::
 
 ::::{admonition} Oplossing
-:class: Tip, dropdown
+:class: solution, dropdown
 
 De dwarskracht werkt op een negatieve doorsnede omhoog, dus op een positieve doorsnede omlaag. Voor de eerder afgeleide spanningsverdeling moet de maximale schuifspanning dan ook naar beneden lopen
 
@@ -189,7 +189,7 @@ Optie 3
 :::::
 
 ::::{admonition} Oplossing
-:class: tip, dropdown
+:class: solution, dropdown
 
 ```{figure-start} ./toz_data/optie2.svg
 :align: center
@@ -214,7 +214,7 @@ Wat is het wringend moment in $\rm{B}$?
 :::::
 
 ::::{admonition} Oplossing
-:class: tip, dropdown
+:class: solution, dropdown
 
 $$
 \begin{align*}
@@ -235,7 +235,7 @@ Wat is de absolute waarde van de maximale spanning in doorsnede $\rm{B}$ ten gev
 :::::
 
 ::::{admonition} Oplossing
-:class: tip, dropdown
+:class: solution, dropdown
 
 $$ \tau = 96.375 \, \rm{MPa}$$
 
@@ -251,7 +251,7 @@ Wat is/zijn de richting(en) van de schuifspanning ten gevolge van alleen wringin
 :::::
 
 ::::{admonition} Oplossing
-:class: tip, dropdown
+:class: solution, dropdown
 
 Op een negatieve doorsnede werkt een negatief wringend moment, dus van $y$ naar $z$. Op een positieve doorsnede werkt dan ook een negatief wringend moment, van $z$ naar $y$. Deze werkt op alle uiterste randen van de wanden dus zowel omhoog, omlaag, naar links als naar rechts.
 
