@@ -4,9 +4,6 @@
 
 # Torsion and torsional moment line, equilibrum and differential equations
 
-```{glossary}
-Torsion
-```
 In a previous lesson, torsion was briefly introduced to find the position of the shear force center. Today we take a closer look at these torsional moments and what happens when a force is not applied in the shear force center.
 
 ## Instructions from lecture

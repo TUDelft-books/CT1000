@@ -4,9 +4,6 @@
 
 # Definition of the torsional moment line
 
-```{glossary}
-Torsional moment line
-```
 As with forces and moments that generate bending, we can determine support reactions and internal forces due to applied torsional moments through the equilibrium equations. We follow a comparable approach to that used for applied bending moments.
 
 ## Instructions from lecture
