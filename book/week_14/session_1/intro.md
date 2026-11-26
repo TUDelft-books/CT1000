@@ -12,7 +12,7 @@ During today's lesson you'll work on a complex exercise on the topic of the Inte
 
 Given is the following structure:
 
-```{figure} https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/CM3_Francesco/Torsion_session1_options.jpg
+```{figure} ./intro_data/structure2.svg
 :align: center
 :source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
 ```
@@ -22,7 +22,7 @@ Given is the following structure:
 
 Which of the following pictures shows the correct 2D free-body diagram with which the support reactions can be determined?
 
-```{figure} ./lesoefening2_data/opties.svg
+```{figure} ./intro_data/opties.svg
 ---
 align: center
 source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/torsie2
