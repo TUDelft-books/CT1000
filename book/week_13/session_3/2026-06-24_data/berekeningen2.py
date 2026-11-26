@@ -7,10 +7,10 @@ b = sym.Integer(400)
 t = sym.Integer(12)
 
 F = sym.symbols('F')
-F = sym.Integer(54000*5)
+F = sym.Integer(54000*5/(2025/46)*50*3)
 print('F =', F)
 
-Iyy = (h * t * (b/2)**2) * 2 + 2 * (t / 3 * 4 * (h/2)**3/ 12 + t / 3 * 4 * (h/2) * (h/4)**2) # ignore h * t **3 / 12 + 
+Iyy = (h * t * (b/2)**2) * 2 + 2 * (t /  4 * 5 * (b/2)**3/ 12 + t / 4 * 5 * (b/2) * (b/4)**2) # ignore h * t **3 / 12 + 
 print('Iyy =', Iyy)
 
 S_y_a = t * h * b/2

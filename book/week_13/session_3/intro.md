@@ -59,7 +59,7 @@ Bepaal de schuifspanningsverdeling in de doorsnede.
 
 :::::
 
-:::::{admonition} Uitwerking
+:::::{admonition} Oplossing
 :class: solution, dropdown
 
 ```{figure} ./2026-06-24_data/schuifspanningen.svg
@@ -82,46 +82,8 @@ Bepaal de locatie van het dwarskrachtencentrum.
 :::::
 
 
-:::::{admonition} Uitwerking
+:::::{admonition} Oplossing
 :class: solution, dropdown
-
-Het dwarskrachtencentrum ligt vanwege symmetrie sowieso op een hoogte $\bar z = 0$. De locatie in de $y$-richting kan worden bepaald door werklijn van de resultante van de schuifspanningen te vinden.
-
-Voor het berekenen van het totale moment van de spanningen wordt het middenpunt gekozen (waar de twee diagonale randen elkaar snijden). De spanningen in die diagonale randen hebben dus geen effect op het totale moment rondom dat punt. Daarom worden enkel de resultanten van de horizontale spanningen in de flenzen bepaald:
-
-```{figure} ./2026-06-24_data/resultantes.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_shear_2
-:number:
-```
-
-$$ F_1 = 50 \cdot 12 \cdot 300 \cdot \frac{1}{2} = 90000 \, \rm{N} $$
-
-Dit geeft:
-
-```{figure} ./2026-06-24_data/resultantes_2.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_shear_2
-:number:
-```
-
-Dat statisch equivalent moet zijn aan de resultante van alle spanningen die gelijk is aan de dwarskracht:
-
-```{figure} ./2026-06-24_data/resultantes_3.svg
-:align: center
-:source: https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/tree/main/exam_shear_2
-:number:
-```
-
-$$
-\begin{align*}
-\left. \sum T \right| _{\rm{midden}}^{\rm{spanningen}} &= \left. \sum T \right| _{\rm{middagen}}^{270 \, \rm{kN}}\\
-90 \cdot 400 &= 270 \cdot y_{\rm{D.C.}} \\
-y_{\rm{D.C.}} &= \cfrac{400}{3} \approx 133.33 \, \rm{mm}
-\end{align*}
-$$
-
-Het dwarskrachtencentrum is daarmee bepaald:
 
 ```{figure} ./2026-06-24_data/dwarskrachtencentrum.svg
 :align: center

@@ -3,7 +3,7 @@
 <!-- Gegenereerd door Microsoft Visio, SVG Export dwarskrachtencentrum.svg Pagina-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="2.92321in" height="3.01642in"
-		viewBox="0 0 210.471 217.182" xml:space="preserve" color-interpolation-filters="sRGB" class="st11">
+		viewBox="0 0 210.471 217.182" xml:space="preserve" color-interpolation-filters="sRGB" class="st10">
 	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
@@ -17,8 +17,7 @@
 		.st7 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st8 {font-size:1em}
 		.st9 {marker-end:url(#mrkr4-32);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
-		.st10 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
-		.st11 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -134,7 +133,7 @@
 				<rect x="0" y="203.009" width="49.6063" height="14.1732" class="st5"/>
 				<text x="4.97" y="213.7" class="st6" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>200 mm</text>			</g>
 		</g>
-		<g id="group1038-72" transform="translate(302.88,184.584) rotate(90)" v:mID="1038" v:groupContext="group">
+		<g id="group1038-72" transform="translate(309.4,184.584) rotate(90)" v:mID="1038" v:groupContext="group">
 			<title>Maatlijn verticaal.1038</title>
 			<g id="group1039-73" transform="translate(-208.678,217.182) rotate(-90)" v:mID="1039" v:groupContext="group">
 				<title>Maatlijn.31</title>
@@ -142,47 +141,47 @@
 					<title>Blad.1040</title>
 					<path d="M0 217.18 L8.5 217.18" class="st2"/>
 				</g>
-				<g id="shape1041-77" v:mID="1041" v:groupContext="shape" transform="translate(273.875,208.678) rotate(90)">
+				<g id="shape1041-77" v:mID="1041" v:groupContext="shape" transform="translate(267.072,208.678) rotate(90)">
 					<title>Blad.1041</title>
 					<path d="M0 217.18 L8.5 217.18" class="st2"/>
 				</g>
 				<g id="shape1042-80" v:mID="1042" v:groupContext="shape" transform="translate(0,-4.25197)">
 					<title>Blad.1042</title>
-					<path d="M3.74 217.18 L4.1 217.18 L52.59 217.18" class="st3"/>
+					<path d="M3.74 217.18 L4.1 217.18 L45.79 217.18" class="st3"/>
 				</g>
 			</g>
-			<g id="shape1043-87" v:mID="1043" v:groupContext="shape" transform="translate(-198.757,221.009) rotate(-90)">
+			<g id="shape1043-87" v:mID="1043" v:groupContext="shape" transform="translate(-198.757,224.377) rotate(-90)">
 				<title>Blad.1043</title>
-				<desc>133.3 mm</desc>
+				<desc>≈ 117 mm</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="31.8898" cy="210.804" width="63.78" height="12.7559"/>
 				<rect x="0" y="204.426" width="63.7795" height="12.7559" class="st5"/>
-				<text x="7.56" y="214.4" class="st6" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>133.3 mm</text>			</g>
+				<text x="7.49" y="214.4" class="st6" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>≈ 117 mm</text>			</g>
 		</g>
 		<g id="shape1051-90" v:mID="1051" v:groupContext="shape" transform="translate(205.887,221.766) rotate(180)">
 			<title>Blad.1051</title>
 			<path d="M0 217.18 L127.56 217.18" class="st1"/>
 		</g>
-		<g id="shape1057-93" v:mID="1057" v:groupContext="shape" transform="translate(70.1222,-171.571)">
+		<g id="shape1057-93" v:mID="1057" v:groupContext="shape" transform="translate(77.2087,-171.571)">
 			<title>Blad.1057</title>
 		</g>
-		<g id="shape1058-94" v:mID="1058" v:groupContext="shape" transform="translate(-68.1567,243.194) rotate(-135)">
+		<g id="shape1058-94" v:mID="1058" v:groupContext="shape" transform="translate(-61.0702,243.194) rotate(-135)">
 			<title>Blad.1058</title>
 			<path d="M0 217.18 L10.02 217.18" class="st7"/>
 		</g>
-		<g id="shape1059-97" v:mID="1059" v:groupContext="shape" transform="translate(-68.1567,-63.9478) rotate(-45)">
+		<g id="shape1059-97" v:mID="1059" v:groupContext="shape" transform="translate(-61.0702,-63.9478) rotate(-45)">
 			<title>Blad.1059</title>
 			<path d="M0 217.18 L10.02 217.18" class="st7"/>
 		</g>
-		<g id="shape1060-100" v:mID="1060" v:groupContext="shape" transform="translate(-75.2433,-56.8612) rotate(-45)">
+		<g id="shape1060-100" v:mID="1060" v:groupContext="shape" transform="translate(-68.1568,-56.8612) rotate(-45)">
 			<title>Blad.1060</title>
 			<path d="M0 217.18 L10.02 217.18" class="st7"/>
 		</g>
-		<g id="shape1061-103" v:mID="1061" v:groupContext="shape" transform="translate(-61.0701,250.281) rotate(-135)">
+		<g id="shape1061-103" v:mID="1061" v:groupContext="shape" transform="translate(-53.9836,250.281) rotate(-135)">
 			<title>Blad.1061</title>
 			<path d="M0 217.18 L10.02 217.18" class="st7"/>
 		</g>
-		<g id="shape1062-106" v:mID="1062" v:groupContext="shape" transform="translate(58.2017,-148.819)">
+		<g id="shape1062-106" v:mID="1062" v:groupContext="shape" transform="translate(65.2883,-148.819)">
 			<title>Maatlijn.1017</title>
 			<desc>Dwars-krachten-centrum</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
@@ -198,34 +197,26 @@
 					<title>Blad.1065</title>
 					<path d="M0 217.18 L8.5 217.18" class="st2"/>
 				</g>
-				<g id="shape1066-116" v:mID="1066" v:groupContext="shape" transform="translate(224.269,208.678) rotate(90)">
+				<g id="shape1066-116" v:mID="1066" v:groupContext="shape" transform="translate(230.789,208.678) rotate(90)">
 					<title>Blad.1066</title>
 					<path d="M0 217.18 L8.5 217.18" class="st2"/>
 				</g>
 				<g id="shape1067-119" v:mID="1067" v:groupContext="shape" transform="translate(0,-4.25197)">
 					<title>Blad.1067</title>
-					<path d="M0 217.18 L7.09 217.18" class="st2"/>
+					<path d="M0 217.18 L13.61 217.18" class="st2"/>
 				</g>
 			</g>
-			<g id="shape1068-122" v:mID="1068" v:groupContext="shape" transform="translate(-198.757,259.986) rotate(-90)">
+			<g id="shape1068-122" v:mID="1068" v:groupContext="shape" transform="translate(-198.757,265.655) rotate(-90)">
 				<title>Blad.1068</title>
-				<desc>16.6 mm</desc>
+				<desc>≈ 33 mm</desc>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="28.3465" cy="210.804" width="56.7" height="12.7559"/>
 				<rect x="0" y="204.426" width="56.6929" height="12.7559" class="st5"/>
-				<text x="7.01" y="214.4" class="st6" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>16.6 mm</text>			</g>
+				<text x="6.72" y="214.4" class="st6" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>≈ 33 mm</text>			</g>
 		</g>
 		<g id="shape1069-125" v:mID="1069" v:groupContext="shape" transform="translate(44.3119,-28.3465)">
 			<title>Maatlijn verticaal.1042</title>
 			<path d="M0 217.18 L30.2 217.18" class="st9"/>
-		</g>
-		<g id="shape1071-130" v:mID="1071" v:groupContext="shape" transform="translate(111.21,-26.9291)">
-			<title>Blad.1071</title>
-			<path d="M0 217.18 L4.46 217.18" class="st10"/>
-		</g>
-		<g id="shape1072-133" v:mID="1072" v:groupContext="shape" transform="translate(58.715,-26.9291)">
-			<title>Blad.1072</title>
-			<path d="M0 217.18 L4.46 217.18" class="st10"/>
 		</g>
 	</g>
 </svg>
