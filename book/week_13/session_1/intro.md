@@ -9,6 +9,8 @@
 
 During today's lesson you'll work on a complex exercise on the topic of the stress-strain relations. Please ask your questions regarding the [homework](homework13.1) as well!
 
+For the exercises on Continuum mechanics, you can refer to the formula sheet that you can download [here](https://github.com/Structural-Mechanics-CEG/mechanics-figures-source/raw/refs/heads/main/CM3_Francesco/Formuleblad_Continuümmechanica.pdf).
+
 ````{margin}
 ```{attributiongrey} Attribution
 :class: attribution
@@ -68,8 +70,8 @@ $$
     \sigma_{xy}
 \end{bmatrix} =  \begin{bmatrix}
     13.8 \\
-    -42.0 \\
-    -163.8
+    -163.8 \\
+    -42.0
 \end{bmatrix} \, \rm{ MPa}
 $$
 
