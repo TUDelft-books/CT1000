@@ -217,9 +217,7 @@ Wat is het wringend moment in $\rm{B}$?
 :class: solution, dropdown
 
 $$
-\begin{align*}
-\left. M_{\rm{t,B}} &= 2775.6 \, \rm{Nm}
-\end{align*}
+M_{\rm{t,B}} = 2775.6 \, \rm{Nm}
 $$
 
 ::::
