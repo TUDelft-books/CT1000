@@ -272,10 +272,10 @@ parts:
       sections:
       - file: week_14/homework_3/failure.md
     - file: week_14/session_3/intro
-# START REMOVE-FROM-PUBLISH
   - file: week_15/intro
     sections:
     - file: week_15/homework/intro
+# START REMOVE-FROM-PUBLISH
     - file: week_15/session_1/intro
     - file: week_15/session_2/intro
   - file: week_16/intro
